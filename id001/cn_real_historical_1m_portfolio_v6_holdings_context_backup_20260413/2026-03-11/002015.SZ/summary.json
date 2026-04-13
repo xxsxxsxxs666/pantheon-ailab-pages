@@ -1,0 +1,148 @@
+{
+  "mode": "replay",
+  "run_id": "cn_real_historical_1m_portfolio_v6_holdings_context_backup_20260413",
+  "symbol": "002015.SZ",
+  "symbol_name": "协鑫能科",
+  "trade_date": "2026-03-11",
+  "analysis_id": "replay-002015.SZ-2026-03-11",
+  "action": "sell",
+  "confidence": 0.82,
+  "signal_confidence": 0.82,
+  "size_hint": 0.35,
+  "target_position_pct": 0.05,
+  "execution_price": 19.42,
+  "starting_cash": 13562603.730000002,
+  "cash": 14379875.010000002,
+  "starting_nav": 32531986.810000002,
+  "nav": 32531986.810000002,
+  "starting_quantity": 125842,
+  "position_quantity": 83758,
+  "filled_quantity": 42084,
+  "filled_gross_value": 817271.28,
+  "filled_notional": 817271.28,
+  "execution_blockers": [],
+  "reason_summary": "研究结论明确建议分批卖出。当前现价19.42元已高于建议卖出价位18元区域，风险收益比进一步恶化（向上空间有限，向下概率大）。持仓结构显示散户游资博弈，缺乏机构护盘。担保风险不可量化，流动比率<1，财务存在隐患。已有约30%浮盈安全垫，应分批锁定。当前T+1可卖125842股，建议先卖30%-50%锁利，剩余仓位严格执行17.50元止损。",
+  "order_contract_status": "partial_fallback",
+  "order_contract_source": "processed_decision",
+  "order_contract_notes": [
+    "target_position_pct_fallback_from_text"
+  ],
+  "t_plus_one": {
+    "enabled": true,
+    "pre_trade_sellable_quantity": 125842,
+    "pre_trade_blocked_quantity": 0,
+    "post_trade_sellable_quantity": 83758,
+    "post_trade_blocked_quantity": 0,
+    "blocked_sell_detected": false
+  },
+  "analysis_integrity": {
+    "ok": true,
+    "checks": {
+      "final_trade_decision": {
+        "length": 3477,
+        "min_length": 100,
+        "length_ok": true,
+        "identity_ok": true,
+        "data_quality_ok": true,
+        "expected_company_name": "协鑫能科",
+        "ok": true
+      },
+      "market_report": {
+        "length": 1790,
+        "min_length": 200,
+        "length_ok": true,
+        "identity_ok": true,
+        "data_quality_ok": true,
+        "expected_company_name": "协鑫能科",
+        "ok": true
+      },
+      "sentiment_report": {
+        "length": 3376,
+        "min_length": 200,
+        "length_ok": true,
+        "identity_ok": true,
+        "data_quality_ok": true,
+        "expected_company_name": "协鑫能科",
+        "ok": true
+      },
+      "news_report": {
+        "length": 2127,
+        "min_length": 300,
+        "length_ok": true,
+        "identity_ok": true,
+        "data_quality_ok": true,
+        "expected_company_name": "协鑫能科",
+        "ok": true
+      },
+      "fundamentals_report": {
+        "length": 3728,
+        "min_length": 200,
+        "length_ok": true,
+        "identity_ok": true,
+        "data_quality_ok": true,
+        "expected_company_name": "协鑫能科",
+        "ok": true
+      }
+    },
+    "selected_analysts": [
+      "market",
+      "social",
+      "news",
+      "fundamentals"
+    ]
+  },
+  "historical_data_diagnostics": {
+    "symbol": "002015.SZ",
+    "graph_symbol": "002015",
+    "trade_date": "2026-03-11",
+    "research_cutoff_time": "14:45",
+    "company_name": "协鑫能科",
+    "minute_points_visible": 1,
+    "news_lookback_days": 30,
+    "news": {
+      "provider": "AKShare巨潮资讯历史公告",
+      "payload_cached": true,
+      "payload_length": 2285,
+      "news_count": 10,
+      "report_length": 2127,
+      "strict_non_empty": true
+    },
+    "sentiment": {
+      "mode": "historical_finance_news_proxy",
+      "proxy_provider": "AKShare巨潮资讯历史公告",
+      "report_length": 3376,
+      "identity_ok": true,
+      "raw_social_api_available": false
+    },
+    "fundamentals": {
+      "provider": "Tushare日度估值截面 + Tushare财务指标 + AKShare巨潮资讯历史公告",
+      "payload_cached": true,
+      "payload_length": 2899,
+      "report_length": 3728,
+      "data_quality_ok": true
+    }
+  },
+  "runtime_skip": {},
+  "news_provider": "AKShare巨潮资讯历史公告",
+  "news_count": 10,
+  "fundamentals_provider": "Tushare日度估值截面 + Tushare财务指标 + AKShare巨潮资讯历史公告",
+  "minute_points_visible": 1,
+  "strategy_plan_path": "2026-03-11/002015.SZ/strategy_plan.md",
+  "strategy_rollup_path": "by_symbol/002015.SZ/strategy.md",
+  "strategy_excerpt": "# 协鑫能科（002015）投资决策报告 ## 辩论评估与最终决策 经过对三位分析师辩论的全面评估，我的决定是：**卖出**，但具体的执行策略需要采纳中性分析师的分批操作方法，而非激进派的\"一刀切\"或保守派的\"彻底清仓\"。 --- ## 三位分析师论点评估 ### 激进分析师：方向正确，但策略过于绝对 **最强论点：** 1. \"31%的涨幅就摆在那儿，2…",
+  "execution_audit": {
+    "strategy_excerpt": "# 协鑫能科（002015）投资决策报告 ## 辩论评估与最终决策 经过对三位分析师辩论的全面评估，我的决定是：**卖出**，但具体的执行策略需要采纳中性分析师的分批操作方法，而非激进派的\"一刀切\"或保守派的\"彻底清仓\"。 --- ## 三位分析师论点评估 ### 激进分析师：方向正确，但策略过于绝对 **最强论点：** 1. \"31%的涨幅就摆在那儿，2…",
+    "signal_action": "sell",
+    "signal_size_hint": 0.35,
+    "signal_target_position_pct": 0.05,
+    "expected_trade_direction": "sell",
+    "actual_trade_direction": "sell",
+    "filled_quantity": 42084,
+    "trade_count": 1,
+    "starting_quantity": 125842,
+    "ending_quantity": 83758,
+    "execution_blockers": [],
+    "status": "consistent",
+    "reason": "signal and actual fill direction match"
+  }
+}

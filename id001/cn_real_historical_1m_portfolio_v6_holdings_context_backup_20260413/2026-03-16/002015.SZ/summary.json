@@ -1,0 +1,146 @@
+{
+  "mode": "replay",
+  "run_id": "cn_real_historical_1m_portfolio_v6_holdings_context_backup_20260413",
+  "symbol": "002015.SZ",
+  "symbol_name": "协鑫能科",
+  "trade_date": "2026-03-16",
+  "analysis_id": "replay-002015.SZ-2026-03-16",
+  "action": "sell",
+  "confidence": 0.75,
+  "signal_confidence": 0.75,
+  "size_hint": 0.6,
+  "target_position_pct": 0.4,
+  "execution_price": 21.36,
+  "starting_cash": 4018378.5300000026,
+  "cash": 7.170000002719462,
+  "starting_nav": 34952572.99,
+  "nav": 34952572.99,
+  "starting_quantity": 21701,
+  "position_quantity": 209827,
+  "filled_quantity": 188126,
+  "filled_gross_value": 4018371.36,
+  "filled_notional": 4018371.36,
+  "execution_blockers": [],
+  "reason_summary": "委员会裁决建议减仓至40%且卖出区间为22-23元，当前22.24元正好处于建议卖出区间。技术面高位回调压力持续（3月6日至13日累计涨幅62%），公司连续两次异常波动公告+补充风险提示，市场情绪谨慎偏负面。PE 53.74倍对应ROE 6.33%显示估值与盈利严重错配。T+1可卖21701股，当前持仓全部可动，应执行减仓至40%（约8680股）。",
+  "order_contract_status": "structured",
+  "order_contract_source": "processed_decision",
+  "order_contract_notes": [],
+  "t_plus_one": {
+    "enabled": true,
+    "pre_trade_sellable_quantity": 21701,
+    "pre_trade_blocked_quantity": 0,
+    "post_trade_sellable_quantity": 21701,
+    "post_trade_blocked_quantity": 188126,
+    "blocked_sell_detected": false
+  },
+  "analysis_integrity": {
+    "ok": true,
+    "checks": {
+      "final_trade_decision": {
+        "length": 3538,
+        "min_length": 100,
+        "length_ok": true,
+        "identity_ok": true,
+        "data_quality_ok": true,
+        "expected_company_name": "协鑫能科",
+        "ok": true
+      },
+      "market_report": {
+        "length": 1433,
+        "min_length": 200,
+        "length_ok": true,
+        "identity_ok": true,
+        "data_quality_ok": true,
+        "expected_company_name": "协鑫能科",
+        "ok": true
+      },
+      "sentiment_report": {
+        "length": 3108,
+        "min_length": 200,
+        "length_ok": true,
+        "identity_ok": true,
+        "data_quality_ok": true,
+        "expected_company_name": "协鑫能科",
+        "ok": true
+      },
+      "news_report": {
+        "length": 2671,
+        "min_length": 300,
+        "length_ok": true,
+        "identity_ok": true,
+        "data_quality_ok": true,
+        "expected_company_name": "协鑫能科",
+        "ok": true
+      },
+      "fundamentals_report": {
+        "length": 2631,
+        "min_length": 200,
+        "length_ok": true,
+        "identity_ok": true,
+        "data_quality_ok": true,
+        "expected_company_name": "协鑫能科",
+        "ok": true
+      }
+    },
+    "selected_analysts": [
+      "market",
+      "social",
+      "news",
+      "fundamentals"
+    ]
+  },
+  "historical_data_diagnostics": {
+    "symbol": "002015.SZ",
+    "graph_symbol": "002015",
+    "trade_date": "2026-03-16",
+    "research_cutoff_time": "14:45",
+    "company_name": "协鑫能科",
+    "minute_points_visible": 1,
+    "news_lookback_days": 30,
+    "news": {
+      "provider": "AKShare巨潮资讯历史公告",
+      "payload_cached": true,
+      "payload_length": 1853,
+      "news_count": 8,
+      "report_length": 2671,
+      "strict_non_empty": true
+    },
+    "sentiment": {
+      "mode": "historical_finance_news_proxy",
+      "proxy_provider": "AKShare巨潮资讯历史公告",
+      "report_length": 3108,
+      "identity_ok": true,
+      "raw_social_api_available": false
+    },
+    "fundamentals": {
+      "provider": "Tushare日度估值截面 + Tushare财务指标 + AKShare巨潮资讯历史公告",
+      "payload_cached": true,
+      "payload_length": 2993,
+      "report_length": 2631,
+      "data_quality_ok": true
+    }
+  },
+  "runtime_skip": {},
+  "news_provider": "AKShare巨潮资讯历史公告",
+  "news_count": 8,
+  "fundamentals_provider": "Tushare日度估值截面 + Tushare财务指标 + AKShare巨潮资讯历史公告",
+  "minute_points_visible": 1,
+  "strategy_plan_path": "2026-03-16/002015.SZ/strategy_plan.md",
+  "strategy_rollup_path": "by_symbol/002015.SZ/strategy.md",
+  "strategy_excerpt": "# 风险管理委员会最终裁决报告 **议题：协鑫能科（002015）短期投资决策** **日期：2026年3月14日** --- ## 一、辩论质量评估 ### 激进分析师的核心贡献与局限 **最强论点：** 激进分析师准确识别了三个关键风险信号——估值与盈利严重错配（PE 53.74倍对应ROE 6.33%）、公司主动追加风险提示的异常性、以及短期技术面超…",
+  "execution_audit": {
+    "strategy_excerpt": "# 风险管理委员会最终裁决报告 **议题：协鑫能科（002015）短期投资决策** **日期：2026年3月14日** --- ## 一、辩论质量评估 ### 激进分析师的核心贡献与局限 **最强论点：** 激进分析师准确识别了三个关键风险信号——估值与盈利严重错配（PE 53.74倍对应ROE 6.33%）、公司主动追加风险提示的异常性、以及短期技术面超…",
+    "signal_action": "sell",
+    "signal_size_hint": 0.6,
+    "signal_target_position_pct": 0.4,
+    "expected_trade_direction": "buy",
+    "actual_trade_direction": "buy",
+    "filled_quantity": 188126,
+    "trade_count": 1,
+    "starting_quantity": 21701,
+    "ending_quantity": 209827,
+    "execution_blockers": [],
+    "status": "consistent",
+    "reason": "signal and actual fill direction match"
+  }
+}
