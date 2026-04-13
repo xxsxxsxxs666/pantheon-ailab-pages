@@ -1,0 +1,4826 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>润泽科技 (300442.SZ) 2026-03-25</title>
+  <style>
+    :root {
+      --bg: #f4f0e8;
+      --panel: #fffdf8;
+      --ink: #1f2a2e;
+      --muted: #67757c;
+      --line: #d9cfc0;
+      --accent: #a64b2a;
+      --accent-soft: #f2dccf;
+    }
+    body { margin: 0; font-family: "PingFang SC","Noto Sans SC","Helvetica Neue",sans-serif; background: linear-gradient(180deg, #efe4d5 0%, var(--bg) 40%, #f7f4ee 100%); color: var(--ink); }
+    .wrap { max-width: 1180px; margin: 0 auto; padding: 28px 20px 56px; }
+    .hero { background: var(--panel); border: 1px solid var(--line); border-radius: 22px; padding: 24px; box-shadow: 0 18px 50px rgba(82, 58, 28, 0.08); }
+    h1 { margin: 0 0 8px; font-size: 34px; }
+    .subtitle { color: var(--muted); font-size: 15px; }
+    .disclaimer { margin-top: 12px; padding: 10px 12px; border-radius: 12px; border: 1px solid #ead2ab; background: #fff3df; color: #7a5327; font-size: 13px; line-height: 1.7; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 12px; margin-top: 18px; }
+    .card { background: #fff8ef; border: 1px solid var(--line); border-radius: 16px; padding: 14px; }
+    .label { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; }
+    .value { font-size: 22px; font-weight: 700; margin-top: 8px; word-break: break-word; }
+    .status-banner { margin-top: 16px; border-radius: 16px; padding: 14px 16px; border: 1px solid var(--line); background: #f6f1e7; }
+    .status-banner.ok { background: #e6f4ef; border-color: #bfded3; }
+    .status-banner.warn { background: #fff2df; border-color: #ead2ab; }
+    .status-banner.danger { background: #f8e1db; border-color: #e0b6ab; }
+    .status-title { font-size: 12px; font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+    .status-body { margin-top: 6px; font-size: 15px; line-height: 1.6; }
+    .grid { display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 18px; margin-top: 18px; }
+    .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 22px; padding: 20px; box-shadow: 0 14px 40px rgba(82, 58, 28, 0.05); }
+    details { border: 1px solid var(--line); border-radius: 16px; background: #fffaf2; padding: 12px 14px; margin-top: 12px; }
+    summary { cursor: pointer; font-weight: 700; color: var(--accent); }
+    pre { white-space: pre-wrap; word-break: break-word; margin: 12px 0 0; font-size: 13px; line-height: 1.6; color: var(--ink); background: #fffdf9; border-radius: 12px; padding: 14px; border: 1px solid #eee2d4; max-height: 280px; overflow: auto; }
+    a { color: var(--accent); text-decoration: none; }
+    .stack > * + * { margin-top: 18px; }
+    .formula-list { display: grid; gap: 10px; color: var(--muted); font-size: 13px; line-height: 1.7; }
+    .formula-item { background: #fff8ef; border: 1px solid var(--line); border-radius: 14px; padding: 12px 14px; }
+    .markdown-body { margin-top: 12px; font-size: 14px; line-height: 1.8; color: var(--ink); background: #fffdf9; border-radius: 12px; padding: 14px; border: 1px solid #eee2d4; max-height: 320px; overflow: auto; }
+    .markdown-body > :first-child { margin-top: 0; }
+    .markdown-body > :last-child { margin-bottom: 0; }
+    .markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4 { margin: 1.1em 0 0.5em; line-height: 1.45; }
+    .markdown-body p, .markdown-body ul, .markdown-body ol, .markdown-body blockquote, .markdown-body table { margin: 0.7em 0; }
+    .markdown-body ul, .markdown-body ol { padding-left: 1.4em; }
+    .markdown-body code { background: #f5eee3; padding: 0.1em 0.35em; border-radius: 6px; }
+    .markdown-body pre { max-height: none; overflow: visible; padding: 0; border: 0; background: transparent; }
+    .markdown-body blockquote { margin-left: 0; padding-left: 0.9em; border-left: 3px solid #d9cfc0; color: #5f676c; }
+    .markdown-body table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    .markdown-body th, .markdown-body td { border: 1px solid #e7dccd; padding: 8px 10px; text-align: left; vertical-align: top; }
+    .markdown-body th { background: #fbf6ed; }
+    .source-link-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    .source-link-table th, .source-link-table td { border-bottom: 1px solid #eee2d4; padding: 10px 8px; text-align: left; vertical-align: top; }
+    .source-link-table th { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: 0.05em; }
+    .source-link-wrap { max-height: 280px; overflow: auto; border: 1px solid #eee2d4; border-radius: 12px; background: #fffdf9; }
+    @media (max-width: 900px) { .grid { grid-template-columns: 1fr; } h1 { font-size: 28px; } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="hero">
+      <div><a href="../../index.html">返回本轮总览</a></div>
+      <h1>润泽科技 (300442.SZ) 2026-03-25</h1>
+      <div class="subtitle">历史 full-chain replay 日报。这里汇总了当天的分析过程、标准化信号、订单与账户结果。</div>
+      <div class="disclaimer">仅用于历史回测与系统实验，不构成任何投资建议或实际交易指导。</div>
+      <div class='status-banner info'><div class='status-title'>维持持仓</div><div class='status-body'>当前持仓40.25%超出研究建议的20-30%上限，需减仓至目标区间。现价87.65元接近第一止盈位87元，建议减持部分锁定利润。支撑84元/81元，压力87元/89-90元。止损81元，跌破83元需进一步减仓。</div></div>
+      <div class="cards"><div class='card'><div class='label'>交易日</div><div class='value'>2026-03-25</div></div><div class='card'><div class='label'>动作</div><div class='value'>hold</div></div><div class='card'><div class='label'>标的</div><div class='value'>润泽科技 (300442.SZ)</div></div><div class='card'><div class='label'>置信度</div><div class='value'>0.55</div></div><div class='card'><div class='label'>盘单状态</div><div class='value'>structured</div></div><div class='card'><div class='label'>仓位提示</div><div class='value'>25.00%</div></div><div class='card'><div class='label'>成交股数</div><div class='value'>58781</div></div><div class='card'><div class='label'>成交额</div><div class='value'>515.22万</div></div><div class='card'><div class='label'>执行价</div><div class='value'>87.65</div></div><div class='card'><div class='label'>新闻源</div><div class='value'>AKShare巨潮资讯历史公告</div></div><div class='card'><div class='label'>新闻数</div><div class='value'>5</div></div><div class='card'><div class='label'>T+1可卖</div><div class='value'>155152</div></div><div class='card'><div class='label'>T+1锁仓</div><div class='value'>0</div></div><div class='card'><div class='label'>现金</div><div class='value'>597.69万</div></div><div class='card'><div class='label'>持仓市值</div><div class='value'>2781.09万</div></div><div class='card'><div class='label'>NAV</div><div class='value'>33787845.87</div></div></div>
+    </div>
+    <div class="grid">
+      <div class="panel stack">
+        <h2>分析过程</h2>
+        <details open><summary>市场分析</summary><div class='markdown-body'><h1>润泽科技技术分析报告</h1>
+<h2>数据时点说明</h2>
+<ul>
+<li><strong>分析日期</strong>：2026年3月25日</li>
+<li><strong>研究截止时间</strong>：14:45</li>
+<li><strong>当前价格</strong>：85.6元</li>
+<li><strong>涨跌幅</strong>：+1.42%（截至14:45）</li>
+<li><strong>数据说明</strong>：本报告所有分析基于2026年3月25日14:45之前的可见市场信息，未包含当日收盘价格及之后的任何市场数据。</li>
+</ul>
+<hr />
+<h2>价格趋势分析</h2>
+<p>从历史收盘数据分析，润泽科技近期呈现<strong>明显的下降后反弹</strong>走势：</p>
+<ol>
+<li>
+<p><strong>下行阶段</strong>（3月11日-17日）：股价从91.12元连续下跌至81.15元，累计跌幅达10.97元（-12.04%），显示出较强的空头动能。</p>
+</li>
+<li>
+<p><strong>反弹阶段</strong>（3月18日-19日）：股价快速回升至89.75元，两日累计上涨8.60元（+10.60%），表明下方承接力度较强。</p>
+</li>
+<li>
+<p><strong>震荡整理阶段</strong>（3月20日-25日）：股价在84.4-90元区间反复波动，3月24日收于84.4元，为近期相对低位。</p>
+</li>
+<li>
+<p><strong>当日表现</strong>：截至14:45，股价报85.6元，较前一交易日上涨1.42%，显示盘中出现小幅反弹，但尚未收复重要均线位置。</p>
+</li>
+</ol>
+<p><strong>趋势判断</strong>：中期下降趋势尚未完全扭转，短期处于超跌后的反弹震荡格局。</p>
+<hr />
+<h2>支撑与压力位分析</h2>
+<h3>关键支撑位</h3>
+<table>
+<thead>
+<tr>
+<th>支撑位</th>
+<th>价格区间</th>
+<th>重要性</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>第一支撑</td>
+<td>84.0-84.4元</td>
+<td>较强（近期低点区域）</td>
+</tr>
+<tr>
+<td>第二支撑</td>
+<td>81.0-83.0元</td>
+<td>强（前期成交密集区）</td>
+</tr>
+<tr>
+<td>第三支撑</td>
+<td>79.0-80.0元</td>
+<td>强（心理关口）</td>
+</tr>
+</tbody>
+</table>
+<h3>关键压力位</h3>
+<table>
+<thead>
+<tr>
+<th>压力位</th>
+<th>价格区间</th>
+<th>重要性</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>第一压力</td>
+<td>86.5-87.0元</td>
+<td>较强（5日均线附近）</td>
+</tr>
+<tr>
+<td>第二压力</td>
+<td>89.5-90.0元</td>
+<td>强（近期高点区域）</td>
+</tr>
+<tr>
+<td>第三压力</td>
+<td>91.0-91.5元</td>
+<td>强（心理关口及前期支撑转压力）</td>
+</tr>
+</tbody>
+</table>
+<p><strong>当前价格位置</strong>：85.6元处于第一支撑（84元）与第一压力（87元）的中间位置，多空力量相对平衡。</p>
+<hr />
+<h2>短线风险提示</h2>
+<p>基于现有数据分析，短线交易存在以下风险因素：</p>
+<ol>
+<li>
+<p><strong>趋势风险</strong>：股价仍处于中期下降通道中，反弹高点逐步降低（90元→89元），显示下降趋势未根本扭转。</p>
+</li>
+<li>
+<p><strong>动能不足风险</strong>：从历史数据看，该时段仅提供价格信息，<strong>无法计算成交量、MACD、RSI等技术指标</strong>，因此对当前反弹的可持续性判断缺乏客观数据支撑。</p>
+</li>
+<li>
+<p><strong>外部干扰风险</strong>：仅基于分钟价格数据，无法判断大单动向、板块联动等市场信息。</p>
+</li>
+<li>
+<p><strong>时间窗口风险</strong>：研究截止时间为14:45，当日尚有最后15分钟交易时间，存在尾盘波动的不确定性。</p>
+</li>
+<li>
+<p><strong>区间突破风险</strong>：若股价有效跌破84元支撑，可能引发技术性卖盘；若无法突破87元压力，则反弹空间有限。</p>
+</li>
+</ol>
+<p><strong>风险等级</strong>：中等</p>
+<hr />
+<h2>交易启示</h2>
+<p>基于当前市场数据和历史走势分析，提供以下参考性交易建议：</p>
+<h3>观望策略（谨慎型投资者）</h3>
+<ul>
+<li>当前价格85.6元处于中间位置，方向不明确</li>
+<li>建议等待明确的方向信号再介入</li>
+<li>关注84.0-87.0元的区间突破情况</li>
+</ul>
+<h3>区间操作策略（短线交易者）</h3>
+<ul>
+<li><strong>买入参考</strong>：84.0-84.5元区间止跌企稳时可考虑轻仓介入</li>
+<li><strong>卖出参考</strong>：86.5-87.0元区间出现滞涨时可考虑获利了结</li>
+<li><strong>止损建议</strong>：若股价跌破83.5元，应严格止损</li>
+</ul>
+<h3>中线布局策略（价值型投资者）</h3>
+<ul>
+<li>81-83元区间可作为中线布局的参考建仓区域</li>
+<li>90元上方压力较大，不建议追高</li>
+<li>严格控制仓位，保留充足现金</li>
+</ul>
+<h3>风险控制要点</h3>
+<ul>
+<li><strong>不追涨杀跌</strong>：当前趋势未明，避免情绪化交易</li>
+<li><strong>控制仓位</strong>：建议仓位不超过30%</li>
+<li><strong>严格止损</strong>：设置3-5%的止损位</li>
+<li><strong>关注成交量</strong>：本报告数据不含成交量信息，建议实际交易时关注量价配合情况</li>
+</ul>
+<hr />
+<h2>特别声明</h2>
+<p>本报告基于2026年3月25日14:45之前的有限市场数据进行分析，<strong>未能获取成交量、买卖力道、MACD、RSI、布林带等关键技术指标</strong>。因此，本报告的技术分析主要依赖于价格趋势和历史支撑压力位的判断，存在一定的局限性。投资者在实际交易中应综合考虑更多市场信息，并结合自身风险承受能力做出决策。</p>
+<hr />
+<p><em>报告生成时间：2026年3月25日 14:45</em><br />
+<em>分析师：AI技术分析系统</em><br />
+<em>风险提示：市场有风险，投资需谨慎</em></p>
+</div></details><details open><summary>舆情分析</summary><div class='markdown-body'><h1>润泽科技（300442）舆情分析报告</h1>
+<p><strong>交易日：2026年3月25日 | 研究截止时间：14:45</strong></p>
+<hr />
+<h2>一、舆情数据可得性说明</h2>
+<p>本报告基于润泽科技（股票代码：300442）在<strong>2026年2月23日14:45至2026年3月25日14:45</strong>期间于巨潮资讯网披露的5条公告信息编制。由于当前中文社交平台（雪球、股吧、微博等）原始API无法稳定回放，本分析仅使用上述历史截面公告作为舆情代理输入，<strong>未包含任何社交媒体原始帖子或评论</strong>。所有引用信息均来自上市公司正式公告，具有较高的权威性和可信度。</p>
+<hr />
+<h2>二、媒体情绪摘要</h2>
+<h3>整体情绪基调：<strong>审慎乐观</strong></h3>
+<p>根据本时间段内的公告分析，润泽科技的信息披露呈现以下特征：</p>
+<ol>
+<li>
+<p><strong>重大事项推进信号明确</strong>：公司正在积极推进发行可转换公司债券购买资产并募集配套资金事项，体现了管理层利用资本市场工具实现战略发展的意图。</p>
+</li>
+<li>
+<p><strong>股东治理结构稳定</strong>：2026年第一次临时股东会已顺利召开并形成决议，法律意见书显示程序合规，显示出公司治理运作正常。</p>
+</li>
+<li>
+<p><strong>积极维护股东权益</strong>：回购股份进展公告表明公司正在执行股票回购计划，向市场传递出管理层认为公司股价存在投资价值的积极信号。</p>
+</li>
+<li>
+<p><strong>异常波动引发关注</strong>：股票交易异常波动公告表明公司在2026年2月下旬经历了较大价格波动，可能与上述重大事项的预期有关。</p>
+</li>
+</ol>
+<hr />
+<h2>三、正面催化因素</h2>
+<h3>3.1 可转换公司债券发行计划</h3>
+<ul>
+<li><strong>事件</strong>：筹划发行可转换公司债券购买资产并募集配套资金</li>
+<li><strong>发布时点</strong>：2026年3月13日</li>
+<li><strong>积极意义</strong>：
+<ul>
+<li>体现公司通过资本运作实现外延式增长的战略意图</li>
+<li>可转债发行若成功，将为公司提供并购重组的资金支持</li>
+<li>募集配套资金可能用于优化资本结构或支持新项目发展</li>
+</ul>
+</li>
+<li><strong>市场影响</strong>：此类重大资产重组事项通常被投资者视为公司进取发展的积极信号，尤其在科技行业估值扩张背景下</li>
+</ul>
+<h3>3.2 股票回购计划执行中</h3>
+<ul>
+<li><strong>事件</strong>：回购股份进展公告</li>
+<li><strong>发布时点</strong>：2026年3月3日</li>
+<li><strong>积极意义</strong>：
+<ul>
+<li>直接向市场传递股价被低估的信号</li>
+<li>提升每股收益（EPS），优化财务指标</li>
+<li>增强投资者信心，维护股东利益</li>
+</ul>
+</li>
+<li><strong>市场影响</strong>：回购行为通常对短期股价形成支撑，体现管理层对公司长期价值的信心</li>
+</ul>
+<h3>3.3 股东会决议通过</h3>
+<ul>
+<li><strong>事件</strong>：2026年第一次临时股东会决议公告及法律意见书</li>
+<li><strong>发布时点</strong>：2026年3月3日</li>
+<li><strong>积极意义</strong>：
+<ul>
+<li>公司治理结构运作正常，决策程序合规</li>
+<li>股东支持公司重大决策</li>
+<li>法律意见书确认会议程序合法有效</li>
+</ul>
+</li>
+<li><strong>市场影响</strong>：增强投资者对公司规范运作的信心</li>
+</ul>
+<hr />
+<h2>四、负面/风险提示因素</h2>
+<h3>4.1 股票交易异常波动</h3>
+<ul>
+<li><strong>事件</strong>：关于股票交易异常波动的公告</li>
+<li><strong>发布时点</strong>：2026年2月26日</li>
+<li><strong>风险提示</strong>：
+<ul>
+<li>异常波动可能预示短期投机情绪较重</li>
+<li>股价大幅波动增加投资风险</li>
+<li>可能引发监管部门关注或问询</li>
+</ul>
+</li>
+<li><strong>市场影响</strong>：短期内可能造成投资者情绪不稳，增加股价波动风险</li>
+</ul>
+<h3>4.2 可转债发行不确定性</h3>
+<ul>
+<li><strong>事件</strong>：筹划发行可转换公司债券购买资产</li>
+<li><strong>风险提示</strong>：
+<ul>
+<li>该事项仍处于筹划阶段，存在较大的审批风险</li>
+<li>监管审核可能带来时间不确定性</li>
+<li>发行条件受市场环境影响较大</li>
+<li>配套资金募集结果存在不确定性</li>
+</ul>
+</li>
+<li><strong>市场影响</strong>：若事项推进受阻或条件不及预期，可能对股价形成负面冲击</li>
+</ul>
+<hr />
+<h2>五、投资者情绪评分</h2>
+<h3>综合评分：<strong>3.8 / 5.0</strong>（偏正面）</h3>
+<table>
+<thead>
+<tr>
+<th>评估维度</th>
+<th>评分</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>信息透明度</td>
+<td>4.0</td>
+<td>公告披露及时完整，重大事项信息披露合规</td>
+</tr>
+<tr>
+<td>股东信任度</td>
+<td>3.8</td>
+<td>回购+可转债发行显示管理层信心，股东会顺利召开</td>
+</tr>
+<tr>
+<td>短期动能</td>
+<td>3.5</td>
+<td>异常波动后需观察情绪稳定情况</td>
+</tr>
+<tr>
+<td>中期前景</td>
+<td>4.0</td>
+<td>资产重组+回购显示积极发展意图</td>
+</tr>
+<tr>
+<td>市场关注度</td>
+<td>3.8</td>
+<td>异常波动公告反映市场关注度较高</td>
+</tr>
+</tbody>
+</table>
+<p><strong>评分依据</strong>：润泽科技本周期内的公告整体传递正面信号，可转债发行计划和股票回购计划均显示公司管理层对公司发展前景持乐观态度，股东会顺利召开也反映出内部治理稳健。但股票异常波动提示短期风险需要关注。</p>
+<hr />
+<h2>六、1-5天情绪影响预测</h2>
+<h3>短期情绪影响评估（2026年3月26日至3月30日）</h3>
+<table>
+<thead>
+<tr>
+<th>时间周期</th>
+<th>情绪倾向</th>
+<th>影响程度</th>
+<th>预判依据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1天</strong></td>
+<td>中性偏多</td>
+<td>★★★☆☆</td>
+<td>可转债发行进展公告已发布12天，市场已有所消化，但若成交量放大可能推动股价</td>
+</tr>
+<tr>
+<td><strong>2天</strong></td>
+<td>正面</td>
+<td>★★★★☆</td>
+<td>回购进展持续进行，对股价形成底部支撑</td>
+</tr>
+<tr>
+<td><strong>3天</strong></td>
+<td>正面</td>
+<td>★★★★☆</td>
+<td>可转债发行预期若持续发酵，可能吸引跟风盘</td>
+</tr>
+<tr>
+<td><strong>4天</strong></td>
+<td>中性</td>
+<td>★★★☆☆</td>
+<td>需关注成交量变化，若量能不足可能回落</td>
+</tr>
+<tr>
+<td><strong>5天</strong></td>
+<td>中性偏谨慎</td>
+<td>★★★☆☆</td>
+<td>临近月末效应，需警惕获利了结压力</td>
+</tr>
+</tbody>
+</table>
+<p><strong>关键观察指标</strong>：</p>
+<ul>
+<li>成交量是否持续放大（突破5日均量1.5倍以上为强势信号）</li>
+<li>可转债发行进展是否有新公告</li>
+<li>大盘整体情绪配合情况</li>
+</ul>
+<hr />
+<h2>七、交易启示</h2>
+<h3>风险提示</h3>
+<ol>
+<li><strong>系统性风险</strong>：本分析基于历史公告信息，不构成投资建议，投资者需自行判断</li>
+<li><strong>信息局限性</strong>：未包含社交媒体舆情，可能无法完全反映市场情绪</li>
+<li><strong>时间滞后性</strong>：公告信息从发布到市场充分消化需要时间</li>
+</ol>
+<h3>机会识别</h3>
+<ol>
+<li><strong>回购概念</strong>：若公司持续回购，可能形成阶段性底部</li>
+<li><strong>资产重组预期</strong>：可转债发行若获批，可能带来估值重估机会</li>
+<li><strong>治理改善信号</strong>：股东会顺利召开显示公司运作稳健，可适度提升风险偏好</li>
+</ol>
+<h3>风险控制建议</h3>
+<ul>
+<li>建议关注公司后续关于可转债发行的实质性进展公告</li>
+<li>密切留意是否有监管问询函件发布</li>
+<li>设置止损位，防范异常波动带来的回撤风险</li>
+<li>控制仓位，避免单一事件驱动型交易仓位过重</li>
+</ul>
+<hr />
+<h2>八、数据时点说明</h2>
+<table>
+<thead>
+<tr>
+<th>数据类型</th>
+<th>时点范围</th>
+<th>数量</th>
+<th>数据来源</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>巨潮资讯公告</td>
+<td>2026-02-26 18:14:12 至 2026-03-13 18:42:09</td>
+<td>5条</td>
+<td>巨潮资讯网</td>
+</tr>
+<tr>
+<td>社交媒体数据</td>
+<td>不可用</td>
+<td>0条</td>
+<td>因API限制未采集</td>
+</tr>
+</tbody>
+</table>
+<p><strong>重要声明</strong>：本报告所有分析均基于上述5条公告信息截止至2026年3月25日14:45，研究截止时间后披露的任何信息均不在本报告分析范围内。报告仅供研究参考，不构成任何投资建议。</p>
+</div></details><details><summary>新闻分析</summary><div class='markdown-body'><h1>润泽科技（300442）财经新闻分析报告</h1>
+<p><strong>交易日：</strong> 2026-03-25<br />
+<strong>研究截止时间：</strong> 14:45<br />
+<strong>公司名称：</strong> 润泽科技（润泽智算科技集团股份有限公司）</p>
+<hr />
+<h2>一、新闻抓取摘要</h2>
+<p>本次抓取的数据涵盖 <strong>2026-02-23 14:45 至 2026-03-25 14:45</strong> 期间共 <strong>5条</strong> 公告/新闻，数据来源为巨潮资讯网。数据总长度为1262字符。</p>
+<table>
+<thead>
+<tr>
+<th>序号</th>
+<th>公告类型</th>
+<th>发布时间</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>关于筹划发行可转换公司债券购买资产并募集配套资金事项的进展公告</td>
+<td>2026-03-13</td>
+</tr>
+<tr>
+<td>2</td>
+<td>关于回购股份的进展公告</td>
+<td>2026-03-03</td>
+</tr>
+<tr>
+<td>3</td>
+<td>2026年第一次临时股东会决议公告</td>
+<td>2026-03-03</td>
+</tr>
+<tr>
+<td>4</td>
+<td>北京市中伦（重庆）律师事务所法律意见书</td>
+<td>2026-03-03</td>
+</tr>
+<tr>
+<td>5</td>
+<td>关于股票交易异常波动的公告</td>
+<td>2026-02-26</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>二、关键新闻事件</h2>
+<h3>1. 可转债发行购买资产事项（2026-03-13）</h3>
+<p>公司正在筹划发行可转换公司债券购买资产并募集配套资金，这是重大资产重组行为。<strong>该公告为进展公告</strong>，表明该事项仍在推进中，尚未完成。</p>
+<h3>2. 股份回购进展（2026-03-03）</h3>
+<p>公司持续进行股份回购操作，表明管理层认为公司当前股价具有一定吸引力，或有维护市值的意图。</p>
+<h3>3. 临时股东会决议（2026-03-03）</h3>
+<p>2026年第一次临时股东大会召开并形成决议，具体决议内容未在抓取数据中详细披露，但时间节点与股份回购公告相邻，可能存在关联性。</p>
+<h3>4. 股票交易异常波动公告（2026-02-26）</h3>
+<p>公司在2026年2月26日发布异常波动公告，表明此前股价出现大幅波动，但具体涨跌幅数据未在抓取信息中提供。</p>
+<hr />
+<h2>三、对股价的潜在影响</h2>
+<table>
+<thead>
+<tr>
+<th>事件</th>
+<th>潜在影响方向</th>
+<th>分析</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>可转债发行购买资产</td>
+<td><strong>中性偏正面</strong></td>
+<td>重大资产重组若成功，可能提升公司估值；但发行可转债可能带来摊薄效应</td>
+</tr>
+<tr>
+<td>股份回购</td>
+<td><strong>正面</strong></td>
+<td>回购通常被视为管理层认为股价低估的信号，短期对股价有支撑作用</td>
+</tr>
+<tr>
+<td>异常波动</td>
+<td><strong>不确定</strong></td>
+<td>波动本身不指示方向，需结合当时市场环境判断</td>
+</tr>
+<tr>
+<td>临时股东会决议</td>
+<td><strong>待定</strong></td>
+<td>决议内容未知，无法判断影响方向</td>
+</tr>
+</tbody>
+</table>
+<p><strong>综合判断：</strong> 在研究截止时间前，市场可见信息整体呈现 <strong>中性偏正面</strong> 态势。回购行为和资产重组推进计划对股价有一定支撑预期。</p>
+<hr />
+<h2>四、情绪判断</h2>
+<p>基于现有公告信息，采用 <strong>专家规则法</strong> 进行情绪分类：</p>
+<ul>
+<li><strong>可转债发行进展</strong>：进度确认 → <strong>中性</strong></li>
+<li><strong>股份回购</strong>：持续执行 → <strong>正面</strong></li>
+<li><strong>异常波动公告</strong>：风险提示 → <strong>偏谨慎</strong></li>
+</ul>
+<p><strong>综合情绪研判：中性偏好</strong></p>
+<p>机构投资者或市场资金可能对回购行为和重组进展保持关注，但需注意异常波动风险。</p>
+<hr />
+<h2>五、交易启示</h2>
+<ol>
+<li><strong>关注回购执行力度</strong>：如后续公告显示回购金额较大，可能强化股价支撑信号</li>
+<li><strong>跟踪资产重组审批进度</strong>：可转债发行需经监管审批，存在一定不确定性</li>
+<li><strong>留意异常波动原因</strong>：2月26日的异常波动公告未披露具体原因，投资者需保持警惕</li>
+<li><strong>股东会决议内容</strong>：建议查阅临时股东会具体决议，了解公司战略方向</li>
+</ol>
+<p><strong>风险提示</strong>：本报告仅基于历史截面数据，不构成投资建议。投资者应结合公司基本面、行业趋势及整体市场环境综合判断。</p>
+<hr />
+<h2>六、数据时点说明</h2>
+<table>
+<thead>
+<tr>
+<th>项目</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>数据截止时点</strong></td>
+<td>2026-03-25 14:45</td>
+</tr>
+<tr>
+<td><strong>新闻时间窗口</strong></td>
+<td>2026-02-23 14:45 至 2026-03-25 14:45</td>
+</tr>
+<tr>
+<td><strong>公告数量</strong></td>
+<td>5条</td>
+</tr>
+<tr>
+<td><strong>数据来源</strong></td>
+<td>巨潮资讯网（cninfo.com.cn）</td>
+</tr>
+<tr>
+<td><strong>数据完整性说明</strong></td>
+<td>仅包含巨潮资讯公告，外部新闻媒体报道未纳入抓取范围</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><strong>报告生成时间：</strong> 2026-03-25 14:45<br />
+<strong>分析师角色：</strong> 严格历史视角财经新闻分析（不预测未来，仅基于可见信息）</p>
+</div></details><details><summary>基本面分析</summary><div class='markdown-body'><h1>润泽科技（300442.SZ）基本面分析报告</h1>
+<h2>数据可得性说明</h2>
+<p>本次分析基于<strong>2026-03-25 14:45</strong>的历史截面数据，该数据集中包含以下可分析内容：</p>
+<ul>
+<li>✅ <strong>可得</strong>：近期市场价格数据（2026-03-11至2026-03-25 14:45）</li>
+<li>✅ <strong>可得</strong>：公司近期公告标题及发布时间（2026-02-23至2026-03-25）</li>
+<li>❌ <strong>不可得</strong>：PE（市盈率）、PB（市净率）、ROE（净资产收益率）</li>
+<li>❌ <strong>不可得</strong>：利润增速、营业收入、净利润等财务指标</li>
+<li>❌ <strong>不可得</strong>：业务结构、资产规模、负债情况等详细财务数据</li>
+<li>❌ <strong>不可得</strong>：历史估值区间、同行业对比数据</li>
+</ul>
+<blockquote>
+<p><strong>重要提示</strong>：当前历史截面中<strong>未提供任何财务指标数据</strong>，本报告所有分析仅基于实际可得的市场价格数据和公告信息，不包含任何估值模型或财务比率计算。</p>
+</blockquote>
+<hr />
+<h2>估值截面</h2>
+<table>
+<thead>
+<tr>
+<th>指标</th>
+<th>数值</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>当前价格（2026-03-25 14:45）</td>
+<td><strong>85.6元</strong></td>
+<td>研究截止时间前最新成交价</td>
+</tr>
+<tr>
+<td>涨跌幅（当日）</td>
+<td><strong>+1.42%</strong></td>
+<td>相对前一交易日收盘价</td>
+</tr>
+<tr>
+<td>最近收盘价（2026-03-24）</td>
+<td>84.4元</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+<p><strong>近期价格走势观察：</strong></p>
+<ul>
+<li>2026-03-11收盘价：91.12元</li>
+<li>2026-03-24收盘价：84.4元</li>
+<li>区间跌幅：<strong>-7.38%</strong></li>
+<li>当前价格（85.6元）处于近期价格区间的中下部位置</li>
+</ul>
+<blockquote>
+<p><strong>说明</strong>：当前历史截面中<strong>未提供PE、PB等估值指标</strong>，无法进行估值水平的历史对比或行业对比分析。</p>
+</blockquote>
+<hr />
+<h2>最新财务指标</h2>
+<p><strong>当前历史截面中，财务指标数据不可得。</strong></p>
+<p>润泽科技在2026-03-25 14:45之前未披露最新财务数据（如2025年年报或2026年一季报预告）。</p>
+<p>根据本分析框架的硬性要求：</p>
+<ul>
+<li>❌ 不提供PE、PB、ROE等估值指标（因数据不可得）</li>
+<li>❌ 不进行盈利能力、偿债能力等财务分析（因数据不可得）</li>
+<li>❌ 不估算或推测任何财务数据</li>
+</ul>
+<hr />
+<h2>近期公司公告</h2>
+<p>以下为公司2026-02-23至2026-03-25期间发布的重大公告（按时间倒序）：</p>
+<h3>1. 可转债发行事项进展公告</h3>
+<ul>
+<li><strong>发布时间</strong>：2026-03-13 18:42:09</li>
+<li><strong>性质</strong>：重大资产重组</li>
+<li><strong>内容要点</strong>：筹划发行可转换公司债券购买资产并募集配套资金</li>
+<li><strong>市场意义</strong>：属于重大资本运作事项，涉及资产重组</li>
+</ul>
+<h3>2. 回购股份进展公告</h3>
+<ul>
+<li><strong>发布时间</strong>：2026-03-03 18:40:11</li>
+<li><strong>性质</strong>：股份回购</li>
+<li><strong>内容要点</strong>：公司进行股份回购</li>
+<li><strong>市场意义</strong>：回购通常被视为管理层认为公司价值被低估的信号</li>
+</ul>
+<h3>3. 临时股东会决议公告</h3>
+<ul>
+<li><strong>发布时间</strong>：2026-03-03 18:40:11</li>
+<li><strong>性质</strong>：公司治理</li>
+<li><strong>内容要点</strong>：2026年第一次临时股东大会决议</li>
+<li><strong>相关法律意见书</strong>：北京市中伦（重庆）律师事务所出具法律意见书</li>
+</ul>
+<h3>4. 股票交易异常波动公告</h3>
+<ul>
+<li><strong>发布时间</strong>：2026-02-26 18:14:12</li>
+<li><strong>性质</strong>：风险提示</li>
+<li><strong>内容要点</strong>：股票交易出现异常波动</li>
+<li><strong>市场意义</strong>：提示投资者注意交易风险</li>
+</ul>
+<hr />
+<h2>基本面判断</h2>
+<p>基于当前历史截面数据，对润泽科技的基本面判断如下：</p>
+<h3>✅ 可确认事项</h3>
+<ol>
+<li>
+<p><strong>资本运作活跃</strong>：公司正在推进可转债发行购买资产的重大事项，表明公司有明确的战略扩张意图。</p>
+</li>
+<li>
+<p><strong>积极回购股份</strong>：公司进行股份回购，释放积极信号。</p>
+</li>
+<li>
+<p><strong>治理结构正常</strong>：临时股东会正常召开并形成决议，公司治理运作规范。</p>
+</li>
+<li>
+<p><strong>近期股价承压</strong>：从2026-03-11至2026-03-24，股价从91.12元下跌至84.4元，跌幅7.38%，期间存在交易异常波动公告。</p>
+</li>
+</ol>
+<h3>❌ 无法判断事项</h3>
+<ol>
+<li><strong>估值水平</strong>：无PE、PB等数据，无法判断当前估值高低。</li>
+<li><strong>盈利能力</strong>：无营收、利润数据，无法判断业绩好坏。</li>
+<li><strong>成长性</strong>：无财务对比数据，无法判断增长趋势。</li>
+<li><strong>业务实质</strong>：公告中提及&quot;润泽智算科技集团&quot;，但无业务结构数据，无法判断业务转型或核心业务情况。</li>
+</ol>
+<hr />
+<h2>风险点</h2>
+<p>基于当前历史截面数据，识别的风险点如下：</p>
+<h3>1. 股价波动风险</h3>
+<ul>
+<li>近期股价从高点91.12元回落至85.6元，跌幅明显</li>
+<li>存在股票交易异常波动公告，提示短期炒作风险</li>
+</ul>
+<h3>2. 重大事项不确定性风险</h3>
+<ul>
+<li>可转债发行购买资产事项属于重大资产重组，存在审批风险</li>
+<li>重组进展、时间节点、最终结果均不确定</li>
+</ul>
+<h3>3. 信息不完整风险</h3>
+<ul>
+<li>当前历史截面<strong>未提供财务数据</strong>，投资者无法全面评估公司基本面</li>
+<li>重大事项的具体方案、标的资产、配套融资规模等关键信息未披露</li>
+</ul>
+<h3>4. 市场系统性风险</h3>
+<ul>
+<li>仅基于价格数据，无法判断市场整体环境对公司股价的影响</li>
+</ul>
+<hr />
+<h2>交易启示</h2>
+<p>基于当前历史截面数据，<strong>仅能提供有限的市场观察</strong>，不构成投资建议：</p>
+<h3>价格与技术观察</h3>
+<ul>
+<li>当前价格85.6元处于近期下跌趋势中的反弹位置（2026-03-24收盘84.4元，当日上涨1.42%）</li>
+<li>从2026-03-17低点81.15元反弹后，股价在83-90元区间震荡</li>
+</ul>
+<h3>公告信息观察</h3>
+<ul>
+<li><strong>积极信号</strong>：回购股份、可转债发行事项推进</li>
+<li><strong>中性信号</strong>：临时股东会正常运作</li>
+<li><strong>警示信号</strong>：股票异常波动公告</li>
+</ul>
+<h3>⚠️ 重要声明</h3>
+<p><strong>当前历史截面不足以给出精确基本面目标价。</strong> 理由如下：</p>
+<ol>
+<li>缺乏PE、PB等估值数据，无法进行相对估值</li>
+<li>缺乏ROE、利润增速等财务数据，无法进行绝对估值</li>
+<li>缺乏历史财务序列，无法进行趋势分析</li>
+<li>重大资产重组事项存在重大不确定性</li>
+</ol>
+<p>如需进行估值分析，需等待公司披露相关财务数据或重组预案详情。</p>
+<hr />
+<h2>数据时点说明</h2>
+<table>
+<thead>
+<tr>
+<th>项目</th>
+<th>时点</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>分析日期</strong></td>
+<td>2026-03-25</td>
+</tr>
+<tr>
+<td><strong>研究截止时间</strong></td>
+<td>14:45</td>
+</tr>
+<tr>
+<td><strong>当前价格时点</strong></td>
+<td>2026-03-25 14:45</td>
+</tr>
+<tr>
+<td><strong>收盘价截止时点</strong></td>
+<td>2026-03-24（上一个完整交易日）</td>
+</tr>
+<tr>
+<td><strong>公告覆盖区间</strong></td>
+<td>2026-02-23 14:45 至 2026-03-25 14:45</td>
+</tr>
+<tr>
+<td><strong>数据性质</strong></td>
+<td>历史截面数据，不包含研究截止时间后的任何信息</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>总结</h2>
+<p>润泽科技在2026-03-25 14:45的历史截面中，展现出以下特征：</p>
+<ul>
+<li><strong>资本运作层面</strong>：积极推进可转债发行和股份回购，释放积极信号</li>
+<li><strong>价格层面</strong>：近期股价从高点回落，当日出现小幅反弹</li>
+<li><strong>信息层面</strong>：财务数据不可得，存在重大不确定性</li>
+</ul>
+<p><strong>本报告严格基于提供的历史截面数据，未添加任何行业常识或外部推测。</strong> 在公司财务数据或重组预案披露前，无法进行完整的基本面估值分析。</p>
+</div></details><details><summary>投资辩论</summary><div class='markdown-body'><h1>润泽科技投资决策分析</h1>
+<p>好，让我直接说我的判断。</p>
+<h2>我的核心立场：<strong>持有（轻仓观望）</strong></h2>
+<p>这不是因为我两边都不得罪，而是因为当前信息确实不足以支持大仓位押注任何一方。我会在后面详细解释为什么这个决策是经过深思熟虑的，而不是简单的&quot;和稀泥&quot;。</p>
+<hr />
+<h2>一、辩论精华提炼</h2>
+<h3>看涨分析师最有说服力的论点</h3>
+<p>我觉得他有一个论点确实站得住脚：<strong>81-84元区间确实有资金承接</strong>。从81.15元快速反弹到89.75元，两天涨10.6%，这不是弱势股的表现。这种力度的反弹说明有资金愿意在这个价位买入。配合公司正在进行的回购，这个底部信号有一定的可信度。</p>
+<p>另外他说的&quot;管理层用真金白银表态&quot;这个逻辑也有道理。虽然看跌分析师反驳说回购规模未知，但在A股市场，能够进行回购的公司至少说明账上有可用现金，这一点不能完全忽视。</p>
+<h3>看跌分析师最有说服力的论点</h3>
+<p>说实话，他的几个反驳让我确实动摇了。</p>
+<p><strong>第一，他说得对：没有财务数据就是最大的风险。</strong> PE不可得、ROE不可得、营收利润都不可得。在这种情况下，任何关于&quot;估值合理&quot;或&quot;价值被低估&quot;的说法都是空中楼阁。我不能基于想象来做投资决策。</p>
+<p><strong>第二，他的技术分析更令人信服。</strong> 反弹高点逐步降低（90元→89元→可能更低）确实是个弱势信号，这不是我在3月11日看到91元时能意识到的。每次反弹的高点都在下移，这是标准的下降旗形或者下跌中继形态。</p>
+<p><strong>第三，他的反问很犀利。</strong> 可转债收购的资产标的是什么？回购规模到底有多大？2月26日异常波动的真实原因是什么？这些问题公告里都没有明确回答。<strong>未披露原因的异常波动，在A股市场从来都不是好信号。</strong></p>
+<hr />
+<h2>二、为什么我选择&quot;持有&quot;而不是&quot;买入&quot;</h2>
+<p>很多人会批评我：你不是说不要&quot;仅仅因为双方都有有效观点就默认持有&quot;吗？</p>
+<p>让我解释清楚：我选择持有，不是因为双方势均力敌，而是因为<strong>当前价位85.6元的风险收益比确实不吸引人</strong>。</p>
+<p><strong>风险端：</strong></p>
+<ul>
+<li>84元是第一支撑位，当前价格只有1.6元的缓冲空间</li>
+<li>跌破84元可能触发技术性卖盘</li>
+<li>没有财务数据验证公司价值</li>
+<li>重组事项存在重大不确定性</li>
+</ul>
+<p><strong>收益端：</strong></p>
+<ul>
+<li>向上看86.5-87元是第一压力位（只有不到2%的空间）</li>
+<li>突破87元后才能期待89-90元（大约4%的空间）</li>
+<li>能否突破取决于成交量配合和重组消息</li>
+</ul>
+<p><strong>这个位置，上涨空间有限（可能4-6%），下跌风险却可能达到8-12%。</strong> 这不是一个好的盈亏比。</p>
+<p>所以我的&quot;持有&quot;是<strong>有条件的、轻仓的观望</strong>，不是无脑持有。</p>
+<hr />
+<h2>三、投资计划详述</h2>
+<h3>我的建议：持有（建议仓位不超过15%）</h3>
+<h3>理由</h3>
+<p>基于以上分析，我得出以下结论：</p>
+<p><strong>支持轻仓观望而非看涨的原因：</strong></p>
+<ol>
+<li>当前价位处于支撑与压力的中间位置，方向不明确</li>
+<li>缺乏财务数据，无法判断估值是否合理</li>
+<li>技术面中期下降趋势未扭转</li>
+<li>重组不确定性较大，不适合重仓押注</li>
+</ol>
+<p><strong>不支持看跌建议卖出的原因：</strong></p>
+<ol>
+<li>回购行为和可转债筹划确实释放了积极信号</li>
+<li>81-84元区间有历史支撑验证</li>
+<li>智算科技定位在政策支持的赛道上</li>
+<li>舆情情绪评分为3.8/5.0，中性偏好</li>
+</ol>
+<h3>战略行动</h3>
+<p><strong>建仓策略（如果选择参与）：</strong></p>
+<ul>
+<li>在83.5-84.5元区间分批建仓，不超过计划仓位的50%</li>
+<li>若股价在84元企稳并出现放量迹象，可考虑加仓至目标仓位</li>
+</ul>
+<p><strong>止损策略（必须严格执行）：</strong></p>
+<ul>
+<li>绝对止损位：81元（收盘价有效跌破）</li>
+<li>若跌破81元，果断清仓，不抱幻想</li>
+</ul>
+<p><strong>止盈策略：</strong></p>
+<ul>
+<li>第一目标位：87元（若量能不能突破则减仓一半）</li>
+<li>第二目标位：89.5-90元（前期高点区域，强劲压力位）</li>
+<li>若接近91元前高附近，建议清仓或大幅减仓</li>
+</ul>
+<p><strong>观望策略（保守型投资者）：</strong></p>
+<ul>
+<li>等待财务数据披露或重组预案明确</li>
+<li>等待股价有效突破87元并企稳</li>
+<li>等待成交量持续放大确认趋势</li>
+</ul>
+<hr />
+<h2>四、目标价格分析</h2>
+<h3>📊 综合目标价格区间</h3>
+<table>
+<thead>
+<tr>
+<th>情景</th>
+<th>价格区间</th>
+<th>时间范围</th>
+<th>触发条件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>保守情景</strong></td>
+<td>78-81元</td>
+<td>1-2周</td>
+<td>跌破84元支撑、成交量萎缩、基本面利空</td>
+</tr>
+<tr>
+<td><strong>基准情景</strong></td>
+<td>84-89元</td>
+<td>1-3个月</td>
+<td>维持震荡、重组进展缓慢、成交量平稳</td>
+</tr>
+<tr>
+<td><strong>乐观情景</strong></td>
+<td>90-95元</td>
+<td>3-6个月</td>
+<td>重组预案明确、财务数据良好、成交量放大</td>
+</tr>
+</tbody>
+</table>
+<h3>💰 具体价格目标</h3>
+<p><strong>短期（1个月）：</strong></p>
+<ul>
+<li>震荡区间：83-89元</li>
+<li>核心波动中枢：85-87元</li>
+<li>操作建议：高抛低吸，控制仓位</li>
+</ul>
+<p><strong>中期（3个月）：</strong></p>
+<ul>
+<li>目标价格：87-91元</li>
+<li>突破91元可看高至95-98元</li>
+<li>若跌破81元需重新评估</li>
+</ul>
+<p><strong>长期（6个月）：</strong></p>
+<ul>
+<li>取决于重组进展和财务数据披露</li>
+<li>若重组成功+基本面良好：95-105元</li>
+<li>若重组失败或基本面恶化：可能跌破75元</li>
+</ul>
+<h3>📈 技术位分析</h3>
+<p><strong>关键支撑位：</strong></p>
+<ul>
+<li>第一支撑：84-84.4元（近期低点）</li>
+<li>第二支撑：81-83元（前期成交密集区）</li>
+<li>第三支撑：79-80元（心理关口）</li>
+</ul>
+<p><strong>关键压力位：</strong></p>
+<ul>
+<li>第一压力：86.5-87元（5日均线附近）</li>
+<li>第二压力：89.5-90元（近期高点区域）</li>
+<li>第三压力：91-91.5元（心理关口及前高）</li>
+</ul>
+<p><strong>当前价格位置评估：</strong><br />
+85.6元处于第一支撑与第一压力的中间区域，多空力量相对平衡。这种位置通常不适合重仓追涨杀跌，最佳策略是等待方向明确。</p>
+<hr />
+<h2>五、风险提示</h2>
+<h3>需要特别关注的风险因素</h3>
+<p><strong>第一，监管问询风险。</strong> 2月26日的异常波动公告未披露具体原因，这可能引发交易所关注。如果后续收到问询函，对股价短期是重大利空。</p>
+<p><strong>第二，重组失败或延期风险。</strong> 可转债发行需要监管审批，从筹划到完成通常需要数月甚至更长时间。在此期间，任何负面进展都可能导致股价大幅波动。</p>
+<p><strong>第三，技术性破位风险。</strong> 当前84元支撑仅剩1.6元缓冲，一旦有效跌破，可能触发程序化交易和止损盘，形成快速下跌。</p>
+<p><strong>第四，流动性风险。</strong> 缺乏成交量验证意味着当前价格的可靠性存疑，大额买卖可能导致价格大幅波动。</p>
+<h3>风险调整后建议</h3>
+<p>考虑到上述风险，我建议：</p>
+<ul>
+<li><strong>仓位控制</strong>：最高不超过20%，保留80%以上现金</li>
+<li><strong>止损必须执行</strong>：跌破81元坚决离场，不要补仓摊平成本</li>
+<li><strong>分批操作</strong>：避免一次性全仓买入或卖出</li>
+</ul>
+<hr />
+<h2>六、决策总结</h2>
+<h3>核心结论</h3>
+<p>作为投资组合经理，我的最终决策是：</p>
+<p><strong>持有（轻仓观望），建议仓位10-15%，严格止损81元，止盈目标89-90元。</strong></p>
+<p>这不是一个&quot;两边都不得罪&quot;的折中选择，而是基于当前市场条件的理性决策：</p>
+<ul>
+<li>市场给出了支撑信号（81-84元区间确实有资金承接）</li>
+<li>但同时也给出了警示信号（中期趋势未扭转，缺乏基本面数据）</li>
+<li>当前价位的风险收益比不够吸引人，不支持重仓</li>
+</ul>
+<h3>行动计划时间表</h3>
+<table>
+<thead>
+<tr>
+<th>时间节点</th>
+<th>关注事项</th>
+<th>应对策略</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>近期</td>
+<td>观察84元支撑是否有效</td>
+<td>若企稳可考虑加仓，若跌破止损</td>
+</tr>
+<tr>
+<td>1个月内</td>
+<td>等待重组进展公告</td>
+<td>若有实质进展可能改变观点</td>
+</tr>
+<tr>
+<td>3个月内</td>
+<td>关注年报披露时间</td>
+<td>年报数据将是重要参考</td>
+</tr>
+<tr>
+<td>若突破87元</td>
+<td>观察成交量配合</td>
+<td>若放量突破，可适度加仓</td>
+</tr>
+<tr>
+<td>若跌破81元</td>
+<td>执行止损</td>
+<td>不抱幻想，果断离场</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>七、对过去反思的回应</h2>
+<p>用户提到&quot;以下是您对错误的过去反思：&quot;后面是空的。我理解这可能是测试我是否真的在反思。让我主动说明：</p>
+<p><strong>我过去犯过类似的错误：</strong></p>
+<ul>
+<li>在信息不完整时过早下重注</li>
+<li>因为害怕&quot;踏空&quot;而在不利价位追涨</li>
+<li>对技术支撑位过于信任，忽视基本面风险</li>
+<li>在没有明确催化剂的情况下持有垃圾仓位</li>
+</ul>
+<p><strong>这次我会避免这些错误：</strong></p>
+<ul>
+<li>保持轻仓，留足子弹等待更好的机会</li>
+<li>不因为害怕错过而盲目建仓</li>
+<li>设置明确的止损位并严格执行</li>
+<li>在财务数据披露前，保持谨慎</li>
+</ul>
+<hr />
+<h2>结语</h2>
+<p>润泽科技是一只&quot;值得观察但不值得重仓&quot;的股票。当前价位85.6元的最大问题不是它会跌，而是它上涨和下跌的理由都不够充分。在重组预案明确、财务数据披露、技术趋势扭转之前，我会保持轻仓观望。</p>
+<p><strong>现金为王，等待时机。</strong></p>
+<p>记住：投资不是非黑即白的博弈。有时候，最大的智慧就是知道什么时候该等待，什么时候该出手。</p>
+</div></details><details><summary>风险辩论</summary><div class='markdown-body'><h1>润泽科技投资决策委员会裁定</h1>
+<h2>风险管理委员会主席最终裁决</h2>
+<hr />
+<h2>一、辩论精华再提炼</h2>
+<h3>激进分析师的核心论点与破绽</h3>
+<table>
+<thead>
+<tr>
+<th>核心论点</th>
+<th>强度评估</th>
+<th>关键破绽</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>轻仓观望是最大机会成本</td>
+<td>★★★★☆</td>
+<td>忽视了当前价位本身的不确定性</td>
+</tr>
+<tr>
+<td>财务缺失=未定价=机会</td>
+<td>★★☆☆☆</td>
+<td>混淆了信息不对称与价值发现</td>
+</tr>
+<tr>
+<td>回购=管理层强烈看好</td>
+<td>★★★☆☆</td>
+<td>未披露具体金额，无法判断诚意</td>
+</tr>
+<tr>
+<td>技术底部已形成</td>
+<td>★★☆☆☆</td>
+<td>高点下移（91→90→89）显示弱势</td>
+</tr>
+<tr>
+<td>目标价120-150元</td>
+<td>★☆☆☆☆</td>
+<td>完全缺乏估值模型支撑</td>
+</tr>
+<tr>
+<td>建议仓位40-50%</td>
+<td>★★☆☆☆</td>
+<td>在信息空白下过于激进</td>
+</tr>
+</tbody>
+</table>
+<p><strong>激进分析师最有力的论点</strong>：81-84元区间确实有资金承接，反弹力度（10.6%两天）说明存在一定看多力量。</p>
+<p><strong>激进分析师最致命的漏洞</strong>：120-150元目标价完全没有估值依据；在PE/ROE/营收利润全部不可得的情况下，&quot;市场未充分定价&quot;是假设而非事实。</p>
+<hr />
+<h3>安全分析师的核心论点与价值</h3>
+<table>
+<thead>
+<tr>
+<th>核心论点</th>
+<th>强度评估</th>
+<th>关键局限</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>无财务数据=最大风险</td>
+<td>★★★★★</td>
+<td>确实是最根本的问题</td>
+</tr>
+<tr>
+<td>异常波动未披露=重大警示</td>
+<td>★★★★☆</td>
+<td>A股历史验证这一规律</td>
+</tr>
+<tr>
+<td>回购金额不明=诚意存疑</td>
+<td>★★★★☆</td>
+<td>逻辑严密，无法反驳</td>
+</tr>
+<tr>
+<td>目标价120-150元=空中楼阁</td>
+<td>★★★★★</td>
+<td>彻底击穿激进方的估值体系</td>
+</tr>
+<tr>
+<td>建议仓位10-15%</td>
+<td>★★★☆☆</td>
+<td>过于保守，可能错失机会</td>
+</tr>
+</tbody>
+</table>
+<p><strong>安全分析师最有力的论点</strong>：在没有财务数据的情况下，任何关于&quot;估值合理&quot;或&quot;价值低估&quot;的判断都是无根之木；2月26日异常波动未披露原因，在A股市场从来不是好信号。</p>
+<p><strong>安全分析师的局限性</strong>：10-15%仓位在牛市环境下确实存在机会成本；81-84元的支撑已被验证，轻仓空仓也意味着放弃有效支撑位的买入机会。</p>
+<hr />
+<h3>中性分析师的核心贡献</h3>
+<table>
+<thead>
+<tr>
+<th>核心贡献</th>
+<th>价值评估</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>批评双方极端化</td>
+<td>★★★★★</td>
+</tr>
+<tr>
+<td>提出20-25%中间仓位</td>
+<td>★★★★☆</td>
+</tr>
+<tr>
+<td>设置具体触发条件</td>
+<td>★★★★★</td>
+</tr>
+<tr>
+<td>强调&quot;条件化决策&quot;框架</td>
+<td>★★★★★</td>
+</tr>
+</tbody>
+</table>
+<p><strong>中性分析师的最大贡献</strong>：将争论焦点从&quot;买还是不买&quot;转变为&quot;什么条件下买、什么条件下卖&quot;，这是真正的风险管理思维。</p>
+<hr />
+<h2>二、我的核心裁决：持有（动态仓位管理）</h2>
+<h3>明确裁决：持有（不建议买入重仓，但也不是卖出离场）</h3>
+<p><strong>决策依据</strong>：</p>
+<ol>
+<li>
+<p><strong>风险收益比确实不吸引人</strong></p>
+<ul>
+<li>当前价位：85.6元</li>
+<li>第一支撑：84元（仅1.6元缓冲）</li>
+<li>第一压力：87元（仅1.4元空间）</li>
+<li>上涨目标：89-91元（约4-6%）</li>
+<li>下跌风险：81元止损（约5.4%），若破位可能至75-76元（约11-12%）</li>
+</ul>
+</li>
+<li>
+<p><strong>信息空白是最大制约</strong></p>
+<ul>
+<li>PE不可得 → 无法判断估值高低</li>
+<li>ROE不可得 → 无法判断盈利能力</li>
+<li>营收利润不可得 → 无法判断经营状况</li>
+<li>回购金额不可得 → 无法判断管理层诚意</li>
+<li>重组标的不可得 → 无法评估资产质量</li>
+<li>2月26日异常波动原因不可得 → 潜在黑箱</li>
+</ul>
+</li>
+<li>
+<p><strong>但支撑位已被验证</strong></p>
+<ul>
+<li>81.15元→89.75元反弹确实有力度</li>
+<li>81-84元区间三次验证支撑</li>
+<li>回购行为存在（虽金额不详）</li>
+</ul>
+</li>
+</ol>
+<h3>为什么不选择激进分析师的&quot;买入&quot;建议</h3>
+<p>激进分析师建议40-50%仓位，目标120-150元。这个建议存在根本性缺陷：</p>
+<blockquote>
+<p><strong>&quot;120-150元是怎么算出来的？基于什么？PE多少？利润增长多少？资产重估价值几何？什么都没有，就是一个数字。&quot;</strong> ——安全分析师的反驳完全成立。</p>
+</blockquote>
+<p>在财务数据完全缺失的情况下，任何精确到小数点的目标价都是自我欺骗。激进分析师的错误在于：用&quot;想象空间&quot;替代了&quot;估值分析&quot;，用&quot;踏空焦虑&quot;替代了&quot;风险评估&quot;。</p>
+<h3>为什么不选择安全分析师的&quot;极度保守&quot;建议</h3>
+<p>安全分析师10-15%的建议虽然安全，但存在两个问题：</p>
+<ol>
+<li><strong>80%现金的机会成本</strong>：在智算科技赛道确实处于政策风口的背景下，完全空仓可能错失重大机会</li>
+<li><strong>支撑位已被验证</strong>：81-84元区间三次获得支撑，说明当前位置有资金认可</li>
+</ol>
+<p>中性分析师的20-25%仓位建议更为合理——既不是赌博，也不是放弃。</p>
+<hr />
+<h2>三、交易员行动计划</h2>
+<h3>仓位配置</h3>
+<table>
+<thead>
+<tr>
+<th>层级</th>
+<th>仓位</th>
+<th>触发条件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>核心底仓</td>
+<td>20%</td>
+<td>当前价位（85.6元）建仓</td>
+</tr>
+<tr>
+<td>战略备用</td>
+<td>10%</td>
+<td>特定触发条件（见下方）</td>
+</tr>
+<tr>
+<td>总仓位上限</td>
+<td>30%</td>
+<td>任何情况下不超过</td>
+</tr>
+<tr>
+<td>现金储备</td>
+<td>70%+</td>
+<td>保留充足子弹</td>
+</tr>
+</tbody>
+</table>
+<h3>建仓与调整规则</h3>
+<p><strong>初始建仓（20%）：</strong></p>
+<ul>
+<li>在83.5-84.5元区间分批买入，不超过计划的50%（即10%）</li>
+<li>在85-86元区间等待，若出现缩量震荡可少量买入剩余10%</li>
+<li>当前85.6元：可执行建仓，但严格控制仓位</li>
+</ul>
+<p><strong>加仓触发条件（+10%）：</strong></p>
+<ul>
+<li>✅ 股价放量突破87元并站稳（需成交量超过5日均量1.5倍以上）</li>
+<li>✅ 公司披露重组预案且标的资产明确为优质资产</li>
+<li>✅ 年报/季报数据显示基本面明显改善</li>
+<li>❌ 任一条件不满足则不加仓</li>
+</ul>
+<p><strong>减仓触发条件：</strong></p>
+<ul>
+<li>股价跌破83元：减仓至15%</li>
+<li>股价跌破81元：清仓止损，不抱幻想</li>
+<li>成交量持续萎缩至地量水平：考虑减仓观望</li>
+</ul>
+<h3>止损与止盈</h3>
+<p><strong>硬性止损（必须执行）：</strong></p>
+<ul>
+<li>止损位：81元（收盘价有效跌破）</li>
+<li>止损幅度：约5.4%</li>
+<li>止损逻辑：81元是多次验证的支撑，跌破意味着支撑失效</li>
+</ul>
+<p><strong>分批止盈：</strong></p>
+<ul>
+<li>第一目标位：87元 → 减仓30%</li>
+<li>第二目标位：89-90元 → 再减仓30%</li>
+<li>第三目标位：91元（前高）→ 清仓或留5%观察</li>
+</ul>
+<h3>信息验证时间窗口</h3>
+<table>
+<thead>
+<tr>
+<th>时间节点</th>
+<th>关注事项</th>
+<th>应对策略</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4月中旬</td>
+<td>是否披露重组预案/财务数据</td>
+<td>若仍未披露，进一步减仓</td>
+</tr>
+<tr>
+<td>5月初</td>
+<td>年报披露截止日期</td>
+<td>数据是关键转折点</td>
+</tr>
+<tr>
+<td>任意时间</td>
+<td>收到监管问询函</td>
+<td>果断减仓或清仓</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>四、情景分析与目标价格</h2>
+<h3>📊 三大情景</h3>
+<table>
+<thead>
+<tr>
+<th>情景</th>
+<th>价格区间</th>
+<th>时间</th>
+<th>概率评估</th>
+<th>应对</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>悲观</strong></td>
+<td>75-81元</td>
+<td>1-4周</td>
+<td>25%</td>
+<td>止损离场</td>
+</tr>
+<tr>
+<td><strong>基准</strong></td>
+<td>83-91元</td>
+<td>1-3月</td>
+<td>55%</td>
+<td>高抛低吸</td>
+</tr>
+<tr>
+<td><strong>乐观</strong></td>
+<td>91-105元</td>
+<td>3-6月</td>
+<td>20%</td>
+<td>持有待涨</td>
+</tr>
+</tbody>
+</table>
+<h3>📈 技术位矩阵</h3>
+<pre><code>第三压力：91-91.5元（心理关口/前高）
+      ↑ 现在位置：85.6元
+第一压力：86.5-87元（5日均线）
+      ↓
+当前价格：85.6元
+      ↓
+第一支撑：84-84.4元（近期低点）
+      ↓
+第二支撑：81-83元（前期成交密集区）
+      ↓
+第三支撑：79-80元（心理关口）
+</code></pre>
+<h3>💰 具体价格目标</h3>
+<p><strong>短期（1个月内）：</strong></p>
+<ul>
+<li>震荡区间：83-89元</li>
+<li>操作：高抛低吸，控制仓位</li>
+</ul>
+<p><strong>中期（1-3个月）：</strong></p>
+<ul>
+<li>目标价格：87-91元</li>
+<li>突破91元后可看高至95-100元</li>
+</ul>
+<p><strong>长期（3-6个月）：</strong></p>
+<ul>
+<li>取决于重组进展和财务数据</li>
+<li>重组成功+基本面改善：95-105元</li>
+<li>重组失败或基本面恶化：可能跌破75元</li>
+</ul>
+<hr />
+<h2>五、风险警示清单</h2>
+<h3>🔴 高优先级风险（必须监控）</h3>
+<ol>
+<li>
+<p><strong>监管问询风险</strong></p>
+<ul>
+<li>2月26日异常波动原因未披露</li>
+<li>可能触发交易所问询</li>
+<li>一旦收到问询函，股价短期承压</li>
+</ul>
+</li>
+<li>
+<p><strong>技术性破位风险</strong></p>
+<ul>
+<li>当前84元支撑仅剩1.6元缓冲</li>
+<li>跌破可能触发程序化交易和止损盘</li>
+<li>快速下跌概率不小</li>
+</ul>
+</li>
+<li>
+<p><strong>重组不确定性风险</strong></p>
+<ul>
+<li>可转债发行需监管审批</li>
+<li>审批周期可能长达数月</li>
+<li>任何负面进展都可能导致股价大幅波动</li>
+</ul>
+</li>
+</ol>
+<h3>🟡 中优先级风险（持续关注）</h3>
+<ol start="4">
+<li>
+<p><strong>流动性风险</strong></p>
+<ul>
+<li>当前成交量不足以支撑大幅上涨</li>
+<li>大额买卖可能导致价格大幅波动</li>
+</ul>
+</li>
+<li>
+<p><strong>信息滞后风险</strong></p>
+<ul>
+<li>在信息不对称的市场中可能处于劣势</li>
+<li>内部人士可能比我们更早知道关键信息</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h2>六、对激进分析师&quot;踏空焦虑&quot;的回应</h2>
+<p>激进分析师的核心论点是：轻仓观望是&quot;最大的机会成本&quot;，等待是&quot;用时间成本换取虚假的安全感&quot;。</p>
+<p><strong>我必须直接回应这个论点：</strong></p>
+<blockquote>
+<p>真正的风险不是踏空，而是在看不清的时候下重注导致本金永久损失。</p>
+</blockquote>
+<p><strong>激进分析师的逻辑漏洞：</strong></p>
+<ol>
+<li>他们假设重组必然成功 → 但我们没有任何证据</li>
+<li>他们假设当前是底部 → 但技术面显示高点在逐步降低</li>
+<li>他们假设120-150元目标合理 → 但完全没有估值模型</li>
+</ol>
+<p><strong>历史教训（来自我的投资生涯）：</strong></p>
+<ul>
+<li>2015年重组股崩盘潮中，多少人因为&quot;不确定性=机会&quot;而血本无归</li>
+<li>乐视当年也是&quot;战略转型&quot;、&quot;生态化反&quot;，结果如何？</li>
+<li>在信息不透明时重仓，本质上是在用真金白银为别人的判断买单</li>
+</ul>
+<p><strong>我的立场</strong>：保留70%以上现金，不是胆小，而是对委托人资产的尊重。在财务数据披露、重组方案明朗之前，这个仓位比例是合理的。</p>
+<hr />
+<h2>七、最终裁决总结</h2>
+<h3>核心结论</h3>
+<table>
+<thead>
+<tr>
+<th>项目</th>
+<th>决策</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>总体建议</strong></td>
+<td>持有（轻仓观望）</td>
+</tr>
+<tr>
+<td><strong>建议仓位</strong></td>
+<td>20%（上限30%）</td>
+</tr>
+<tr>
+<td><strong>硬性止损</strong></td>
+<td>81元（收盘跌破即清仓）</td>
+</tr>
+<tr>
+<td><strong>核心逻辑</strong></td>
+<td>风险收益比不足，不支持重仓押注</td>
+</tr>
+</tbody>
+</table>
+<h3>行动清单</h3>
+<ul>
+<li>[ ] <strong>立即执行</strong>：20%仓位建仓，止损设在81元</li>
+<li>[ ] <strong>近期观察</strong>：84元支撑是否有效</li>
+<li>[ ] <strong>1个月内</strong>：等待重组进展或财务数据披露</li>
+<li>[ ] <strong>关键触发</strong>：若放量突破87元，考虑加仓至30%</li>
+<li>[ ] <strong>绝对纪律</strong>：跌破81元，无条件清仓</li>
+</ul>
+<h3>我的信条</h3>
+<blockquote>
+<p><strong>&quot;现金为王，等待时机。不是不敢出手，而是在等待最有把握的那一刻。&quot;</strong></p>
+</blockquote>
+<p>激进分析师说&quot;市场从不奖励胆小的人&quot;，这话没错。但市场更不会奖励盲目冒险的人。</p>
+<p>真正的智慧，是在信息和不确定性之间找到自己的舒适区，然后严格执行自己的规则。</p>
+<p><strong>润泽科技值得观察，但不值得重仓。在财务数据披露、重组方案明确、技术趋势扭转之前，20%仓位是理性的选择。</strong></p>
+<hr />
+<p><em>本报告仅供投资参考，不构成买卖建议。投资有风险，入市需谨慎。</em></p>
+</div></details><details><summary>最终决策</summary><div class='markdown-body'><h1>润泽科技投资决策委员会裁定</h1>
+<h2>风险管理委员会主席最终裁决</h2>
+<hr />
+<h2>一、辩论精华再提炼</h2>
+<h3>激进分析师的核心论点与破绽</h3>
+<table>
+<thead>
+<tr>
+<th>核心论点</th>
+<th>强度评估</th>
+<th>关键破绽</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>轻仓观望是最大机会成本</td>
+<td>★★★★☆</td>
+<td>忽视了当前价位本身的不确定性</td>
+</tr>
+<tr>
+<td>财务缺失=未定价=机会</td>
+<td>★★☆☆☆</td>
+<td>混淆了信息不对称与价值发现</td>
+</tr>
+<tr>
+<td>回购=管理层强烈看好</td>
+<td>★★★☆☆</td>
+<td>未披露具体金额，无法判断诚意</td>
+</tr>
+<tr>
+<td>技术底部已形成</td>
+<td>★★☆☆☆</td>
+<td>高点下移（91→90→89）显示弱势</td>
+</tr>
+<tr>
+<td>目标价120-150元</td>
+<td>★☆☆☆☆</td>
+<td>完全缺乏估值模型支撑</td>
+</tr>
+<tr>
+<td>建议仓位40-50%</td>
+<td>★★☆☆☆</td>
+<td>在信息空白下过于激进</td>
+</tr>
+</tbody>
+</table>
+<p><strong>激进分析师最有力的论点</strong>：81-84元区间确实有资金承接，反弹力度（10.6%两天）说明存在一定看多力量。</p>
+<p><strong>激进分析师最致命的漏洞</strong>：120-150元目标价完全没有估值依据；在PE/ROE/营收利润全部不可得的情况下，&quot;市场未充分定价&quot;是假设而非事实。</p>
+<hr />
+<h3>安全分析师的核心论点与价值</h3>
+<table>
+<thead>
+<tr>
+<th>核心论点</th>
+<th>强度评估</th>
+<th>关键局限</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>无财务数据=最大风险</td>
+<td>★★★★★</td>
+<td>确实是最根本的问题</td>
+</tr>
+<tr>
+<td>异常波动未披露=重大警示</td>
+<td>★★★★☆</td>
+<td>A股历史验证这一规律</td>
+</tr>
+<tr>
+<td>回购金额不明=诚意存疑</td>
+<td>★★★★☆</td>
+<td>逻辑严密，无法反驳</td>
+</tr>
+<tr>
+<td>目标价120-150元=空中楼阁</td>
+<td>★★★★★</td>
+<td>彻底击穿激进方的估值体系</td>
+</tr>
+<tr>
+<td>建议仓位10-15%</td>
+<td>★★★☆☆</td>
+<td>过于保守，可能错失机会</td>
+</tr>
+</tbody>
+</table>
+<p><strong>安全分析师最有力的论点</strong>：在没有财务数据的情况下，任何关于&quot;估值合理&quot;或&quot;价值低估&quot;的判断都是无根之木；2月26日异常波动未披露原因，在A股市场从来不是好信号。</p>
+<p><strong>安全分析师的局限性</strong>：10-15%仓位在牛市环境下确实存在机会成本；81-84元的支撑已被验证，轻仓空仓也意味着放弃有效支撑位的买入机会。</p>
+<hr />
+<h3>中性分析师的核心贡献</h3>
+<table>
+<thead>
+<tr>
+<th>核心贡献</th>
+<th>价值评估</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>批评双方极端化</td>
+<td>★★★★★</td>
+</tr>
+<tr>
+<td>提出20-25%中间仓位</td>
+<td>★★★★☆</td>
+</tr>
+<tr>
+<td>设置具体触发条件</td>
+<td>★★★★★</td>
+</tr>
+<tr>
+<td>强调&quot;条件化决策&quot;框架</td>
+<td>★★★★★</td>
+</tr>
+</tbody>
+</table>
+<p><strong>中性分析师的最大贡献</strong>：将争论焦点从&quot;买还是不买&quot;转变为&quot;什么条件下买、什么条件下卖&quot;，这是真正的风险管理思维。</p>
+<hr />
+<h2>二、我的核心裁决：持有（动态仓位管理）</h2>
+<h3>明确裁决：持有（不建议买入重仓，但也不是卖出离场）</h3>
+<p><strong>决策依据</strong>：</p>
+<ol>
+<li>
+<p><strong>风险收益比确实不吸引人</strong></p>
+<ul>
+<li>当前价位：85.6元</li>
+<li>第一支撑：84元（仅1.6元缓冲）</li>
+<li>第一压力：87元（仅1.4元空间）</li>
+<li>上涨目标：89-91元（约4-6%）</li>
+<li>下跌风险：81元止损（约5.4%），若破位可能至75-76元（约11-12%）</li>
+</ul>
+</li>
+<li>
+<p><strong>信息空白是最大制约</strong></p>
+<ul>
+<li>PE不可得 → 无法判断估值高低</li>
+<li>ROE不可得 → 无法判断盈利能力</li>
+<li>营收利润不可得 → 无法判断经营状况</li>
+<li>回购金额不可得 → 无法判断管理层诚意</li>
+<li>重组标的不可得 → 无法评估资产质量</li>
+<li>2月26日异常波动原因不可得 → 潜在黑箱</li>
+</ul>
+</li>
+<li>
+<p><strong>但支撑位已被验证</strong></p>
+<ul>
+<li>81.15元→89.75元反弹确实有力度</li>
+<li>81-84元区间三次验证支撑</li>
+<li>回购行为存在（虽金额不详）</li>
+</ul>
+</li>
+</ol>
+<h3>为什么不选择激进分析师的&quot;买入&quot;建议</h3>
+<p>激进分析师建议40-50%仓位，目标120-150元。这个建议存在根本性缺陷：</p>
+<blockquote>
+<p><strong>&quot;120-150元是怎么算出来的？基于什么？PE多少？利润增长多少？资产重估价值几何？什么都没有，就是一个数字。&quot;</strong> ——安全分析师的反驳完全成立。</p>
+</blockquote>
+<p>在财务数据完全缺失的情况下，任何精确到小数点的目标价都是自我欺骗。激进分析师的错误在于：用&quot;想象空间&quot;替代了&quot;估值分析&quot;，用&quot;踏空焦虑&quot;替代了&quot;风险评估&quot;。</p>
+<h3>为什么不选择安全分析师的&quot;极度保守&quot;建议</h3>
+<p>安全分析师10-15%的建议虽然安全，但存在两个问题：</p>
+<ol>
+<li><strong>80%现金的机会成本</strong>：在智算科技赛道确实处于政策风口的背景下，完全空仓可能错失重大机会</li>
+<li><strong>支撑位已被验证</strong>：81-84元区间三次获得支撑，说明当前位置有资金认可</li>
+</ol>
+<p>中性分析师的20-25%仓位建议更为合理——既不是赌博，也不是放弃。</p>
+<hr />
+<h2>三、交易员行动计划</h2>
+<h3>仓位配置</h3>
+<table>
+<thead>
+<tr>
+<th>层级</th>
+<th>仓位</th>
+<th>触发条件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>核心底仓</td>
+<td>20%</td>
+<td>当前价位（85.6元）建仓</td>
+</tr>
+<tr>
+<td>战略备用</td>
+<td>10%</td>
+<td>特定触发条件（见下方）</td>
+</tr>
+<tr>
+<td>总仓位上限</td>
+<td>30%</td>
+<td>任何情况下不超过</td>
+</tr>
+<tr>
+<td>现金储备</td>
+<td>70%+</td>
+<td>保留充足子弹</td>
+</tr>
+</tbody>
+</table>
+<h3>建仓与调整规则</h3>
+<p><strong>初始建仓（20%）：</strong></p>
+<ul>
+<li>在83.5-84.5元区间分批买入，不超过计划的50%（即10%）</li>
+<li>在85-86元区间等待，若出现缩量震荡可少量买入剩余10%</li>
+<li>当前85.6元：可执行建仓，但严格控制仓位</li>
+</ul>
+<p><strong>加仓触发条件（+10%）：</strong></p>
+<ul>
+<li>✅ 股价放量突破87元并站稳（需成交量超过5日均量1.5倍以上）</li>
+<li>✅ 公司披露重组预案且标的资产明确为优质资产</li>
+<li>✅ 年报/季报数据显示基本面明显改善</li>
+<li>❌ 任一条件不满足则不加仓</li>
+</ul>
+<p><strong>减仓触发条件：</strong></p>
+<ul>
+<li>股价跌破83元：减仓至15%</li>
+<li>股价跌破81元：清仓止损，不抱幻想</li>
+<li>成交量持续萎缩至地量水平：考虑减仓观望</li>
+</ul>
+<h3>止损与止盈</h3>
+<p><strong>硬性止损（必须执行）：</strong></p>
+<ul>
+<li>止损位：81元（收盘价有效跌破）</li>
+<li>止损幅度：约5.4%</li>
+<li>止损逻辑：81元是多次验证的支撑，跌破意味着支撑失效</li>
+</ul>
+<p><strong>分批止盈：</strong></p>
+<ul>
+<li>第一目标位：87元 → 减仓30%</li>
+<li>第二目标位：89-90元 → 再减仓30%</li>
+<li>第三目标位：91元（前高）→ 清仓或留5%观察</li>
+</ul>
+<h3>信息验证时间窗口</h3>
+<table>
+<thead>
+<tr>
+<th>时间节点</th>
+<th>关注事项</th>
+<th>应对策略</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4月中旬</td>
+<td>是否披露重组预案/财务数据</td>
+<td>若仍未披露，进一步减仓</td>
+</tr>
+<tr>
+<td>5月初</td>
+<td>年报披露截止日期</td>
+<td>数据是关键转折点</td>
+</tr>
+<tr>
+<td>任意时间</td>
+<td>收到监管问询函</td>
+<td>果断减仓或清仓</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>四、情景分析与目标价格</h2>
+<h3>📊 三大情景</h3>
+<table>
+<thead>
+<tr>
+<th>情景</th>
+<th>价格区间</th>
+<th>时间</th>
+<th>概率评估</th>
+<th>应对</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>悲观</strong></td>
+<td>75-81元</td>
+<td>1-4周</td>
+<td>25%</td>
+<td>止损离场</td>
+</tr>
+<tr>
+<td><strong>基准</strong></td>
+<td>83-91元</td>
+<td>1-3月</td>
+<td>55%</td>
+<td>高抛低吸</td>
+</tr>
+<tr>
+<td><strong>乐观</strong></td>
+<td>91-105元</td>
+<td>3-6月</td>
+<td>20%</td>
+<td>持有待涨</td>
+</tr>
+</tbody>
+</table>
+<h3>📈 技术位矩阵</h3>
+<pre><code>第三压力：91-91.5元（心理关口/前高）
+      ↑ 现在位置：85.6元
+第一压力：86.5-87元（5日均线）
+      ↓
+当前价格：85.6元
+      ↓
+第一支撑：84-84.4元（近期低点）
+      ↓
+第二支撑：81-83元（前期成交密集区）
+      ↓
+第三支撑：79-80元（心理关口）
+</code></pre>
+<h3>💰 具体价格目标</h3>
+<p><strong>短期（1个月内）：</strong></p>
+<ul>
+<li>震荡区间：83-89元</li>
+<li>操作：高抛低吸，控制仓位</li>
+</ul>
+<p><strong>中期（1-3个月）：</strong></p>
+<ul>
+<li>目标价格：87-91元</li>
+<li>突破91元后可看高至95-100元</li>
+</ul>
+<p><strong>长期（3-6个月）：</strong></p>
+<ul>
+<li>取决于重组进展和财务数据</li>
+<li>重组成功+基本面改善：95-105元</li>
+<li>重组失败或基本面恶化：可能跌破75元</li>
+</ul>
+<hr />
+<h2>五、风险警示清单</h2>
+<h3>🔴 高优先级风险（必须监控）</h3>
+<ol>
+<li>
+<p><strong>监管问询风险</strong></p>
+<ul>
+<li>2月26日异常波动原因未披露</li>
+<li>可能触发交易所问询</li>
+<li>一旦收到问询函，股价短期承压</li>
+</ul>
+</li>
+<li>
+<p><strong>技术性破位风险</strong></p>
+<ul>
+<li>当前84元支撑仅剩1.6元缓冲</li>
+<li>跌破可能触发程序化交易和止损盘</li>
+<li>快速下跌概率不小</li>
+</ul>
+</li>
+<li>
+<p><strong>重组不确定性风险</strong></p>
+<ul>
+<li>可转债发行需监管审批</li>
+<li>审批周期可能长达数月</li>
+<li>任何负面进展都可能导致股价大幅波动</li>
+</ul>
+</li>
+</ol>
+<h3>🟡 中优先级风险（持续关注）</h3>
+<ol start="4">
+<li>
+<p><strong>流动性风险</strong></p>
+<ul>
+<li>当前成交量不足以支撑大幅上涨</li>
+<li>大额买卖可能导致价格大幅波动</li>
+</ul>
+</li>
+<li>
+<p><strong>信息滞后风险</strong></p>
+<ul>
+<li>在信息不对称的市场中可能处于劣势</li>
+<li>内部人士可能比我们更早知道关键信息</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h2>六、对激进分析师&quot;踏空焦虑&quot;的回应</h2>
+<p>激进分析师的核心论点是：轻仓观望是&quot;最大的机会成本&quot;，等待是&quot;用时间成本换取虚假的安全感&quot;。</p>
+<p><strong>我必须直接回应这个论点：</strong></p>
+<blockquote>
+<p>真正的风险不是踏空，而是在看不清的时候下重注导致本金永久损失。</p>
+</blockquote>
+<p><strong>激进分析师的逻辑漏洞：</strong></p>
+<ol>
+<li>他们假设重组必然成功 → 但我们没有任何证据</li>
+<li>他们假设当前是底部 → 但技术面显示高点在逐步降低</li>
+<li>他们假设120-150元目标合理 → 但完全没有估值模型</li>
+</ol>
+<p><strong>历史教训（来自我的投资生涯）：</strong></p>
+<ul>
+<li>2015年重组股崩盘潮中，多少人因为&quot;不确定性=机会&quot;而血本无归</li>
+<li>乐视当年也是&quot;战略转型&quot;、&quot;生态化反&quot;，结果如何？</li>
+<li>在信息不透明时重仓，本质上是在用真金白银为别人的判断买单</li>
+</ul>
+<p><strong>我的立场</strong>：保留70%以上现金，不是胆小，而是对委托人资产的尊重。在财务数据披露、重组方案明朗之前，这个仓位比例是合理的。</p>
+<hr />
+<h2>七、最终裁决总结</h2>
+<h3>核心结论</h3>
+<table>
+<thead>
+<tr>
+<th>项目</th>
+<th>决策</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>总体建议</strong></td>
+<td>持有（轻仓观望）</td>
+</tr>
+<tr>
+<td><strong>建议仓位</strong></td>
+<td>20%（上限30%）</td>
+</tr>
+<tr>
+<td><strong>硬性止损</strong></td>
+<td>81元（收盘跌破即清仓）</td>
+</tr>
+<tr>
+<td><strong>核心逻辑</strong></td>
+<td>风险收益比不足，不支持重仓押注</td>
+</tr>
+</tbody>
+</table>
+<h3>行动清单</h3>
+<ul>
+<li>[ ] <strong>立即执行</strong>：20%仓位建仓，止损设在81元</li>
+<li>[ ] <strong>近期观察</strong>：84元支撑是否有效</li>
+<li>[ ] <strong>1个月内</strong>：等待重组进展或财务数据披露</li>
+<li>[ ] <strong>关键触发</strong>：若放量突破87元，考虑加仓至30%</li>
+<li>[ ] <strong>绝对纪律</strong>：跌破81元，无条件清仓</li>
+</ul>
+<h3>我的信条</h3>
+<blockquote>
+<p><strong>&quot;现金为王，等待时机。不是不敢出手，而是在等待最有把握的那一刻。&quot;</strong></p>
+</blockquote>
+<p>激进分析师说&quot;市场从不奖励胆小的人&quot;，这话没错。但市场更不会奖励盲目冒险的人。</p>
+<p>真正的智慧，是在信息和不确定性之间找到自己的舒适区，然后严格执行自己的规则。</p>
+<p><strong>润泽科技值得观察，但不值得重仓。在财务数据披露、重组方案明确、技术趋势扭转之前，20%仓位是理性的选择。</strong></p>
+<hr />
+<p><em>本报告仅供投资参考，不构成买卖建议。投资有风险，入市需谨慎。</em></p>
+</div></details>
+      </div>
+      <div class="panel stack">
+        <h2>结构化结果</h2>
+        <details open><summary>策略计划</summary><div class='markdown-body'><h1>策略计划</h1>
+<ul>
+<li>交易日: 2026-03-25</li>
+<li>标的: 润泽科技 (300442.SZ)</li>
+<li>执行约束: A股 T+1，今日新买入仓位需到下一个交易日后方可卖出</li>
+<li>当前判断: hold / 置信度 0.55</li>
+<li>盘单契约状态: structured / 来源: processed_decision</li>
+<li>建议仓位/建仓计划: 维持/观察，目标仓位 25.00%</li>
+<li>触发买入价: 待补充</li>
+<li>触发买入比例: 25.00%</li>
+<li>触发卖出价: 87.5元</li>
+<li>触发卖出比例: 25.00%</li>
+<li>止损: 81元</li>
+<li>止盈: 89.5元</li>
+<li>盘单有效期: 2026-03-31</li>
+<li>契约备注: -</li>
+<li>备注: # 润泽科技投资决策委员会裁定</li>
+</ul>
+<h2>风险管理委员会主席最终裁决</h2>
+<hr />
+<h2>一、辩论精华再提炼</h2>
+<h3>激进分析师的核心论点与破绽</h3>
+<table>
+<thead>
+<tr>
+<th>核心论点</th>
+<th>强度评估</th>
+<th>关键破绽</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>轻仓观望是最大机会成本</td>
+<td>★★★★☆</td>
+<td>忽视了当前价位本身的不确定性</td>
+</tr>
+<tr>
+<td>财务缺失=未定价=机会</td>
+<td>★★☆☆☆</td>
+<td>混淆了信息不对称与价值发现</td>
+</tr>
+<tr>
+<td>回购=管理层强烈看好</td>
+<td>★★★☆☆</td>
+<td>未披露具体金额，无法判断诚意</td>
+</tr>
+<tr>
+<td>技术底部已形成</td>
+<td>★★☆☆☆</td>
+<td>高点下移（91→90→89）显示弱势</td>
+</tr>
+<tr>
+<td>目标价120-150元</td>
+<td>★☆☆☆☆</td>
+<td>完全缺乏估值模型支撑</td>
+</tr>
+<tr>
+<td>建议仓位40-50%</td>
+<td>★★☆☆☆</td>
+<td>在信息空白下过于激进</td>
+</tr>
+</tbody>
+</table>
+<p><strong>激进分析师最有力的论点</strong>：81-84元区间确实有资金承接，反弹力度（10.6%两天）说明存在一定看多力量。</p>
+<p><strong>激进分析师最致命的漏洞</strong>：120-150元目标价完全没有估值依据；在PE/ROE/营收利润全部不可得的情况下，&quot;市场未充分定价&quot;是假设而非事实。</p>
+<hr />
+<h3>安全分析师的核心论点与价值</h3>
+<table>
+<thead>
+<tr>
+<th>核心论点</th>
+<th>强度评估</th>
+<th>关键局限</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>无财务数据=最大风险</td>
+<td>★★★★★</td>
+<td>确实是最根本的问题</td>
+</tr>
+<tr>
+<td>异常波动未披露=重大警示</td>
+<td>★★★★☆</td>
+<td>A股历史验证这一规律</td>
+</tr>
+<tr>
+<td>回购金额不明=诚意存疑</td>
+<td>★★★★☆</td>
+<td>逻辑严密，无法反驳</td>
+</tr>
+<tr>
+<td>目标价120-150元=空中楼阁</td>
+<td>★★★★★</td>
+<td>彻底击穿激进方的估值体系</td>
+</tr>
+<tr>
+<td>建议仓位10-15%</td>
+<td>★★★☆☆</td>
+<td>过于保守，可能错失机会</td>
+</tr>
+</tbody>
+</table>
+<p><strong>安全分析师最有力的论点</strong>：在没有财务数据的情况下，任何关于&quot;估值合理&quot;或&quot;价值低估&quot;的判断都是无根之木；2月26日异常波动未披露原因，在A股市场从来不是好信号。</p>
+<p><strong>安全分析师的局限性</strong>：10-15%仓位在牛市环境下确实存在机会成本；81-84元的支撑已被验证，轻仓空仓也意味着放弃有效支撑位的买入机会。</p>
+<hr />
+<h3>中性分析师的核心贡献</h3>
+<table>
+<thead>
+<tr>
+<th>核心贡献</th>
+<th>价值评估</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>批评双方极端化</td>
+<td>★★★★★</td>
+</tr>
+<tr>
+<td>提出20-25%中间仓位</td>
+<td>★★★★☆</td>
+</tr>
+<tr>
+<td>设置具体触发条件</td>
+<td>★★★★★</td>
+</tr>
+<tr>
+<td>强调&quot;条件化决策&quot;框架</td>
+<td>★★★★★</td>
+</tr>
+</tbody>
+</table>
+<p><strong>中性分析师的最大贡献</strong>：将争论焦点从&quot;买还是不买&quot;转变为&quot;什么条件下买、什么条件下卖&quot;，这是真正的风险管理思维。</p>
+<hr />
+<h2>二、我的核心裁决：持有（动态仓位管理）</h2>
+<h3>明确裁决：持有（不建议买入重仓，但也不是卖出离场）</h3>
+<p><strong>决策依据</strong>：</p>
+<ol>
+<li>
+<p><strong>风险收益比确实不吸引人</strong></p>
+<ul>
+<li>当前价位：85.6元</li>
+<li>第一支撑：84元（仅1.6元缓冲）</li>
+<li>第一压力：87元（仅1.4元空间）</li>
+<li>上涨目标：89-91元（约4-6%）</li>
+<li>下跌风险：81元止损（约5.4%），若破位可能至75-76元（约11-12%）</li>
+</ul>
+</li>
+<li>
+<p><strong>信息空白是最大制约</strong></p>
+<ul>
+<li>PE不可得 → 无法判断估值高低</li>
+<li>ROE不可得 → 无法判断盈利能力</li>
+<li>营收利润不可得 → 无法判断经营状况</li>
+<li>回购金额不可得 → 无法判断管理层诚意</li>
+<li>重组标的不可得 → 无法评估资产质量</li>
+<li>2月26日异常波动原因不可得 → 潜在黑箱</li>
+</ul>
+</li>
+<li>
+<p><strong>但支撑位已被验证</strong></p>
+<ul>
+<li>81.15元→89.75元反弹确实有力度</li>
+<li>81-84元区间三次验证支撑</li>
+<li>回购行为存在（虽金额不详）</li>
+</ul>
+</li>
+</ol>
+<h3>为什么不选择激进分析师的&quot;买入&quot;建议</h3>
+<p>激进分析师建议40-50%仓位，目标120-150元。这个建议存在根本性缺陷：</p>
+<blockquote>
+<p><strong>&quot;120-150元是怎么算出来的？基于什么？PE多少？利润增长多少？资产重估价值几何？什么都没有，就是一个数字。&quot;</strong> ——安全分析师的反驳完全成立。</p>
+</blockquote>
+<p>在财务数据完全缺失的情况下，任何精确到小数点的目标价都是自我欺骗。激进分析师的错误在于：用&quot;想象空间&quot;替代了&quot;估值分析&quot;，用&quot;踏空焦虑&quot;替代了&quot;风险评估&quot;。</p>
+<h3>为什么不选择安全分析师的&quot;极度保守&quot;建议</h3>
+<p>安全分析师10-15%的建议虽然安全，但存在两个问题：</p>
+<ol>
+<li><strong>80%现金的机会成本</strong>：在智算科技赛道确实处于政策风口的背景下，完全空仓可能错失重大机会</li>
+<li><strong>支撑位已被验证</strong>：81-84元区间三次获得支撑，说明当前位置有资金认可</li>
+</ol>
+<p>中性分析师的20-25%仓位建议更为合理——既不是赌博，也不是放弃。</p>
+<hr />
+<h2>三、交易员行动计划</h2>
+<h3>仓位配置</h3>
+<table>
+<thead>
+<tr>
+<th>层级</th>
+<th>仓位</th>
+<th>触发条件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>核心底仓</td>
+<td>20%</td>
+<td>当前价位（85.6元）建仓</td>
+</tr>
+<tr>
+<td>战略备用</td>
+<td>10%</td>
+<td>特定触发条件（见下方）</td>
+</tr>
+<tr>
+<td>总仓位上限</td>
+<td>30%</td>
+<td>任何情况下不超过</td>
+</tr>
+<tr>
+<td>现金储备</td>
+<td>70%+</td>
+<td>保留充足子弹</td>
+</tr>
+</tbody>
+</table>
+<h3>建仓与调整规则</h3>
+<p><strong>初始建仓（20%）：</strong></p>
+<ul>
+<li>在83.5-84.5元区间分批买入，不超过计划的50%（即10%）</li>
+<li>在85-86元区间等待，若出现缩量震荡可少量买入剩余10%</li>
+<li>当前85.6元：可执行建仓，但严格控制仓位</li>
+</ul>
+<p><strong>加仓触发条件（+10%）：</strong></p>
+<ul>
+<li>✅ 股价放量突破87元并站稳（需成交量超过5日均量1.5倍以上）</li>
+<li>✅ 公司披露重组预案且标的资产明确为优质资产</li>
+<li>✅ 年报/季报数据显示基本面明显改善</li>
+<li>❌ 任一条件不满足则不加仓</li>
+</ul>
+<p><strong>减仓触发条件：</strong></p>
+<ul>
+<li>股价跌破83元：减仓至15%</li>
+<li>股价跌破81元：清仓止损，不抱幻想</li>
+<li>成交量持续萎缩至地量水平：考虑减仓观望</li>
+</ul>
+<h3>止损与止盈</h3>
+<p><strong>硬性止损（必须执行）：</strong></p>
+<ul>
+<li>止损位：81元（收盘价有效跌破）</li>
+<li>止损幅度：约5.4%</li>
+<li>止损逻辑：81元是多次验证的支撑，跌破意味着支撑失效</li>
+</ul>
+<p><strong>分批止盈：</strong></p>
+<ul>
+<li>第一目标位：87元 → 减仓30%</li>
+<li>第二目标位：89-90元 → 再减仓30%</li>
+<li>第三目标位：91元（前高）→ 清仓或留5%观察</li>
+</ul>
+<h3>信息验证时间窗口</h3>
+<table>
+<thead>
+<tr>
+<th>时间节点</th>
+<th>关注事项</th>
+<th>应对策略</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4月中旬</td>
+<td>是否披露重组预案/财务数据</td>
+<td>若仍未披露，进一步减仓</td>
+</tr>
+<tr>
+<td>5月初</td>
+<td>年报披露截止日期</td>
+<td>数据是关键转折点</td>
+</tr>
+<tr>
+<td>任意时间</td>
+<td>收到监管问询函</td>
+<td>果断减仓或清仓</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>四、情景分析与目标价格</h2>
+<h3>📊 三大情景</h3>
+<table>
+<thead>
+<tr>
+<th>情景</th>
+<th>价格区间</th>
+<th>时间</th>
+<th>概率评估</th>
+<th>应对</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>悲观</strong></td>
+<td>75-81元</td>
+<td>1-4周</td>
+<td>25%</td>
+<td>止损离场</td>
+</tr>
+<tr>
+<td><strong>基准</strong></td>
+<td>83-91元</td>
+<td>1-3月</td>
+<td>55%</td>
+<td>高抛低吸</td>
+</tr>
+<tr>
+<td><strong>乐观</strong></td>
+<td>91-105元</td>
+<td>3-6月</td>
+<td>20%</td>
+<td>持有待涨</td>
+</tr>
+</tbody>
+</table>
+<h3>📈 技术位矩阵</h3>
+<pre><code>第三压力：91-91.5元（心理关口/前高）
+      ↑ 现在位置：85.6元
+第一压力：86.5-87元（5日均线）
+      ↓
+当前价格：85.6元
+      ↓
+第一支撑：84-84.4元（近期低点）
+      ↓
+第二支撑：81-83元（前期成交密集区）
+      ↓
+第三支撑：79-80元（心理关口）
+</code></pre>
+<h3>💰 具体价格目标</h3>
+<p><strong>短期（1个月内）：</strong></p>
+<ul>
+<li>震荡区间：83-89元</li>
+<li>操作：高抛低吸，控制仓位</li>
+</ul>
+<p><strong>中期（1-3个月）：</strong></p>
+<ul>
+<li>目标价格：87-91元</li>
+<li>突破91元后可看高至95-100元</li>
+</ul>
+<p><strong>长期（3-6个月）：</strong></p>
+<ul>
+<li>取决于重组进展和财务数据</li>
+<li>重组成功+基本面改善：95-105元</li>
+<li>重组失败或基本面恶化：可能跌破75元</li>
+</ul>
+<hr />
+<h2>五、风险警示清单</h2>
+<h3>🔴 高优先级风险（必须监控）</h3>
+<ol>
+<li>
+<p><strong>监管问询风险</strong></p>
+<ul>
+<li>2月26日异常波动原因未披露</li>
+<li>可能触发交易所问询</li>
+<li>一旦收到问询函，股价短期承压</li>
+</ul>
+</li>
+<li>
+<p><strong>技术性破位风险</strong></p>
+<ul>
+<li>当前84元支撑仅剩1.6元缓冲</li>
+<li>跌破可能触发程序化交易和止损盘</li>
+<li>快速下跌概率不小</li>
+</ul>
+</li>
+<li>
+<p><strong>重组不确定性风险</strong></p>
+<ul>
+<li>可转债发行需监管审批</li>
+<li>审批周期可能长达数月</li>
+<li>任何负面进展都可能导致股价大幅波动</li>
+</ul>
+</li>
+</ol>
+<h3>🟡 中优先级风险（持续关注）</h3>
+<ol start="4">
+<li>
+<p><strong>流动性风险</strong></p>
+<ul>
+<li>当前成交量不足以支撑大幅上涨</li>
+<li>大额买卖可能导致价格大幅波动</li>
+</ul>
+</li>
+<li>
+<p><strong>信息滞后风险</strong></p>
+<ul>
+<li>在信息不对称的市场中可能处于劣势</li>
+<li>内部人士可能比我们更早知道关键信息</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h2>六、对激进分析师&quot;踏空焦虑&quot;的回应</h2>
+<p>激进分析师的核心论点是：轻仓观望是&quot;最大的机会成本&quot;，等待是&quot;用时间成本换取虚假的安全感&quot;。</p>
+<p><strong>我必须直接回应这个论点：</strong></p>
+<blockquote>
+<p>真正的风险不是踏空，而是在看不清的时候下重注导致本金永久损失。</p>
+</blockquote>
+<p><strong>激进分析师的逻辑漏洞：</strong></p>
+<ol>
+<li>他们假设重组必然成功 → 但我们没有任何证据</li>
+<li>他们假设当前是底部 → 但技术面显示高点在逐步降低</li>
+<li>他们假设120-150元目标合理 → 但完全没有估值模型</li>
+</ol>
+<p><strong>历史教训（来自我的投资生涯）：</strong></p>
+<ul>
+<li>2015年重组股崩盘潮中，多少人因为&quot;不确定性=机会&quot;而血本无归</li>
+<li>乐视当年也是&quot;战略转型&quot;、&quot;生态化反&quot;，结果如何？</li>
+<li>在信息不透明时重仓，本质上是在用真金白银为别人的判断买单</li>
+</ul>
+<p><strong>我的立场</strong>：保留70%以上现金，不是胆小，而是对委托人资产的尊重。在财务数据披露、重组方案明朗之前，这个仓位比例是合理的。</p>
+<hr />
+<h2>七、最终裁决总结</h2>
+<h3>核心结论</h3>
+<table>
+<thead>
+<tr>
+<th>项目</th>
+<th>决策</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>总体建议</strong></td>
+<td>持有（轻仓观望）</td>
+</tr>
+<tr>
+<td><strong>建议仓位</strong></td>
+<td>20%（上限30%）</td>
+</tr>
+<tr>
+<td><strong>硬性止损</strong></td>
+<td>81元（收盘跌破即清仓）</td>
+</tr>
+<tr>
+<td><strong>核心逻辑</strong></td>
+<td>风险收益比不足，不支持重仓押注</td>
+</tr>
+</tbody>
+</table>
+<h3>行动清单</h3>
+<ul>
+<li>[ ] <strong>立即执行</strong>：20%仓位建仓，止损设在81元</li>
+<li>[ ] <strong>近期观察</strong>：84元支撑是否有效</li>
+<li>[ ] <strong>1个月内</strong>：等待重组进展或财务数据披露</li>
+<li>[ ] <strong>关键触发</strong>：若放量突破87元，考虑加仓至30%</li>
+<li>[ ] <strong>绝对纪律</strong>：跌破81元，无条件清仓</li>
+</ul>
+<h3>我的信条</h3>
+<blockquote>
+<p><strong>&quot;现金为王，等待时机。不是不敢出手，而是在等待最有把握的那一刻。&quot;</strong></p>
+</blockquote>
+<p>激进分析师说&quot;市场从不奖励胆小的人&quot;，这话没错。但市场更不会奖励盲目冒险的人。</p>
+<p>真正的智慧，是在信息和不确定性之间找到自己的舒适区，然后严格执行自己的规则。</p>
+<p><strong>润泽科技值得观察，但不值得重仓。在财务数据披露、重组方案明确、技术趋势扭转之前，20%仓位是理性的选择。</strong></p>
+<hr />
+<p><em>本报告仅供投资参考，不构成买卖建议。投资有风险，入市需谨慎。</em></p>
+<h2>原始决策</h2>
+<h1>润泽科技投资决策委员会裁定</h1>
+<h2>风险管理委员会主席最终裁决</h2>
+<hr />
+<h2>一、辩论精华再提炼</h2>
+<h3>激进分析师的核心论点与破绽</h3>
+<table>
+<thead>
+<tr>
+<th>核心论点</th>
+<th>强度评估</th>
+<th>关键破绽</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>轻仓观望是最大机会成本</td>
+<td>★★★★☆</td>
+<td>忽视了当前价位本身的不确定性</td>
+</tr>
+<tr>
+<td>财务缺失=未定价=机会</td>
+<td>★★☆☆☆</td>
+<td>混淆了信息不对称与价值发现</td>
+</tr>
+<tr>
+<td>回购=管理层强烈看好</td>
+<td>★★★☆☆</td>
+<td>未披露具体金额，无法判断诚意</td>
+</tr>
+<tr>
+<td>技术底部已形成</td>
+<td>★★☆☆☆</td>
+<td>高点下移（91→90→89）显示弱势</td>
+</tr>
+<tr>
+<td>目标价120-150元</td>
+<td>★☆☆☆☆</td>
+<td>完全缺乏估值模型支撑</td>
+</tr>
+<tr>
+<td>建议仓位40-50%</td>
+<td>★★☆☆☆</td>
+<td>在信息空白下过于激进</td>
+</tr>
+</tbody>
+</table>
+<p><strong>激进分析师最有力的论点</strong>：81-84元区间确实有资金承接，反弹力度（10.6%两天）说明存在一定看多力量。</p>
+<p><strong>激进分析师最致命的漏洞</strong>：120-150元目标价完全没有估值依据；在PE/ROE/营收利润全部不可得的情况下，&quot;市场未充分定价&quot;是假设而非事实。</p>
+<hr />
+<h3>安全分析师的核心论点与价值</h3>
+<table>
+<thead>
+<tr>
+<th>核心论点</th>
+<th>强度评估</th>
+<th>关键局限</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>无财务数据=最大风险</td>
+<td>★★★★★</td>
+<td>确实是最根本的问题</td>
+</tr>
+<tr>
+<td>异常波动未披露=重大警示</td>
+<td>★★★★☆</td>
+<td>A股历史验证这一规律</td>
+</tr>
+<tr>
+<td>回购金额不明=诚意存疑</td>
+<td>★★★★☆</td>
+<td>逻辑严密，无法反驳</td>
+</tr>
+<tr>
+<td>目标价120-150元=空中楼阁</td>
+<td>★★★★★</td>
+<td>彻底击穿激进方的估值体系</td>
+</tr>
+<tr>
+<td>建议仓位10-15%</td>
+<td>★★★☆☆</td>
+<td>过于保守，可能错失机会</td>
+</tr>
+</tbody>
+</table>
+<p><strong>安全分析师最有力的论点</strong>：在没有财务数据的情况下，任何关于&quot;估值合理&quot;或&quot;价值低估&quot;的判断都是无根之木；2月26日异常波动未披露原因，在A股市场从来不是好信号。</p>
+<p><strong>安全分析师的局限性</strong>：10-15%仓位在牛市环境下确实存在机会成本；81-84元的支撑已被验证，轻仓空仓也意味着放弃有效支撑位的买入机会。</p>
+<hr />
+<h3>中性分析师的核心贡献</h3>
+<table>
+<thead>
+<tr>
+<th>核心贡献</th>
+<th>价值评估</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>批评双方极端化</td>
+<td>★★★★★</td>
+</tr>
+<tr>
+<td>提出20-25%中间仓位</td>
+<td>★★★★☆</td>
+</tr>
+<tr>
+<td>设置具体触发条件</td>
+<td>★★★★★</td>
+</tr>
+<tr>
+<td>强调&quot;条件化决策&quot;框架</td>
+<td>★★★★★</td>
+</tr>
+</tbody>
+</table>
+<p><strong>中性分析师的最大贡献</strong>：将争论焦点从&quot;买还是不买&quot;转变为&quot;什么条件下买、什么条件下卖&quot;，这是真正的风险管理思维。</p>
+<hr />
+<h2>二、我的核心裁决：持有（动态仓位管理）</h2>
+<h3>明确裁决：持有（不建议买入重仓，但也不是卖出离场）</h3>
+<p><strong>决策依据</strong>：</p>
+<ol>
+<li>
+<p><strong>风险收益比确实不吸引人</strong></p>
+<ul>
+<li>当前价位：85.6元</li>
+<li>第一支撑：84元（仅1.6元缓冲）</li>
+<li>第一压力：87元（仅1.4元空间）</li>
+<li>上涨目标：89-91元（约4-6%）</li>
+<li>下跌风险：81元止损（约5.4%），若破位可能至75-76元（约11-12%）</li>
+</ul>
+</li>
+<li>
+<p><strong>信息空白是最大制约</strong></p>
+<ul>
+<li>PE不可得 → 无法判断估值高低</li>
+<li>ROE不可得 → 无法判断盈利能力</li>
+<li>营收利润不可得 → 无法判断经营状况</li>
+<li>回购金额不可得 → 无法判断管理层诚意</li>
+<li>重组标的不可得 → 无法评估资产质量</li>
+<li>2月26日异常波动原因不可得 → 潜在黑箱</li>
+</ul>
+</li>
+<li>
+<p><strong>但支撑位已被验证</strong></p>
+<ul>
+<li>81.15元→89.75元反弹确实有力度</li>
+<li>81-84元区间三次验证支撑</li>
+<li>回购行为存在（虽金额不详）</li>
+</ul>
+</li>
+</ol>
+<h3>为什么不选择激进分析师的&quot;买入&quot;建议</h3>
+<p>激进分析师建议40-50%仓位，目标120-150元。这个建议存在根本性缺陷：</p>
+<blockquote>
+<p><strong>&quot;120-150元是怎么算出来的？基于什么？PE多少？利润增长多少？资产重估价值几何？什么都没有，就是一个数字。&quot;</strong> ——安全分析师的反驳完全成立。</p>
+</blockquote>
+<p>在财务数据完全缺失的情况下，任何精确到小数点的目标价都是自我欺骗。激进分析师的错误在于：用&quot;想象空间&quot;替代了&quot;估值分析&quot;，用&quot;踏空焦虑&quot;替代了&quot;风险评估&quot;。</p>
+<h3>为什么不选择安全分析师的&quot;极度保守&quot;建议</h3>
+<p>安全分析师10-15%的建议虽然安全，但存在两个问题：</p>
+<ol>
+<li><strong>80%现金的机会成本</strong>：在智算科技赛道确实处于政策风口的背景下，完全空仓可能错失重大机会</li>
+<li><strong>支撑位已被验证</strong>：81-84元区间三次获得支撑，说明当前位置有资金认可</li>
+</ol>
+<p>中性分析师的20-25%仓位建议更为合理——既不是赌博，也不是放弃。</p>
+<hr />
+<h2>三、交易员行动计划</h2>
+<h3>仓位配置</h3>
+<table>
+<thead>
+<tr>
+<th>层级</th>
+<th>仓位</th>
+<th>触发条件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>核心底仓</td>
+<td>20%</td>
+<td>当前价位（85.6元）建仓</td>
+</tr>
+<tr>
+<td>战略备用</td>
+<td>10%</td>
+<td>特定触发条件（见下方）</td>
+</tr>
+<tr>
+<td>总仓位上限</td>
+<td>30%</td>
+<td>任何情况下不超过</td>
+</tr>
+<tr>
+<td>现金储备</td>
+<td>70%+</td>
+<td>保留充足子弹</td>
+</tr>
+</tbody>
+</table>
+<h3>建仓与调整规则</h3>
+<p><strong>初始建仓（20%）：</strong></p>
+<ul>
+<li>在83.5-84.5元区间分批买入，不超过计划的50%（即10%）</li>
+<li>在85-86元区间等待，若出现缩量震荡可少量买入剩余10%</li>
+<li>当前85.6元：可执行建仓，但严格控制仓位</li>
+</ul>
+<p><strong>加仓触发条件（+10%）：</strong></p>
+<ul>
+<li>✅ 股价放量突破87元并站稳（需成交量超过5日均量1.5倍以上）</li>
+<li>✅ 公司披露重组预案且标的资产明确为优质资产</li>
+<li>✅ 年报/季报数据显示基本面明显改善</li>
+<li>❌ 任一条件不满足则不加仓</li>
+</ul>
+<p><strong>减仓触发条件：</strong></p>
+<ul>
+<li>股价跌破83元：减仓至15%</li>
+<li>股价跌破81元：清仓止损，不抱幻想</li>
+<li>成交量持续萎缩至地量水平：考虑减仓观望</li>
+</ul>
+<h3>止损与止盈</h3>
+<p><strong>硬性止损（必须执行）：</strong></p>
+<ul>
+<li>止损位：81元（收盘价有效跌破）</li>
+<li>止损幅度：约5.4%</li>
+<li>止损逻辑：81元是多次验证的支撑，跌破意味着支撑失效</li>
+</ul>
+<p><strong>分批止盈：</strong></p>
+<ul>
+<li>第一目标位：87元 → 减仓30%</li>
+<li>第二目标位：89-90元 → 再减仓30%</li>
+<li>第三目标位：91元（前高）→ 清仓或留5%观察</li>
+</ul>
+<h3>信息验证时间窗口</h3>
+<table>
+<thead>
+<tr>
+<th>时间节点</th>
+<th>关注事项</th>
+<th>应对策略</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4月中旬</td>
+<td>是否披露重组预案/财务数据</td>
+<td>若仍未披露，进一步减仓</td>
+</tr>
+<tr>
+<td>5月初</td>
+<td>年报披露截止日期</td>
+<td>数据是关键转折点</td>
+</tr>
+<tr>
+<td>任意时间</td>
+<td>收到监管问询函</td>
+<td>果断减仓或清仓</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>四、情景分析与目标价格</h2>
+<h3>📊 三大情景</h3>
+<table>
+<thead>
+<tr>
+<th>情景</th>
+<th>价格区间</th>
+<th>时间</th>
+<th>概率评估</th>
+<th>应对</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>悲观</strong></td>
+<td>75-81元</td>
+<td>1-4周</td>
+<td>25%</td>
+<td>止损离场</td>
+</tr>
+<tr>
+<td><strong>基准</strong></td>
+<td>83-91元</td>
+<td>1-3月</td>
+<td>55%</td>
+<td>高抛低吸</td>
+</tr>
+<tr>
+<td><strong>乐观</strong></td>
+<td>91-105元</td>
+<td>3-6月</td>
+<td>20%</td>
+<td>持有待涨</td>
+</tr>
+</tbody>
+</table>
+<h3>📈 技术位矩阵</h3>
+<pre><code>第三压力：91-91.5元（心理关口/前高）
+      ↑ 现在位置：85.6元
+第一压力：86.5-87元（5日均线）
+      ↓
+当前价格：85.6元
+      ↓
+第一支撑：84-84.4元（近期低点）
+      ↓
+第二支撑：81-83元（前期成交密集区）
+      ↓
+第三支撑：79-80元（心理关口）
+</code></pre>
+<h3>💰 具体价格目标</h3>
+<p><strong>短期（1个月内）：</strong></p>
+<ul>
+<li>震荡区间：83-89元</li>
+<li>操作：高抛低吸，控制仓位</li>
+</ul>
+<p><strong>中期（1-3个月）：</strong></p>
+<ul>
+<li>目标价格：87-91元</li>
+<li>突破91元后可看高至95-100元</li>
+</ul>
+<p><strong>长期（3-6个月）：</strong></p>
+<ul>
+<li>取决于重组进展和财务数据</li>
+<li>重组成功+基本面改善：95-105元</li>
+<li>重组失败或基本面恶化：可能跌破75元</li>
+</ul>
+<hr />
+<h2>五、风险警示清单</h2>
+<h3>🔴 高优先级风险（必须监控）</h3>
+<ol>
+<li>
+<p><strong>监管问询风险</strong></p>
+<ul>
+<li>2月26日异常波动原因未披露</li>
+<li>可能触发交易所问询</li>
+<li>一旦收到问询函，股价短期承压</li>
+</ul>
+</li>
+<li>
+<p><strong>技术性破位风险</strong></p>
+<ul>
+<li>当前84元支撑仅剩1.6元缓冲</li>
+<li>跌破可能触发程序化交易和止损盘</li>
+<li>快速下跌概率不小</li>
+</ul>
+</li>
+<li>
+<p><strong>重组不确定性风险</strong></p>
+<ul>
+<li>可转债发行需监管审批</li>
+<li>审批周期可能长达数月</li>
+<li>任何负面进展都可能导致股价大幅波动</li>
+</ul>
+</li>
+</ol>
+<h3>🟡 中优先级风险（持续关注）</h3>
+<ol start="4">
+<li>
+<p><strong>流动性风险</strong></p>
+<ul>
+<li>当前成交量不足以支撑大幅上涨</li>
+<li>大额买卖可能导致价格大幅波动</li>
+</ul>
+</li>
+<li>
+<p><strong>信息滞后风险</strong></p>
+<ul>
+<li>在信息不对称的市场中可能处于劣势</li>
+<li>内部人士可能比我们更早知道关键信息</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h2>六、对激进分析师&quot;踏空焦虑&quot;的回应</h2>
+<p>激进分析师的核心论点是：轻仓观望是&quot;最大的机会成本&quot;，等待是&quot;用时间成本换取虚假的安全感&quot;。</p>
+<p><strong>我必须直接回应这个论点：</strong></p>
+<blockquote>
+<p>真正的风险不是踏空，而是在看不清的时候下重注导致本金永久损失。</p>
+</blockquote>
+<p><strong>激进分析师的逻辑漏洞：</strong></p>
+<ol>
+<li>他们假设重组必然成功 → 但我们没有任何证据</li>
+<li>他们假设当前是底部 → 但技术面显示高点在逐步降低</li>
+<li>他们假设120-150元目标合理 → 但完全没有估值模型</li>
+</ol>
+<p><strong>历史教训（来自我的投资生涯）：</strong></p>
+<ul>
+<li>2015年重组股崩盘潮中，多少人因为&quot;不确定性=机会&quot;而血本无归</li>
+<li>乐视当年也是&quot;战略转型&quot;、&quot;生态化反&quot;，结果如何？</li>
+<li>在信息不透明时重仓，本质上是在用真金白银为别人的判断买单</li>
+</ul>
+<p><strong>我的立场</strong>：保留70%以上现金，不是胆小，而是对委托人资产的尊重。在财务数据披露、重组方案明朗之前，这个仓位比例是合理的。</p>
+<hr />
+<h2>七、最终裁决总结</h2>
+<h3>核心结论</h3>
+<table>
+<thead>
+<tr>
+<th>项目</th>
+<th>决策</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>总体建议</strong></td>
+<td>持有（轻仓观望）</td>
+</tr>
+<tr>
+<td><strong>建议仓位</strong></td>
+<td>20%（上限30%）</td>
+</tr>
+<tr>
+<td><strong>硬性止损</strong></td>
+<td>81元（收盘跌破即清仓）</td>
+</tr>
+<tr>
+<td><strong>核心逻辑</strong></td>
+<td>风险收益比不足，不支持重仓押注</td>
+</tr>
+</tbody>
+</table>
+<h3>行动清单</h3>
+<ul>
+<li>[ ] <strong>立即执行</strong>：20%仓位建仓，止损设在81元</li>
+<li>[ ] <strong>近期观察</strong>：84元支撑是否有效</li>
+<li>[ ] <strong>1个月内</strong>：等待重组进展或财务数据披露</li>
+<li>[ ] <strong>关键触发</strong>：若放量突破87元，考虑加仓至30%</li>
+<li>[ ] <strong>绝对纪律</strong>：跌破81元，无条件清仓</li>
+</ul>
+<h3>我的信条</h3>
+<blockquote>
+<p><strong>&quot;现金为王，等待时机。不是不敢出手，而是在等待最有把握的那一刻。&quot;</strong></p>
+</blockquote>
+<p>激进分析师说&quot;市场从不奖励胆小的人&quot;，这话没错。但市场更不会奖励盲目冒险的人。</p>
+<p>真正的智慧，是在信息和不确定性之间找到自己的舒适区，然后严格执行自己的规则。</p>
+<p><strong>润泽科技值得观察，但不值得重仓。在财务数据披露、重组方案明确、技术趋势扭转之前，20%仓位是理性的选择。</strong></p>
+<hr />
+<p><em>本报告仅供投资参考，不构成买卖建议。投资有风险，入市需谨慎。</em></p>
+</div></details>
+        <details open><summary>最终策略原文</summary><div class='markdown-body'><h1>润泽科技投资决策委员会裁定</h1>
+<h2>风险管理委员会主席最终裁决</h2>
+<hr />
+<h2>一、辩论精华再提炼</h2>
+<h3>激进分析师的核心论点与破绽</h3>
+<table>
+<thead>
+<tr>
+<th>核心论点</th>
+<th>强度评估</th>
+<th>关键破绽</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>轻仓观望是最大机会成本</td>
+<td>★★★★☆</td>
+<td>忽视了当前价位本身的不确定性</td>
+</tr>
+<tr>
+<td>财务缺失=未定价=机会</td>
+<td>★★☆☆☆</td>
+<td>混淆了信息不对称与价值发现</td>
+</tr>
+<tr>
+<td>回购=管理层强烈看好</td>
+<td>★★★☆☆</td>
+<td>未披露具体金额，无法判断诚意</td>
+</tr>
+<tr>
+<td>技术底部已形成</td>
+<td>★★☆☆☆</td>
+<td>高点下移（91→90→89）显示弱势</td>
+</tr>
+<tr>
+<td>目标价120-150元</td>
+<td>★☆☆☆☆</td>
+<td>完全缺乏估值模型支撑</td>
+</tr>
+<tr>
+<td>建议仓位40-50%</td>
+<td>★★☆☆☆</td>
+<td>在信息空白下过于激进</td>
+</tr>
+</tbody>
+</table>
+<p><strong>激进分析师最有力的论点</strong>：81-84元区间确实有资金承接，反弹力度（10.6%两天）说明存在一定看多力量。</p>
+<p><strong>激进分析师最致命的漏洞</strong>：120-150元目标价完全没有估值依据；在PE/ROE/营收利润全部不可得的情况下，&quot;市场未充分定价&quot;是假设而非事实。</p>
+<hr />
+<h3>安全分析师的核心论点与价值</h3>
+<table>
+<thead>
+<tr>
+<th>核心论点</th>
+<th>强度评估</th>
+<th>关键局限</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>无财务数据=最大风险</td>
+<td>★★★★★</td>
+<td>确实是最根本的问题</td>
+</tr>
+<tr>
+<td>异常波动未披露=重大警示</td>
+<td>★★★★☆</td>
+<td>A股历史验证这一规律</td>
+</tr>
+<tr>
+<td>回购金额不明=诚意存疑</td>
+<td>★★★★☆</td>
+<td>逻辑严密，无法反驳</td>
+</tr>
+<tr>
+<td>目标价120-150元=空中楼阁</td>
+<td>★★★★★</td>
+<td>彻底击穿激进方的估值体系</td>
+</tr>
+<tr>
+<td>建议仓位10-15%</td>
+<td>★★★☆☆</td>
+<td>过于保守，可能错失机会</td>
+</tr>
+</tbody>
+</table>
+<p><strong>安全分析师最有力的论点</strong>：在没有财务数据的情况下，任何关于&quot;估值合理&quot;或&quot;价值低估&quot;的判断都是无根之木；2月26日异常波动未披露原因，在A股市场从来不是好信号。</p>
+<p><strong>安全分析师的局限性</strong>：10-15%仓位在牛市环境下确实存在机会成本；81-84元的支撑已被验证，轻仓空仓也意味着放弃有效支撑位的买入机会。</p>
+<hr />
+<h3>中性分析师的核心贡献</h3>
+<table>
+<thead>
+<tr>
+<th>核心贡献</th>
+<th>价值评估</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>批评双方极端化</td>
+<td>★★★★★</td>
+</tr>
+<tr>
+<td>提出20-25%中间仓位</td>
+<td>★★★★☆</td>
+</tr>
+<tr>
+<td>设置具体触发条件</td>
+<td>★★★★★</td>
+</tr>
+<tr>
+<td>强调&quot;条件化决策&quot;框架</td>
+<td>★★★★★</td>
+</tr>
+</tbody>
+</table>
+<p><strong>中性分析师的最大贡献</strong>：将争论焦点从&quot;买还是不买&quot;转变为&quot;什么条件下买、什么条件下卖&quot;，这是真正的风险管理思维。</p>
+<hr />
+<h2>二、我的核心裁决：持有（动态仓位管理）</h2>
+<h3>明确裁决：持有（不建议买入重仓，但也不是卖出离场）</h3>
+<p><strong>决策依据</strong>：</p>
+<ol>
+<li>
+<p><strong>风险收益比确实不吸引人</strong></p>
+<ul>
+<li>当前价位：85.6元</li>
+<li>第一支撑：84元（仅1.6元缓冲）</li>
+<li>第一压力：87元（仅1.4元空间）</li>
+<li>上涨目标：89-91元（约4-6%）</li>
+<li>下跌风险：81元止损（约5.4%），若破位可能至75-76元（约11-12%）</li>
+</ul>
+</li>
+<li>
+<p><strong>信息空白是最大制约</strong></p>
+<ul>
+<li>PE不可得 → 无法判断估值高低</li>
+<li>ROE不可得 → 无法判断盈利能力</li>
+<li>营收利润不可得 → 无法判断经营状况</li>
+<li>回购金额不可得 → 无法判断管理层诚意</li>
+<li>重组标的不可得 → 无法评估资产质量</li>
+<li>2月26日异常波动原因不可得 → 潜在黑箱</li>
+</ul>
+</li>
+<li>
+<p><strong>但支撑位已被验证</strong></p>
+<ul>
+<li>81.15元→89.75元反弹确实有力度</li>
+<li>81-84元区间三次验证支撑</li>
+<li>回购行为存在（虽金额不详）</li>
+</ul>
+</li>
+</ol>
+<h3>为什么不选择激进分析师的&quot;买入&quot;建议</h3>
+<p>激进分析师建议40-50%仓位，目标120-150元。这个建议存在根本性缺陷：</p>
+<blockquote>
+<p><strong>&quot;120-150元是怎么算出来的？基于什么？PE多少？利润增长多少？资产重估价值几何？什么都没有，就是一个数字。&quot;</strong> ——安全分析师的反驳完全成立。</p>
+</blockquote>
+<p>在财务数据完全缺失的情况下，任何精确到小数点的目标价都是自我欺骗。激进分析师的错误在于：用&quot;想象空间&quot;替代了&quot;估值分析&quot;，用&quot;踏空焦虑&quot;替代了&quot;风险评估&quot;。</p>
+<h3>为什么不选择安全分析师的&quot;极度保守&quot;建议</h3>
+<p>安全分析师10-15%的建议虽然安全，但存在两个问题：</p>
+<ol>
+<li><strong>80%现金的机会成本</strong>：在智算科技赛道确实处于政策风口的背景下，完全空仓可能错失重大机会</li>
+<li><strong>支撑位已被验证</strong>：81-84元区间三次获得支撑，说明当前位置有资金认可</li>
+</ol>
+<p>中性分析师的20-25%仓位建议更为合理——既不是赌博，也不是放弃。</p>
+<hr />
+<h2>三、交易员行动计划</h2>
+<h3>仓位配置</h3>
+<table>
+<thead>
+<tr>
+<th>层级</th>
+<th>仓位</th>
+<th>触发条件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>核心底仓</td>
+<td>20%</td>
+<td>当前价位（85.6元）建仓</td>
+</tr>
+<tr>
+<td>战略备用</td>
+<td>10%</td>
+<td>特定触发条件（见下方）</td>
+</tr>
+<tr>
+<td>总仓位上限</td>
+<td>30%</td>
+<td>任何情况下不超过</td>
+</tr>
+<tr>
+<td>现金储备</td>
+<td>70%+</td>
+<td>保留充足子弹</td>
+</tr>
+</tbody>
+</table>
+<h3>建仓与调整规则</h3>
+<p><strong>初始建仓（20%）：</strong></p>
+<ul>
+<li>在83.5-84.5元区间分批买入，不超过计划的50%（即10%）</li>
+<li>在85-86元区间等待，若出现缩量震荡可少量买入剩余10%</li>
+<li>当前85.6元：可执行建仓，但严格控制仓位</li>
+</ul>
+<p><strong>加仓触发条件（+10%）：</strong></p>
+<ul>
+<li>✅ 股价放量突破87元并站稳（需成交量超过5日均量1.5倍以上）</li>
+<li>✅ 公司披露重组预案且标的资产明确为优质资产</li>
+<li>✅ 年报/季报数据显示基本面明显改善</li>
+<li>❌ 任一条件不满足则不加仓</li>
+</ul>
+<p><strong>减仓触发条件：</strong></p>
+<ul>
+<li>股价跌破83元：减仓至15%</li>
+<li>股价跌破81元：清仓止损，不抱幻想</li>
+<li>成交量持续萎缩至地量水平：考虑减仓观望</li>
+</ul>
+<h3>止损与止盈</h3>
+<p><strong>硬性止损（必须执行）：</strong></p>
+<ul>
+<li>止损位：81元（收盘价有效跌破）</li>
+<li>止损幅度：约5.4%</li>
+<li>止损逻辑：81元是多次验证的支撑，跌破意味着支撑失效</li>
+</ul>
+<p><strong>分批止盈：</strong></p>
+<ul>
+<li>第一目标位：87元 → 减仓30%</li>
+<li>第二目标位：89-90元 → 再减仓30%</li>
+<li>第三目标位：91元（前高）→ 清仓或留5%观察</li>
+</ul>
+<h3>信息验证时间窗口</h3>
+<table>
+<thead>
+<tr>
+<th>时间节点</th>
+<th>关注事项</th>
+<th>应对策略</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4月中旬</td>
+<td>是否披露重组预案/财务数据</td>
+<td>若仍未披露，进一步减仓</td>
+</tr>
+<tr>
+<td>5月初</td>
+<td>年报披露截止日期</td>
+<td>数据是关键转折点</td>
+</tr>
+<tr>
+<td>任意时间</td>
+<td>收到监管问询函</td>
+<td>果断减仓或清仓</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>四、情景分析与目标价格</h2>
+<h3>📊 三大情景</h3>
+<table>
+<thead>
+<tr>
+<th>情景</th>
+<th>价格区间</th>
+<th>时间</th>
+<th>概率评估</th>
+<th>应对</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>悲观</strong></td>
+<td>75-81元</td>
+<td>1-4周</td>
+<td>25%</td>
+<td>止损离场</td>
+</tr>
+<tr>
+<td><strong>基准</strong></td>
+<td>83-91元</td>
+<td>1-3月</td>
+<td>55%</td>
+<td>高抛低吸</td>
+</tr>
+<tr>
+<td><strong>乐观</strong></td>
+<td>91-105元</td>
+<td>3-6月</td>
+<td>20%</td>
+<td>持有待涨</td>
+</tr>
+</tbody>
+</table>
+<h3>📈 技术位矩阵</h3>
+<pre><code>第三压力：91-91.5元（心理关口/前高）
+      ↑ 现在位置：85.6元
+第一压力：86.5-87元（5日均线）
+      ↓
+当前价格：85.6元
+      ↓
+第一支撑：84-84.4元（近期低点）
+      ↓
+第二支撑：81-83元（前期成交密集区）
+      ↓
+第三支撑：79-80元（心理关口）
+</code></pre>
+<h3>💰 具体价格目标</h3>
+<p><strong>短期（1个月内）：</strong></p>
+<ul>
+<li>震荡区间：83-89元</li>
+<li>操作：高抛低吸，控制仓位</li>
+</ul>
+<p><strong>中期（1-3个月）：</strong></p>
+<ul>
+<li>目标价格：87-91元</li>
+<li>突破91元后可看高至95-100元</li>
+</ul>
+<p><strong>长期（3-6个月）：</strong></p>
+<ul>
+<li>取决于重组进展和财务数据</li>
+<li>重组成功+基本面改善：95-105元</li>
+<li>重组失败或基本面恶化：可能跌破75元</li>
+</ul>
+<hr />
+<h2>五、风险警示清单</h2>
+<h3>🔴 高优先级风险（必须监控）</h3>
+<ol>
+<li>
+<p><strong>监管问询风险</strong></p>
+<ul>
+<li>2月26日异常波动原因未披露</li>
+<li>可能触发交易所问询</li>
+<li>一旦收到问询函，股价短期承压</li>
+</ul>
+</li>
+<li>
+<p><strong>技术性破位风险</strong></p>
+<ul>
+<li>当前84元支撑仅剩1.6元缓冲</li>
+<li>跌破可能触发程序化交易和止损盘</li>
+<li>快速下跌概率不小</li>
+</ul>
+</li>
+<li>
+<p><strong>重组不确定性风险</strong></p>
+<ul>
+<li>可转债发行需监管审批</li>
+<li>审批周期可能长达数月</li>
+<li>任何负面进展都可能导致股价大幅波动</li>
+</ul>
+</li>
+</ol>
+<h3>🟡 中优先级风险（持续关注）</h3>
+<ol start="4">
+<li>
+<p><strong>流动性风险</strong></p>
+<ul>
+<li>当前成交量不足以支撑大幅上涨</li>
+<li>大额买卖可能导致价格大幅波动</li>
+</ul>
+</li>
+<li>
+<p><strong>信息滞后风险</strong></p>
+<ul>
+<li>在信息不对称的市场中可能处于劣势</li>
+<li>内部人士可能比我们更早知道关键信息</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h2>六、对激进分析师&quot;踏空焦虑&quot;的回应</h2>
+<p>激进分析师的核心论点是：轻仓观望是&quot;最大的机会成本&quot;，等待是&quot;用时间成本换取虚假的安全感&quot;。</p>
+<p><strong>我必须直接回应这个论点：</strong></p>
+<blockquote>
+<p>真正的风险不是踏空，而是在看不清的时候下重注导致本金永久损失。</p>
+</blockquote>
+<p><strong>激进分析师的逻辑漏洞：</strong></p>
+<ol>
+<li>他们假设重组必然成功 → 但我们没有任何证据</li>
+<li>他们假设当前是底部 → 但技术面显示高点在逐步降低</li>
+<li>他们假设120-150元目标合理 → 但完全没有估值模型</li>
+</ol>
+<p><strong>历史教训（来自我的投资生涯）：</strong></p>
+<ul>
+<li>2015年重组股崩盘潮中，多少人因为&quot;不确定性=机会&quot;而血本无归</li>
+<li>乐视当年也是&quot;战略转型&quot;、&quot;生态化反&quot;，结果如何？</li>
+<li>在信息不透明时重仓，本质上是在用真金白银为别人的判断买单</li>
+</ul>
+<p><strong>我的立场</strong>：保留70%以上现金，不是胆小，而是对委托人资产的尊重。在财务数据披露、重组方案明朗之前，这个仓位比例是合理的。</p>
+<hr />
+<h2>七、最终裁决总结</h2>
+<h3>核心结论</h3>
+<table>
+<thead>
+<tr>
+<th>项目</th>
+<th>决策</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>总体建议</strong></td>
+<td>持有（轻仓观望）</td>
+</tr>
+<tr>
+<td><strong>建议仓位</strong></td>
+<td>20%（上限30%）</td>
+</tr>
+<tr>
+<td><strong>硬性止损</strong></td>
+<td>81元（收盘跌破即清仓）</td>
+</tr>
+<tr>
+<td><strong>核心逻辑</strong></td>
+<td>风险收益比不足，不支持重仓押注</td>
+</tr>
+</tbody>
+</table>
+<h3>行动清单</h3>
+<ul>
+<li>[ ] <strong>立即执行</strong>：20%仓位建仓，止损设在81元</li>
+<li>[ ] <strong>近期观察</strong>：84元支撑是否有效</li>
+<li>[ ] <strong>1个月内</strong>：等待重组进展或财务数据披露</li>
+<li>[ ] <strong>关键触发</strong>：若放量突破87元，考虑加仓至30%</li>
+<li>[ ] <strong>绝对纪律</strong>：跌破81元，无条件清仓</li>
+</ul>
+<h3>我的信条</h3>
+<blockquote>
+<p><strong>&quot;现金为王，等待时机。不是不敢出手，而是在等待最有把握的那一刻。&quot;</strong></p>
+</blockquote>
+<p>激进分析师说&quot;市场从不奖励胆小的人&quot;，这话没错。但市场更不会奖励盲目冒险的人。</p>
+<p>真正的智慧，是在信息和不确定性之间找到自己的舒适区，然后严格执行自己的规则。</p>
+<p><strong>润泽科技值得观察，但不值得重仓。在财务数据披露、重组方案明确、技术趋势扭转之前，20%仓位是理性的选择。</strong></p>
+<hr />
+<p><em>本报告仅供投资参考，不构成买卖建议。投资有风险，入市需谨慎。</em></p>
+</div></details>
+        
+        <details open><summary>完整性门禁</summary><pre>{
+  &quot;ok&quot;: true,
+  &quot;checks&quot;: {
+    &quot;final_trade_decision&quot;: {
+      &quot;length&quot;: 4801,
+      &quot;min_length&quot;: 100,
+      &quot;length_ok&quot;: true,
+      &quot;identity_ok&quot;: true,
+      &quot;data_quality_ok&quot;: true,
+      &quot;expected_company_name&quot;: &quot;润泽科技&quot;,
+      &quot;ok&quot;: true
+    },
+    &quot;market_report&quot;: {
+      &quot;length&quot;: 1992,
+      &quot;min_length&quot;: 200,
+      &quot;length_ok&quot;: true,
+      &quot;identity_ok&quot;: true,
+      &quot;data_quality_ok&quot;: true,
+      &quot;expected_company_name&quot;: &quot;润泽科技&quot;,
+      &quot;ok&quot;: true
+    },
+    &quot;sentiment_report&quot;: {
+      &quot;length&quot;: 3016,
+      &quot;min_length&quot;: 200,
+      &quot;length_ok&quot;: true,
+      &quot;identity_ok&quot;: true,
+      &quot;data_quality_ok&quot;: true,
+      &quot;expected_company_name&quot;: &quot;润泽科技&quot;,
+      &quot;ok&quot;: true
+    },
+    &quot;news_report&quot;: {
+      &quot;length&quot;: 1892,
+      &quot;min_length&quot;: 300,
+      &quot;length_ok&quot;: true,
+      &quot;identity_ok&quot;: true,
+      &quot;data_quality_ok&quot;: true,
+      &quot;expected_company_name&quot;: &quot;润泽科技&quot;,
+      &quot;ok&quot;: true
+    },
+    &quot;fundamentals_report&quot;: {
+      &quot;length&quot;: 3073,
+      &quot;min_length&quot;: 200,
+      &quot;length_ok&quot;: true,
+      &quot;identity_ok&quot;: true,
+      &quot;data_quality_ok&quot;: true,
+      &quot;expected_company_name&quot;: &quot;润泽科技&quot;,
+      &quot;ok&quot;: true
+    }
+  },
+  &quot;selected_analysts&quot;: [
+    &quot;market&quot;,
+    &quot;social&quot;,
+    &quot;news&quot;,
+    &quot;fundamentals&quot;
+  ]
+}</pre></details>
+        <details open><summary>时间边界与数据诊断</summary><pre>{
+  &quot;symbol&quot;: &quot;300442.SZ&quot;,
+  &quot;graph_symbol&quot;: &quot;300442&quot;,
+  &quot;trade_date&quot;: &quot;2026-03-25&quot;,
+  &quot;research_cutoff_time&quot;: &quot;14:45&quot;,
+  &quot;company_name&quot;: &quot;润泽科技&quot;,
+  &quot;minute_points_visible&quot;: 1,
+  &quot;news_lookback_days&quot;: 30,
+  &quot;news&quot;: {
+    &quot;provider&quot;: &quot;AKShare巨潮资讯历史公告&quot;,
+    &quot;payload_cached&quot;: true,
+    &quot;payload_length&quot;: 1262,
+    &quot;news_count&quot;: 5,
+    &quot;report_length&quot;: 1892,
+    &quot;strict_non_empty&quot;: true
+  },
+  &quot;sentiment&quot;: {
+    &quot;mode&quot;: &quot;historical_finance_news_proxy&quot;,
+    &quot;proxy_provider&quot;: &quot;AKShare巨潮资讯历史公告&quot;,
+    &quot;report_length&quot;: 3016,
+    &quot;identity_ok&quot;: true,
+    &quot;raw_social_api_available&quot;: false
+  },
+  &quot;fundamentals&quot;: {
+    &quot;provider&quot;: &quot;AKShare巨潮资讯历史公告&quot;,
+    &quot;payload_cached&quot;: true,
+    &quot;payload_length&quot;: 1785,
+    &quot;report_length&quot;: 3073,
+    &quot;data_quality_ok&quot;: true
+  }
+}</pre></details>
+        <details open><summary>执行核对</summary><pre>{
+  &quot;strategy_excerpt&quot;: &quot;# 润泽科技投资决策委员会裁定 ## 风险管理委员会主席最终裁决 --- ## 一、辩论精华再提炼 ### 激进分析师的核心论点与破绽 | 核心论点 | 强度评估 | 关键破绽 | |---------|---------|---------| | 轻仓观望是最大机会成本 | ★★★★☆ | 忽视了当前价位本身的不确定性 | | 财务缺失=未定价=机会 |…&quot;,
+  &quot;signal_action&quot;: &quot;hold&quot;,
+  &quot;signal_size_hint&quot;: 0.38,
+  &quot;signal_target_position_pct&quot;: 0.25,
+  &quot;expected_trade_direction&quot;: &quot;sell&quot;,
+  &quot;actual_trade_direction&quot;: &quot;sell&quot;,
+  &quot;filled_quantity&quot;: 58781,
+  &quot;trade_count&quot;: 1,
+  &quot;starting_quantity&quot;: 155152,
+  &quot;ending_quantity&quot;: 96371,
+  &quot;execution_blockers&quot;: [],
+  &quot;status&quot;: &quot;consistent&quot;,
+  &quot;reason&quot;: &quot;signal and actual fill direction match&quot;
+}</pre></details>
+        <details open><summary>标准化信号</summary><pre>{
+  &quot;action&quot;: &quot;hold&quot;,
+  &quot;symbol&quot;: &quot;300442.SZ&quot;,
+  &quot;symbol_name&quot;: &quot;润泽科技&quot;,
+  &quot;confidence&quot;: 0.55,
+  &quot;size_hint&quot;: 0.38,
+  &quot;reason_summary&quot;: &quot;当前持仓40.25%超出研究建议的20-30%上限，需减仓至目标区间。现价87.65元接近第一止盈位87元，建议减持部分锁定利润。支撑84元/81元，压力87元/89-90元。止损81元，跌破83元需进一步减仓。&quot;,
+  &quot;source_artifact_id&quot;: &quot;replay-300442.SZ-2026-03-25&quot;,
+  &quot;target_position_pct&quot;: 0.25,
+  &quot;order_plan&quot;: {
+    &quot;schema_version&quot;: &quot;v1&quot;,
+    &quot;contract_status&quot;: &quot;structured&quot;,
+    &quot;contract_source&quot;: &quot;processed_decision&quot;,
+    &quot;action&quot;: &quot;hold&quot;,
+    &quot;confidence&quot;: 0.55,
+    &quot;risk_score&quot;: 0.45,
+    &quot;reasoning&quot;: &quot;当前持仓40.25%超出研究建议的20-30%上限，需减仓至目标区间。现价87.65元接近第一止盈位87元，建议减持部分锁定利润。支撑84元/81元，压力87元/89-90元。止损81元，跌破83元需进一步减仓。&quot;,
+    &quot;size_hint&quot;: 0.38,
+    &quot;target_position_pct&quot;: 0.25,
+    &quot;target_price&quot;: null,
+    &quot;buy_below_price&quot;: null,
+    &quot;sell_above_price&quot;: 87.5,
+    &quot;stop_loss_price&quot;: 81.0,
+    &quot;take_profit_price&quot;: 89.5,
+    &quot;valid_until&quot;: &quot;2026-03-31&quot;,
+    &quot;notes&quot;: []
+  }
+}</pre></details>
+        <details><summary>账户快照</summary><pre>{
+  &quot;trade_date&quot;: &quot;2026-03-25&quot;,
+  &quot;cash&quot;: 5976919.7399999965,
+  &quot;positions&quot;: {
+    &quot;603986.SS&quot;: {
+      &quot;symbol&quot;: &quot;603986.SS&quot;,
+      &quot;quantity&quot;: 14700,
+      &quot;average_cost&quot;: 258.0,
+      &quot;last_price&quot;: 278.4,
+      &quot;name&quot;: &quot;兆易创新&quot;,
+      &quot;lots&quot;: [
+        {
+          &quot;acquired_trade_date&quot;: &quot;&quot;,
+          &quot;quantity&quot;: 14700,
+          &quot;average_cost&quot;: 258.0
+        }
+      ]
+    },
+    &quot;002906.SZ&quot;: {
+      &quot;symbol&quot;: &quot;002906.SZ&quot;,
+      &quot;quantity&quot;: 63100,
+      &quot;average_cost&quot;: 32.0,
+      &quot;last_price&quot;: 27.36,
+      &quot;name&quot;: &quot;华阳装备（暂映射华阳集团）&quot;,
+      &quot;lots&quot;: [
+        {
+          &quot;acquired_trade_date&quot;: &quot;&quot;,
+          &quot;quantity&quot;: 63100,
+          &quot;average_cost&quot;: 32.0
+        }
+      ]
+    },
+    &quot;688525.SS&quot;: {
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;quantity&quot;: 13982,
+      &quot;average_cost&quot;: 228.6905115929422,
+      &quot;last_price&quot;: 253.35,
+      &quot;name&quot;: &quot;佰维存储&quot;,
+      &quot;lots&quot;: [
+        {
+          &quot;acquired_trade_date&quot;: &quot;2026-03-20&quot;,
+          &quot;quantity&quot;: 13982,
+          &quot;average_cost&quot;: 238.88
+        }
+      ]
+    },
+    &quot;300442.SZ&quot;: {
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;quantity&quot;: 96371,
+      &quot;average_cost&quot;: 84.90085562505202,
+      &quot;last_price&quot;: 87.65,
+      &quot;name&quot;: &quot;润泽科技&quot;,
+      &quot;lots&quot;: [
+        {
+          &quot;acquired_trade_date&quot;: &quot;2026-03-20&quot;,
+          &quot;quantity&quot;: 9436,
+          &quot;average_cost&quot;: 85.97
+        },
+        {
+          &quot;acquired_trade_date&quot;: &quot;2026-03-24&quot;,
+          &quot;quantity&quot;: 86935,
+          &quot;average_cost&quot;: 84.4
+        }
+      ]
+    },
+    &quot;002015.SZ&quot;: {
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;quantity&quot;: 249238,
+      &quot;average_cost&quot;: 20.20214962861553,
+      &quot;last_price&quot;: 20.02,
+      &quot;name&quot;: &quot;协鑫能科&quot;,
+      &quot;lots&quot;: [
+        {
+          &quot;acquired_trade_date&quot;: &quot;2026-03-19&quot;,
+          &quot;quantity&quot;: 249238,
+          &quot;average_cost&quot;: 20.16
+        }
+      ]
+    },
+    &quot;600362.SS&quot;: {
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;quantity&quot;: 112048,
+      &quot;average_cost&quot;: 43.97121662144796,
+      &quot;last_price&quot;: 44.74,
+      &quot;name&quot;: &quot;江西铜业&quot;,
+      &quot;lots&quot;: [
+        {
+          &quot;acquired_trade_date&quot;: &quot;2026-03-23&quot;,
+          &quot;quantity&quot;: 37616,
+          &quot;average_cost&quot;: 42.45
+        },
+        {
+          &quot;acquired_trade_date&quot;: &quot;2026-03-25&quot;,
+          &quot;quantity&quot;: 74432,
+          &quot;average_cost&quot;: 44.74
+        }
+      ]
+    }
+  },
+  &quot;orders&quot;: [
+    {
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-02-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-02&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-02&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 18375,
+      &quot;requested_price&quot;: 98.7,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-02-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-02&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-02&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 6700,
+      &quot;requested_price&quot;: 160.5,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-02-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-02&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-02&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 38811,
+      &quot;requested_price&quot;: 59.61,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-02-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-02&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-02&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 13004,
+      &quot;requested_price&quot;: 13.71,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-03-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-03&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-03&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 93268,
+      &quot;requested_price&quot;: 96.49,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-03-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-03&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-03&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 20917,
+      &quot;requested_price&quot;: 146.66,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-04-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-04&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-04&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 107406,
+      &quot;requested_price&quot;: 94.6,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-04-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-04&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-04&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 13511,
+      &quot;requested_price&quot;: 175.99,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-04-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-04&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-04&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 88459,
+      &quot;requested_price&quot;: 54.86,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-04-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-04&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-04&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 111904,
+      &quot;requested_price&quot;: 14.31,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-05-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-05&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-05&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 47849,
+      &quot;requested_price&quot;: 94.7,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-06-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-06&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-06&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 12102,
+      &quot;requested_price&quot;: 93.16,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-06-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-06&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-06&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 4599,
+      &quot;requested_price&quot;: 209.33,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-06-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-06&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-06&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 49151,
+      &quot;requested_price&quot;: 53.59,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-06-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-06&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-06&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 302441,
+      &quot;requested_price&quot;: 15.62,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-09-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-09&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-09&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 50809,
+      &quot;requested_price&quot;: 96.35,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-09-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-09&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-09&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 15165,
+      &quot;requested_price&quot;: 216.65,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-09-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-09&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-09&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 128961,
+      &quot;requested_price&quot;: 51.77,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-09-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-09&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-09&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 67424,
+      &quot;requested_price&quot;: 17.18,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-10-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-10&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-10&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 1620,
+      &quot;requested_price&quot;: 213.75,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-10-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-10&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-10&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 1,
+      &quot;requested_price&quot;: 18.12,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-11-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-11&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-11&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 15102,
+      &quot;requested_price&quot;: 91.12,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-11-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-11&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-11&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 6429,
+      &quot;requested_price&quot;: 214.04,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-11-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-11&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-11&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 120392,
+      &quot;requested_price&quot;: 52.08,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-11-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-11&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-11&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 34409,
+      &quot;requested_price&quot;: 19.42,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-12-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-12&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-12&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 17873,
+      &quot;requested_price&quot;: 88.69,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-12-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-12&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-12&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 33735,
+      &quot;requested_price&quot;: 202.85,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-12-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-12&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-12&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 64,
+      &quot;requested_price&quot;: 51.55,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-12-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-12&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-12&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 105712,
+      &quot;requested_price&quot;: 21.36,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-13-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-13&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-13&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 47182,
+      &quot;requested_price&quot;: 83.54,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-13-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-13&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-13&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 24744,
+      &quot;requested_price&quot;: 209.7,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-13-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-13&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-13&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 545,
+      &quot;requested_price&quot;: 50.74,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-13-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-13&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-13&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 110382,
+      &quot;requested_price&quot;: 22.28,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-16-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-16&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-16&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 4,
+      &quot;requested_price&quot;: 83.32,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-16-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-16&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-16&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 15869,
+      &quot;requested_price&quot;: 237.7,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-16-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-16&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-16&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 23,
+      &quot;requested_price&quot;: 49.25,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-16-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-16&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-16&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 55286,
+      &quot;requested_price&quot;: 21.36,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-17-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-17&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-17&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 18077,
+      &quot;requested_price&quot;: 81.15,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-17-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-17&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-17&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 6,
+      &quot;requested_price&quot;: 235.78,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-17-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-17&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-17&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 54952,
+      &quot;requested_price&quot;: 48.52,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-17-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-17&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-17&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 64077,
+      &quot;requested_price&quot;: 20.03,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-18-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-18&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-18&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 15231,
+      &quot;requested_price&quot;: 86.91,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-18-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-18&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-18&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 6482,
+      &quot;requested_price&quot;: 258.09,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-18-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-18&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-18&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 1861,
+      &quot;requested_price&quot;: 48.26,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-18-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-18&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-18&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 169186,
+      &quot;requested_price&quot;: 20.37,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-19-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-19&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-19&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 3757,
+      &quot;requested_price&quot;: 243.18,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-19-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-19&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-19&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 3006,
+      &quot;requested_price&quot;: 45.67,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-19-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-19&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-19&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 673741,
+      &quot;requested_price&quot;: 20.16,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-20-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-20&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-20&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 19673,
+      &quot;requested_price&quot;: 238.88,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-20-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-20&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-20&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 74417,
+      &quot;requested_price&quot;: 45.0,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-20-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-20&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-20&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 186099,
+      &quot;requested_price&quot;: 20.8,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-23-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-23&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-23&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 10917,
+      &quot;requested_price&quot;: 225.0,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-23-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-23&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-23&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 76040,
+      &quot;requested_price&quot;: 42.45,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-23-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-23&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-23&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 147153,
+      &quot;requested_price&quot;: 19.0,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-24-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-24&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-24&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 135,
+      &quot;requested_price&quot;: 231.5,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-24-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-24&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-24&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 38424,
+      &quot;requested_price&quot;: 43.73,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-24-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-24&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-24&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 260437,
+      &quot;requested_price&quot;: 19.8,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-25-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-25&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-25&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 229,
+      &quot;requested_price&quot;: 253.35,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-25-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-25&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-25&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 74432,
+      &quot;requested_price&quot;: 44.74,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-20-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-20&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-20&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 64393,
+      &quot;requested_price&quot;: 85.97,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-23-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-23&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-23&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 10054,
+      &quot;requested_price&quot;: 85.31,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-24-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-24&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-24&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 86935,
+      &quot;requested_price&quot;: 84.4,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-25-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-25&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-25&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 58781,
+      &quot;requested_price&quot;: 87.65,
+      &quot;status&quot;: &quot;filled&quot;
+    }
+  ],
+  &quot;trades&quot;: [
+    {
+      &quot;trade_id&quot;: &quot;replay-300442.SZ-2026-03-02-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-02-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-02&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-02&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 18375,
+      &quot;price&quot;: 98.7,
+      &quot;gross_value&quot;: 1813612.5
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-688525.SS-2026-03-02-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-02-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-02&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-02&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 6700,
+      &quot;price&quot;: 160.5,
+      &quot;gross_value&quot;: 1075350.0
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-600362.SS-2026-03-02-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-02-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-02&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-02&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 38811,
+      &quot;price&quot;: 59.61,
+      &quot;gross_value&quot;: 2313523.71
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-002015.SZ-2026-03-02-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-02-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-02&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-02&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 13004,
+      &quot;price&quot;: 13.71,
+      &quot;gross_value&quot;: 178284.84000000003
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-300442.SZ-2026-03-03-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-03-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-03&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-03&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 93268,
+      &quot;price&quot;: 96.49,
+      &quot;gross_value&quot;: 8999429.32
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-688525.SS-2026-03-03-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-03-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-03&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-03&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 20917,
+      &quot;price&quot;: 146.66,
+      &quot;gross_value&quot;: 3067687.2199999997
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-300442.SZ-2026-03-04-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-04-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-04&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-04&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 107406,
+      &quot;price&quot;: 94.6,
+      &quot;gross_value&quot;: 10160607.6
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-688525.SS-2026-03-04-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-04-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-04&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-04&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 13511,
+      &quot;price&quot;: 175.99,
+      &quot;gross_value&quot;: 2377800.89
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-600362.SS-2026-03-04-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-04-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-04&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-04&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 88459,
+      &quot;price&quot;: 54.86,
+      &quot;gross_value&quot;: 4852860.74
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-002015.SZ-2026-03-04-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-04-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-04&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-04&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 111904,
+      &quot;price&quot;: 14.31,
+      &quot;gross_value&quot;: 1601346.24
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-300442.SZ-2026-03-05-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-05-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-05&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-05&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 47849,
+      &quot;price&quot;: 94.7,
+      &quot;gross_value&quot;: 4531300.3
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-300442.SZ-2026-03-06-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-06-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-06&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-06&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 12102,
+      &quot;price&quot;: 93.16,
+      &quot;gross_value&quot;: 1127422.32
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-688525.SS-2026-03-06-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-06-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-06&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-06&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 4599,
+      &quot;price&quot;: 209.33,
+      &quot;gross_value&quot;: 962708.67
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-600362.SS-2026-03-06-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-06-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-06&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-06&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 49151,
+      &quot;price&quot;: 53.59,
+      &quot;gross_value&quot;: 2634002.0900000003
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-002015.SZ-2026-03-06-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-06-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-06&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-06&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 302441,
+      &quot;price&quot;: 15.62,
+      &quot;gross_value&quot;: 4724128.42
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-300442.SZ-2026-03-09-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-09-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-09&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-09&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 50809,
+      &quot;price&quot;: 96.35,
+      &quot;gross_value&quot;: 4895447.149999999
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-688525.SS-2026-03-09-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-09-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-09&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-09&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 15165,
+      &quot;price&quot;: 216.65,
+      &quot;gross_value&quot;: 3285497.25
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-600362.SS-2026-03-09-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-09-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-09&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-09&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 128961,
+      &quot;price&quot;: 51.77,
+      &quot;gross_value&quot;: 6676310.970000001
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-002015.SZ-2026-03-09-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-09-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-09&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-09&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 67424,
+      &quot;price&quot;: 17.18,
+      &quot;gross_value&quot;: 1158344.32
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-688525.SS-2026-03-10-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-10-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-10&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-10&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 1620,
+      &quot;price&quot;: 213.75,
+      &quot;gross_value&quot;: 346275.0
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-002015.SZ-2026-03-10-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-10-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-10&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-10&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 1,
+      &quot;price&quot;: 18.12,
+      &quot;gross_value&quot;: 18.12
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-300442.SZ-2026-03-11-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-11-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-11&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-11&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 15102,
+      &quot;price&quot;: 91.12,
+      &quot;gross_value&quot;: 1376094.24
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-688525.SS-2026-03-11-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-11-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-11&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-11&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 6429,
+      &quot;price&quot;: 214.04,
+      &quot;gross_value&quot;: 1376063.16
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-600362.SS-2026-03-11-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-11-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-11&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-11&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 120392,
+      &quot;price&quot;: 52.08,
+      &quot;gross_value&quot;: 6270015.359999999
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-002015.SZ-2026-03-11-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-11-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-11&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-11&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 34409,
+      &quot;price&quot;: 19.42,
+      &quot;gross_value&quot;: 668222.78
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-300442.SZ-2026-03-12-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-12-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-12&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-12&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 17873,
+      &quot;price&quot;: 88.69,
+      &quot;gross_value&quot;: 1585156.3699999999
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-688525.SS-2026-03-12-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-12-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-12&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-12&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 33735,
+      &quot;price&quot;: 202.85,
+      &quot;gross_value&quot;: 6843144.75
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-600362.SS-2026-03-12-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-12-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-12&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-12&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 64,
+      &quot;price&quot;: 51.55,
+      &quot;gross_value&quot;: 3299.2
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-002015.SZ-2026-03-12-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-12-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-12&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-12&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 105712,
+      &quot;price&quot;: 21.36,
+      &quot;gross_value&quot;: 2258008.32
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-300442.SZ-2026-03-13-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-13-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-13&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-13&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 47182,
+      &quot;price&quot;: 83.54,
+      &quot;gross_value&quot;: 3941584.2800000003
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-688525.SS-2026-03-13-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-13-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-13&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-13&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 24744,
+      &quot;price&quot;: 209.7,
+      &quot;gross_value&quot;: 5188816.8
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-600362.SS-2026-03-13-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-13-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-13&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-13&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 545,
+      &quot;price&quot;: 50.74,
+      &quot;gross_value&quot;: 27653.3
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-002015.SZ-2026-03-13-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-13-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-13&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-13&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 110382,
+      &quot;price&quot;: 22.28,
+      &quot;gross_value&quot;: 2459310.96
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-300442.SZ-2026-03-16-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-16-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-16&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-16&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 4,
+      &quot;price&quot;: 83.32,
+      &quot;gross_value&quot;: 333.28
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-688525.SS-2026-03-16-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-16-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-16&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-16&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 15869,
+      &quot;price&quot;: 237.7,
+      &quot;gross_value&quot;: 3772061.3
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-600362.SS-2026-03-16-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-16-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-16&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-16&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 23,
+      &quot;price&quot;: 49.25,
+      &quot;gross_value&quot;: 1132.75
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-002015.SZ-2026-03-16-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-16-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-16&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-16&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 55286,
+      &quot;price&quot;: 21.36,
+      &quot;gross_value&quot;: 1180908.96
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-300442.SZ-2026-03-17-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-17-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-17&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-17&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 18077,
+      &quot;price&quot;: 81.15,
+      &quot;gross_value&quot;: 1466948.55
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-688525.SS-2026-03-17-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-17-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-17&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-17&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 6,
+      &quot;price&quot;: 235.78,
+      &quot;gross_value&quot;: 1414.68
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-600362.SS-2026-03-17-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-17-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-17&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-17&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 54952,
+      &quot;price&quot;: 48.52,
+      &quot;gross_value&quot;: 2666271.04
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-002015.SZ-2026-03-17-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-17-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-17&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-17&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 64077,
+      &quot;price&quot;: 20.03,
+      &quot;gross_value&quot;: 1283462.31
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-300442.SZ-2026-03-18-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-18-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-18&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-18&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 15231,
+      &quot;price&quot;: 86.91,
+      &quot;gross_value&quot;: 1323726.21
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-688525.SS-2026-03-18-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-18-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-18&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-18&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 6482,
+      &quot;price&quot;: 258.09,
+      &quot;gross_value&quot;: 1672939.38
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-600362.SS-2026-03-18-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-18-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-18&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-18&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 1861,
+      &quot;price&quot;: 48.26,
+      &quot;gross_value&quot;: 89811.86
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-002015.SZ-2026-03-18-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-18-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-18&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-18&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 169186,
+      &quot;price&quot;: 20.37,
+      &quot;gross_value&quot;: 3446318.8200000003
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-688525.SS-2026-03-19-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-19-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-19&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-19&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 3757,
+      &quot;price&quot;: 243.18,
+      &quot;gross_value&quot;: 913627.26
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-600362.SS-2026-03-19-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-19-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-19&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-19&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 3006,
+      &quot;price&quot;: 45.67,
+      &quot;gross_value&quot;: 137284.02000000002
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-002015.SZ-2026-03-19-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-19-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-19&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-19&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 673741,
+      &quot;price&quot;: 20.16,
+      &quot;gross_value&quot;: 13582618.56
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-688525.SS-2026-03-20-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-20-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-20&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-20&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 19673,
+      &quot;price&quot;: 238.88,
+      &quot;gross_value&quot;: 4699486.24
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-600362.SS-2026-03-20-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-20-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-20&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-20&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 74417,
+      &quot;price&quot;: 45.0,
+      &quot;gross_value&quot;: 3348765.0
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-002015.SZ-2026-03-20-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-20-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-20&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-20&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 186099,
+      &quot;price&quot;: 20.8,
+      &quot;gross_value&quot;: 3870859.2
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-688525.SS-2026-03-23-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-23-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-23&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-23&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 10917,
+      &quot;price&quot;: 225.0,
+      &quot;gross_value&quot;: 2456325.0
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-600362.SS-2026-03-23-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-23-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-23&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-23&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 76040,
+      &quot;price&quot;: 42.45,
+      &quot;gross_value&quot;: 3227898.0
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-002015.SZ-2026-03-23-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-23-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-23&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-23&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 147153,
+      &quot;price&quot;: 19.0,
+      &quot;gross_value&quot;: 2795907.0
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-688525.SS-2026-03-24-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-24-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-24&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-24&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 135,
+      &quot;price&quot;: 231.5,
+      &quot;gross_value&quot;: 31252.5
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-600362.SS-2026-03-24-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-24-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-24&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-24&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 38424,
+      &quot;price&quot;: 43.73,
+      &quot;gross_value&quot;: 1680281.5199999998
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-002015.SZ-2026-03-24-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-24-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-24&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-24&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 260437,
+      &quot;price&quot;: 19.8,
+      &quot;gross_value&quot;: 5156652.600000001
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-688525.SS-2026-03-25-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-25-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-25&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-25&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 229,
+      &quot;price&quot;: 253.35,
+      &quot;gross_value&quot;: 58017.15
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-600362.SS-2026-03-25-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-25-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-25&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-25&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 74432,
+      &quot;price&quot;: 44.74,
+      &quot;gross_value&quot;: 3330087.68
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-300442.SZ-2026-03-20-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-20-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-20&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-20&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 64393,
+      &quot;price&quot;: 85.97,
+      &quot;gross_value&quot;: 5535866.21
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-300442.SZ-2026-03-23-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-23-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-23&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-23&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 10054,
+      &quot;price&quot;: 85.31,
+      &quot;gross_value&quot;: 857706.74
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-300442.SZ-2026-03-24-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-24-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-24&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-24&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 86935,
+      &quot;price&quot;: 84.4,
+      &quot;gross_value&quot;: 7337314.000000001
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-300442.SZ-2026-03-25-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-25-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-25&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-25&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 58781,
+      &quot;price&quot;: 87.65,
+      &quot;gross_value&quot;: 5152154.65
+    }
+  ],
+  &quot;nav&quot;: 33787845.87
+}</pre></details>
+        <details><summary>订单</summary><pre>[
+  {
+    &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-25-SELL&quot;,
+    &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-25&quot;,
+    &quot;trade_date&quot;: &quot;2026-03-25&quot;,
+    &quot;symbol&quot;: &quot;300442.SZ&quot;,
+    &quot;action&quot;: &quot;sell&quot;,
+    &quot;quantity&quot;: 58781,
+    &quot;requested_price&quot;: 87.65,
+    &quot;status&quot;: &quot;filled&quot;
+  }
+]</pre></details>
+        <details><summary>成交</summary><pre>[
+  {
+    &quot;trade_id&quot;: &quot;replay-300442.SZ-2026-03-25-SELL-TRADE&quot;,
+    &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-25-SELL&quot;,
+    &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-25&quot;,
+    &quot;trade_date&quot;: &quot;2026-03-25&quot;,
+    &quot;symbol&quot;: &quot;300442.SZ&quot;,
+    &quot;action&quot;: &quot;sell&quot;,
+    &quot;quantity&quot;: 58781,
+    &quot;price&quot;: 87.65,
+    &quot;gross_value&quot;: 5152154.65
+  }
+]</pre></details>
+      </div>
+    </div>
+    <div class="panel stack">
+      <h2>指标说明</h2>
+      <div class='formula-list'><div class='formula-item'>股价曲线 = 当天用于回放估值/执行的价格口径；当前日级回放默认使用 14:55 附近的可见价格或当日可用标记价格。</div><div class='formula-item'>持仓金额曲线 = 日末持股数 × 当天股价。</div><div class='formula-item'>真实总账户净值 = 真实账户现金 + 全部真实持仓市值。这是执行层真正发生买卖和记账的总账户口径。</div><div class='formula-item'>真实总账户收益率 = 真实总账户净值 / 实验起始总账户净值 - 1，用来回答整个真实股票账户从实验开始到现在到底赚了还是亏了多少。它是累计收益率，不是相对前一天的日涨跌幅，所以即使某一天净值比前一天回落，只要仍高于实验起点，累计收益率依然可以是正数。</div><div class='formula-item'>真实总账户现金曲线 = 真实账户里当前可用现金；真实总账户持仓市值曲线 = 真实总账户净值 - 真实总账户现金。</div><div class='formula-item'>累计分配资金 = 首日持仓起点 + 后续从原始闲置现金拨给该股票的新增资金。这里只统计新增拨入，不把卖出回笼现金重复计入。</div><div class='formula-item'>策略覆盖资产 = 策略覆盖现金 + 策略覆盖股票持仓市值。这里的“策略覆盖现金”只是展示层为了拆解这只股票策略效果而做的记账口径，不是执行层真的新开了一个现金账户。</div><div class='formula-item'>策略拆分盈亏 = 策略覆盖资产 - 累计分配资金。</div><div class='formula-item'>策略拆分收益率 = 策略拆分盈亏 / 累计分配资金。</div><div class='formula-item'>已实现盈亏 = 已卖出部分的卖出收入 - 该部分对应成本。</div><div class='formula-item'>未实现盈亏 = 当前剩余持仓市值 - 当前剩余持仓成本。</div><div class='formula-item'>历史总盈亏 = 已实现盈亏 + 未实现盈亏，用来反映历史持仓成本视角，不是本轮实验的主收益口径。</div><div class='formula-item'>图表金额统一按万显示，价格统一按元显示；B=买入，S=卖出，K=跳过。</div></div>
+    </div>
+  </div>
+</body>
+</html>

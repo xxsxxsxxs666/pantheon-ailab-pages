@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>id001 Experiments</title>
+  <style>
+    :root {
+      --bg: #f4f0e8;
+      --panel: #fffdf9;
+      --ink: #1d2a30;
+      --muted: #6a7478;
+      --line: #ddd3c4;
+      --accent: #0c6b58;
+    }
+    body {
+      margin: 0;
+      font-family: "PingFang SC", "Noto Sans SC", sans-serif;
+      color: var(--ink);
+      background: linear-gradient(180deg, #e4efe8 0%, #f7f3ea 46%, #fbf8f2 100%);
+    }
+    .wrap {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 28px 20px 56px;
+    }
+    .hero, .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      padding: 22px;
+      box-shadow: 0 16px 40px rgba(23, 53, 44, 0.07);
+    }
+    .panel {
+      margin-top: 18px;
+    }
+    h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+    .sub {
+      margin-top: 10px;
+      color: var(--muted);
+      line-height: 1.8;
+    }
+    .experiment-list {
+      display: grid;
+      gap: 14px;
+      margin-top: 18px;
+    }
+    .experiment {
+      display: block;
+      padding: 16px 18px;
+      border-radius: 18px;
+      border: 1px solid var(--line);
+      background: #fbfffd;
+      text-decoration: none;
+      color: inherit;
+    }
+    .experiment:hover {
+      border-color: var(--accent);
+      box-shadow: 0 12px 30px rgba(12, 107, 88, 0.10);
+    }
+    .name {
+      font-size: 18px;
+      font-weight: 800;
+    }
+    .meta {
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .hint {
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.8;
+    }
+    code {
+      background: #f4ecdf;
+      padding: 0.1em 0.35em;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="hero">
+      <h1>id001</h1>
+      <div class="sub">这是该用户的实验入口页。后续新增实验时，会继续挂在这个目录下，统一从这里进入查看。</div>
+    </section>
+    <section class="panel">
+      <div class="hint">固定访问路径建议使用 <code>/id001/</code>。如果浏览器或 OSS 目录首页还没完全生效，也可以先访问具体实验路径。</div>
+      <div class="experiment-list">
+        <a class="experiment" href="./cn_real_historical_1m_portfolio_v5_datalayer_backup_20260413/index.html">
+          <div class="name">cn_real_historical_1m_portfolio_v5_datalayer_backup_20260413</div>
+          <div class="meta">入口：/id001/cn_real_historical_1m_portfolio_v5_datalayer_backup_20260413/index.html</div>
+          <div class="meta">最近镜像时间：2026-04-13 16:52:09</div>
+        </a>
+      </div>
+    </section>
+  </div>
+</body>
+</html>

@@ -1,0 +1,1 @@
+Historical news fetch did not return usable news payload for 600362 on 2026-03-10: empty historical news payload

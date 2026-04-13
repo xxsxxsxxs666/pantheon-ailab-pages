@@ -1,0 +1,2552 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>润泽科技 (300442.SZ) 2026-03-05</title>
+  <style>
+    :root {
+      --bg: #f4f0e8;
+      --panel: #fffdf8;
+      --ink: #1f2a2e;
+      --muted: #67757c;
+      --line: #d9cfc0;
+      --accent: #a64b2a;
+      --accent-soft: #f2dccf;
+    }
+    body { margin: 0; font-family: "PingFang SC","Noto Sans SC","Helvetica Neue",sans-serif; background: linear-gradient(180deg, #efe4d5 0%, var(--bg) 40%, #f7f4ee 100%); color: var(--ink); }
+    .wrap { max-width: 1180px; margin: 0 auto; padding: 28px 20px 56px; }
+    .hero { background: var(--panel); border: 1px solid var(--line); border-radius: 22px; padding: 24px; box-shadow: 0 18px 50px rgba(82, 58, 28, 0.08); }
+    h1 { margin: 0 0 8px; font-size: 34px; }
+    .subtitle { color: var(--muted); font-size: 15px; }
+    .disclaimer { margin-top: 12px; padding: 10px 12px; border-radius: 12px; border: 1px solid #ead2ab; background: #fff3df; color: #7a5327; font-size: 13px; line-height: 1.7; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 12px; margin-top: 18px; }
+    .card { background: #fff8ef; border: 1px solid var(--line); border-radius: 16px; padding: 14px; }
+    .label { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; }
+    .value { font-size: 22px; font-weight: 700; margin-top: 8px; word-break: break-word; }
+    .status-banner { margin-top: 16px; border-radius: 16px; padding: 14px 16px; border: 1px solid var(--line); background: #f6f1e7; }
+    .status-banner.ok { background: #e6f4ef; border-color: #bfded3; }
+    .status-banner.warn { background: #fff2df; border-color: #ead2ab; }
+    .status-banner.danger { background: #f8e1db; border-color: #e0b6ab; }
+    .status-title { font-size: 12px; font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+    .status-body { margin-top: 6px; font-size: 15px; line-height: 1.6; }
+    .grid { display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 18px; margin-top: 18px; }
+    .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 22px; padding: 20px; box-shadow: 0 14px 40px rgba(82, 58, 28, 0.05); }
+    details { border: 1px solid var(--line); border-radius: 16px; background: #fffaf2; padding: 12px 14px; margin-top: 12px; }
+    summary { cursor: pointer; font-weight: 700; color: var(--accent); }
+    pre { white-space: pre-wrap; word-break: break-word; margin: 12px 0 0; font-size: 13px; line-height: 1.6; color: var(--ink); background: #fffdf9; border-radius: 12px; padding: 14px; border: 1px solid #eee2d4; max-height: 280px; overflow: auto; }
+    a { color: var(--accent); text-decoration: none; }
+    .stack > * + * { margin-top: 18px; }
+    .formula-list { display: grid; gap: 10px; color: var(--muted); font-size: 13px; line-height: 1.7; }
+    .formula-item { background: #fff8ef; border: 1px solid var(--line); border-radius: 14px; padding: 12px 14px; }
+    .markdown-body { margin-top: 12px; font-size: 14px; line-height: 1.8; color: var(--ink); background: #fffdf9; border-radius: 12px; padding: 14px; border: 1px solid #eee2d4; max-height: 320px; overflow: auto; }
+    .markdown-body > :first-child { margin-top: 0; }
+    .markdown-body > :last-child { margin-bottom: 0; }
+    .markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4 { margin: 1.1em 0 0.5em; line-height: 1.45; }
+    .markdown-body p, .markdown-body ul, .markdown-body ol, .markdown-body blockquote, .markdown-body table { margin: 0.7em 0; }
+    .markdown-body ul, .markdown-body ol { padding-left: 1.4em; }
+    .markdown-body code { background: #f5eee3; padding: 0.1em 0.35em; border-radius: 6px; }
+    .markdown-body pre { max-height: none; overflow: visible; padding: 0; border: 0; background: transparent; }
+    .markdown-body blockquote { margin-left: 0; padding-left: 0.9em; border-left: 3px solid #d9cfc0; color: #5f676c; }
+    .markdown-body table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    .markdown-body th, .markdown-body td { border: 1px solid #e7dccd; padding: 8px 10px; text-align: left; vertical-align: top; }
+    .markdown-body th { background: #fbf6ed; }
+    .source-link-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    .source-link-table th, .source-link-table td { border-bottom: 1px solid #eee2d4; padding: 10px 8px; text-align: left; vertical-align: top; }
+    .source-link-table th { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: 0.05em; }
+    .source-link-wrap { max-height: 280px; overflow: auto; border: 1px solid #eee2d4; border-radius: 12px; background: #fffdf9; }
+    @media (max-width: 900px) { .grid { grid-template-columns: 1fr; } h1 { font-size: 28px; } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="hero">
+      <div><a href="../../index.html">返回本轮总览</a></div>
+      <h1>润泽科技 (300442.SZ) 2026-03-05</h1>
+      <div class="subtitle">历史 full-chain replay 日报。这里汇总了当天的分析过程、标准化信号、订单与账户结果。</div>
+      <div class="disclaimer">仅用于历史回测与系统实验，不构成任何投资建议或实际交易指导。</div>
+      <div class='status-banner info'><div class='status-title'>维持持仓</div><div class='status-body'>118%净利率与15%营收增速严重背离，PB11.4倍估值透支明显，下行风险大于上行空间。但可转债重组存在不确定性、会计处理有合法性、踏空风险不可忽视，因此选择审慎减仓而非清仓。建议卖出50%-60%仓位并保留40%-50%观察性仓位，等待可转债审批进展和2025年年报确认方向。</div></div>
+      <div class="cards"><div class='card'><div class='label'>交易日</div><div class='value'>2026-03-05</div></div><div class='card'><div class='label'>动作</div><div class='value'>hold</div></div><div class='card'><div class='label'>标的</div><div class='value'>润泽科技 (300442.SZ)</div></div><div class='card'><div class='label'>置信度</div><div class='value'>0.60</div></div><div class='card'><div class='label'>盘单状态</div><div class='value'>structured</div></div><div class='card'><div class='label'>仓位提示</div><div class='value'>40.00%</div></div><div class='card'><div class='label'>成交股数</div><div class='value'>47849</div></div><div class='card'><div class='label'>成交额</div><div class='value'>453.13万</div></div><div class='card'><div class='label'>执行价</div><div class='value'>94.7</div></div><div class='card'><div class='label'>新闻源</div><div class='value'>AKShare巨潮资讯历史公告</div></div><div class='card'><div class='label'>新闻数</div><div class='value'>10</div></div><div class='card'><div class='label'>T+1可卖</div><div class='value'>48037</div></div><div class='card'><div class='label'>T+1锁仓</div><div class='value'>0</div></div><div class='card'><div class='label'>现金</div><div class='value'>0.00万</div></div><div class='card'><div class='label'>持仓市值</div><div class='value'>3090.54万</div></div><div class='card'><div class='label'>NAV</div><div class='value'>30905424.119999997</div></div></div>
+    </div>
+    <div class="grid">
+      <div class="panel stack">
+        <h2>分析过程</h2>
+        <details open><summary>市场分析</summary><div class='markdown-body'><h1>润泽科技技术分析报告</h1>
+<p><strong>股票代码</strong>：300442<br />
+<strong>公司名称</strong>：润泽科技<br />
+<strong>分析日期</strong>：2026-03-05<br />
+<strong>研究截止时间</strong>：14:45</p>
+<hr />
+<h2>一、数据时点说明</h2>
+<p>本报告所有分析严格基于2026-03-05 14:45之前的可见市场数据，未包含任何收盘后的价格信息。由于提供的分钟行情数据仅包含研究截止时刻（14:45）的单一价格点，<strong>缺乏完整的日内分钟级价格序列</strong>，因此以下技术指标无法由给定数据可靠计算，包括但不限于：</p>
+<ul>
+<li>移动平均线（MA5、MA10等）</li>
+<li>相对强弱指数（RSI）</li>
+<li>随机指标（KDJ）</li>
+<li>MACD指标</li>
+<li>布林带</li>
+<li>成交量加权平均价（VWAP）</li>
+</ul>
+<hr />
+<h2>二、价格趋势分析</h2>
+<h3>短期价格走势</h3>
+<p>基于最近四个交易日的收盘/当前价格数据：</p>
+<table>
+<thead>
+<tr>
+<th>日期</th>
+<th>价格</th>
+<th>涨跌</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2026-03-02</td>
+<td>98.70</td>
+<td>-</td>
+<td>前一日收盘</td>
+</tr>
+<tr>
+<td>2026-03-03</td>
+<td>96.49</td>
+<td>-2.24%</td>
+<td>下跌</td>
+</tr>
+<tr>
+<td>2026-03-04</td>
+<td>94.60</td>
+<td>-1.96%</td>
+<td>继续下探</td>
+</tr>
+<tr>
+<td>2026-03-05</td>
+<td>99.48</td>
+<td>+5.16%</td>
+<td>研究截止时</td>
+</tr>
+</tbody>
+</table>
+<h3>趋势判断</h3>
+<p><strong>短期趋势研判</strong>：从价格轨迹看，润泽科技经历了先抑后扬的走势。经历了2026-03-03和2026-03-04连续两个交易日的回调后，当前价格99.48已回升至近期高点水平，并超越2026-03-02的收盘价98.7。</p>
+<p><strong>当前价格位置</strong>：</p>
+<ul>
+<li>高于最近三个交易日的所有收盘价</li>
+<li>较2026-03-04低点94.60累计回升5.16%</li>
+<li>较2026-03-03收盘96.49上涨约3.1%</li>
+</ul>
+<hr />
+<h2>三、支撑位与压力位分析</h2>
+<p>基于有限数据估算的参考价位：</p>
+<h3>潜在支撑位</h3>
+<table>
+<thead>
+<tr>
+<th>支撑类型</th>
+<th>价格区间</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>即时支撑</td>
+<td>98.00-98.70</td>
+<td>2026-03-02收盘区域及整数关口</td>
+</tr>
+<tr>
+<td>中级支撑</td>
+<td>96.00-96.49</td>
+<td>2026-03-03收盘价位</td>
+</tr>
+<tr>
+<td>深层支撑</td>
+<td>94.60</td>
+<td>近期低点</td>
+</tr>
+</tbody>
+</table>
+<h3>潜在压力位</h3>
+<table>
+<thead>
+<tr>
+<th>压力类型</th>
+<th>价格区间</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>即时压力</td>
+<td>100.00</td>
+<td>整数心理关口</td>
+</tr>
+<tr>
+<td>中级压力</td>
+<td>101.00-102.00</td>
+<td>前期高点区域（需补充数据验证）</td>
+</tr>
+<tr>
+<td>强压力</td>
+<td>105.00</td>
+<td>需历史数据确认</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>四、短线风险评估</h2>
+<h3>主要风险点</h3>
+<p><strong>1. 数据局限性风险</strong><br />
+⚠️ 由于仅有一个分钟价格点，无法判断日内波动特征、价格日内高低点、成交量分布等技术分析必备要素，分析可靠性受限。</p>
+<p><strong>2. 回调风险</strong></p>
+<ul>
+<li>当前涨幅已达+5.16%，短期获利了结压力较大</li>
+<li>99.48接近100整数关口，可能引发技术性卖盘</li>
+<li>缺乏回撤控制参考点</li>
+</ul>
+<p><strong>3. 波动性风险</strong></p>
+<ul>
+<li>从94.60到99.48，三日最大振幅约5.16%</li>
+<li>波动幅度较大，短线操作风险较高</li>
+<li>无法计算波动率指标进行量化评估</li>
+</ul>
+<p><strong>4. 趋势持续性存疑</strong></p>
+<ul>
+<li>仅凭单一时点数据无法确认上涨趋势的有效性</li>
+<li>需要后续时段价格确认</li>
+</ul>
+<hr />
+<h2>五、交易启示</h2>
+<h3>谨慎看待当前涨势</h3>
+<p>由于数据严重受限，对于2026-03-05 14:45时点的<strong>润泽科技</strong>交易建议需格外审慎：</p>
+<p><strong>观望为主</strong>：</p>
+<ul>
+<li>当前99.48的价格已反映日内涨幅，盲目追高风险较大</li>
+<li>建议等待更多日内数据或下一交易日开盘后的趋势确认</li>
+</ul>
+<p><strong>关键观察点</strong>：</p>
+<ul>
+<li>若后续价格能有效站上100.00整数关口，可考虑轻仓试探</li>
+<li>需关注成交量变化（当前数据未提供）</li>
+<li>止损位建议设置在97.50-98.00区间</li>
+</ul>
+<p><strong>风险警示</strong>：<br />
+⚠️ 本分析基于不完整的分钟数据，<strong>所有技术指标均无法计算</strong>，任何交易决策应等待完整数据支持。润泽科技当前处于短线关键位置，但数据不足导致分析可靠性较低。</p>
+<hr />
+<p><strong>免责声明</strong>：本报告仅基于提供的有限市场数据进行分析，不构成任何投资建议。投资者应根据完整市场数据和自身风险承受能力做出决策。</p>
+</div></details><details open><summary>舆情分析</summary><div class='markdown-body'><h1>润泽科技舆情分析报告（2026‑03‑05）</h1>
+<hr />
+<h2>1. 舆情数据可得性说明</h2>
+<ul>
+<li><strong>研究对象</strong>：股票代码 300442（润泽科技），交易日 2026‑03‑05。</li>
+<li><strong>研究截止时间</strong>：14:45（北京时间）。</li>
+<li><strong>数据来源限制</strong>：当前中文社交平台（雪球、股吧、微博等）原始 API 无法稳定回放，故本报告 <strong>仅使用公开可查的财经媒体新闻或上市公司公告</strong> 作为舆情代理输入。</li>
+<li><strong>可使用信息</strong>：在 2026‑02‑03 14:45 至 2026‑03‑05 14:45 期间，巨潮资讯共披露 <strong>10 条</strong> 与润泽科技相关的公告（详见下方列表）。本报告不对雪球、股吧、微博等平台的具体帖子进行引用或推测。</li>
+</ul>
+<hr />
+<h2>2. 媒体情绪摘要</h2>
+<table>
+<thead>
+<tr>
+<th>日期</th>
+<th>公告标题（简要）</th>
+<th>情绪倾向</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2026‑03‑03</td>
+<td>关于回购股份的进展公告</td>
+<td><strong>正面</strong> – 回购显示公司对自身价值的信心</td>
+</tr>
+<tr>
+<td>2026‑03‑03</td>
+<td>2026年第一次临时股东会决议公告</td>
+<td><strong>正面</strong> – 股东会通过重要议案</td>
+</tr>
+<tr>
+<td>2026‑03‑03</td>
+<td>法律意见书（临时股东会）</td>
+<td><strong>中性</strong> – 法律合规性确认</td>
+</tr>
+<tr>
+<td>2026‑02‑26</td>
+<td>关于股票交易异常波动的公告</td>
+<td><strong>负面/警示</strong> – 价格出现异常波动，提醒风险</td>
+</tr>
+<tr>
+<td>2026‑02‑14</td>
+<td>发行可转换公司债券购买资产并募集配套资金预案</td>
+<td><strong>中性偏正面</strong> – 融资用于资产收购，潜在增长动力</td>
+</tr>
+<tr>
+<td>2026‑02‑14</td>
+<td>董事会关于本次交易符合《上市公司证券发行注册管理办法》规定的说明</td>
+<td><strong>中性</strong> – 合规性确认</td>
+</tr>
+<tr>
+<td>2026‑02‑14</td>
+<td>董事会关于本次交易采取的保密措施及保密制度的说明</td>
+<td><strong>中性</strong> – 保密工作到位</td>
+</tr>
+<tr>
+<td>2026‑02‑14</td>
+<td>董事会关于本次交易履行法定程序完备性、合规性及提交法律文件有效性的说明</td>
+<td><strong>中性</strong> – 程序合规</td>
+</tr>
+<tr>
+<td>2026‑02‑14</td>
+<td>发行可转换公司债券购买资产并募集配套资金预案（摘要）</td>
+<td><strong>中性偏正面</strong> – 同上</td>
+</tr>
+<tr>
+<td>2026‑02‑14</td>
+<td>董事会关于本次交易预计不构成关联交易、不构成重大资产重组、不构成重组上市的说明</td>
+<td><strong>中性</strong> – 降低关联风险</td>
+</tr>
+</tbody>
+</table>
+<p><strong>总体情绪</strong>：以<strong>正面</strong>为主（回购、股东会决议、可转债发行预案），但<strong>异常波动公告</strong>提供了警示信号，形成 <strong>“谨慎乐观”</strong> 的媒体氛围。</p>
+<hr />
+<h2>3. 正面 / 负面催化</h2>
+<h3>正面催化</h3>
+<table>
+<thead>
+<tr>
+<th>事件</th>
+<th>可能影响</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>股份回购进展</strong>（2026‑03‑03）</td>
+<td>增强市场对公司价值的认同，短期对股价形成支撑。</td>
+</tr>
+<tr>
+<td><strong>第一次临时股东会决议</strong>（2026‑03‑03）</td>
+<td>通过关键议案（如可转债发行预案），显示股东对公司未来发展路径的认可。</td>
+</tr>
+<tr>
+<td><strong>可转债发行预案</strong>（2026‑02‑14）</td>
+<td>为并购或项目扩张提供资金，若投向高成长业务，可提升未来盈利预期。</td>
+</tr>
+<tr>
+<td><strong>董事会合规说明</strong>（2026‑02‑14）</td>
+<td>确认交易不构成关联交易、重大资产重组，降低监管风险，提升信息透明度。</td>
+</tr>
+</tbody>
+</table>
+<h3>负面/风险催化</h3>
+<table>
+<thead>
+<tr>
+<th>事件</th>
+<th>可能影响</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>股票交易异常波动公告</strong>（2026‑02‑26）</td>
+<td>提示市场出现非基本面驱动的价格波动，可能引发短期抛压或投机情绪。</td>
+</tr>
+<tr>
+<td><strong>可转债稀释风险</strong></td>
+<td>若转债转换为股份，原股东持股比例将被稀释，需关注转股价格与行权条件。</td>
+</tr>
+<tr>
+<td><strong>监管审批不确定性</strong></td>
+<td>可转债发行仍需监管机构审核，审批进度可能影响股价情绪。</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>4. 投资者情绪评分</h2>
+<table>
+<thead>
+<tr>
+<th>维度</th>
+<th>评分（1‑5）</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>信息正面度</td>
+<td>4</td>
+<td>多项公告显示公司积极回购、股东会通过、可转债发行等正面动向。</td>
+</tr>
+<tr>
+<td>风险警示</td>
+<td>3</td>
+<td>异常波动公告提示短期波动风险，且可转债潜在稀释效应不容忽视。</td>
+</tr>
+<tr>
+<td>市场情绪</td>
+<td>3.5</td>
+<td>综合正面与负面因素，整体情绪偏向 <strong>谨慎乐观</strong>。</td>
+</tr>
+<tr>
+<td><strong>综合情绪评分</strong></td>
+<td><strong>3.5</strong></td>
+<td>满分5分，润泽科技当前情绪位于 <strong>中等偏正</strong>。</td>
+</tr>
+</tbody>
+</table>
+<p><em>注：评分基于公开公告内容，未计入社交平台原始数据。</em></p>
+<hr />
+<h2>5. 1‑5 天情绪影响预测</h2>
+<table>
+<thead>
+<tr>
+<th>交易日（自 2026‑03‑05 起）</th>
+<th>情绪预期</th>
+<th>主要驱动因素</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>第 1 天</strong>（03‑05）</td>
+<td>小幅正向</td>
+<td>回购进展与股东会决议的正面效应仍在市场消化；异常波动公告可能带来短线卖压。</td>
+</tr>
+<tr>
+<td><strong>第 2 天</strong>（03‑06）</td>
+<td>维持正向</td>
+<td>若无新负面信息，可转债发行预案的潜在增长预期或推动买盘。</td>
+</tr>
+<tr>
+<td><strong>第 3 天</strong>（03‑07）</td>
+<td>中性偏正</td>
+<td>市场可能关注可转债发行的监管审批进展，观望情绪上升。</td>
+</tr>
+<tr>
+<td><strong>第 4 天</strong>（03‑08）</td>
+<td>中性</td>
+<td>异常波动余波若未完全消散，短线资金可能选择观望。</td>
+</tr>
+<tr>
+<td><strong>第 5 天</strong>（03‑09）</td>
+<td>正面回归</td>
+<td>若监管审批顺利且回购继续推进，情绪有望再度转暖。</td>
+</tr>
+</tbody>
+</table>
+<p><em>以上预测基于已有公告信息，实际情况仍受市场整体环境与外部消息影响。</em></p>
+<hr />
+<h2>6. 交易启示</h2>
+<ol>
+<li><strong>关注回购动态</strong>：2026‑03‑03 的回购进展公告显示公司正在进行股份回购，若后续披露回购规模或完成进度，可视为短线买入信号。</li>
+<li><strong>可转债发行进展</strong>：2026‑02‑14 的发行预案表明公司正筹划融资，建议持续跟踪监管审批进度及募投项目的具体方向。</li>
+<li><strong>防范异常波动风险</strong>：异常波动公告提示短期价格波动加大，适合设定止损位或控制仓位，避免盲目追高。</li>
+<li><strong>配置策略</strong>：若风险偏好较高，可在回调至技术支撑位（如 5 日均线）时适度加仓；若偏好保守，可待可转债发行尘埃落定后再布局。</li>
+<li><strong>关注股东会后续决议</strong>：第一次临时股东会已通过相关议案，后续若有进一步信息披露（如资产收购标的），可能成为新的催化剂。</li>
+</ol>
+<hr />
+<h2>7. 数据时点说明</h2>
+<ul>
+<li><strong>报告生成时间</strong>：2026‑03‑05 14:45（北京时间）。</li>
+<li><strong>数据截止时间</strong>：同上。</li>
+<li><strong>使用公告</strong>：2026‑02‑03 14:45 至 2026‑03‑05 14:45 期间巨潮资讯披露的全部 10 条与润泽科技相关的公告。</li>
+<li><strong>未使用信息</strong>：雪球、股吧、微博等平台的原始帖子未在本报告中引用或推测。</li>
+</ul>
+<blockquote>
+<p><strong>免责声明</strong>：本报告基于公开可得的上市公司公告进行情绪代理分析，不构成投资建议。投资者应自行判断并承担相应风险。</p>
+</blockquote>
+</div></details><details><summary>新闻分析</summary><div class='markdown-body'><h1>润泽科技（300442）财经新闻分析报告</h1>
+<p><strong>交易日</strong>: 2026-03-05<br />
+<strong>研究截止时间</strong>: 14:45<br />
+<strong>报告生成时间</strong>: 2026-03-05 14:45</p>
+<hr />
+<h2>一、新闻抓取摘要</h2>
+<table>
+<thead>
+<tr>
+<th>项目</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>数据来源</strong></td>
+<td>Google新闻 (AKShare东方财富接口)</td>
+</tr>
+<tr>
+<td><strong>数据时点</strong></td>
+<td>截至 2026-03-05 14:45</td>
+</tr>
+<tr>
+<td><strong>时间窗口</strong></td>
+<td>2026-02-03 14:45 至 2026-03-05 14:45</td>
+</tr>
+<tr>
+<td><strong>新闻/公告总数</strong></td>
+<td>10 条</td>
+</tr>
+<tr>
+<td><strong>数据字符数</strong></td>
+<td>2,484 字符</td>
+</tr>
+</tbody>
+</table>
+<p><strong>新闻类型分布</strong>:</p>
+<ul>
+<li>股份回购类公告: 1 条</li>
+<li>股东大会决议类公告: 1 条</li>
+<li>法律意见书: 1 条</li>
+<li>股票异常波动公告: 1 条</li>
+<li>资产重组/发行可转债相关公告: 6 条</li>
+</ul>
+<hr />
+<h2>二、关键新闻事件</h2>
+<h3>2.1 重大资产重组进展（2026-02-14）</h3>
+<p>润泽科技发布了<strong>发行可转换公司债券购买资产并募集配套资金预案</strong>及相关配套公告，主要内容涉及：</p>
+<ul>
+<li><strong>预案发布</strong>: 公司拟通过发行可转换公司债券的方式购买资产，并同时募集配套资金</li>
+<li><strong>合规性说明</strong>: 董事会发布专项说明，确认本次交易符合《上市公司证券发行注册管理办法》第十一条、第十三条、第十四条规定</li>
+<li><strong>交易性质认定</strong>: 明确说明本次交易<strong>不构成关联交易、不构成重大资产重组、不构成重组上市</strong></li>
+<li><strong>保密措施</strong>: 已按规定采取保密措施并建立保密制度</li>
+</ul>
+<h3>2.2 股票交易异常波动（2026-02-26）</h3>
+<p>公司发布关于<strong>股票交易异常波动</strong>的公告，暗示在此前期间公司股票价格或成交量出现异常变动。</p>
+<h3>2.3 股东大会决议（2026-03-03）</h3>
+<ul>
+<li><strong>2026年第一次临时股东大会</strong>完成决议</li>
+<li>北京市中伦（重庆）律师事务所出具了法律意见书，程序合规性得到确认</li>
+</ul>
+<h3>2.4 股份回购进展（2026-03-03）</h3>
+<p>公司发布<strong>关于回购股份的进展公告</strong>，显示公司正在实施股份回购计划。</p>
+<hr />
+<h2>三、对股价的潜在影响</h2>
+<h3>3.1 正面因素</h3>
+<table>
+<thead>
+<tr>
+<th>因素</th>
+<th>分析</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>股份回购</strong></td>
+<td>公司回购股份通常被市场解读为管理层认为公司股价被低估，有助于支撑股价</td>
+</tr>
+<tr>
+<td><strong>资产重组预案</strong></td>
+<td>发行可转债购买资产属于战略性资本运作，若成功实施可能提升公司估值</td>
+</tr>
+<tr>
+<td><strong>&quot;不构成重大资产重组&quot;</strong></td>
+<td>该表述降低了本次交易的审批难度和不确定性，有利于流程推进</td>
+</tr>
+</tbody>
+</table>
+<h3>3.2 风险因素</h3>
+<table>
+<thead>
+<tr>
+<th>因素</th>
+<th>分析</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>股票异常波动</strong></td>
+<td>2026-02-26的异常波动公告表明市场情绪可能存在较大波动风险</td>
+</tr>
+<tr>
+<td><strong>重组不确定性</strong></td>
+<td>可转债发行预案尚处于初期阶段，最终能否成功实施存在不确定性</td>
+</tr>
+<tr>
+<td><strong>历史波动性</strong></td>
+<td>异常波动记录表明股价短期内可能面临较大波动</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>四、情绪判断</h2>
+<h3>整体情绪：<strong>中性偏正面</strong></h3>
+<p><strong>判断依据</strong>:</p>
+<ol>
+<li>
+<p><strong>积极信号</strong>:</p>
+<ul>
+<li>公司主动回购股份，释放估值支撑信号</li>
+<li>股东大会顺利召开并通过决议，法律意见书确认程序合规</li>
+<li>资产重组预案推出，显示公司正在积极推进战略布局</li>
+</ul>
+</li>
+<li>
+<p><strong>不确定因素</strong>:</p>
+<ul>
+<li>股票异常波动记录表明市场对公司存在较大分歧</li>
+<li>可转债发行方案细节尚不明确，方案最终落地时间不确定</li>
+</ul>
+</li>
+<li>
+<p><strong>新闻覆盖度</strong>: 数据窗口内公告数量适中，主要为公司主动披露的资本运作信息，而非外部新闻报道或行业动态，信息来源较为集中于公司公告。</p>
+</li>
+</ol>
+<hr />
+<h2>五、交易启示</h2>
+<h3>5.1 注意事项</h3>
+<ul>
+<li>本报告仅基于<strong>2026-03-05 14:45之前</strong>抓取的新闻数据，<strong>不代表截止时间后的任何市场变化</strong></li>
+<li>新闻数据以公司公告为主，缺乏行业对比和市场整体环境信息</li>
+<li>股票异常波动公告（2026-02-26）需关注后续走势</li>
+</ul>
+<h3>5.2 潜在观察点</h3>
+<table>
+<thead>
+<tr>
+<th>观察维度</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>回购动态</strong></td>
+<td>持续关注后续回购进展公告，回购完成比例及价格区间</td>
+</tr>
+<tr>
+<td><strong>重组进展</strong></td>
+<td>关注可转债发行预案的进一步披露（审计报告、评估报告等）</td>
+</tr>
+<tr>
+<td><strong>市场反应</strong></td>
+<td>关注异常波动后的股价修复或二次波动情况</td>
+</tr>
+<tr>
+<td><strong>成交量变化</strong></td>
+<td>资本运作期间需关注成交量是否出现异常放大</td>
+</tr>
+</tbody>
+</table>
+<h3>5.3 风险提示</h3>
+<ul>
+<li>本报告为<strong>历史视角分析</strong>，基于历史截面数据，不构成投资建议</li>
+<li>新闻数据仅覆盖公司公告，<strong>未涵盖</strong>可能影响股价的：
+<ul>
+<li>行业政策变化</li>
+<li>市场整体情绪</li>
+<li>宏观经济因素</li>
+<li>其他未公开信息</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h2>六、数据时点说明</h2>
+<table>
+<thead>
+<tr>
+<th>项目</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>数据截止时点</strong></td>
+<td>2026-03-05 14:45</td>
+</tr>
+<tr>
+<td><strong>有效数据窗口</strong></td>
+<td>2026-02-03 14:45 至 2026-03-05 14:45</td>
+</tr>
+<tr>
+<td><strong>时间戳说明</strong></td>
+<td>新闻抓取基于时间戳筛选，可能存在少量时区误差</td>
+</tr>
+<tr>
+<td><strong>数据完整性</strong></td>
+<td>本次抓取获取公告10条，数据状态显示为&quot;截至2026-03-05 14:45的历史截面新闻&quot;</td>
+</tr>
+</tbody>
+</table>
+<p><strong>重要声明</strong>: 本报告严格基于上述已抓取的新闻数据进行分析，如数据不足则明确标注&quot;新闻样本不足&quot;。报告仅供历史研究参考，不构成任何投资建议。</p>
+<hr />
+<p><em>报告生成依据: 仅使用上述&quot;已抓取新闻/公告数据&quot;部分提供的信息</em></p>
+</div></details><details><summary>基本面分析</summary><div class='markdown-body'><h1>润泽科技（300442）基本面分析报告</h1>
+<hr />
+<h2>一、数据可得性说明</h2>
+<p><strong>分析基础：</strong> 本报告严格基于2026年3月5日14:45之前可见的历史截面数据构建，所有结论仅依赖payload中明确提供的指标集。</p>
+<p><strong>关键时间戳：</strong></p>
+<ul>
+<li>市场数据截止：2026-03-05 14:45（盘中实时价格）</li>
+<li>估值截面日期：20260305（Tushare日度快照）</li>
+<li>财务数据截止：2025-09-30（最新季报，公告日期2025-10-30）</li>
+<li>公告覆盖区间：2026-02-03 14:45 至 2026-03-05 14:45</li>
+</ul>
+<p><strong>不可得信息：</strong></p>
+<ul>
+<li>2025年年报（通常披露时间为次年4月，当前时点尚未发布）</li>
+<li>2025年第四季度及2026年第一季度财务数据</li>
+<li>更新的PE/PB分位数历史位置</li>
+<li>行业对标公司估值数据</li>
+</ul>
+<hr />
+<h2>二、估值截面（2026-03-05）</h2>
+<table>
+<thead>
+<tr>
+<th>估值指标</th>
+<th>数值</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>交易日期收盘价</td>
+<td>94.70元</td>
+<td>Tushare记录值</td>
+</tr>
+<tr>
+<td>盘中实时价格（14:45）</td>
+<td>99.48元</td>
+<td>研究截止时成交价</td>
+</tr>
+<tr>
+<td>市盈率PE</td>
+<td>86.4488</td>
+<td>基于最新eps的静态口径</td>
+</tr>
+<tr>
+<td>市盈率PE（TTM）</td>
+<td>31.0765</td>
+<td>滚动12个月口径</td>
+</tr>
+<tr>
+<td>市净率PB</td>
+<td>11.4265</td>
+<td>-</td>
+</tr>
+<tr>
+<td>市销率PS</td>
+<td>35.459</td>
+<td>-</td>
+</tr>
+<tr>
+<td>市销率PS（TTM）</td>
+<td>31.6832</td>
+<td>-</td>
+</tr>
+<tr>
+<td>股息率（%）</td>
+<td>0.5569</td>
+<td>-</td>
+</tr>
+<tr>
+<td>股息率TTM（%）</td>
+<td>0.5569</td>
+<td>-</td>
+</tr>
+<tr>
+<td>换手率（%）</td>
+<td>5.0348</td>
+<td>当日</td>
+</tr>
+<tr>
+<td>量比</td>
+<td>0.75</td>
+<td>-</td>
+</tr>
+<tr>
+<td>总市值</td>
+<td>15,477,233.64万元</td>
+<td>约1,547.72亿元</td>
+</tr>
+<tr>
+<td>流通市值</td>
+<td>15,420,701.88万元</td>
+<td>约1,542.07亿元</td>
+</tr>
+</tbody>
+</table>
+<p><strong>估值观察：</strong></p>
+<ul>
+<li>盘中价格99.48元较Tushare收盘记录94.7元上涨5.16%，反映当日强势表现</li>
+<li>PE（静态）86.45倍与PE（TTM）31.08倍存在显著差异，差异来源为最新eps为2.74元/股（对应静态PE），而TTM口径已消化近四个季度盈利数据</li>
+<li>当前实时价格99.48元对应的隐含PE（静态）为36.32倍，隐含PE（TTM）为14.78倍</li>
+</ul>
+<hr />
+<h2>三、最新财务指标（截至2025-09-30）</h2>
+<p><strong>基础财务数据（公告日期：2025-10-30）：</strong></p>
+<table>
+<thead>
+<tr>
+<th>指标</th>
+<th>数值</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>每股收益EPS</td>
+<td>2.74元</td>
+<td>2025年前三季度累计</td>
+</tr>
+<tr>
+<td>每股净资产BPS</td>
+<td>8.2877元</td>
+<td>-</td>
+</tr>
+<tr>
+<td>每股收益（扣非）</td>
+<td>2.74元</td>
+<td>与EPS一致</td>
+</tr>
+<tr>
+<td>每股经营现金流OCFPS</td>
+<td>1.6912元</td>
+<td>-</td>
+</tr>
+<tr>
+<td>净资产收益率ROE（%）</td>
+<td>40.0138</td>
+<td>极高水平</td>
+</tr>
+<tr>
+<td>净资产收益率（扣非）（%）</td>
+<td>11.5086</td>
+<td>-</td>
+</tr>
+<tr>
+<td>资产收益率ROA（%）</td>
+<td>14.5965</td>
+<td>-</td>
+</tr>
+<tr>
+<td>毛利率（%）</td>
+<td>48.1139</td>
+<td>-</td>
+</tr>
+<tr>
+<td>净利率（%）</td>
+<td>118.1829</td>
+<td><strong>异常高值</strong></td>
+</tr>
+<tr>
+<td>资产负债率（%）</td>
+<td>62.5332</td>
+<td>-</td>
+</tr>
+<tr>
+<td>流动比率</td>
+<td>0.9212</td>
+<td>&lt;1，流动性偏紧</td>
+</tr>
+<tr>
+<td>速动比率</td>
+<td>0.8887</td>
+<td>&lt;1</td>
+</tr>
+</tbody>
+</table>
+<p><strong>成长性指标（同比）：</strong></p>
+<table>
+<thead>
+<tr>
+<th>指标</th>
+<th>数值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>营业收入增速（%）</td>
+<td>15.0469</td>
+</tr>
+<tr>
+<td>净利润增速（%）</td>
+<td>210.7374</td>
+</tr>
+</tbody>
+</table>
+<p><strong>财务数据说明：</strong></p>
+<ul>
+<li>净利率118.18%为非常规数值，可能涉及一次性收益、非经常性损益结构或财务口径差异，<strong>该指标在当前历史截面中不可得常规解释</strong></li>
+<li>净利润同比增长210.74%，显示强劲成长性</li>
+<li>流动比率和速动比率均低于1，表明短期偿债压力存在</li>
+<li>ROE高达40.01%（扣非前），显示股东回报能力突出</li>
+</ul>
+<hr />
+<h2>四、近期公司公告（2026-02-03至2026-03-05）</h2>
+<p><strong>重大事项时间线：</strong></p>
+<table>
+<thead>
+<tr>
+<th>日期</th>
+<th>公告类型</th>
+<th>核心内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2026-03-03</td>
+<td>回购进展公告</td>
+<td>股份回购持续推进中</td>
+</tr>
+<tr>
+<td>2026-03-03</td>
+<td>临时股东会决议</td>
+<td>2026年第一次临时股东大会召开</td>
+</tr>
+<tr>
+<td>2026-03-03</td>
+<td>法律意见书</td>
+<td>临时股东大会法律合规性确认</td>
+</tr>
+<tr>
+<td>2026-02-26</td>
+<td>异常波动公告</td>
+<td>股票交易异常波动说明</td>
+</tr>
+<tr>
+<td>2026-02-14</td>
+<td>发行可转债预案</td>
+<td><strong>发行可转换公司债券购买资产并募集配套资金预案</strong></td>
+</tr>
+<tr>
+<td>2026-02-14</td>
+<td>董事会声明</td>
+<td>交易符合《上市公司证券发行注册管理办法》规定</td>
+</tr>
+<tr>
+<td>2026-02-14</td>
+<td>保密措施说明</td>
+<td>交易采取保密措施及保密制度</td>
+</tr>
+<tr>
+<td>2026-02-14</td>
+<td>程序合规说明</td>
+<td>交易法定程序完备性、合规性</td>
+</tr>
+</tbody>
+</table>
+<p><strong>重要信号识别：</strong></p>
+<ul>
+<li><strong>可转债发行预案（2026-02-14）：</strong> 公司拟发行可转换公司债券购买资产并募集配套资金，该重大资产重组事项已通过董事会审议并发布预案</li>
+<li><strong>临时股东大会（2026-03-03）：</strong> 审议通过相关议案，重组进程推进中</li>
+<li><strong>回购进展（2026-03-03）：</strong> 公司持续进行股份回购，释放积极信号</li>
+<li><strong>异常波动（2026-02-26）：</strong> 前期存在股价异常波动情况</li>
+</ul>
+<hr />
+<h2>五、基本面判断</h2>
+<p><strong>优势特征（基于截面数据）：</strong></p>
+<ol>
+<li><strong>高成长性验证：</strong> 净利润同比增长210.74%，营收增长15.05%，盈利增速显著超越收入增速</li>
+<li><strong>卓越股东回报：</strong> ROE达40.01%（扣非前），在同业中处于领先水平</li>
+<li><strong>运营效率：</strong> OCFPS为1.6912元，经营现金流为正且与净利润匹配度较高</li>
+<li><strong>资本运作积极：</strong> 可转债重组预案+回购双轮驱动，管理层市值管理意愿明确</li>
+</ol>
+<p><strong>不确定性特征（基于截面数据）：</strong></p>
+<ol>
+<li><strong>财务数据时滞：</strong> 现有财务数据截止2025年9月30日，距分析日约5个月，季度更新缺失</li>
+<li><strong>净利率异常：</strong> 118.18%的净利率水平超出常规理解范围，<strong>该指标在当前历史截面中不可得合理解释</strong></li>
+<li><strong>流动性偏紧：</strong> 流动比率0.92、速动比率0.89，低于安全线，短期偿债存在压力</li>
+<li><strong>估值压力：</strong> PE（TTM）31.08倍、PB 11.43倍，估值处于历史相对高位</li>
+</ol>
+<hr />
+<h2>六、风险点</h2>
+<p><strong>基于截面数据的可识别风险：</strong></p>
+<ol>
+<li><strong>重大资产重组不确定性：</strong> 可转债发行预案处于初期阶段，需经股东大会、监管审批等多重程序，<strong>该指标在当前历史截面中不可得最终结果</strong></li>
+<li><strong>财务信息时效性：</strong> 最新季报滞后5个月，基本面变化存在信息真空期</li>
+<li><strong>估值回调风险：</strong> 当前PB 11.43倍处于较高水平，若市场风险偏好下降，估值收缩压力较大</li>
+<li><strong>流动性风险：</strong> 流动比率低于1，叠加可转债发行对财务杠杆的影响，<strong>该指标在当前历史截面中不可得最新偿债能力评估</strong></li>
+<li><strong>市场波动风险：</strong> 2026-02-26已出现异常波动公告，短期内股价波动率较高</li>
+</ol>
+<hr />
+<h2>七、交易启示</h2>
+<p><strong>基于截面数据的客观陈述：</strong></p>
+<table>
+<thead>
+<tr>
+<th>维度</th>
+<th>截面数据反映</th>
+<th>交易含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>短期价格</td>
+<td>99.48元（+5.16%），近期从94.6元反弹</td>
+<td>价格处于上升趋势，但需关注追高风险</td>
+</tr>
+<tr>
+<td>估值水位</td>
+<td>PE（TTM）31.08倍</td>
+<td>估值处于历史相对高位，估值扩张空间有限</td>
+</tr>
+<tr>
+<td>基本面</td>
+<td>净利润+210.74%，ROE 40%</td>
+<td>成长性和盈利能力优秀，为股价提供基本面支撑</td>
+</tr>
+<tr>
+<td>催化剂</td>
+<td>可转债重组+回购+临时股东大会</td>
+<td>近期事件驱动因素存在，<strong>该指标在当前历史截面中不可得事件落地时点</strong></td>
+</tr>
+<tr>
+<td>流动性</td>
+<td>换手率5.03%，量比0.75</td>
+<td>当日交易活跃但量能配合一般</td>
+</tr>
+</tbody>
+</table>
+<p><strong>明确声明：</strong></p>
+<blockquote>
+<p><strong>当前历史截面不足以给出精确基本面目标价区间</strong></p>
+</blockquote>
+<p>原因如下：</p>
+<ol>
+<li>财务数据滞后5个月，无法进行准确的当期估值建模</li>
+<li>可转债重组预案细节未披露，资产重组对估值的影响<strong>该指标在当前历史截面中不可得量化评估</strong></li>
+<li>缺少行业可比估值数据和历史估值分位数</li>
+<li>净利率异常值118.18%导致盈利能力评估存在不确定性</li>
+</ol>
+<p><strong>可参考的客观锚点：</strong></p>
+<ul>
+<li>BPS为8.2877元，对应当前PB约12倍</li>
+<li>eps（TTM口径）<strong>该指标在当前历史截面中不可得</strong>，无法精确计算实时PE</li>
+<li>盘中价格99.48元已较收盘94.7元溢价约5%</li>
+</ul>
+<hr />
+<h2>八、数据时点说明</h2>
+<p><strong>严格声明：</strong></p>
+<p>本报告所有数据均截至2026年3月5日14:45，之前可见的历史截面信息构建。任何基于该时点之后发生的事件、市场变化或信息披露均不在本报告覆盖范围内。</p>
+<p><strong>数据来源清单：</strong></p>
+<ul>
+<li>Tushare日度估值截面（trade_date: 20260305）</li>
+<li>Tushare财务指标（ann_date: 20251030）</li>
+<li>AKShare巨潮资讯公告（2026-02-03至2026-03-05期间共8条）</li>
+</ul>
+<hr />
+<p><strong>报告结束</strong></p>
+<p><em>本报告由严格历史截面数据驱动，不包含任何前瞻性预测或行业常识补充。所有结论以&quot;该指标在当前历史截面中不可得&quot;标注的除外。</em></p>
+</div></details><details><summary>投资辩论</summary><div class='markdown-body'><p>好，让我来做一个全面客观的评估。</p>
+<h2>辩论总结与最终决策</h2>
+<h3>看涨方核心论点</h3>
+<p>Bull分析师强调了几个核心亮点：净利润同比增长210%配合营收增长15%，这种增速差距被解读为&quot;效率革命&quot;。ROE达到40%，加上公司正在进行股份回购、发行可转债重组，从94.6元到99.48元的V型反弹被解读为机构资金在关键支撑位主动承接。Bull分析师还用实时价格计算出PE(TTM)约14.78倍，认为估值具有吸引力。</p>
+<h3>看跌方核心论点</h3>
+<p>Bear分析师的质疑更有说服力。首先，那个118%的净利率根本无法用正常商业逻辑解释，这不是一个可以简单忽略的数字。其次，用扣非后ROE 11.51%重新审视，公司的真实盈利能力与茅台相差甚远。更关键的是，210%的利润增速与15%的营收增速严重背离，这种14倍的差距通常意味着一次性收益而非持续性增长。看跌方还指出，回购发生在可转债发行期间，可能是管理层为了维护股价以便以更高价格发行可转债，这对原股东实际上是稀释而非保护。</p>
+<h3>我的判断</h3>
+<p>经过仔细权衡，我认为<strong>看跌方的论点更有说服力</strong>，理由如下：</p>
+<p>第一，118%的净利率是客观存在的异常值，Bull分析师完全没有正面回应这个核心问题，这本身就说明了他在回避最关键的质疑。</p>
+<p>第二，用扣非后ROE 11.51%重新估值，PB高达11.4倍但盈利能力只有茅台的三分之一，这个估值没有任何安全边际。</p>
+<p>第三，210%的利润增速建立在15%营收增长基础上，14倍的背离在正常商业环境中几乎不可能持续，这强烈暗示存在非经常性损益的贡献。</p>
+<p>第四，股份回购发生在可转债发行期间，这个时间点的选择本身就让回购的动机存疑。</p>
+<h3>投资建议</h3>
+<p><strong>建议：卖出/持有观望（倾向于卖出现有持仓）</strong></p>
+<p>理由很明确：当前99.48元的价格已经充分甚至过度反映了乐观预期。任何负面消息——可转债审批延迟、业绩不及预期、流动性收紧——都可能触发大幅回调。在财务数据存在重大疑点、且已经滞后5个月的情况下，承担这样的风险敞口是不值得的。</p>
+<h3>战略行动</h3>
+<p><strong>空仓或轻仓投资者</strong>：不要在这个位置建仓。耐心等待更好的机会。</p>
+<p><strong>已持仓投资者</strong>：建议在100元整数关口附近分批减仓。如果无法突破100元且成交量萎缩，应果断离场。</p>
+<p><strong>止损位</strong>：如果股价有效跌破94-95元支撑区，说明V型反弹失败，必须止损。</p>
+<p><strong>入场观察位</strong>：如果后续能有效突破102-105元区间且有成交量配合，可以考虑重新评估。</p>
+<h3>目标价格分析</h3>
+<table>
+<thead>
+<tr>
+<th>时间范围</th>
+<th>情景</th>
+<th>目标价</th>
+<th>逻辑</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1个月</td>
+<td>保守</td>
+<td>88-90元</td>
+<td>回调至94.6前低下方</td>
+</tr>
+<tr>
+<td>1个月</td>
+<td>基准</td>
+<td>92-96元</td>
+<td>在支撑位震荡整固</td>
+</tr>
+<tr>
+<td>1个月</td>
+<td>乐观</td>
+<td>100-103元</td>
+<td>突破100心理关口</td>
+</tr>
+<tr>
+<td>3个月</td>
+<td>保守</td>
+<td>82-85元</td>
+<td>确认头部形态</td>
+</tr>
+<tr>
+<td>3个月</td>
+<td>基准</td>
+<td>90-95元</td>
+<td>震荡筑底等待催化剂</td>
+</tr>
+<tr>
+<td>3个月</td>
+<td>乐观</td>
+<td>105-110元</td>
+<td>可转债重组超预期</td>
+</tr>
+<tr>
+<td>6个月</td>
+<td>保守</td>
+<td>78-82元</td>
+<td>业绩证伪+流动性收紧</td>
+</tr>
+<tr>
+<td>6个月</td>
+<td>基准</td>
+<td>95-100元</td>
+<td>估值修复到位</td>
+</tr>
+<tr>
+<td>6个月</td>
+<td>乐观</td>
+<td>115-125元</td>
+<td>重组成功+业绩验证</td>
+</tr>
+</tbody>
+</table>
+<p><strong>最可能的情景</strong>：未来3-6个月股价在88-102元区间内震荡整固，消化当前估值压力，等待2025年年报和可转债发行进展的进一步明朗。</p>
+<h3>关键风险因素</h3>
+<p>向上风险包括可转债重组超预期、新业务贡献超预期；向下风险包括118%净利率被证实为一次性收益导致估值重估、可转债发行遇阻、流动性进一步收紧。</p>
+<h3>从反思中学习</h3>
+<p>作为组合经理，我必须承认之前在处理这类高估值、高波动、存在财务疑问的股票时，曾经有过错误——倾向于相信管理层的&quot;积极信号&quot;而忽视数据中的异常值。这次我选择相信数据而不是叙事，因为数据会说谎，但异常的财务指标往往反映的是真实的问题。</p>
+</div></details><details><summary>风险辩论</summary><div class='markdown-body'><h1>风险管理委员会评估报告</h1>
+<h2>主席裁决：审慎减仓，分批退出</h2>
+<hr />
+<h2>一、辩论质量评估</h2>
+<table>
+<thead>
+<tr>
+<th>分析师</th>
+<th>核心优势</th>
+<th>致命弱点</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>激进</strong></td>
+<td>118%净利率异常识别精准；估值对比逻辑清晰</td>
+<td>过度自信，技术数据基础被质疑；忽视事件催化可能性</td>
+</tr>
+<tr>
+<td><strong>保守</strong></td>
+<td>资产重组会计解释合理；强调仓位管理重要性</td>
+<td>&quot;等年报&quot;本质是拖延而非决策；条件单设计过于复杂</td>
+</tr>
+<tr>
+<td><strong>中性</strong></td>
+<td>分批退出策略务实；承认不确定性而非回避</td>
+<td>92-93止损位略紧；未充分讨论仓位阈值</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>二、关键证据裁决</h2>
+<h3>✓ 激进方胜诉的论点</h3>
+<blockquote>
+<p>&quot;210%的净利润增长建立在15%营收增长基础上，14倍的背离在正常商业环境中几乎不可能持续，这强烈暗示存在非经常性损益的贡献。&quot;</p>
+</blockquote>
+<p><strong>裁决理由：</strong> 这个14倍增速差距是客观数据，无法用&quot;资产重估&quot;完全解释。无论如何包装，利润质量存疑是成立的。</p>
+<blockquote>
+<p>&quot;PB 11.4倍意味着市场在为每1块钱的净资产支付11块钱。哪怕按照最保守的标准，这个估值也完全没有安全边际。&quot;</p>
+</blockquote>
+<p><strong>裁决理由：</strong> 保守方未能有效反驳。IDC稀缺性溢价可以解释一定估值溢价，但无法解释11.4倍PB与11.51%扣非ROE的严重不匹配。</p>
+<h3>✓ 保守方胜诉的论点</h3>
+<blockquote>
+<p>&quot;技术分析报告本身已经明确声明：由于数据严重受限，所有技术指标均无法计算。&quot;</p>
+</blockquote>
+<p><strong>裁决理由：</strong> 这是实质性反驳。激进方引用的&quot;量比0.75&quot;推断确实存在数据基础缺陷，技术分析结论应视为参考而非决策依据。</p>
+<blockquote>
+<p>&quot;数据中心固定资产大量摊销后，营收边际成本极低，净利率超100%在特定会计期间完全可能发生。&quot;</p>
+</blockquote>
+<p><strong>裁决理由：</strong> 资产重组期间的资产评估增值是合法会计处理，这一点激进方未能有效反驳。118%净利率不能直接定性为造假。</p>
+<h3>✓ 中性方胜诉的论点</h3>
+<blockquote>
+<p>&quot;仓位管理才是最终决定你该激进还是保守的关键因素。&quot;</p>
+</blockquote>
+<p><strong>裁决理由：</strong> 这是辩论中最重要的观点，但三方都未充分展开。无论最终建议如何，仓位大小决定了策略的合理性边界。</p>
+<hr />
+<h2>三、最终决策</h2>
+<h3><strong>建议：审慎减仓，保留观察性仓位</strong></h3>
+<pre><code>当前持仓策略：
+├── 立即行动：卖出50%-60%仓位
+├── 止损设置：92元（跌破清仓剩余）
+├── 保留仓位：40%-50%（用于捕捉超预期上涨）
+└── 观察信号：可转债审批进展、2025年年报、成交量变化
+</code></pre>
+<h3>决策逻辑</h3>
+<p><strong>选择中性策略而非激进卖出的理由：</strong></p>
+<ol>
+<li><strong>事件催化剂存在不确定性</strong>：可转债重组仍在预案阶段，监管审批可能带来超预期结果</li>
+<li><strong>会计解释有合理性</strong>：资产重组期间的非经常损益在法律上成立，不能直接否定</li>
+<li><strong>踏空风险不可忽视</strong>：A股市场情绪驱动力强，99元并非不可能涨至105-110元</li>
+</ol>
+<p><strong>选择减仓而非保守持有的理由：</strong></p>
+<ol>
+<li><strong>118%净利率是真实的警示信号</strong>：无论会计如何处理，这个数字都意味着盈利质量存疑</li>
+<li><strong>估值透支明显</strong>：当前价格已充分反映所有乐观预期</li>
+<li><strong>下行风险大于上行空间</strong>：利空兑现概率高于利好超预期概率</li>
+</ol>
+<hr />
+<h2>四、情景修正与目标价格</h2>
+<table>
+<thead>
+<tr>
+<th>时间</th>
+<th>基准情景</th>
+<th>上行情景</th>
+<th>下行情景</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1个月</strong></td>
+<td>92-98元</td>
+<td>100-103元</td>
+<td>88-90元</td>
+</tr>
+<tr>
+<td><strong>3个月</strong></td>
+<td>90-100元</td>
+<td>105-110元</td>
+<td>82-85元</td>
+</tr>
+<tr>
+<td><strong>6个月</strong></td>
+<td>88-102元</td>
+<td>115-125元</td>
+<td>75-80元</td>
+</tr>
+</tbody>
+</table>
+<p><strong>概率分布估计：</strong></p>
+<ul>
+<li>基准情景：55%</li>
+<li>上行情景：20%</li>
+<li>下行情景：25%</li>
+</ul>
+<p><strong>最可能结局：</strong> 股价在90-100元区间震荡3-6个月，等待2025年年报和可转债进展确认方向。</p>
+<hr />
+<h2>五、仓位调整指南</h2>
+<table>
+<thead>
+<tr>
+<th>原始仓位占比</th>
+<th>建议动作</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>≤10%</strong></td>
+<td>持有+止损位92元</td>
+</tr>
+<tr>
+<td><strong>10%-25%</strong></td>
+<td>减至15%+止损位92元</td>
+</tr>
+<tr>
+<td><strong>25%-40%</strong></td>
+<td>减至20%+止损位92元</td>
+</tr>
+<tr>
+<td><strong>&gt;40%</strong></td>
+<td>减至25%+止损位92元</td>
+</tr>
+</tbody>
+</table>
+<p><strong>核心原则：</strong> 无论原始仓位多少，保留的观察性仓位不应超过组合的15%。</p>
+<hr />
+<h2>六、行动清单</h2>
+<pre><code>第一优先级（本周内）：
+□ 在99-100元区间卖出50%-60%持仓
+□ 设置92元止损条件单
+□ 记录当前持仓成本和数量
+
+第二优先级（1个月内）：
+□ 每日监控成交量变化（突破100元需警惕）
+□ 跟踪可转债预案审批动态
+□ 评估市场整体风险偏好
+
+第三优先级（季报前）：
+□ 准备2025年年报分析框架
+□ 设定重新建仓的量化条件（价格+基本面门槛）
+</code></pre>
+<hr />
+<h2>七、从辩论中学习的教训</h2>
+<h3>本次辩论的智慧</h3>
+<ol>
+<li><strong>&quot;数据不足时不下确定性结论&quot;</strong> — 激进方被反驳技术分析数据基础，这是正确的</li>
+<li><strong>&quot;仓位决定策略&quot;</strong> — 中性方的关键洞见，应成为决策框架的核心</li>
+<li><strong>&quot;异常数字是线索而非定论&quot;</strong> — 118%净利率需要解释，而不是直接否定</li>
+</ol>
+<h3>历史经验教训</h3>
+<blockquote>
+<p><strong>&quot;不要让恐惧主导决策，也不要让希望主导决策。&quot;</strong></p>
+</blockquote>
+<ul>
+<li>激进方的错误：把风险识别等同于卖出决策</li>
+<li>保守方的错误：用&quot;等更多信息&quot;回避不确定性</li>
+<li><strong>正确做法：在不确定性中寻找概率优势，而不是试图消除不确定性</strong></li>
+</ul>
+<hr />
+<h2>主席结论</h2>
+<p><strong>最终建议：审慎减仓，分批退出，保留观察性仓位。</strong></p>
+<p>这不是最激进的卖出建议，也不是最保守的持有建议。但这是<strong>在信息不完整、风险与机会并存的环境中，最符合风险调整后收益最大化的决策</strong>。</p>
+<p>记住：<strong>好的风险管理不是预测未来，而是在未来不确定时保护本金。</strong></p>
+</div></details><details><summary>最终决策</summary><div class='markdown-body'><h1>风险管理委员会评估报告</h1>
+<h2>主席裁决：审慎减仓，分批退出</h2>
+<hr />
+<h2>一、辩论质量评估</h2>
+<table>
+<thead>
+<tr>
+<th>分析师</th>
+<th>核心优势</th>
+<th>致命弱点</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>激进</strong></td>
+<td>118%净利率异常识别精准；估值对比逻辑清晰</td>
+<td>过度自信，技术数据基础被质疑；忽视事件催化可能性</td>
+</tr>
+<tr>
+<td><strong>保守</strong></td>
+<td>资产重组会计解释合理；强调仓位管理重要性</td>
+<td>&quot;等年报&quot;本质是拖延而非决策；条件单设计过于复杂</td>
+</tr>
+<tr>
+<td><strong>中性</strong></td>
+<td>分批退出策略务实；承认不确定性而非回避</td>
+<td>92-93止损位略紧；未充分讨论仓位阈值</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>二、关键证据裁决</h2>
+<h3>✓ 激进方胜诉的论点</h3>
+<blockquote>
+<p>&quot;210%的净利润增长建立在15%营收增长基础上，14倍的背离在正常商业环境中几乎不可能持续，这强烈暗示存在非经常性损益的贡献。&quot;</p>
+</blockquote>
+<p><strong>裁决理由：</strong> 这个14倍增速差距是客观数据，无法用&quot;资产重估&quot;完全解释。无论如何包装，利润质量存疑是成立的。</p>
+<blockquote>
+<p>&quot;PB 11.4倍意味着市场在为每1块钱的净资产支付11块钱。哪怕按照最保守的标准，这个估值也完全没有安全边际。&quot;</p>
+</blockquote>
+<p><strong>裁决理由：</strong> 保守方未能有效反驳。IDC稀缺性溢价可以解释一定估值溢价，但无法解释11.4倍PB与11.51%扣非ROE的严重不匹配。</p>
+<h3>✓ 保守方胜诉的论点</h3>
+<blockquote>
+<p>&quot;技术分析报告本身已经明确声明：由于数据严重受限，所有技术指标均无法计算。&quot;</p>
+</blockquote>
+<p><strong>裁决理由：</strong> 这是实质性反驳。激进方引用的&quot;量比0.75&quot;推断确实存在数据基础缺陷，技术分析结论应视为参考而非决策依据。</p>
+<blockquote>
+<p>&quot;数据中心固定资产大量摊销后，营收边际成本极低，净利率超100%在特定会计期间完全可能发生。&quot;</p>
+</blockquote>
+<p><strong>裁决理由：</strong> 资产重组期间的资产评估增值是合法会计处理，这一点激进方未能有效反驳。118%净利率不能直接定性为造假。</p>
+<h3>✓ 中性方胜诉的论点</h3>
+<blockquote>
+<p>&quot;仓位管理才是最终决定你该激进还是保守的关键因素。&quot;</p>
+</blockquote>
+<p><strong>裁决理由：</strong> 这是辩论中最重要的观点，但三方都未充分展开。无论最终建议如何，仓位大小决定了策略的合理性边界。</p>
+<hr />
+<h2>三、最终决策</h2>
+<h3><strong>建议：审慎减仓，保留观察性仓位</strong></h3>
+<pre><code>当前持仓策略：
+├── 立即行动：卖出50%-60%仓位
+├── 止损设置：92元（跌破清仓剩余）
+├── 保留仓位：40%-50%（用于捕捉超预期上涨）
+└── 观察信号：可转债审批进展、2025年年报、成交量变化
+</code></pre>
+<h3>决策逻辑</h3>
+<p><strong>选择中性策略而非激进卖出的理由：</strong></p>
+<ol>
+<li><strong>事件催化剂存在不确定性</strong>：可转债重组仍在预案阶段，监管审批可能带来超预期结果</li>
+<li><strong>会计解释有合理性</strong>：资产重组期间的非经常损益在法律上成立，不能直接否定</li>
+<li><strong>踏空风险不可忽视</strong>：A股市场情绪驱动力强，99元并非不可能涨至105-110元</li>
+</ol>
+<p><strong>选择减仓而非保守持有的理由：</strong></p>
+<ol>
+<li><strong>118%净利率是真实的警示信号</strong>：无论会计如何处理，这个数字都意味着盈利质量存疑</li>
+<li><strong>估值透支明显</strong>：当前价格已充分反映所有乐观预期</li>
+<li><strong>下行风险大于上行空间</strong>：利空兑现概率高于利好超预期概率</li>
+</ol>
+<hr />
+<h2>四、情景修正与目标价格</h2>
+<table>
+<thead>
+<tr>
+<th>时间</th>
+<th>基准情景</th>
+<th>上行情景</th>
+<th>下行情景</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1个月</strong></td>
+<td>92-98元</td>
+<td>100-103元</td>
+<td>88-90元</td>
+</tr>
+<tr>
+<td><strong>3个月</strong></td>
+<td>90-100元</td>
+<td>105-110元</td>
+<td>82-85元</td>
+</tr>
+<tr>
+<td><strong>6个月</strong></td>
+<td>88-102元</td>
+<td>115-125元</td>
+<td>75-80元</td>
+</tr>
+</tbody>
+</table>
+<p><strong>概率分布估计：</strong></p>
+<ul>
+<li>基准情景：55%</li>
+<li>上行情景：20%</li>
+<li>下行情景：25%</li>
+</ul>
+<p><strong>最可能结局：</strong> 股价在90-100元区间震荡3-6个月，等待2025年年报和可转债进展确认方向。</p>
+<hr />
+<h2>五、仓位调整指南</h2>
+<table>
+<thead>
+<tr>
+<th>原始仓位占比</th>
+<th>建议动作</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>≤10%</strong></td>
+<td>持有+止损位92元</td>
+</tr>
+<tr>
+<td><strong>10%-25%</strong></td>
+<td>减至15%+止损位92元</td>
+</tr>
+<tr>
+<td><strong>25%-40%</strong></td>
+<td>减至20%+止损位92元</td>
+</tr>
+<tr>
+<td><strong>&gt;40%</strong></td>
+<td>减至25%+止损位92元</td>
+</tr>
+</tbody>
+</table>
+<p><strong>核心原则：</strong> 无论原始仓位多少，保留的观察性仓位不应超过组合的15%。</p>
+<hr />
+<h2>六、行动清单</h2>
+<pre><code>第一优先级（本周内）：
+□ 在99-100元区间卖出50%-60%持仓
+□ 设置92元止损条件单
+□ 记录当前持仓成本和数量
+
+第二优先级（1个月内）：
+□ 每日监控成交量变化（突破100元需警惕）
+□ 跟踪可转债预案审批动态
+□ 评估市场整体风险偏好
+
+第三优先级（季报前）：
+□ 准备2025年年报分析框架
+□ 设定重新建仓的量化条件（价格+基本面门槛）
+</code></pre>
+<hr />
+<h2>七、从辩论中学习的教训</h2>
+<h3>本次辩论的智慧</h3>
+<ol>
+<li><strong>&quot;数据不足时不下确定性结论&quot;</strong> — 激进方被反驳技术分析数据基础，这是正确的</li>
+<li><strong>&quot;仓位决定策略&quot;</strong> — 中性方的关键洞见，应成为决策框架的核心</li>
+<li><strong>&quot;异常数字是线索而非定论&quot;</strong> — 118%净利率需要解释，而不是直接否定</li>
+</ol>
+<h3>历史经验教训</h3>
+<blockquote>
+<p><strong>&quot;不要让恐惧主导决策，也不要让希望主导决策。&quot;</strong></p>
+</blockquote>
+<ul>
+<li>激进方的错误：把风险识别等同于卖出决策</li>
+<li>保守方的错误：用&quot;等更多信息&quot;回避不确定性</li>
+<li><strong>正确做法：在不确定性中寻找概率优势，而不是试图消除不确定性</strong></li>
+</ul>
+<hr />
+<h2>主席结论</h2>
+<p><strong>最终建议：审慎减仓，分批退出，保留观察性仓位。</strong></p>
+<p>这不是最激进的卖出建议，也不是最保守的持有建议。但这是<strong>在信息不完整、风险与机会并存的环境中，最符合风险调整后收益最大化的决策</strong>。</p>
+<p>记住：<strong>好的风险管理不是预测未来，而是在未来不确定时保护本金。</strong></p>
+</div></details>
+      </div>
+      <div class="panel stack">
+        <h2>结构化结果</h2>
+        <details open><summary>策略计划</summary><div class='markdown-body'><h1>策略计划</h1>
+<ul>
+<li>交易日: 2026-03-05</li>
+<li>标的: 润泽科技 (300442.SZ)</li>
+<li>执行约束: A股 T+1，今日新买入仓位需到下一个交易日后方可卖出</li>
+<li>当前判断: hold / 置信度 0.60</li>
+<li>盘单契约状态: structured / 来源: processed_decision</li>
+<li>建议仓位/建仓计划: 维持/观察，目标仓位 40.00%</li>
+<li>触发买入价: 待补充</li>
+<li>触发买入比例: 40.00%</li>
+<li>触发卖出价: 100元</li>
+<li>触发卖出比例: 40.00%</li>
+<li>止损: 92元</li>
+<li>止盈: 待补充</li>
+<li>盘单有效期: 待补充</li>
+<li>契约备注: -</li>
+<li>备注: # 风险管理委员会评估报告</li>
+</ul>
+<h2>主席裁决：审慎减仓，分批退出</h2>
+<hr />
+<h2>一、辩论质量评估</h2>
+<table>
+<thead>
+<tr>
+<th>分析师</th>
+<th>核心优势</th>
+<th>致命弱点</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>激进</strong></td>
+<td>118%净利率异常识别精准；估值对比逻辑清晰</td>
+<td>过度自信，技术数据基础被质疑；忽视事件催化可能性</td>
+</tr>
+<tr>
+<td><strong>保守</strong></td>
+<td>资产重组会计解释合理；强调仓位管理重要性</td>
+<td>&quot;等年报&quot;本质是拖延而非决策；条件单设计过于复杂</td>
+</tr>
+<tr>
+<td><strong>中性</strong></td>
+<td>分批退出策略务实；承认不确定性而非回避</td>
+<td>92-93止损位略紧；未充分讨论仓位阈值</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>二、关键证据裁决</h2>
+<h3>✓ 激进方胜诉的论点</h3>
+<blockquote>
+<p>&quot;210%的净利润增长建立在15%营收增长基础上，14倍的背离在正常商业环境中几乎不可能持续，这强烈暗示存在非经常性损益的贡献。&quot;</p>
+</blockquote>
+<p><strong>裁决理由：</strong> 这个14倍增速差距是客观数据，无法用&quot;资产重估&quot;完全解释。无论如何包装，利润质量存疑是成立的。</p>
+<blockquote>
+<p>&quot;PB 11.4倍意味着市场在为每1块钱的净资产支付11块钱。哪怕按照最保守的标准，这个估值也完全没有安全边际。&quot;</p>
+</blockquote>
+<p><strong>裁决理由：</strong> 保守方未能有效反驳。IDC稀缺性溢价可以解释一定估值溢价，但无法解释11.4倍PB与11.51%扣非ROE的严重不匹配。</p>
+<h3>✓ 保守方胜诉的论点</h3>
+<blockquote>
+<p>&quot;技术分析报告本身已经明确声明：由于数据严重受限，所有技术指标均无法计算。&quot;</p>
+</blockquote>
+<p><strong>裁决理由：</strong> 这是实质性反驳。激进方引用的&quot;量比0.75&quot;推断确实存在数据基础缺陷，技术分析结论应视为参考而非决策依据。</p>
+<blockquote>
+<p>&quot;数据中心固定资产大量摊销后，营收边际成本极低，净利率超100%在特定会计期间完全可能发生。&quot;</p>
+</blockquote>
+<p><strong>裁决理由：</strong> 资产重组期间的资产评估增值是合法会计处理，这一点激进方未能有效反驳。118%净利率不能直接定性为造假。</p>
+<h3>✓ 中性方胜诉的论点</h3>
+<blockquote>
+<p>&quot;仓位管理才是最终决定你该激进还是保守的关键因素。&quot;</p>
+</blockquote>
+<p><strong>裁决理由：</strong> 这是辩论中最重要的观点，但三方都未充分展开。无论最终建议如何，仓位大小决定了策略的合理性边界。</p>
+<hr />
+<h2>三、最终决策</h2>
+<h3><strong>建议：审慎减仓，保留观察性仓位</strong></h3>
+<pre><code>当前持仓策略：
+├── 立即行动：卖出50%-60%仓位
+├── 止损设置：92元（跌破清仓剩余）
+├── 保留仓位：40%-50%（用于捕捉超预期上涨）
+└── 观察信号：可转债审批进展、2025年年报、成交量变化
+</code></pre>
+<h3>决策逻辑</h3>
+<p><strong>选择中性策略而非激进卖出的理由：</strong></p>
+<ol>
+<li><strong>事件催化剂存在不确定性</strong>：可转债重组仍在预案阶段，监管审批可能带来超预期结果</li>
+<li><strong>会计解释有合理性</strong>：资产重组期间的非经常损益在法律上成立，不能直接否定</li>
+<li><strong>踏空风险不可忽视</strong>：A股市场情绪驱动力强，99元并非不可能涨至105-110元</li>
+</ol>
+<p><strong>选择减仓而非保守持有的理由：</strong></p>
+<ol>
+<li><strong>118%净利率是真实的警示信号</strong>：无论会计如何处理，这个数字都意味着盈利质量存疑</li>
+<li><strong>估值透支明显</strong>：当前价格已充分反映所有乐观预期</li>
+<li><strong>下行风险大于上行空间</strong>：利空兑现概率高于利好超预期概率</li>
+</ol>
+<hr />
+<h2>四、情景修正与目标价格</h2>
+<table>
+<thead>
+<tr>
+<th>时间</th>
+<th>基准情景</th>
+<th>上行情景</th>
+<th>下行情景</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1个月</strong></td>
+<td>92-98元</td>
+<td>100-103元</td>
+<td>88-90元</td>
+</tr>
+<tr>
+<td><strong>3个月</strong></td>
+<td>90-100元</td>
+<td>105-110元</td>
+<td>82-85元</td>
+</tr>
+<tr>
+<td><strong>6个月</strong></td>
+<td>88-102元</td>
+<td>115-125元</td>
+<td>75-80元</td>
+</tr>
+</tbody>
+</table>
+<p><strong>概率分布估计：</strong></p>
+<ul>
+<li>基准情景：55%</li>
+<li>上行情景：20%</li>
+<li>下行情景：25%</li>
+</ul>
+<p><strong>最可能结局：</strong> 股价在90-100元区间震荡3-6个月，等待2025年年报和可转债进展确认方向。</p>
+<hr />
+<h2>五、仓位调整指南</h2>
+<table>
+<thead>
+<tr>
+<th>原始仓位占比</th>
+<th>建议动作</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>≤10%</strong></td>
+<td>持有+止损位92元</td>
+</tr>
+<tr>
+<td><strong>10%-25%</strong></td>
+<td>减至15%+止损位92元</td>
+</tr>
+<tr>
+<td><strong>25%-40%</strong></td>
+<td>减至20%+止损位92元</td>
+</tr>
+<tr>
+<td><strong>&gt;40%</strong></td>
+<td>减至25%+止损位92元</td>
+</tr>
+</tbody>
+</table>
+<p><strong>核心原则：</strong> 无论原始仓位多少，保留的观察性仓位不应超过组合的15%。</p>
+<hr />
+<h2>六、行动清单</h2>
+<pre><code>第一优先级（本周内）：
+□ 在99-100元区间卖出50%-60%持仓
+□ 设置92元止损条件单
+□ 记录当前持仓成本和数量
+
+第二优先级（1个月内）：
+□ 每日监控成交量变化（突破100元需警惕）
+□ 跟踪可转债预案审批动态
+□ 评估市场整体风险偏好
+
+第三优先级（季报前）：
+□ 准备2025年年报分析框架
+□ 设定重新建仓的量化条件（价格+基本面门槛）
+</code></pre>
+<hr />
+<h2>七、从辩论中学习的教训</h2>
+<h3>本次辩论的智慧</h3>
+<ol>
+<li><strong>&quot;数据不足时不下确定性结论&quot;</strong> — 激进方被反驳技术分析数据基础，这是正确的</li>
+<li><strong>&quot;仓位决定策略&quot;</strong> — 中性方的关键洞见，应成为决策框架的核心</li>
+<li><strong>&quot;异常数字是线索而非定论&quot;</strong> — 118%净利率需要解释，而不是直接否定</li>
+</ol>
+<h3>历史经验教训</h3>
+<blockquote>
+<p><strong>&quot;不要让恐惧主导决策，也不要让希望主导决策。&quot;</strong></p>
+</blockquote>
+<ul>
+<li>激进方的错误：把风险识别等同于卖出决策</li>
+<li>保守方的错误：用&quot;等更多信息&quot;回避不确定性</li>
+<li><strong>正确做法：在不确定性中寻找概率优势，而不是试图消除不确定性</strong></li>
+</ul>
+<hr />
+<h2>主席结论</h2>
+<p><strong>最终建议：审慎减仓，分批退出，保留观察性仓位。</strong></p>
+<p>这不是最激进的卖出建议，也不是最保守的持有建议。但这是<strong>在信息不完整、风险与机会并存的环境中，最符合风险调整后收益最大化的决策</strong>。</p>
+<p>记住：<strong>好的风险管理不是预测未来，而是在未来不确定时保护本金。</strong></p>
+<h2>原始决策</h2>
+<h1>风险管理委员会评估报告</h1>
+<h2>主席裁决：审慎减仓，分批退出</h2>
+<hr />
+<h2>一、辩论质量评估</h2>
+<table>
+<thead>
+<tr>
+<th>分析师</th>
+<th>核心优势</th>
+<th>致命弱点</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>激进</strong></td>
+<td>118%净利率异常识别精准；估值对比逻辑清晰</td>
+<td>过度自信，技术数据基础被质疑；忽视事件催化可能性</td>
+</tr>
+<tr>
+<td><strong>保守</strong></td>
+<td>资产重组会计解释合理；强调仓位管理重要性</td>
+<td>&quot;等年报&quot;本质是拖延而非决策；条件单设计过于复杂</td>
+</tr>
+<tr>
+<td><strong>中性</strong></td>
+<td>分批退出策略务实；承认不确定性而非回避</td>
+<td>92-93止损位略紧；未充分讨论仓位阈值</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>二、关键证据裁决</h2>
+<h3>✓ 激进方胜诉的论点</h3>
+<blockquote>
+<p>&quot;210%的净利润增长建立在15%营收增长基础上，14倍的背离在正常商业环境中几乎不可能持续，这强烈暗示存在非经常性损益的贡献。&quot;</p>
+</blockquote>
+<p><strong>裁决理由：</strong> 这个14倍增速差距是客观数据，无法用&quot;资产重估&quot;完全解释。无论如何包装，利润质量存疑是成立的。</p>
+<blockquote>
+<p>&quot;PB 11.4倍意味着市场在为每1块钱的净资产支付11块钱。哪怕按照最保守的标准，这个估值也完全没有安全边际。&quot;</p>
+</blockquote>
+<p><strong>裁决理由：</strong> 保守方未能有效反驳。IDC稀缺性溢价可以解释一定估值溢价，但无法解释11.4倍PB与11.51%扣非ROE的严重不匹配。</p>
+<h3>✓ 保守方胜诉的论点</h3>
+<blockquote>
+<p>&quot;技术分析报告本身已经明确声明：由于数据严重受限，所有技术指标均无法计算。&quot;</p>
+</blockquote>
+<p><strong>裁决理由：</strong> 这是实质性反驳。激进方引用的&quot;量比0.75&quot;推断确实存在数据基础缺陷，技术分析结论应视为参考而非决策依据。</p>
+<blockquote>
+<p>&quot;数据中心固定资产大量摊销后，营收边际成本极低，净利率超100%在特定会计期间完全可能发生。&quot;</p>
+</blockquote>
+<p><strong>裁决理由：</strong> 资产重组期间的资产评估增值是合法会计处理，这一点激进方未能有效反驳。118%净利率不能直接定性为造假。</p>
+<h3>✓ 中性方胜诉的论点</h3>
+<blockquote>
+<p>&quot;仓位管理才是最终决定你该激进还是保守的关键因素。&quot;</p>
+</blockquote>
+<p><strong>裁决理由：</strong> 这是辩论中最重要的观点，但三方都未充分展开。无论最终建议如何，仓位大小决定了策略的合理性边界。</p>
+<hr />
+<h2>三、最终决策</h2>
+<h3><strong>建议：审慎减仓，保留观察性仓位</strong></h3>
+<pre><code>当前持仓策略：
+├── 立即行动：卖出50%-60%仓位
+├── 止损设置：92元（跌破清仓剩余）
+├── 保留仓位：40%-50%（用于捕捉超预期上涨）
+└── 观察信号：可转债审批进展、2025年年报、成交量变化
+</code></pre>
+<h3>决策逻辑</h3>
+<p><strong>选择中性策略而非激进卖出的理由：</strong></p>
+<ol>
+<li><strong>事件催化剂存在不确定性</strong>：可转债重组仍在预案阶段，监管审批可能带来超预期结果</li>
+<li><strong>会计解释有合理性</strong>：资产重组期间的非经常损益在法律上成立，不能直接否定</li>
+<li><strong>踏空风险不可忽视</strong>：A股市场情绪驱动力强，99元并非不可能涨至105-110元</li>
+</ol>
+<p><strong>选择减仓而非保守持有的理由：</strong></p>
+<ol>
+<li><strong>118%净利率是真实的警示信号</strong>：无论会计如何处理，这个数字都意味着盈利质量存疑</li>
+<li><strong>估值透支明显</strong>：当前价格已充分反映所有乐观预期</li>
+<li><strong>下行风险大于上行空间</strong>：利空兑现概率高于利好超预期概率</li>
+</ol>
+<hr />
+<h2>四、情景修正与目标价格</h2>
+<table>
+<thead>
+<tr>
+<th>时间</th>
+<th>基准情景</th>
+<th>上行情景</th>
+<th>下行情景</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1个月</strong></td>
+<td>92-98元</td>
+<td>100-103元</td>
+<td>88-90元</td>
+</tr>
+<tr>
+<td><strong>3个月</strong></td>
+<td>90-100元</td>
+<td>105-110元</td>
+<td>82-85元</td>
+</tr>
+<tr>
+<td><strong>6个月</strong></td>
+<td>88-102元</td>
+<td>115-125元</td>
+<td>75-80元</td>
+</tr>
+</tbody>
+</table>
+<p><strong>概率分布估计：</strong></p>
+<ul>
+<li>基准情景：55%</li>
+<li>上行情景：20%</li>
+<li>下行情景：25%</li>
+</ul>
+<p><strong>最可能结局：</strong> 股价在90-100元区间震荡3-6个月，等待2025年年报和可转债进展确认方向。</p>
+<hr />
+<h2>五、仓位调整指南</h2>
+<table>
+<thead>
+<tr>
+<th>原始仓位占比</th>
+<th>建议动作</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>≤10%</strong></td>
+<td>持有+止损位92元</td>
+</tr>
+<tr>
+<td><strong>10%-25%</strong></td>
+<td>减至15%+止损位92元</td>
+</tr>
+<tr>
+<td><strong>25%-40%</strong></td>
+<td>减至20%+止损位92元</td>
+</tr>
+<tr>
+<td><strong>&gt;40%</strong></td>
+<td>减至25%+止损位92元</td>
+</tr>
+</tbody>
+</table>
+<p><strong>核心原则：</strong> 无论原始仓位多少，保留的观察性仓位不应超过组合的15%。</p>
+<hr />
+<h2>六、行动清单</h2>
+<pre><code>第一优先级（本周内）：
+□ 在99-100元区间卖出50%-60%持仓
+□ 设置92元止损条件单
+□ 记录当前持仓成本和数量
+
+第二优先级（1个月内）：
+□ 每日监控成交量变化（突破100元需警惕）
+□ 跟踪可转债预案审批动态
+□ 评估市场整体风险偏好
+
+第三优先级（季报前）：
+□ 准备2025年年报分析框架
+□ 设定重新建仓的量化条件（价格+基本面门槛）
+</code></pre>
+<hr />
+<h2>七、从辩论中学习的教训</h2>
+<h3>本次辩论的智慧</h3>
+<ol>
+<li><strong>&quot;数据不足时不下确定性结论&quot;</strong> — 激进方被反驳技术分析数据基础，这是正确的</li>
+<li><strong>&quot;仓位决定策略&quot;</strong> — 中性方的关键洞见，应成为决策框架的核心</li>
+<li><strong>&quot;异常数字是线索而非定论&quot;</strong> — 118%净利率需要解释，而不是直接否定</li>
+</ol>
+<h3>历史经验教训</h3>
+<blockquote>
+<p><strong>&quot;不要让恐惧主导决策，也不要让希望主导决策。&quot;</strong></p>
+</blockquote>
+<ul>
+<li>激进方的错误：把风险识别等同于卖出决策</li>
+<li>保守方的错误：用&quot;等更多信息&quot;回避不确定性</li>
+<li><strong>正确做法：在不确定性中寻找概率优势，而不是试图消除不确定性</strong></li>
+</ul>
+<hr />
+<h2>主席结论</h2>
+<p><strong>最终建议：审慎减仓，分批退出，保留观察性仓位。</strong></p>
+<p>这不是最激进的卖出建议，也不是最保守的持有建议。但这是<strong>在信息不完整、风险与机会并存的环境中，最符合风险调整后收益最大化的决策</strong>。</p>
+<p>记住：<strong>好的风险管理不是预测未来，而是在未来不确定时保护本金。</strong></p>
+</div></details>
+        <details open><summary>最终策略原文</summary><div class='markdown-body'><h1>风险管理委员会评估报告</h1>
+<h2>主席裁决：审慎减仓，分批退出</h2>
+<hr />
+<h2>一、辩论质量评估</h2>
+<table>
+<thead>
+<tr>
+<th>分析师</th>
+<th>核心优势</th>
+<th>致命弱点</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>激进</strong></td>
+<td>118%净利率异常识别精准；估值对比逻辑清晰</td>
+<td>过度自信，技术数据基础被质疑；忽视事件催化可能性</td>
+</tr>
+<tr>
+<td><strong>保守</strong></td>
+<td>资产重组会计解释合理；强调仓位管理重要性</td>
+<td>&quot;等年报&quot;本质是拖延而非决策；条件单设计过于复杂</td>
+</tr>
+<tr>
+<td><strong>中性</strong></td>
+<td>分批退出策略务实；承认不确定性而非回避</td>
+<td>92-93止损位略紧；未充分讨论仓位阈值</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>二、关键证据裁决</h2>
+<h3>✓ 激进方胜诉的论点</h3>
+<blockquote>
+<p>&quot;210%的净利润增长建立在15%营收增长基础上，14倍的背离在正常商业环境中几乎不可能持续，这强烈暗示存在非经常性损益的贡献。&quot;</p>
+</blockquote>
+<p><strong>裁决理由：</strong> 这个14倍增速差距是客观数据，无法用&quot;资产重估&quot;完全解释。无论如何包装，利润质量存疑是成立的。</p>
+<blockquote>
+<p>&quot;PB 11.4倍意味着市场在为每1块钱的净资产支付11块钱。哪怕按照最保守的标准，这个估值也完全没有安全边际。&quot;</p>
+</blockquote>
+<p><strong>裁决理由：</strong> 保守方未能有效反驳。IDC稀缺性溢价可以解释一定估值溢价，但无法解释11.4倍PB与11.51%扣非ROE的严重不匹配。</p>
+<h3>✓ 保守方胜诉的论点</h3>
+<blockquote>
+<p>&quot;技术分析报告本身已经明确声明：由于数据严重受限，所有技术指标均无法计算。&quot;</p>
+</blockquote>
+<p><strong>裁决理由：</strong> 这是实质性反驳。激进方引用的&quot;量比0.75&quot;推断确实存在数据基础缺陷，技术分析结论应视为参考而非决策依据。</p>
+<blockquote>
+<p>&quot;数据中心固定资产大量摊销后，营收边际成本极低，净利率超100%在特定会计期间完全可能发生。&quot;</p>
+</blockquote>
+<p><strong>裁决理由：</strong> 资产重组期间的资产评估增值是合法会计处理，这一点激进方未能有效反驳。118%净利率不能直接定性为造假。</p>
+<h3>✓ 中性方胜诉的论点</h3>
+<blockquote>
+<p>&quot;仓位管理才是最终决定你该激进还是保守的关键因素。&quot;</p>
+</blockquote>
+<p><strong>裁决理由：</strong> 这是辩论中最重要的观点，但三方都未充分展开。无论最终建议如何，仓位大小决定了策略的合理性边界。</p>
+<hr />
+<h2>三、最终决策</h2>
+<h3><strong>建议：审慎减仓，保留观察性仓位</strong></h3>
+<pre><code>当前持仓策略：
+├── 立即行动：卖出50%-60%仓位
+├── 止损设置：92元（跌破清仓剩余）
+├── 保留仓位：40%-50%（用于捕捉超预期上涨）
+└── 观察信号：可转债审批进展、2025年年报、成交量变化
+</code></pre>
+<h3>决策逻辑</h3>
+<p><strong>选择中性策略而非激进卖出的理由：</strong></p>
+<ol>
+<li><strong>事件催化剂存在不确定性</strong>：可转债重组仍在预案阶段，监管审批可能带来超预期结果</li>
+<li><strong>会计解释有合理性</strong>：资产重组期间的非经常损益在法律上成立，不能直接否定</li>
+<li><strong>踏空风险不可忽视</strong>：A股市场情绪驱动力强，99元并非不可能涨至105-110元</li>
+</ol>
+<p><strong>选择减仓而非保守持有的理由：</strong></p>
+<ol>
+<li><strong>118%净利率是真实的警示信号</strong>：无论会计如何处理，这个数字都意味着盈利质量存疑</li>
+<li><strong>估值透支明显</strong>：当前价格已充分反映所有乐观预期</li>
+<li><strong>下行风险大于上行空间</strong>：利空兑现概率高于利好超预期概率</li>
+</ol>
+<hr />
+<h2>四、情景修正与目标价格</h2>
+<table>
+<thead>
+<tr>
+<th>时间</th>
+<th>基准情景</th>
+<th>上行情景</th>
+<th>下行情景</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1个月</strong></td>
+<td>92-98元</td>
+<td>100-103元</td>
+<td>88-90元</td>
+</tr>
+<tr>
+<td><strong>3个月</strong></td>
+<td>90-100元</td>
+<td>105-110元</td>
+<td>82-85元</td>
+</tr>
+<tr>
+<td><strong>6个月</strong></td>
+<td>88-102元</td>
+<td>115-125元</td>
+<td>75-80元</td>
+</tr>
+</tbody>
+</table>
+<p><strong>概率分布估计：</strong></p>
+<ul>
+<li>基准情景：55%</li>
+<li>上行情景：20%</li>
+<li>下行情景：25%</li>
+</ul>
+<p><strong>最可能结局：</strong> 股价在90-100元区间震荡3-6个月，等待2025年年报和可转债进展确认方向。</p>
+<hr />
+<h2>五、仓位调整指南</h2>
+<table>
+<thead>
+<tr>
+<th>原始仓位占比</th>
+<th>建议动作</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>≤10%</strong></td>
+<td>持有+止损位92元</td>
+</tr>
+<tr>
+<td><strong>10%-25%</strong></td>
+<td>减至15%+止损位92元</td>
+</tr>
+<tr>
+<td><strong>25%-40%</strong></td>
+<td>减至20%+止损位92元</td>
+</tr>
+<tr>
+<td><strong>&gt;40%</strong></td>
+<td>减至25%+止损位92元</td>
+</tr>
+</tbody>
+</table>
+<p><strong>核心原则：</strong> 无论原始仓位多少，保留的观察性仓位不应超过组合的15%。</p>
+<hr />
+<h2>六、行动清单</h2>
+<pre><code>第一优先级（本周内）：
+□ 在99-100元区间卖出50%-60%持仓
+□ 设置92元止损条件单
+□ 记录当前持仓成本和数量
+
+第二优先级（1个月内）：
+□ 每日监控成交量变化（突破100元需警惕）
+□ 跟踪可转债预案审批动态
+□ 评估市场整体风险偏好
+
+第三优先级（季报前）：
+□ 准备2025年年报分析框架
+□ 设定重新建仓的量化条件（价格+基本面门槛）
+</code></pre>
+<hr />
+<h2>七、从辩论中学习的教训</h2>
+<h3>本次辩论的智慧</h3>
+<ol>
+<li><strong>&quot;数据不足时不下确定性结论&quot;</strong> — 激进方被反驳技术分析数据基础，这是正确的</li>
+<li><strong>&quot;仓位决定策略&quot;</strong> — 中性方的关键洞见，应成为决策框架的核心</li>
+<li><strong>&quot;异常数字是线索而非定论&quot;</strong> — 118%净利率需要解释，而不是直接否定</li>
+</ol>
+<h3>历史经验教训</h3>
+<blockquote>
+<p><strong>&quot;不要让恐惧主导决策，也不要让希望主导决策。&quot;</strong></p>
+</blockquote>
+<ul>
+<li>激进方的错误：把风险识别等同于卖出决策</li>
+<li>保守方的错误：用&quot;等更多信息&quot;回避不确定性</li>
+<li><strong>正确做法：在不确定性中寻找概率优势，而不是试图消除不确定性</strong></li>
+</ul>
+<hr />
+<h2>主席结论</h2>
+<p><strong>最终建议：审慎减仓，分批退出，保留观察性仓位。</strong></p>
+<p>这不是最激进的卖出建议，也不是最保守的持有建议。但这是<strong>在信息不完整、风险与机会并存的环境中，最符合风险调整后收益最大化的决策</strong>。</p>
+<p>记住：<strong>好的风险管理不是预测未来，而是在未来不确定时保护本金。</strong></p>
+</div></details>
+        
+        <details open><summary>完整性门禁</summary><pre>{
+  &quot;ok&quot;: true,
+  &quot;checks&quot;: {
+    &quot;final_trade_decision&quot;: {
+      &quot;length&quot;: 2556,
+      &quot;min_length&quot;: 100,
+      &quot;length_ok&quot;: true,
+      &quot;identity_ok&quot;: true,
+      &quot;data_quality_ok&quot;: true,
+      &quot;expected_company_name&quot;: &quot;润泽科技&quot;,
+      &quot;ok&quot;: true
+    },
+    &quot;market_report&quot;: {
+      &quot;length&quot;: 1856,
+      &quot;min_length&quot;: 200,
+      &quot;length_ok&quot;: true,
+      &quot;identity_ok&quot;: true,
+      &quot;data_quality_ok&quot;: true,
+      &quot;expected_company_name&quot;: &quot;润泽科技&quot;,
+      &quot;ok&quot;: true
+    },
+    &quot;sentiment_report&quot;: {
+      &quot;length&quot;: 2990,
+      &quot;min_length&quot;: 200,
+      &quot;length_ok&quot;: true,
+      &quot;identity_ok&quot;: true,
+      &quot;data_quality_ok&quot;: true,
+      &quot;expected_company_name&quot;: &quot;润泽科技&quot;,
+      &quot;ok&quot;: true
+    },
+    &quot;news_report&quot;: {
+      &quot;length&quot;: 2440,
+      &quot;min_length&quot;: 300,
+      &quot;length_ok&quot;: true,
+      &quot;identity_ok&quot;: true,
+      &quot;data_quality_ok&quot;: true,
+      &quot;expected_company_name&quot;: &quot;润泽科技&quot;,
+      &quot;ok&quot;: true
+    },
+    &quot;fundamentals_report&quot;: {
+      &quot;length&quot;: 4117,
+      &quot;min_length&quot;: 200,
+      &quot;length_ok&quot;: true,
+      &quot;identity_ok&quot;: true,
+      &quot;data_quality_ok&quot;: true,
+      &quot;expected_company_name&quot;: &quot;润泽科技&quot;,
+      &quot;ok&quot;: true
+    }
+  },
+  &quot;selected_analysts&quot;: [
+    &quot;market&quot;,
+    &quot;social&quot;,
+    &quot;news&quot;,
+    &quot;fundamentals&quot;
+  ]
+}</pre></details>
+        <details open><summary>时间边界与数据诊断</summary><pre>{
+  &quot;symbol&quot;: &quot;300442.SZ&quot;,
+  &quot;graph_symbol&quot;: &quot;300442&quot;,
+  &quot;trade_date&quot;: &quot;2026-03-05&quot;,
+  &quot;research_cutoff_time&quot;: &quot;14:45&quot;,
+  &quot;company_name&quot;: &quot;润泽科技&quot;,
+  &quot;minute_points_visible&quot;: 1,
+  &quot;news_lookback_days&quot;: 30,
+  &quot;news&quot;: {
+    &quot;provider&quot;: &quot;AKShare巨潮资讯历史公告&quot;,
+    &quot;payload_cached&quot;: true,
+    &quot;payload_length&quot;: 2484,
+    &quot;news_count&quot;: 10,
+    &quot;report_length&quot;: 2440,
+    &quot;strict_non_empty&quot;: true
+  },
+  &quot;sentiment&quot;: {
+    &quot;mode&quot;: &quot;historical_finance_news_proxy&quot;,
+    &quot;proxy_provider&quot;: &quot;AKShare巨潮资讯历史公告&quot;,
+    &quot;report_length&quot;: 2990,
+    &quot;identity_ok&quot;: true,
+    &quot;raw_social_api_available&quot;: false
+  },
+  &quot;fundamentals&quot;: {
+    &quot;provider&quot;: &quot;Tushare日度估值截面 + Tushare财务指标 + AKShare巨潮资讯历史公告&quot;,
+    &quot;payload_cached&quot;: true,
+    &quot;payload_length&quot;: 2930,
+    &quot;report_length&quot;: 4117,
+    &quot;data_quality_ok&quot;: true
+  }
+}</pre></details>
+        <details open><summary>执行核对</summary><pre>{
+  &quot;strategy_excerpt&quot;: &quot;# 风险管理委员会评估报告 ## 主席裁决：审慎减仓，分批退出 --- ## 一、辩论质量评估 | 分析师 | 核心优势 | 致命弱点 | |--------|----------|----------| | **激进** | 118%净利率异常识别精准；估值对比逻辑清晰 | 过度自信，技术数据基础被质疑；忽视事件催化可能性 | | **保守** | 资产…&quot;,
+  &quot;signal_action&quot;: &quot;hold&quot;,
+  &quot;signal_size_hint&quot;: 0.55,
+  &quot;signal_target_position_pct&quot;: 0.4,
+  &quot;expected_trade_direction&quot;: &quot;buy&quot;,
+  &quot;actual_trade_direction&quot;: &quot;buy&quot;,
+  &quot;filled_quantity&quot;: 47849,
+  &quot;trade_count&quot;: 1,
+  &quot;starting_quantity&quot;: 48037,
+  &quot;ending_quantity&quot;: 95886,
+  &quot;execution_blockers&quot;: [],
+  &quot;status&quot;: &quot;consistent&quot;,
+  &quot;reason&quot;: &quot;signal and actual fill direction match&quot;
+}</pre></details>
+        <details open><summary>标准化信号</summary><pre>{
+  &quot;action&quot;: &quot;hold&quot;,
+  &quot;symbol&quot;: &quot;300442.SZ&quot;,
+  &quot;symbol_name&quot;: &quot;润泽科技&quot;,
+  &quot;confidence&quot;: 0.6,
+  &quot;size_hint&quot;: 0.55,
+  &quot;reason_summary&quot;: &quot;118%净利率与15%营收增速严重背离，PB11.4倍估值透支明显，下行风险大于上行空间。但可转债重组存在不确定性、会计处理有合法性、踏空风险不可忽视，因此选择审慎减仓而非清仓。建议卖出50%-60%仓位并保留40%-50%观察性仓位，等待可转债审批进展和2025年年报确认方向。&quot;,
+  &quot;source_artifact_id&quot;: &quot;replay-300442.SZ-2026-03-05&quot;,
+  &quot;target_position_pct&quot;: 0.4,
+  &quot;order_plan&quot;: {
+    &quot;schema_version&quot;: &quot;v1&quot;,
+    &quot;contract_status&quot;: &quot;structured&quot;,
+    &quot;contract_source&quot;: &quot;processed_decision&quot;,
+    &quot;action&quot;: &quot;hold&quot;,
+    &quot;confidence&quot;: 0.6,
+    &quot;risk_score&quot;: 0.7,
+    &quot;reasoning&quot;: &quot;118%净利率与15%营收增速严重背离，PB11.4倍估值透支明显，下行风险大于上行空间。但可转债重组存在不确定性、会计处理有合法性、踏空风险不可忽视，因此选择审慎减仓而非清仓。建议卖出50%-60%仓位并保留40%-50%观察性仓位，等待可转债审批进展和2025年年报确认方向。&quot;,
+    &quot;size_hint&quot;: 0.55,
+    &quot;target_position_pct&quot;: 0.4,
+    &quot;target_price&quot;: 92.0,
+    &quot;buy_below_price&quot;: null,
+    &quot;sell_above_price&quot;: 100.0,
+    &quot;stop_loss_price&quot;: 92.0,
+    &quot;take_profit_price&quot;: null,
+    &quot;valid_until&quot;: &quot;&quot;,
+    &quot;notes&quot;: []
+  }
+}</pre></details>
+        <details><summary>账户快照</summary><pre>{
+  &quot;trade_date&quot;: &quot;2026-03-05&quot;,
+  &quot;cash&quot;: 4.3199999975040555,
+  &quot;positions&quot;: {
+    &quot;603986.SS&quot;: {
+      &quot;symbol&quot;: &quot;603986.SS&quot;,
+      &quot;quantity&quot;: 14700,
+      &quot;average_cost&quot;: 258.0,
+      &quot;last_price&quot;: 282.8,
+      &quot;name&quot;: &quot;兆易创新&quot;,
+      &quot;lots&quot;: [
+        {
+          &quot;acquired_trade_date&quot;: &quot;&quot;,
+          &quot;quantity&quot;: 14700,
+          &quot;average_cost&quot;: 258.0
+        }
+      ]
+    },
+    &quot;300442.SZ&quot;: {
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;quantity&quot;: 95886,
+      &quot;average_cost&quot;: 93.38572461046621,
+      &quot;last_price&quot;: 94.7,
+      &quot;name&quot;: &quot;润泽科技&quot;,
+      &quot;lots&quot;: [
+        {
+          &quot;acquired_trade_date&quot;: &quot;2026-03-03&quot;,
+          &quot;quantity&quot;: 48037,
+          &quot;average_cost&quot;: 96.49
+        },
+        {
+          &quot;acquired_trade_date&quot;: &quot;2026-03-05&quot;,
+          &quot;quantity&quot;: 47849,
+          &quot;average_cost&quot;: 94.7
+        }
+      ]
+    },
+    &quot;002906.SZ&quot;: {
+      &quot;symbol&quot;: &quot;002906.SZ&quot;,
+      &quot;quantity&quot;: 63100,
+      &quot;average_cost&quot;: 32.0,
+      &quot;last_price&quot;: 30.9,
+      &quot;name&quot;: &quot;华阳装备（暂映射华阳集团）&quot;,
+      &quot;lots&quot;: [
+        {
+          &quot;acquired_trade_date&quot;: &quot;&quot;,
+          &quot;quantity&quot;: 63100,
+          &quot;average_cost&quot;: 32.0
+        }
+      ]
+    },
+    &quot;600362.SS&quot;: {
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;quantity&quot;: 165670,
+      &quot;average_cost&quot;: 55.30985966077141,
+      &quot;last_price&quot;: 55.08,
+      &quot;name&quot;: &quot;江西铜业&quot;,
+      &quot;lots&quot;: [
+        {
+          &quot;acquired_trade_date&quot;: &quot;&quot;,
+          &quot;quantity&quot;: 38400,
+          &quot;average_cost&quot;: 52.0
+        },
+        {
+          &quot;acquired_trade_date&quot;: &quot;2026-03-02&quot;,
+          &quot;quantity&quot;: 38811,
+          &quot;average_cost&quot;: 59.61
+        },
+        {
+          &quot;acquired_trade_date&quot;: &quot;2026-03-04&quot;,
+          &quot;quantity&quot;: 88459,
+          &quot;average_cost&quot;: 54.86
+        }
+      ]
+    },
+    &quot;688525.SS&quot;: {
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;quantity&quot;: 34428,
+      &quot;average_cost&quot;: 158.17032967352154,
+      &quot;last_price&quot;: 191.5,
+      &quot;name&quot;: &quot;佰维存储&quot;,
+      &quot;lots&quot;: [
+        {
+          &quot;acquired_trade_date&quot;: &quot;2026-03-03&quot;,
+          &quot;quantity&quot;: 20917,
+          &quot;average_cost&quot;: 146.66
+        },
+        {
+          &quot;acquired_trade_date&quot;: &quot;2026-03-04&quot;,
+          &quot;quantity&quot;: 13511,
+          &quot;average_cost&quot;: 175.99
+        }
+      ]
+    }
+  },
+  &quot;orders&quot;: [
+    {
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-02-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-02&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-02&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 18375,
+      &quot;requested_price&quot;: 98.7,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-02-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-02&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-02&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 6700,
+      &quot;requested_price&quot;: 160.5,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-02-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-02&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-02&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 38811,
+      &quot;requested_price&quot;: 59.61,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-02-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-02&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-02&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 13004,
+      &quot;requested_price&quot;: 13.71,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-03-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-03&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-03&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 93268,
+      &quot;requested_price&quot;: 96.49,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-03-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-03&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-03&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 20917,
+      &quot;requested_price&quot;: 146.66,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-04-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-04&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-04&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 107406,
+      &quot;requested_price&quot;: 94.6,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-04-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-04&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-04&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 13511,
+      &quot;requested_price&quot;: 175.99,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-04-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-04&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-04&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 88459,
+      &quot;requested_price&quot;: 54.86,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-04-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-04&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-04&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 111904,
+      &quot;requested_price&quot;: 14.31,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-05-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-05&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-05&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 47849,
+      &quot;requested_price&quot;: 94.7,
+      &quot;status&quot;: &quot;filled&quot;
+    }
+  ],
+  &quot;trades&quot;: [
+    {
+      &quot;trade_id&quot;: &quot;replay-300442.SZ-2026-03-02-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-02-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-02&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-02&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 18375,
+      &quot;price&quot;: 98.7,
+      &quot;gross_value&quot;: 1813612.5
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-688525.SS-2026-03-02-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-02-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-02&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-02&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 6700,
+      &quot;price&quot;: 160.5,
+      &quot;gross_value&quot;: 1075350.0
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-600362.SS-2026-03-02-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-02-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-02&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-02&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 38811,
+      &quot;price&quot;: 59.61,
+      &quot;gross_value&quot;: 2313523.71
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-002015.SZ-2026-03-02-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-02-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-02&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-02&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 13004,
+      &quot;price&quot;: 13.71,
+      &quot;gross_value&quot;: 178284.84000000003
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-300442.SZ-2026-03-03-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-03-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-03&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-03&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 93268,
+      &quot;price&quot;: 96.49,
+      &quot;gross_value&quot;: 8999429.32
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-688525.SS-2026-03-03-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-03-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-03&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-03&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 20917,
+      &quot;price&quot;: 146.66,
+      &quot;gross_value&quot;: 3067687.2199999997
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-300442.SZ-2026-03-04-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-04-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-04&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-04&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 107406,
+      &quot;price&quot;: 94.6,
+      &quot;gross_value&quot;: 10160607.6
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-688525.SS-2026-03-04-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-04-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-04&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-04&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 13511,
+      &quot;price&quot;: 175.99,
+      &quot;gross_value&quot;: 2377800.89
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-600362.SS-2026-03-04-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-04-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-04&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-04&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 88459,
+      &quot;price&quot;: 54.86,
+      &quot;gross_value&quot;: 4852860.74
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-002015.SZ-2026-03-04-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-04-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-04&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-04&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 111904,
+      &quot;price&quot;: 14.31,
+      &quot;gross_value&quot;: 1601346.24
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-300442.SZ-2026-03-05-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-05-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-05&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-05&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 47849,
+      &quot;price&quot;: 94.7,
+      &quot;gross_value&quot;: 4531300.3
+    }
+  ],
+  &quot;nav&quot;: 30905424.119999997
+}</pre></details>
+        <details><summary>订单</summary><pre>[
+  {
+    &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-05-BUY&quot;,
+    &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-05&quot;,
+    &quot;trade_date&quot;: &quot;2026-03-05&quot;,
+    &quot;symbol&quot;: &quot;300442.SZ&quot;,
+    &quot;action&quot;: &quot;buy&quot;,
+    &quot;quantity&quot;: 47849,
+    &quot;requested_price&quot;: 94.7,
+    &quot;status&quot;: &quot;filled&quot;
+  }
+]</pre></details>
+        <details><summary>成交</summary><pre>[
+  {
+    &quot;trade_id&quot;: &quot;replay-300442.SZ-2026-03-05-BUY-TRADE&quot;,
+    &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-05-BUY&quot;,
+    &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-05&quot;,
+    &quot;trade_date&quot;: &quot;2026-03-05&quot;,
+    &quot;symbol&quot;: &quot;300442.SZ&quot;,
+    &quot;action&quot;: &quot;buy&quot;,
+    &quot;quantity&quot;: 47849,
+    &quot;price&quot;: 94.7,
+    &quot;gross_value&quot;: 4531300.3
+  }
+]</pre></details>
+      </div>
+    </div>
+    <div class="panel stack">
+      <h2>指标说明</h2>
+      <div class='formula-list'><div class='formula-item'>股价曲线 = 当天用于回放估值/执行的价格口径；当前日级回放默认使用 14:55 附近的可见价格或当日可用标记价格。</div><div class='formula-item'>持仓金额曲线 = 日末持股数 × 当天股价。</div><div class='formula-item'>真实总账户净值 = 真实账户现金 + 全部真实持仓市值。这是执行层真正发生买卖和记账的总账户口径。</div><div class='formula-item'>真实总账户收益率 = 真实总账户净值 / 实验起始总账户净值 - 1，用来回答整个真实股票账户从实验开始到现在到底赚了还是亏了多少。它是累计收益率，不是相对前一天的日涨跌幅，所以即使某一天净值比前一天回落，只要仍高于实验起点，累计收益率依然可以是正数。</div><div class='formula-item'>真实总账户现金曲线 = 真实账户里当前可用现金；真实总账户持仓市值曲线 = 真实总账户净值 - 真实总账户现金。</div><div class='formula-item'>累计分配资金 = 首日持仓起点 + 后续从原始闲置现金拨给该股票的新增资金。这里只统计新增拨入，不把卖出回笼现金重复计入。</div><div class='formula-item'>策略覆盖资产 = 策略覆盖现金 + 策略覆盖股票持仓市值。这里的“策略覆盖现金”只是展示层为了拆解这只股票策略效果而做的记账口径，不是执行层真的新开了一个现金账户。</div><div class='formula-item'>策略拆分盈亏 = 策略覆盖资产 - 累计分配资金。</div><div class='formula-item'>策略拆分收益率 = 策略拆分盈亏 / 累计分配资金。</div><div class='formula-item'>已实现盈亏 = 已卖出部分的卖出收入 - 该部分对应成本。</div><div class='formula-item'>未实现盈亏 = 当前剩余持仓市值 - 当前剩余持仓成本。</div><div class='formula-item'>历史总盈亏 = 已实现盈亏 + 未实现盈亏，用来反映历史持仓成本视角，不是本轮实验的主收益口径。</div><div class='formula-item'>图表金额统一按万显示，价格统一按元显示；B=买入，S=卖出，K=跳过。</div></div>
+    </div>
+  </div>
+</body>
+</html>

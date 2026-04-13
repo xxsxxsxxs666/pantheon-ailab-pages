@@ -1,0 +1,146 @@
+{
+  "mode": "replay",
+  "run_id": "cn_real_historical_1m_portfolio_v5_datalayer",
+  "symbol": "002015.SZ",
+  "symbol_name": "协鑫能科",
+  "trade_date": "2026-03-09",
+  "analysis_id": "replay-002015.SZ-2026-03-09",
+  "action": "hold",
+  "confidence": 0.65,
+  "signal_confidence": 0.65,
+  "size_hint": 0.35,
+  "target_position_pct": 0.2,
+  "execution_price": 17.18,
+  "starting_cash": 1504642.4099999974,
+  "cash": 346298.0899999973,
+  "starting_nav": 31771488.24,
+  "nav": 31771488.24,
+  "starting_quantity": 302441,
+  "position_quantity": 369865,
+  "filled_quantity": 67424,
+  "filled_gross_value": 1158344.32,
+  "filled_notional": 1158344.32,
+  "execution_blockers": [],
+  "reason_summary": "技术面已发出明确警示（量比0.8+换手率7.07%高位派发特征），当前17.18元已充分甚至过度反映乐观预期，PE_TTM 43倍对应25.78%净利增速但营收增速仅5.07%暴露增长天花板，A股跌慢涨快特性下向下30-40%空间vs向上15-25%空间风险收益比严重不对称，财务数据滞后5个月无法支撑当前定价。综合建议持仓者分批减仓，空仓者等待回调。",
+  "order_contract_status": "structured",
+  "order_contract_source": "processed_decision",
+  "order_contract_notes": [],
+  "t_plus_one": {
+    "enabled": true,
+    "pre_trade_sellable_quantity": 302441,
+    "pre_trade_blocked_quantity": 0,
+    "post_trade_sellable_quantity": 302441,
+    "post_trade_blocked_quantity": 67424,
+    "blocked_sell_detected": false
+  },
+  "analysis_integrity": {
+    "ok": true,
+    "checks": {
+      "final_trade_decision": {
+        "length": 4103,
+        "min_length": 100,
+        "length_ok": true,
+        "identity_ok": true,
+        "data_quality_ok": true,
+        "expected_company_name": "协鑫能科",
+        "ok": true
+      },
+      "market_report": {
+        "length": 1910,
+        "min_length": 200,
+        "length_ok": true,
+        "identity_ok": true,
+        "data_quality_ok": true,
+        "expected_company_name": "协鑫能科",
+        "ok": true
+      },
+      "sentiment_report": {
+        "length": 2763,
+        "min_length": 200,
+        "length_ok": true,
+        "identity_ok": true,
+        "data_quality_ok": true,
+        "expected_company_name": "协鑫能科",
+        "ok": true
+      },
+      "news_report": {
+        "length": 1678,
+        "min_length": 300,
+        "length_ok": true,
+        "identity_ok": true,
+        "data_quality_ok": true,
+        "expected_company_name": "协鑫能科",
+        "ok": true
+      },
+      "fundamentals_report": {
+        "length": 4836,
+        "min_length": 200,
+        "length_ok": true,
+        "identity_ok": true,
+        "data_quality_ok": true,
+        "expected_company_name": "协鑫能科",
+        "ok": true
+      }
+    },
+    "selected_analysts": [
+      "market",
+      "social",
+      "news",
+      "fundamentals"
+    ]
+  },
+  "historical_data_diagnostics": {
+    "symbol": "002015.SZ",
+    "graph_symbol": "002015",
+    "trade_date": "2026-03-09",
+    "research_cutoff_time": "14:45",
+    "company_name": "协鑫能科",
+    "minute_points_visible": 1,
+    "news_lookback_days": 30,
+    "news": {
+      "provider": "AKShare巨潮资讯历史公告",
+      "payload_cached": true,
+      "payload_length": 2292,
+      "news_count": 10,
+      "report_length": 1678,
+      "strict_non_empty": true
+    },
+    "sentiment": {
+      "mode": "historical_finance_news_proxy",
+      "proxy_provider": "AKShare巨潮资讯历史公告",
+      "report_length": 2763,
+      "identity_ok": true,
+      "raw_social_api_available": false
+    },
+    "fundamentals": {
+      "provider": "Tushare日度估值截面 + Tushare财务指标 + AKShare巨潮资讯历史公告",
+      "payload_cached": true,
+      "payload_length": 2838,
+      "report_length": 4836,
+      "data_quality_ok": true
+    }
+  },
+  "runtime_skip": {},
+  "news_provider": "AKShare巨潮资讯历史公告",
+  "news_count": 10,
+  "fundamentals_provider": "Tushare日度估值截面 + Tushare财务指标 + AKShare巨潮资讯历史公告",
+  "minute_points_visible": 1,
+  "strategy_plan_path": "2026-03-09/002015.SZ/strategy_plan.md",
+  "strategy_rollup_path": "by_symbol/002015.SZ/strategy.md",
+  "strategy_excerpt": "# 协鑫能科（002015）投资决策分析 ## 辩论评估与最终决策 --- ### 一、辩论核心争议点分析 #### 激进分析师的论证漏洞 激进分析师的核心论点存在几个致命问题： **第一，PEG计算存在根本性错误。** 他用25.78%的净利润增速计算PEG，但基础面报告明确显示最新财务数据截至2025年9月30日，距今超过5个月。用五个月前的增速来为当…",
+  "execution_audit": {
+    "strategy_excerpt": "# 协鑫能科（002015）投资决策分析 ## 辩论评估与最终决策 --- ### 一、辩论核心争议点分析 #### 激进分析师的论证漏洞 激进分析师的核心论点存在几个致命问题： **第一，PEG计算存在根本性错误。** 他用25.78%的净利润增速计算PEG，但基础面报告明确显示最新财务数据截至2025年9月30日，距今超过5个月。用五个月前的增速来为当…",
+    "signal_action": "hold",
+    "signal_size_hint": 0.35,
+    "signal_target_position_pct": 0.2,
+    "expected_trade_direction": "buy",
+    "actual_trade_direction": "buy",
+    "filled_quantity": 67424,
+    "trade_count": 1,
+    "starting_quantity": 302441,
+    "ending_quantity": 369865,
+    "execution_blockers": [],
+    "status": "consistent",
+    "reason": "signal and actual fill direction match"
+  }
+}

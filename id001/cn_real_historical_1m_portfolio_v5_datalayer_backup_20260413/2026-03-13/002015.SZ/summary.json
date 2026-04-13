@@ -1,0 +1,146 @@
+{
+  "mode": "replay",
+  "run_id": "cn_real_historical_1m_portfolio_v5_datalayer_backup_20260413",
+  "symbol": "002015.SZ",
+  "symbol_name": "协鑫能科",
+  "trade_date": "2026-03-13",
+  "analysis_id": "replay-002015.SZ-2026-03-13",
+  "action": "sell",
+  "confidence": 0.85,
+  "signal_confidence": 0.85,
+  "size_hint": 0.5,
+  "target_position_pct": 0.08,
+  "execution_price": 22.28,
+  "starting_cash": 5216479.149999996,
+  "cash": 7675790.109999996,
+  "starting_nav": 33242663.289999995,
+  "nav": 33242663.289999995,
+  "starting_quantity": 229745,
+  "position_quantity": 119363,
+  "filled_quantity": 110382,
+  "filled_gross_value": 2459310.96,
+  "filled_notional": 2459310.96,
+  "execution_blockers": [],
+  "reason_summary": "研究结论明确建议卖出：估值严重透支（PE_TTM 56倍对应ROE 6.33%）、9个交易日涨55%后严重超买、连续异常波动公告、偿债风险突出。当前22.28元处于高位横盘买盘衰竭区，目标降至20%以下仓位。建议分批减仓至40-50%，止损设19.42元。",
+  "order_contract_status": "structured",
+  "order_contract_source": "processed_decision",
+  "order_contract_notes": [],
+  "t_plus_one": {
+    "enabled": true,
+    "pre_trade_sellable_quantity": 229745,
+    "pre_trade_blocked_quantity": 0,
+    "post_trade_sellable_quantity": 119363,
+    "post_trade_blocked_quantity": 0,
+    "blocked_sell_detected": false
+  },
+  "analysis_integrity": {
+    "ok": true,
+    "checks": {
+      "final_trade_decision": {
+        "length": 2650,
+        "min_length": 100,
+        "length_ok": true,
+        "identity_ok": true,
+        "data_quality_ok": true,
+        "expected_company_name": "协鑫能科",
+        "ok": true
+      },
+      "market_report": {
+        "length": 3075,
+        "min_length": 200,
+        "length_ok": true,
+        "identity_ok": true,
+        "data_quality_ok": true,
+        "expected_company_name": "协鑫能科",
+        "ok": true
+      },
+      "sentiment_report": {
+        "length": 3544,
+        "min_length": 200,
+        "length_ok": true,
+        "identity_ok": true,
+        "data_quality_ok": true,
+        "expected_company_name": "协鑫能科",
+        "ok": true
+      },
+      "news_report": {
+        "length": 2784,
+        "min_length": 300,
+        "length_ok": true,
+        "identity_ok": true,
+        "data_quality_ok": true,
+        "expected_company_name": "协鑫能科",
+        "ok": true
+      },
+      "fundamentals_report": {
+        "length": 3000,
+        "min_length": 200,
+        "length_ok": true,
+        "identity_ok": true,
+        "data_quality_ok": true,
+        "expected_company_name": "协鑫能科",
+        "ok": true
+      }
+    },
+    "selected_analysts": [
+      "market",
+      "social",
+      "news",
+      "fundamentals"
+    ]
+  },
+  "historical_data_diagnostics": {
+    "symbol": "002015.SZ",
+    "graph_symbol": "002015",
+    "trade_date": "2026-03-13",
+    "research_cutoff_time": "14:45",
+    "company_name": "协鑫能科",
+    "minute_points_visible": 1,
+    "news_lookback_days": 30,
+    "news": {
+      "provider": "AKShare巨潮资讯历史公告",
+      "payload_cached": true,
+      "payload_length": 1853,
+      "news_count": 8,
+      "report_length": 2784,
+      "strict_non_empty": true
+    },
+    "sentiment": {
+      "mode": "historical_finance_news_proxy",
+      "proxy_provider": "AKShare巨潮资讯历史公告",
+      "report_length": 3544,
+      "identity_ok": true,
+      "raw_social_api_available": false
+    },
+    "fundamentals": {
+      "provider": "Tushare日度估值截面 + Tushare财务指标 + AKShare巨潮资讯历史公告",
+      "payload_cached": true,
+      "payload_length": 2970,
+      "report_length": 3000,
+      "data_quality_ok": true
+    }
+  },
+  "runtime_skip": {},
+  "news_provider": "AKShare巨潮资讯历史公告",
+  "news_count": 8,
+  "fundamentals_provider": "Tushare日度估值截面 + Tushare财务指标 + AKShare巨潮资讯历史公告",
+  "minute_points_visible": 1,
+  "strategy_plan_path": "2026-03-13/002015.SZ/strategy_plan.md",
+  "strategy_rollup_path": "by_symbol/002015.SZ/strategy.md",
+  "strategy_excerpt": "# 风险管理委员会最终裁决报告 ## 协鑫能科（002015）交易决策 --- ## 一、辩论质量评估 | 分析师 | 核心逻辑 | 论据强度 | 主要缺陷 | |--------|----------|----------|----------| | **激进** | 成长股逻辑、现金流优秀、新业务预期 | 中等 | 忽视偿债压力、类比不当、混淆概念 |…",
+  "execution_audit": {
+    "strategy_excerpt": "# 风险管理委员会最终裁决报告 ## 协鑫能科（002015）交易决策 --- ## 一、辩论质量评估 | 分析师 | 核心逻辑 | 论据强度 | 主要缺陷 | |--------|----------|----------|----------| | **激进** | 成长股逻辑、现金流优秀、新业务预期 | 中等 | 忽视偿债压力、类比不当、混淆概念 |…",
+    "signal_action": "sell",
+    "signal_size_hint": 0.5,
+    "signal_target_position_pct": 0.08,
+    "expected_trade_direction": "sell",
+    "actual_trade_direction": "sell",
+    "filled_quantity": 110382,
+    "trade_count": 1,
+    "starting_quantity": 229745,
+    "ending_quantity": 119363,
+    "execution_blockers": [],
+    "status": "consistent",
+    "reason": "signal and actual fill direction match"
+  }
+}
