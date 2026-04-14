@@ -60,20 +60,49 @@
     "2026-04-01",
     "2026-04-02",
     "2026-04-03",
-    "2026-04-07"
+    "2026-04-07",
+    "2026-04-08",
+    "2026-04-09",
+    "2026-04-10",
+    "2026-04-13"
   ],
-  "days": 26,
-  "final_nav": 31643312.75,
-  "final_cash": 13495708.76,
+  "final_nav": 34100280.01,
+  "final_cash": 5141299.25,
+  "days": 30,
   "account_file": "/Users/xiongxs/Documents/openclaw_project/trading/ymos-llm-deepchain-agent-replay/runs/fixtures/cn_market_data_account_20260302_seed.json",
   "output_dir": "/Users/xiongxs/Documents/openclaw_project/trading/ymos-llm-deepchain-agent-replay/runs/replay/cn_real_historical_1m_portfolio_v6_holdings_context_backup_20260413",
+  "execution_audit": {
+    "days_checked": 120,
+    "consistent_days": 117,
+    "mismatch_days": 3,
+    "mismatches": [
+      {
+        "trade_date": "2026-03-18",
+        "symbol": "688525.SS",
+        "status": "mismatch",
+        "reason": "target rebalance did not produce a fill, likely due to rounding or missing liquidity"
+      },
+      {
+        "trade_date": "2026-04-09",
+        "symbol": "300442.SZ",
+        "status": "mismatch",
+        "reason": "target rebalance did not produce a fill, likely due to rounding or missing liquidity"
+      },
+      {
+        "trade_date": "2026-04-13",
+        "symbol": "300442.SZ",
+        "status": "mismatch",
+        "reason": "target rebalance did not produce a fill, likely due to rounding or missing liquidity"
+      }
+    ]
+  },
   "benchmarks": {
     "hold_static": {
       "label": "一直不动",
       "initial_nav": 28717666.0,
-      "final_nav": 28996365.0,
+      "final_nav": 30199936.0,
       "final_cash": 15297200.0,
-      "return_pct": 0.9705,
+      "return_pct": 5.1615,
       "curve": [
         {
           "trade_date": "2026-03-02",
@@ -230,6 +259,30 @@
           "nav": 28996365.0,
           "cash": 15297200.0,
           "position_value": 13699165.0
+        },
+        {
+          "trade_date": "2026-04-08",
+          "nav": 29730722.0,
+          "cash": 15297200.0,
+          "position_value": 14433522.0
+        },
+        {
+          "trade_date": "2026-04-09",
+          "nav": 29677494.0,
+          "cash": 15297200.0,
+          "position_value": 14380294.0
+        },
+        {
+          "trade_date": "2026-04-10",
+          "nav": 29973484.0,
+          "cash": 15297200.0,
+          "position_value": 14676284.0
+        },
+        {
+          "trade_date": "2026-04-13",
+          "nav": 30199936.0,
+          "cash": 15297200.0,
+          "position_value": 14902736.0
         }
       ]
     },
@@ -395,6 +448,30 @@
           "nav": 30684202.0,
           "cash": 30684202.0,
           "position_value": 0.0
+        },
+        {
+          "trade_date": "2026-04-08",
+          "nav": 30684202.0,
+          "cash": 30684202.0,
+          "position_value": 0.0
+        },
+        {
+          "trade_date": "2026-04-09",
+          "nav": 30684202.0,
+          "cash": 30684202.0,
+          "position_value": 0.0
+        },
+        {
+          "trade_date": "2026-04-10",
+          "nav": 30684202.0,
+          "cash": 30684202.0,
+          "position_value": 0.0
+        },
+        {
+          "trade_date": "2026-04-13",
+          "nav": 30684202.0,
+          "cash": 30684202.0,
+          "position_value": 0.0
         }
       ],
       "liquidation_trade_date": "2026-03-02",
@@ -444,6 +521,5 @@
       ]
     }
   },
-  "status": "running",
   "resume": true
 }
