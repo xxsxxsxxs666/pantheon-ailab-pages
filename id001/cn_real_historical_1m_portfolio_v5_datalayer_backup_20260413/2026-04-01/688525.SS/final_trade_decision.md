@@ -1,0 +1,1 @@
+Historical news report failed company identity check for 688525 on 2026-04-01: expected 股票代码688525
