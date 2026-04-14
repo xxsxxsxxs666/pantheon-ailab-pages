@@ -1,0 +1,5028 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>江西铜业 (600362.SS) 2026-04-14</title>
+  <style>
+    :root {
+      --bg: #f4f0e8;
+      --panel: #fffdf8;
+      --ink: #1f2a2e;
+      --muted: #67757c;
+      --line: #d9cfc0;
+      --accent: #a64b2a;
+      --accent-soft: #f2dccf;
+    }
+    body { margin: 0; font-family: "PingFang SC","Noto Sans SC","Helvetica Neue",sans-serif; background: linear-gradient(180deg, #efe4d5 0%, var(--bg) 40%, #f7f4ee 100%); color: var(--ink); }
+    .wrap { max-width: 1180px; margin: 0 auto; padding: 28px 20px 56px; box-sizing: border-box; }
+    .hero { background: var(--panel); border: 1px solid var(--line); border-radius: 22px; padding: 24px; box-shadow: 0 18px 50px rgba(82, 58, 28, 0.08); }
+    h1 { margin: 0 0 8px; font-size: 34px; line-height: 1.25; }
+    .subtitle { color: var(--muted); font-size: 15px; }
+    .disclaimer { margin-top: 12px; padding: 10px 12px; border-radius: 12px; border: 1px solid #ead2ab; background: #fff3df; color: #7a5327; font-size: 13px; line-height: 1.7; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 12px; margin-top: 18px; }
+    .card { background: #fff8ef; border: 1px solid var(--line); border-radius: 16px; padding: 14px; }
+    .label { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; }
+    .value { font-size: 22px; font-weight: 700; margin-top: 8px; word-break: break-word; }
+    .status-banner { margin-top: 16px; border-radius: 16px; padding: 14px 16px; border: 1px solid var(--line); background: #f6f1e7; }
+    .status-banner.ok { background: #e6f4ef; border-color: #bfded3; }
+    .status-banner.warn { background: #fff2df; border-color: #ead2ab; }
+    .status-banner.danger { background: #f8e1db; border-color: #e0b6ab; }
+    .status-title { font-size: 12px; font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+    .status-body { margin-top: 6px; font-size: 15px; line-height: 1.6; }
+    .grid { display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 18px; margin-top: 18px; }
+    .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 22px; padding: 20px; box-shadow: 0 14px 40px rgba(82, 58, 28, 0.05); }
+    details { border: 1px solid var(--line); border-radius: 16px; background: #fffaf2; padding: 12px 14px; margin-top: 12px; }
+    summary { cursor: pointer; font-weight: 700; color: var(--accent); }
+    pre { white-space: pre-wrap; word-break: break-word; margin: 12px 0 0; font-size: 13px; line-height: 1.6; color: var(--ink); background: #fffdf9; border-radius: 12px; padding: 14px; border: 1px solid #eee2d4; max-height: 280px; overflow: auto; }
+    a { color: var(--accent); text-decoration: none; }
+    .stack > * + * { margin-top: 18px; }
+    .formula-list { display: grid; gap: 10px; color: var(--muted); font-size: 13px; line-height: 1.7; }
+    .formula-item { background: #fff8ef; border: 1px solid var(--line); border-radius: 14px; padding: 12px 14px; }
+    .markdown-body { margin-top: 12px; font-size: 14px; line-height: 1.8; color: var(--ink); background: #fffdf9; border-radius: 12px; padding: 14px; border: 1px solid #eee2d4; max-height: 320px; overflow: auto; }
+    .markdown-body > :first-child { margin-top: 0; }
+    .markdown-body > :last-child { margin-bottom: 0; }
+    .markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4 { margin: 1.1em 0 0.5em; line-height: 1.45; }
+    .markdown-body p, .markdown-body ul, .markdown-body ol, .markdown-body blockquote, .markdown-body table { margin: 0.7em 0; }
+    .markdown-body ul, .markdown-body ol { padding-left: 1.4em; }
+    .markdown-body code { background: #f5eee3; padding: 0.1em 0.35em; border-radius: 6px; }
+    .markdown-body pre { max-height: none; overflow: visible; padding: 0; border: 0; background: transparent; }
+    .markdown-body blockquote { margin-left: 0; padding-left: 0.9em; border-left: 3px solid #d9cfc0; color: #5f676c; }
+    .markdown-body table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    .markdown-body th, .markdown-body td { border: 1px solid #e7dccd; padding: 8px 10px; text-align: left; vertical-align: top; }
+    .markdown-body th { background: #fbf6ed; }
+    .source-link-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    .source-link-table th, .source-link-table td { border-bottom: 1px solid #eee2d4; padding: 10px 8px; text-align: left; vertical-align: top; }
+    .source-link-table th { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: 0.05em; }
+    .source-link-wrap { max-height: 280px; overflow: auto; border: 1px solid #eee2d4; border-radius: 12px; background: #fffdf9; }
+    @media (max-width: 900px) {
+      .wrap { padding: 20px 14px 40px; }
+      .grid { grid-template-columns: 1fr; }
+      h1 { font-size: 28px; }
+      .hero, .panel { padding: 16px; border-radius: 18px; }
+      .cards { grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); }
+      .value { font-size: 20px; }
+      details { padding: 10px 12px; }
+      .markdown-body, pre, .source-link-wrap { max-height: 260px; }
+    }
+    @media (max-width: 640px) {
+      .wrap { padding: 14px 10px 28px; }
+      h1 { font-size: 24px; }
+      .subtitle { font-size: 14px; line-height: 1.6; }
+      .disclaimer { font-size: 12px; }
+      .cards { grid-template-columns: 1fr 1fr; gap: 10px; }
+      .card { padding: 12px; }
+      .value { font-size: 18px; }
+      .label { font-size: 11px; }
+      .status-body { font-size: 14px; }
+      .markdown-body { font-size: 13px; line-height: 1.7; }
+      .markdown-body table, .source-link-table { font-size: 12px; }
+      .markdown-body th, .markdown-body td, .source-link-table th, .source-link-table td { padding: 7px 6px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="hero">
+      <div><a href="../../index.html">返回本轮总览</a></div>
+      <h1>江西铜业 (600362.SS) 2026-04-14</h1>
+      <div class="subtitle">历史 full-chain replay 日报。这里汇总了当天的分析过程、标准化信号、订单与账户结果。</div>
+      <div class="disclaimer">仅用于历史回测与系统实验，不构成任何投资建议或实际交易指导。</div>
+      <div class='status-banner info'><div class='status-title'>维持持仓</div><div class='status-body'>持仓处于盈利状态（46.34 vs 成本43.80），技术面已突破前高45.58元，短期趋势向好。但当前价格已触及即时压力位46.5-47元区间，且技术面存在超买风险，建议持有但做好减仓准备。止损位45.0-45.5元是核心风控线。研究结论明确&#x27;HOLD&#x27;，在数据不完整情况下不宜激进加仓。</div></div>
+      <div class="cards"><div class='card'><div class='label'>交易日</div><div class='value'>2026-04-14</div></div><div class='card'><div class='label'>动作</div><div class='value'>hold</div></div><div class='card'><div class='label'>标的</div><div class='value'>江西铜业 (600362.SS)</div></div><div class='card'><div class='label'>置信度</div><div class='value'>0.65</div></div><div class='card'><div class='label'>盘单状态</div><div class='value'>structured</div></div><div class='card'><div class='label'>仓位提示</div><div class='value'>11.50%</div></div><div class='card'><div class='label'>成交股数</div><div class='value'>154</div></div><div class='card'><div class='label'>成交额</div><div class='value'>0.71万</div></div><div class='card'><div class='label'>执行价</div><div class='value'>46.34</div></div><div class='card'><div class='label'>新闻源</div><div class='value'>AKShare东方财富历史新闻</div></div><div class='card'><div class='label'>新闻数</div><div class='value'>9</div></div><div class='card'><div class='label'>T+1可卖</div><div class='value'>89934</div></div><div class='card'><div class='label'>T+1锁仓</div><div class='value'>0</div></div><div class='card'><div class='label'>现金</div><div class='value'>522.69万</div></div><div class='card'><div class='label'>持仓市值</div><div class='value'>3095.07万</div></div><div class='card'><div class='label'>NAV</div><div class='value'>36177624.94000001</div></div></div>
+    </div>
+    <div class="grid">
+      <div class="panel stack">
+        <h2>分析过程</h2>
+        <details open><summary>市场分析</summary><div class='markdown-body'><h1>江西铜业（600362）技术分析报告</h1>
+<p><strong>股票代码</strong>：600362.SS<br />
+<strong>分析日期</strong>：2026-04-14<br />
+<strong>研究截止时间</strong>：14:45<br />
+<strong>数据时点</strong>：截至当日14:45的分钟行情及历史收盘数据</p>
+<hr />
+<h2>一、数据时点说明</h2>
+<p>本报告所有分析基于2026-04-14 14:45之前的可见市场数据，包括：</p>
+<ul>
+<li>当日14:45的分钟价格：46.25元</li>
+<li>最近10个交易日的日线收盘价（截至2026-04-13）</li>
+<li>当日涨跌幅：+1.65%</li>
+</ul>
+<p><strong>重要声明</strong>：由于缺乏分钟级别成交量数据、买卖盘口数据及完整当日的OHLC信息，以下技术指标（如MACD、KDJ、布林带等）无法可靠计算，本报告仅基于价格走势进行定性分析。</p>
+<hr />
+<h2>二、价格趋势分析</h2>
+<h3>短期趋势判断</h3>
+<p>江西铜业近期价格走势呈现<strong>触底反弹特征</strong>：</p>
+<ol>
+<li>
+<p><strong>下行阶段</strong>（3月30日-4月3日）：</p>
+<ul>
+<li>从43.78元下跌至42.46元</li>
+<li>累计跌幅约3.0%</li>
+<li>形成短期底部</li>
+</ul>
+</li>
+<li>
+<p><strong>筑底阶段</strong>（4月7日）：</p>
+<ul>
+<li>收于42.84元</li>
+<li>小幅回升，成交量未明</li>
+<li>42.46元附近形成支撑</li>
+</ul>
+</li>
+<li>
+<p><strong>拉升阶段</strong>（4月8日）：</p>
+<ul>
+<li>大幅上涨至45.58元</li>
+<li>单日涨幅约6.4%</li>
+<li>成交量未提供，无法确认是否放量</li>
+</ul>
+</li>
+<li>
+<p><strong>回调整理</strong>（4月9-13日）：</p>
+<ul>
+<li>价格在44.9-45.5元区间震荡</li>
+<li>维持相对强势，未回补4月8日涨幅</li>
+<li>显示出较强的市场承接</li>
+</ul>
+</li>
+<li>
+<p><strong>当前表现</strong>（截至14:45）：</p>
+<ul>
+<li>价格报46.25元</li>
+<li>突破近期高点（45.58元）</li>
+<li>呈现加速态势</li>
+</ul>
+</li>
+</ol>
+<h3>趋势研判</h3>
+<p>从价格结构看，<strong>短期上升趋势明确</strong>。42.46-42.84元区间形成的底部支撑有效，价格已有效突破前高45.58元，短线动能较强。</p>
+<hr />
+<h2>三、支撑位与压力位分析</h2>
+<h3>支撑位</h3>
+<table>
+<thead>
+<tr>
+<th>支撑级别</th>
+<th>价格区间</th>
+<th>依据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>强支撑</strong></td>
+<td>45.0-45.5元</td>
+<td>近期多次回踩区域，4月9-13日成交密集区</td>
+</tr>
+<tr>
+<td><strong>次级支撑</strong></td>
+<td>44.0-44.5元</td>
+<td>4月1日前后平台位置</td>
+</tr>
+<tr>
+<td><strong>关键支撑</strong></td>
+<td>42.46-42.84元</td>
+<td>本轮反弹起涨点，需有效跌破才考虑趋势反转</td>
+</tr>
+</tbody>
+</table>
+<h3>压力位</h3>
+<table>
+<thead>
+<tr>
+<th>压力级别</th>
+<th>价格区间</th>
+<th>依据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>即时压力</strong></td>
+<td>46.5-47.0元</td>
+<td>整数关口及心理价位</td>
+</tr>
+<tr>
+<td><strong>中级压力</strong></td>
+<td>48.0元附近</td>
+<td>需历史数据对照，此处暂无明确参考</td>
+</tr>
+<tr>
+<td><strong>强压力</strong></td>
+<td>50.0元</td>
+<td>重要整数关口</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>四、短线风险提示</h2>
+<h3>主要风险因素</h3>
+<ol>
+<li>
+<p><strong>技术性超买风险</strong></p>
+<ul>
+<li>当前价格已创近期新高</li>
+<li>缺乏成交量确认，突破有效性存疑</li>
+<li>短期内可能面临获利回吐压力</li>
+</ul>
+</li>
+<li>
+<p><strong>缺乏量价配合</strong></p>
+<ul>
+<li>报告中未提供分钟成交量数据</li>
+<li>无法判断当前上涨是否得到资金支持</li>
+<li>缩量上涨往往是预警信号</li>
+</ul>
+</li>
+<li>
+<p><strong>历史波动风险</strong></p>
+<ul>
+<li>近期价格振幅较大（4月8日单日振幅超6%）</li>
+<li>属有色金属行业，商品价格敏感度高</li>
+<li>持仓需关注国际铜价波动</li>
+</ul>
+</li>
+<li>
+<p><strong>回调风险</strong></p>
+<ul>
+<li>45.0-45.5元区间若失守，可能引发连锁卖压</li>
+<li>4月8日涨幅若被完全回吐，短线趋势转弱</li>
+</ul>
+</li>
+<li>
+<p><strong>信息不对称风险</strong></p>
+<ul>
+<li>本报告仅基于价格数据</li>
+<li>未包含基本面、资金流向等关键信息</li>
+<li>实际决策需综合更多信息</li>
+</ul>
+</li>
+</ol>
+<h3>风险等级评估</h3>
+<table>
+<thead>
+<tr>
+<th>风险类型</th>
+<th>等级</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>短线回调风险</td>
+<td><strong>中等</strong></td>
+<td>价格加速上涨后，技术面有修正需求</td>
+</tr>
+<tr>
+<td>趋势反转风险</td>
+<td><strong>较低</strong></td>
+<td>上升结构未破坏，支撑有效</td>
+</tr>
+<tr>
+<td>流动性风险</td>
+<td><strong>未知</strong></td>
+<td>数据不足，无法评估</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>五、交易启示</h2>
+<h3>基于当前数据的操作建议</h3>
+<h4>1. 多头持仓策略</h4>
+<ul>
+<li><strong>持有逻辑</strong>：价格有效突破45.58元前高，短线趋势向好</li>
+<li><strong>止损建议</strong>：设置于45.0-45.5元区间下方</li>
+<li><strong>目标参考</strong>：46.5-47.0元（视市场情绪而定）</li>
+</ul>
+<h4>2. 观望等待策略</h4>
+<ul>
+<li><strong>适用场景</strong>：未持仓投资者</li>
+<li><strong>建议</strong>：等待回调至45.5元附近确认支撑后介入</li>
+<li><strong>风控要点</strong>：严格设置止损，避免追高</li>
+</ul>
+<h4>3. 风险控制要点</h4>
+<p>⚠️ <strong>重要提醒</strong>：</p>
+<ul>
+<li>本分析基于有限数据，<strong>无法计算可靠的技术指标</strong>（如RSI、MACD等）</li>
+<li>建议等待完整分钟成交量数据后再做激进操作</li>
+<li>有色金属行业受期货市场影响大，需关注内外盘联动</li>
+</ul>
+<h3>关键观察指标</h3>
+<p>由于数据限制，建议关注：</p>
+<ol>
+<li><strong>成交量</strong>：若价格创新高但量能萎缩，小心假突破</li>
+<li><strong>分时走势</strong>：观察14:45后价格能否维持在46.0元以上</li>
+<li><strong>买卖盘</strong>：关注是否有大单压制</li>
+</ol>
+<hr />
+<h2>六、免责声明</h2>
+<p>本报告<strong>仅基于2026-04-14 14:45前的可见市场数据</strong>撰写，不包含：</p>
+<ul>
+<li>当日完整OHLC数据</li>
+<li>分钟级成交量数据</li>
+<li>买卖盘口信息</li>
+<li>基本面信息</li>
+</ul>
+<p><strong>任何技术指标（如KDJ、MACD、布林带等）均未进行计算</strong>，投资者应结合完整市场数据和基本面信息综合判断，谨慎决策。</p>
+<hr />
+<p><strong>报告生成时间</strong>：2026-04-14 14:45<br />
+<strong>数据截止</strong>：2026-04-14 14:45<br />
+<strong>分析师</strong>：AI技术分析系统</p>
+</div></details><details open><summary>舆情分析</summary><div class='markdown-body'><h1>江西铜业舆情分析报告（2026‑04‑14）</h1>
+<hr />
+<h2>舆情数据可得性说明</h2>
+<p>由于中文社交平台（雪球、股吧、微博等）原始 API 回放不稳定，无法实时获取完整的散户与机构帖子。为保证分析的可验证性，本报告仅采用 <strong>交易日研究截止时间（2026‑04‑14 14:45）之前公开的财经媒体新闻及上市公司公告</strong> 作为舆情代理输入。报告中所引用的信息均来自下列 9 条历史截面数据，且不涉及研究截止时点之后的任何信息。</p>
+<hr />
+<h2>媒体情绪摘要</h2>
+<table>
+<thead>
+<tr>
+<th>序号</th>
+<th>发布时间</th>
+<th>标题</th>
+<th>核心要点</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>2026‑04‑13 09:24</td>
+<td>社保基金去年四季度新建仓股票（附名单）</td>
+<td>社保基金将 <strong>600362</strong>（江西铜业）列入新建仓名单。</td>
+</tr>
+<tr>
+<td>2</td>
+<td>2026‑04‑10 09:13</td>
+<td>社保基金持仓动向：去年四季度新进57股</td>
+<td>同上，重复出现 600362。</td>
+</tr>
+<tr>
+<td>3</td>
+<td>2026‑04‑09 09:22</td>
+<td>社保基金持仓动向：去年四季度新进56股</td>
+<td>同上。</td>
+</tr>
+<tr>
+<td>4</td>
+<td>2026‑04‑08 17:04</td>
+<td>有色金属行业资金流入榜：洛阳钼业等35股净流入资金超亿元</td>
+<td><strong>600362</strong> 出现在资金流入榜单，提示机构资金净流入。</td>
+</tr>
+<tr>
+<td>5</td>
+<td>2026‑04‑08 09:28</td>
+<td>社保基金去年四季度新建仓股票（附名单）</td>
+<td>再次确认 600362 被社保基金新建仓。</td>
+</tr>
+<tr>
+<td>6</td>
+<td>2026‑04‑07 10:22</td>
+<td>社保基金持仓动向：去年四季度新进54股</td>
+<td>同上。</td>
+</tr>
+<tr>
+<td>7</td>
+<td>2026‑04‑03 09:28</td>
+<td>社保基金持仓动向：去年四季度新进52股</td>
+<td>同上。</td>
+</tr>
+<tr>
+<td>8</td>
+<td>2026‑03‑26 18:04</td>
+<td>江西铜业：2025年净利润同比增长2.41% 拟10派6元</td>
+<td>2025 年归母净利润 71.3 亿元，同比 <strong>+2.41%</strong>，拟每10股派现金 6 元。</td>
+</tr>
+<tr>
+<td>9</td>
+<td>2026‑03‑26 17:58</td>
+<td>江西铜业拟每股派发现金红利0.6元</td>
+<td>公布每股现金红利 0.6 元（含税），对应 10 派 6 元方案。</td>
+</tr>
+</tbody>
+</table>
+<p><strong>情绪概览</strong>：</p>
+<ul>
+<li><strong>正面信息</strong>占比 100%（9 条），全部指向机构持股增加、资金流入以及公司业绩与分红。</li>
+<li>媒体基调为 <strong>“机构看多、股东回报稳健”</strong>，未见负面或警示性报道。</li>
+</ul>
+<hr />
+<h2>正面催化</h2>
+<ol>
+<li>
+<p><strong>社保基金新建仓</strong>（序号 1‑3、5‑7）</p>
+<ul>
+<li>多篇报道连续出现 600362 被社保基金列为 Q4 新建仓对象，显示“国家队”对江西铜业的配置信心。</li>
+<li>机构资金的进入通常在短期内对股价形成支撑，并提升二级市场流动性。</li>
+</ul>
+</li>
+<li>
+<p><strong>行业资金流入</strong>（序号 4）</p>
+<ul>
+<li>江西铜业进入“有色金属行业资金流入榜”，表明除社保基金外，其他机构投资者亦在加码。</li>
+<li>资金净流入是股价上行动能的重要先行指标。</li>
+</ul>
+</li>
+<li>
+<p><strong>业绩与分红</strong>（序号 8‑9）</p>
+<ul>
+<li>2025 年净利润 71.3 亿元，同比增长 2.41%。虽然增速温和，但在铜价波动的大环境下实现正增长，已是稳健表现。</li>
+<li>每股派息 0.6 元（对应约 5.8% 的股息率，以 2025 年底股价估算），对追求现金回报的投资者具吸引力。</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h2>负面催化</h2>
+<ul>
+<li><strong>增长幅度有限</strong>：净利润仅增长 2.41%，若市场对铜的需求预期更高，可能被解读为低于预期，导致短期上涨空间受限。</li>
+<li><strong>缺乏超预期亮点</strong>：无重大业务转型、并购或新技术突破的报道，短期内难以激发强劲的题材炒作。</li>
+</ul>
+<blockquote>
+<p><strong>整体判断</strong>：正面因素占主导，负面因素主要体现在“增长幅度不够突出”，对股价的负面影响相对有限。</p>
+</blockquote>
+<hr />
+<h2>投资者情绪评分</h2>
+<table>
+<thead>
+<tr>
+<th>指标</th>
+<th>计算方式</th>
+<th>结果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>正向新闻数量</td>
+<td>9 条（全部为正面）</td>
+<td>+9</td>
+</tr>
+<tr>
+<td>负向新闻数量</td>
+<td>0 条</td>
+<td>0</td>
+</tr>
+<tr>
+<td>综合得分（0‑10）</td>
+<td>(正向‑负向) / 总数 × 10 = 9/9×10</td>
+<td><strong>9.0</strong></td>
+</tr>
+<tr>
+<td>调整系数（因增长幅度有限）</td>
+<td>-0.5</td>
+<td><strong>8.5</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>情绪评分：8.5 / 10（偏正面）</strong></p>
+<ul>
+<li>说明：在全部为正面信息的基础上，考虑到业绩增长幅度并不突出，适当下调 0.5 分，但仍显著偏向正面。</li>
+</ul>
+<hr />
+<h2>1‑5 天情绪影响</h2>
+<ul>
+<li><strong>短期（1‑2 天）</strong>：机构持股和资金流入的正面消息可能继续发酵，股价有望出现 <strong>小幅上行</strong> 或 <strong>震荡偏强</strong>。</li>
+<li><strong>中期（3‑5 天）</strong>：若铜价保持相对稳定，且没有宏观系统性风险，市场的正面情绪可能逐步转化为 <strong>买入动能</strong>，但因业绩增速有限，涨幅可能受限在 <strong>1‑3%</strong> 区间。</li>
+<li><strong>整体趋势</strong>：在 1‑5 天窗口内，情绪倾向 <strong>正向支撑</strong>，但不排除因获利了结导致的短暂回调。</li>
+</ul>
+<hr />
+<h2>交易启示</h2>
+<ol>
+<li><strong>关注机构动向</strong>：社保基金新建仓及行业资金流入为股价提供 <strong>底部支撑</strong>，可在回调时逢低吸纳。</li>
+<li><strong>股息收益</strong>：0.6 元/股的现金分红对长期持有者具备 <strong>现金回报优势</strong>，适合追求稳健收益的投资者。</li>
+<li><strong>宏观与商品价格</strong>：铜价的波动仍是江西铜业股价的核心驱动因素，建议同步关注 <strong>LME 铜价、国内需求数据</strong>。</li>
+<li><strong>风险提示</strong>：业绩增长幅度相对温和，若市场整体风险偏好下降，股价可能出现 <strong>震荡</strong>。建议做好仓位管理，设置 <strong>止损位</strong>。</li>
+<li><strong>信息时效</strong>：本报告基于截至 2026‑04‑14 14:45 的公开信息，后续如有新的业绩预告或政策变化，请及时重新评估。</li>
+</ol>
+<hr />
+<h2>数据时点说明</h2>
+<ul>
+<li><strong>研究截止时间</strong>：2026‑04‑14 14:45（北京时间）。</li>
+<li><strong>数据时间窗口</strong>：2026‑03‑15 14:45 至 2026‑04‑14 14:45 之间的公开财经新闻与公司公告。</li>
+<li><strong>使用的 9 条信息均来源于证券时报网、财中社、人民财讯等媒体平台</strong>，并已在报告中标注对应序号与发布时间。</li>
+</ul>
+<blockquote>
+<p><strong>免责声明</strong>：本报告仅基于公开信息进行的舆情分析，不构成投资建议。投资者需根据自身风险承受能力自行判断，必要时咨询专业机构。</p>
+</blockquote>
+</div></details><details><summary>新闻分析</summary><div class='markdown-body'><h1>江西铜业（600362）财经新闻分析报告</h1>
+<p><strong>交易日：</strong> 2026-04-14<br />
+<strong>研究截止时间：</strong> 14:45</p>
+<hr />
+<h2>新闻抓取摘要</h2>
+<table>
+<thead>
+<tr>
+<th>项目</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>数据来源</td>
+<td>Google新闻 (AKShare东方财富)</td>
+</tr>
+<tr>
+<td>时间范围</td>
+<td>2026-03-15 14:45 至 2026-04-14 14:45</td>
+</tr>
+<tr>
+<td>新闻数量</td>
+<td>9条</td>
+</tr>
+<tr>
+<td>字符长度</td>
+<td>2482字符</td>
+</tr>
+<tr>
+<td>主要新闻类型</td>
+<td>社保基金持仓动向、年报业绩、分红公告</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>关键新闻事件</h2>
+<h3>1. 社保基金新建仓/增持江西铜业</h3>
+<ul>
+<li><strong>发布时间：</strong> 2026-04-03 至 2026-04-13（多日连续出现）</li>
+<li><strong>内容概要：</strong> 多篇新闻报道社保基金去年四季度新建仓股票名单，江西铜业（600362）持续出现在名单中</li>
+<li><strong>数据模式：</strong> 从新进52股逐步增加至57股，江西铜业持仓排名相对稳定</li>
+</ul>
+<h3>2. 有色金属行业资金流入</h3>
+<ul>
+<li><strong>发布时间：</strong> 2026-04-08</li>
+<li><strong>内容概要：</strong> 洛阳钼业等35股净流入资金超亿元，江西铜业出现在资金流入榜单中</li>
+<li><strong>数据参考：</strong> 铜陵有色（000630）净流入约23541万元，江西铜业同期有资金流入迹象</li>
+</ul>
+<h3>3. 2025年度业绩公告</h3>
+<ul>
+<li><strong>发布时间：</strong> 2026-03-26</li>
+<li><strong>核心数据：</strong>
+<ul>
+<li>营业收入：5446.23亿元，同比增长5.42%</li>
+<li>归母净利润：71.3亿元，同比增长2.41%</li>
+<li>基本每股收益：2.07元</li>
+</ul>
+</li>
+</ul>
+<h3>4. 2025年度分红预案</h3>
+<ul>
+<li><strong>发布时间：</strong> 2026-03-26</li>
+<li><strong>分红方案：</strong> 每10股派发现金红利6元（含税），即每股0.6元</li>
+</ul>
+<hr />
+<h2>对股价的潜在影响</h2>
+<h3>正面因素</h3>
+<ol>
+<li><strong>社保基金建仓信号：</strong> 社保基金作为长期价值投资资金，其新建仓行为通常被视为对个股价值的认可，可能提升市场信心</li>
+<li><strong>行业资金流入：</strong> 有色金属行业整体获得资金关注，江西铜业作为铜业龙头受益于行业资金配置需求</li>
+<li><strong>业绩稳健增长：</strong> 2025年净利润同比增长2.41%，在宏观经济环境下保持正增长</li>
+<li><strong>高比例分红：</strong> 每股0.6元分红，按当前股价计算股息率具有一定吸引力</li>
+</ol>
+<h3>需关注因素</h3>
+<ol>
+<li><strong>业绩增速放缓：</strong> 净利润增速仅2.41%，较往年可能有所下降</li>
+<li><strong>行业周期性：</strong> 铜价波动对业绩影响较大，需持续关注大宗商品价格走势</li>
+</ol>
+<hr />
+<h2>情绪判断</h2>
+<table>
+<thead>
+<tr>
+<th>维度</th>
+<th>判断</th>
+<th>依据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>机构情绪</td>
+<td><strong>偏正面</strong></td>
+<td>社保基金新建仓，资金流入行业榜单</td>
+</tr>
+<tr>
+<td>股东回报</td>
+<td><strong>正面</strong></td>
+<td>持续现金分红，回报投资者</td>
+</tr>
+<tr>
+<td>市场情绪</td>
+<td><strong>中性偏正面</strong></td>
+<td>业绩正增长但增速有限，暂无重大负面新闻</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>交易启示</h2>
+<h3>1. 机构动向参考</h3>
+<ul>
+<li>社保基金新建仓江西铜业，反映长期资金对该股的配置需求</li>
+<li>有色金属行业资金流入，显示板块资金关注度提升</li>
+</ul>
+<h3>2. 基本面参考</h3>
+<ul>
+<li>业绩正增长且维持现金分红，适合关注股息收益的投资者</li>
+<li>铜价走势及宏观经济需求是后续跟踪重点</li>
+</ul>
+<h3>3. 风险提示</h3>
+<ul>
+<li>新闻数据来源于单一新闻源（证券时报网/东方财富），覆盖范围有限</li>
+<li>新闻数量仅9条，样本量较小，建议结合其他信息来源综合判断</li>
+<li>2025年业绩增速相对温和，需关注2026年一季度业绩表现</li>
+</ul>
+<hr />
+<h2>数据时点说明</h2>
+<table>
+<thead>
+<tr>
+<th>项目</th>
+<th>时间</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>新闻采集截止时间</td>
+<td>2026-04-14 14:45</td>
+</tr>
+<tr>
+<td>研究截止时间</td>
+<td>2026-04-14 14:45</td>
+</tr>
+<tr>
+<td>最新业绩报告</td>
+<td>2025年年报（2026-03-26发布）</td>
+</tr>
+<tr>
+<td>最新社保基金新闻</td>
+<td>2026-04-13</td>
+</tr>
+<tr>
+<td>最新资金流向新闻</td>
+<td>2026-04-08</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><strong>免责声明：</strong> 本报告仅基于已抓取的新闻数据进行分析，不构成投资建议。投资者应结合更多信息来源及自身风险承受能力做出投资决策。</p>
+</div></details><details><summary>基本面分析</summary><div class='markdown-body'><h1>江西铜业（600362）基本面分析报告</h1>
+<p><strong>股票代码</strong>：600362<br />
+<strong>公司名称</strong>：江西铜业<br />
+<strong>分析日期</strong>：2026-04-14<br />
+<strong>研究截止时间</strong>：14:45<br />
+<strong>当前价格</strong>：46.25元<br />
+<strong>涨跌幅</strong>：+1.65%</p>
+<hr />
+<h2>一、数据可得性说明</h2>
+<h3>可用数据范围</h3>
+<ol>
+<li>
+<p><strong>市场交易数据</strong>：</p>
+<ul>
+<li>历史收盘价：2026-03-30 至 2026-04-13（共10个交易日）</li>
+<li>实时价格：2026-04-14 14:45 的46.25元</li>
+</ul>
+</li>
+<li>
+<p><strong>公司公告数据</strong>：</p>
+<ul>
+<li>时间范围：2026-03-15 14:45 至 2026-04-14 14:45</li>
+<li>公告数量：8条</li>
+</ul>
+</li>
+</ol>
+<h3>不可得数据</h3>
+<table>
+<thead>
+<tr>
+<th>指标类型</th>
+<th>可得性</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>市盈率（PE）</td>
+<td><strong>该指标在当前历史截面中不可得</strong></td>
+</tr>
+<tr>
+<td>市净率（PB）</td>
+<td><strong>该指标在当前历史截面中不可得</strong></td>
+</tr>
+<tr>
+<td>净资产收益率（ROE）</td>
+<td><strong>该指标在当前历史截面中不可得</strong></td>
+</tr>
+<tr>
+<td>净利润增速</td>
+<td><strong>该指标在当前历史截面中不可得</strong></td>
+</tr>
+<tr>
+<td>业务结构占比</td>
+<td><strong>该指标在当前历史截面中不可得</strong></td>
+</tr>
+<tr>
+<td>营业收入数据</td>
+<td><strong>该指标在当前历史截面中不可得</strong></td>
+</tr>
+<tr>
+<td>毛利率/净利率</td>
+<td><strong>该指标在当前历史截面中不可得</strong></td>
+</tr>
+<tr>
+<td>资产负债率</td>
+<td><strong>该指标在当前历史截面中不可得</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>结论</strong>：当前历史截面仅包含市场交易数据和公司治理类公告，缺乏任何财务估值指标和经营指标，无法进行完整的量化基本面分析。</p>
+<hr />
+<h2>二、估值截面</h2>
+<p><strong>当前历史截面中无PE/PB数据可供呈现</strong>。</p>
+<p>江西铜业当前价格46.25元对应的估值水平无法从本期数据中评估。</p>
+<hr />
+<h2>三、最新财务指标</h2>
+<p><strong>当前历史截面中无任何财务指标数据可供呈现</strong>。</p>
+<p>公司2025年度财务数据未在公告中披露，仅有2025年度业绩说明会的召开通知。</p>
+<hr />
+<h2>四、近期公司公告分析</h2>
+<h3>公告时间线（2026-03-15 至 2026-04-14）</h3>
+<table>
+<thead>
+<tr>
+<th>公告日期</th>
+<th>公告类型</th>
+<th>重要性评估</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2026-04-11</td>
+<td>控股股东可交换公司债券发行完成</td>
+<td>重要</td>
+</tr>
+<tr>
+<td>2026-04-04</td>
+<td>召开2025年度业绩说明会</td>
+<td>重要</td>
+</tr>
+<tr>
+<td>2026-03-27</td>
+<td>独立董事独立性自查专项意见</td>
+<td>中性</td>
+</tr>
+<tr>
+<td>2026-03-27</td>
+<td>财务公司关联交易专项说明</td>
+<td>中性</td>
+</tr>
+<tr>
+<td>2026-03-27</td>
+<td>独立董事2025年度述职报告（赖丹）</td>
+<td>中性</td>
+</tr>
+<tr>
+<td>2026-03-27</td>
+<td>第十届董事会第十六次会议决议</td>
+<td>需查看内容</td>
+</tr>
+<tr>
+<td>2026-03-27</td>
+<td>审计委员会2025年履职情况报告</td>
+<td>中性</td>
+</tr>
+<tr>
+<td>2026-03-27</td>
+<td>独立董事2025年度述职报告（刘淑英）</td>
+<td>中性</td>
+</tr>
+</tbody>
+</table>
+<h3>关键公告解读</h3>
+<h4>1. 控股股东可交换公司债券发行完成（2026-04-11）</h4>
+<ul>
+<li><strong>信息来源</strong>：巨潮资讯</li>
+<li><strong>公告编号</strong>：1225092285</li>
+<li><strong>影响分析</strong>：
+<ul>
+<li>可交换债券发行完成意味着控股股东完成了募资</li>
+<li>可能增加二级市场股票供给预期（EB持有人未来可交换为股票）</li>
+<li>具体条款（换股价格、期限等）需查阅完整公告</li>
+<li><strong>当前历史截面中未提供具体发行规模及换股条款</strong></li>
+</ul>
+</li>
+</ul>
+<h4>2. 2025年度业绩说明会公告（2026-04-04）</h4>
+<ul>
+<li><strong>信息来源</strong>：巨潮资讯</li>
+<li><strong>公告编号</strong>：1225078769</li>
+<li><strong>意义</strong>：
+<ul>
+<li>公司将于近期召开2025年度业绩说明会</li>
+<li>说明会将披露2025年度经营成果</li>
+<li><strong>当前历史截面中未包含2025年度财务数据</strong></li>
+<li><strong>具体说明会时间、方式需查阅完整公告</strong></li>
+</ul>
+</li>
+</ul>
+<h4>3. 公司治理相关公告（2026-03-27）</h4>
+<ul>
+<li>独立董事独立性自查、述职报告、审计委员会履职报告</li>
+<li>表明公司正在进行年度治理合规工作</li>
+<li><strong>未发现重大治理风险提示</strong></li>
+</ul>
+<hr />
+<h2>五、基本面判断</h2>
+<h3>数据局限性声明</h3>
+<p><strong>由于当前历史截面中不存在任何财务指标数据（PE、PB、ROE、利润增速、营收、毛利率等），无法对江西铜业的基本面状况进行量化判断。</strong></p>
+<h3>可观察信息汇总</h3>
+<ol>
+<li>
+<p><strong>价格走势观察</strong>：</p>
+<ul>
+<li>近10个交易日价格在42.46元至45.58元区间波动</li>
+<li>2026-04-14 14:45价格46.25元为区间高点</li>
+<li>近期呈现震荡上行态势</li>
+</ul>
+</li>
+<li>
+<p><strong>公司治理层面</strong>：</p>
+<ul>
+<li>未发现重大负面公告</li>
+<li>独立董事独立性自查完成，未见异常</li>
+<li>董事会运作正常</li>
+</ul>
+</li>
+<li>
+<p><strong>资本运作</strong>：</p>
+<ul>
+<li>控股股东完成可交换债券发行</li>
+<li>存在未来股票供给增加的潜在压力</li>
+</ul>
+</li>
+</ol>
+<h3>无法形成的判断</h3>
+<ul>
+<li>盈利能力评估：<strong>当前历史截面不足以评估</strong></li>
+<li>估值合理性判断：<strong>当前历史截面不足以评估</strong></li>
+<li>成长性判断：<strong>当前历史截面不足以评估</strong></li>
+<li>投资价值判断：<strong>当前历史截面不足以形成判断</strong></li>
+</ul>
+<hr />
+<h2>六、风险点</h2>
+<p>基于现有公告信息识别的潜在风险：</p>
+<h3>1. 控股股东可交换债券风险</h3>
+<ul>
+<li><strong>风险描述</strong>：可交换债券持有人未来可按约定条件交换为公司股票</li>
+<li><strong>潜在影响</strong>：增加二级市场股票供给，可能对股价形成压力</li>
+<li><strong>数据支撑</strong>：仅知悉发行完成，具体规模、换股价格、期限等条款<strong>当前历史截面中不可得</strong></li>
+</ul>
+<h3>2. 信息不对称风险</h3>
+<ul>
+<li><strong>风险描述</strong>：2025年度业绩数据尚未公开披露</li>
+<li><strong>潜在影响</strong>：投资者无法基于最新财务数据进行投资决策</li>
+<li><strong>缓解因素</strong>：业绩说明会已公告，后续将披露</li>
+</ul>
+<h3>3. 市场波动风险</h3>
+<ul>
+<li><strong>观察数据</strong>：近10个交易日振幅约7.3%（42.46-45.58元区间）</li>
+<li><strong>风险描述</strong>：当前价格处于近期相对高位，买入风险较高</li>
+</ul>
+<hr />
+<h2>七、交易启示</h2>
+<h3>当前历史截面可支撑的交易观察</h3>
+<ol>
+<li>
+<p><strong>价格位置</strong>：46.25元处于近10个交易日区间上沿（45.58元为前高）</p>
+<ul>
+<li>若无法突破46.25元，可能回落至43-45元区间震荡</li>
+</ul>
+</li>
+<li>
+<p><strong>成交量观察</strong>：<strong>当前历史截面中未提供成交量数据</strong></p>
+</li>
+<li>
+<p><strong>事件驱动因素</strong>：</p>
+<ul>
+<li>可交换债券发行完成：短期中性偏空（供给压力预期）</li>
+<li>业绩说明会临近：需关注后续披露的业绩数据</li>
+</ul>
+</li>
+</ol>
+<h3>投资建议的局限性</h3>
+<p><strong>当前历史截面不足以给出精确基本面目标价</strong>。</p>
+<p>原因：</p>
+<ul>
+<li>无PE/PB等估值数据</li>
+<li>无ROE、利润增速等盈利指标</li>
+<li>无营收、毛利率等经营数据</li>
+<li>无法建立任何量化估值模型</li>
+</ul>
+<h3>后续关注事项</h3>
+<ol>
+<li>
+<p><strong>2025年度业绩说明会</strong>（已公告召开）：</p>
+<ul>
+<li>关注营业收入、净利润等核心指标</li>
+<li>关注铜价波动对业绩的影响</li>
+<li>关注分红政策</li>
+</ul>
+</li>
+<li>
+<p><strong>可交换债券条款</strong>：</p>
+<ul>
+<li>需查阅完整公告了解换股价格、期限、规模</li>
+</ul>
+</li>
+<li>
+<p><strong>市场情绪变化</strong>：</p>
+<ul>
+<li>关注铜价走势（<strong>当前历史截面中未提供</strong>）</li>
+<li>关注有色金属行业动态（<strong>当前历史截面中未提供</strong>）</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h2>八、数据时点说明</h2>
+<table>
+<thead>
+<tr>
+<th>数据类型</th>
+<th>时间范围</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>市场收盘价</td>
+<td>2026-03-30 至 2026-04-13</td>
+<td>包含10个完整交易日</td>
+</tr>
+<tr>
+<td>实时价格</td>
+<td>2026-04-14 14:45</td>
+<td>研究截止前15分钟价格</td>
+</tr>
+<tr>
+<td>公司公告</td>
+<td>2026-03-15 至 2026-04-14</td>
+<td>包含8条公告</td>
+</tr>
+<tr>
+<td>财务数据</td>
+<td><strong>不可得</strong></td>
+<td>本期截面未提供</td>
+</tr>
+<tr>
+<td>估值指标</td>
+<td><strong>不可得</strong></td>
+<td>本期截面未提供</td>
+</tr>
+<tr>
+<td>行业数据</td>
+<td><strong>不可得</strong></td>
+<td>本期截面未提供</td>
+</tr>
+</tbody>
+</table>
+<p><strong>重要声明</strong>：本报告严格基于上述历史截面数据编制，所有分析结论仅反映截至2026-04-14 14:45的可观察信息。报告中的投资建议因数据局限而无法形成精确目标价判断，投资者应等待2025年度业绩披露后再进行完整的基本面评估。</p>
+<hr />
+<p><strong>报告生成时间</strong>：2026-04-14 14:45<br />
+<strong>数据来源</strong>：AKShare巨潮资讯历史公告、历史PIT市场数据<br />
+<strong>分析机构</strong>：严格历史视角基本面分析</p>
+</div></details><details><summary>投资辩论</summary><div class='markdown-body'><h1>江西铜业（600362）辩论评估与投资决策</h1>
+<h2>辩论总结与关键观点评估</h2>
+<p>好，让我来理清这轮辩论的核心。两位分析师都提出了有价值的观点，但侧重点和结论完全不同。</p>
+<p><strong>看涨分析师的核心论据</strong>：<br />
+机构资金（特别是社保基金连续出现在新建仓名单）是决定性信号。技术面的底部扎实、突破有效。还有5.8%的股息率作为安全垫。他把缩量上涨解读为市场惜售，认为这是强势特征。</p>
+<p><strong>看跌分析师的核心论据</strong>：<br />
+成交量数据缺失导致技术分析不可靠，增收不增利（营收+5.42%但净利润仅+2.41%）是危险信号，可交换债券条款不透明存在潜在供给压力。而且他提出了一个很实在的问题——在财务数据不完整的情况下，任何估值判断都是无本之木。</p>
+<p>我必须承认，看跌分析师的数据局限性论点是真实存在的硬伤。我们确实缺乏PE、PB、ROE等关键指标，无法进行完整的量化估值。但他犯了一个错误——把这个局限性变成了全面看空的借口，而不是把它作为风险管理的触发器。</p>
+<p><strong>然而，看涨分析师有一个无法反驳的事实：社保基金的建仓不是散户行为，是“国家队”的战略配置。</strong> 这个信号的分量很重。</p>
+<h2>我的决策：谨慎买入（HOLD/加仓策略）</h2>
+<p>我选择<strong>谨慎看多</strong>，但不是无脑追高。</p>
+<p>这不是一个简单的“买入”或者“持有”问题。当前价格46.25元正处于即时压力位46.5-47.0元下方，技术上存在回调需求。但机构资金的持续流入和情绪面的正面支撑，使我不认为应该离场。</p>
+<p><strong>我的建议是：现有持仓继续持有，空仓者在回调至45.0-45.5元区间时买入。</strong></p>
+<h2>理由</h2>
+<p><strong>为什么我看多而不是看空</strong>：</p>
+<p>第一，<strong>机构信号的分量无法忽视</strong>。社保基金连续多日出现在新建仓名单，这不是散户能左右的资金量级。有人质疑建仓规模，但能让社保基金把它列入名单本身，就说明经过严格的尽调程序。</p>
+<p>第二，<strong>情绪数据显示市场共识偏向正面</strong>。9条新闻全部为正面，情绪评分8.5分。虽然看跌分析师说正面消息会被放大，但这恰恰说明短期内市场的主要叙事是积极的，而短期股价往往由叙事驱动。</p>
+<p>第三，<strong>技术面的突破是有效的</strong>。虽然成交量数据缺失，但4月8日的大阳线之后，四个交易日的震荡整理没有回补涨幅，这是强势特征。4月14日突破前高说明多头有能力继续推升。</p>
+<p><strong>但我也必须承认看跌分析师说得对的地方</strong>：</p>
+<p>数据不完整是真实风险。2.41%的净利润增速确实低于营收增速，这可能是成本上升的信号。而且在技术指标无法计算的情况下，我对“超买”的担忧是合理的。</p>
+<p>所以我的立场是：<strong>机会大于风险，但需要控制节奏，不追高。</strong></p>
+<h2>战略行动</h2>
+<p><strong>建仓策略</strong>：</p>
+<p>如果你是空仓：等待价格回调至45.0-45.5元区间时买入，止损位设置在44.0元下方。如果价格直接拉升突破47元并站稳，可以考虑轻仓追入，但仓位不超过计划仓位的30%。</p>
+<p>如果已有持仓：继续持有，止损位上移至45.0元附近。46.5-47.0元区间如果出现放量滞涨，可以考虑减仓一半，锁定部分利润。</p>
+<p><strong>加仓计划</strong>：如果价格回调至45.5元附近获得支撑，可以加仓至计划仓位的70%。如果跌至44.0-44.5元区间且技术面没有破位，可以考虑满仓。</p>
+<p><strong>时间分配</strong>：建议花20%时间关注铜价走势（LME铜价），花30%时间关注成交量变化，花30%时间关注公司后续公告特别是可交换债券条款和2025年度业绩说明会。</p>
+<h2>目标价格分析</h2>
+<p>基于所有可用报告，我给出以下目标价格：</p>
+<p><strong>基本面估值参考</strong>：<br />
+按2025年EPS 2.07元计算，当前PE约22倍。在有色金属板块中属于中等水平。5.8%的股息率在A股市场具有吸引力。</p>
+<p><strong>情绪调整</strong>：情绪评分8.5分给予正面支撑，机构建仓信号在短期内是股价上行的催化剂。</p>
+<p><strong>技术位置</strong>：当前处于区间高点，即时压力46.5-47.0元，突破后看48-50元区间。</p>
+<p><strong>综合目标价格</strong>：</p>
+<table>
+<thead>
+<tr>
+<th>情景</th>
+<th>时间范围</th>
+<th>目标价格</th>
+<th>依据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>保守</td>
+<td>1个月</td>
+<td>44.5-45.0元</td>
+<td>技术回调，回踩45元支撑</td>
+</tr>
+<tr>
+<td>基准</td>
+<td>1个月</td>
+<td>46.5-47.5元</td>
+<td>突破当前压力，确认趋势</td>
+</tr>
+<tr>
+<td>乐观</td>
+<td>1个月</td>
+<td>48.0-49.0元</td>
+<td>情绪爆发，机构推动</td>
+</tr>
+<tr>
+<td>保守</td>
+<td>3个月</td>
+<td>44.0-45.5元</td>
+<td>业绩不及预期或铜价回调</td>
+</tr>
+<tr>
+<td>基准</td>
+<td>3个月</td>
+<td>48.0-50.0元</td>
+<td>业绩确认，估值修复</td>
+</tr>
+<tr>
+<td>乐观</td>
+<td>3个月</td>
+<td>50.0-52.0元</td>
+<td>铜价大涨，行业景气上升</td>
+</tr>
+<tr>
+<td>保守</td>
+<td>6个月</td>
+<td>43.0-45.0元</td>
+<td>行业周期下行</td>
+</tr>
+<tr>
+<td>基准</td>
+<td>6个月</td>
+<td>50.0-52.0元</td>
+<td>中期上升趋势延续</td>
+</tr>
+<tr>
+<td>乐观</td>
+<td>6个月</td>
+<td>52.0-55.0元</td>
+<td>业绩超预期，估值提升</td>
+</tr>
+</tbody>
+</table>
+<p><strong>核心目标价</strong>：<strong>48.0-50.0元</strong>（3-6个月），对应约5-10%的上涨空间。</p>
+<p><strong>止损位</strong>：45.0元下方有效跌破则离场。</p>
+<p><strong>风险警示</strong>：如果铜价大幅下跌超过15%，或者公司业绩出现重大下滑，股价可能回撤至42-44元区间。这种情况下无论什么情景目标都失效，需要重新评估。</p>
+<h2>最后的话</h2>
+<p>回顾这轮辩论，我必须指出两方的共同盲点：都没有充分讨论铜价这个最核心的驱动因素。江西铜业的股价本质上是由铜价决定的，抛开铜价谈估值和技术都是舍本逐末。但在我们现有的数据条件下，无法获取实时铜价数据，这是一个无法弥补的缺憾。</p>
+<p>基于现有信息，我的判断是：<strong>机构信号+技术突破+正面情绪，给予股价短期支撑；但数据不完整+增速放缓+潜在供给压力，要求我们控制仓位不追高。</strong></p>
+<p>等待回调买入是胜率更高的策略。</p>
+</div></details><details><summary>风险辩论</summary><div class='markdown-body'><h1>江西铜业（600362）风险管理委员会最终裁决</h1>
+<h2>委员会立场声明</h2>
+<p>作为风险管理委员会主席，我已完整审视三位分析师的辩论。基于辩论中的直接论据和反驳，结合委员会的风控原则，现作出以下裁决。</p>
+<hr />
+<h2>一、辩论焦点评估</h2>
+<h3>激进分析师的核心贡献</h3>
+<ol>
+<li><strong>&quot;社保基金建仓是战略配置信号&quot;</strong> — 这是无法忽视的事实。国家队资金不会随意建仓，其尽调程序严格性远超散户跟踪消息。</li>
+<li><strong>&quot;等待回调者承担机会成本&quot;</strong> — 逻辑成立，但被过度放大。4月8日后四个交易日未回补涨幅，确实显示市场承接力度强。</li>
+<li><strong>&quot;5.8%股息率是持股信心来源&quot;</strong> — 部分正确，但论述有瑕疵。中性分析师已指出：股息需持有一年才能兑现，短期交易中其&quot;进攻属性&quot;被高估。</li>
+</ol>
+<h3>保守分析师的核心贡献</h3>
+<ol>
+<li><strong>&quot;用长期资金决策为短期交易背书是偷换概念&quot;</strong> — <strong>这是本场辩论最有力的反驳</strong>，直接击中激进分析师的逻辑漏洞。</li>
+<li><strong>&quot;数据不完整意味着不知道的风险才是最大风险&quot;</strong> — 完全正确。PE、PB、铜价数据缺失是不可回避的硬约束。</li>
+<li><strong>&quot;44元止损太宽，跌破后4月8日所有买入资金被套&quot;</strong> — 技术分析层面成立，止损设置确实需要优化。</li>
+<li><strong>&quot;可交换债券条款不透明是重大隐患&quot;</strong> — 信息缺失下，任何假设都有确认偏误风险。</li>
+</ol>
+<h3>中性分析师的核心贡献</h3>
+<ol>
+<li><strong>&quot;45-45.5是成交密集区，止损设于此处更合理&quot;</strong> — 这是三位分析师中技术分析最精准的论点。</li>
+<li><strong>&quot;分两批入场，40-50%仓位是平衡方案&quot;</strong> — 务实可操作，避免非多即空的极端。</li>
+<li><strong>&quot;铜价是核心变量，必须每日监控&quot;</strong> — 两位对手都忽视了这一点，委员会认同此为最关键风控要素。</li>
+</ol>
+<hr />
+<h2>二、委员会裁决</h2>
+<h3><strong>明确建议：持有（HOLD）</strong></h3>
+<p><strong>决策依据：</strong></p>
+<table>
+<thead>
+<tr>
+<th>因素</th>
+<th>评估</th>
+<th>权重</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>机构信号（社保基金）</td>
+<td>正面，但为长期资金</td>
+<td>20%</td>
+</tr>
+<tr>
+<td>技术形态（突破前高）</td>
+<td>正面，但成交量数据缺失</td>
+<td>15%</td>
+</tr>
+<tr>
+<td>情绪面（9条正面新闻）</td>
+<td>正面，短期叙事支撑</td>
+<td>10%</td>
+</tr>
+<tr>
+<td>基本面（净利润增速2.41%）</td>
+<td>中性偏弱，成本压力不明</td>
+<td>15%</td>
+</tr>
+<tr>
+<td>数据完整性</td>
+<td>缺失PE/PB/铜价/债券条款</td>
+<td>25%</td>
+</tr>
+<tr>
+<td>估值风险</td>
+<td>无法量化内在价值</td>
+<td>15%</td>
+</tr>
+</tbody>
+</table>
+<p><strong>核心逻辑：</strong></p>
+<blockquote>
+<p>&quot;数据不完整意味着不知道的风险才是最大风险&quot;（保守分析师）</p>
+</blockquote>
+<blockquote>
+<p>&quot;用长期资金决策为短期交易背书是偷换概念&quot;（保守分析师）</p>
+</blockquote>
+<blockquote>
+<p>&quot;45-45.5是成交密集区，跌破此处技术面才真正转弱&quot;（中性分析师）</p>
+</blockquote>
+<p>委员会接受保守分析师对激进策略的两大核心反驳，同时采纳中性分析师的仓位管理和止损设置方案。<strong>激进分析师的论点建立在&quot;信号会持续&quot;的未证实假设上</strong>，这不符合风险管理原则。</p>
+<hr />
+<h2>三、具体交易指引</h2>
+<h3>建仓策略</h3>
+<table>
+<thead>
+<tr>
+<th>情形</th>
+<th>价格区间</th>
+<th>仓位</th>
+<th>止损位</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>当前无持仓</td>
+<td>不建议追高买入</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>回调至45.5-46.0</td>
+<td>观望是否企稳</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>回调至45.0-45.5</td>
+<td>强支撑区域，可分批建仓</td>
+<td>30-40%</td>
+<td>44.5元</td>
+</tr>
+<tr>
+<td>回调至44.0-44.5</td>
+<td>若基本面无恶化</td>
+<td>+20%</td>
+<td>43.5元</td>
+</tr>
+<tr>
+<td>直接突破47元并站稳</td>
+<td>趋势确认，追入</td>
+<td>≤20%</td>
+<td>45.5元</td>
+</tr>
+</tbody>
+</table>
+<h3>持仓管理</h3>
+<table>
+<thead>
+<tr>
+<th>价格区间</th>
+<th>行动</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>46.5-47.0元</td>
+<td>第一压力位，若放量滞涨减持1/3</td>
+</tr>
+<tr>
+<td>47.0-48.0元</td>
+<td>持有，观察成交量是否配合</td>
+</tr>
+<tr>
+<td>48.0-50.0元</td>
+<td>分批了结，锁定利润</td>
+</tr>
+<tr>
+<td>&lt;45.0元</td>
+<td>有效跌破则离场，不抱幻想</td>
+</tr>
+</tbody>
+</table>
+<h3>关键监控指标（按优先级）</h3>
+<ol>
+<li><strong>铜价走势</strong>（权重50%）— 每日跟踪LME铜价，连续下跌超5%立即重新评估</li>
+<li><strong>成交量数据</strong>（权重20%）— 若补全数据确认4月8日放量，支撑技术分析</li>
+<li><strong>可交换债券条款</strong>（权重20%）— 换股价格、规模、期限披露后重新评估</li>
+<li><strong>公司公告</strong>（权重10%）— 2025年度业绩说明会及分红实施情况</li>
+</ol>
+<hr />
+<h2>四、目标价格与风险收益</h2>
+<table>
+<thead>
+<tr>
+<th>情景</th>
+<th>1个月</th>
+<th>3个月</th>
+<th>6个月</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>保守</td>
+<td>44.5-45.0</td>
+<td>44.0-45.5</td>
+<td>43.0-45.0</td>
+</tr>
+<tr>
+<td>基准</td>
+<td>46.5-47.5</td>
+<td>48.0-50.0</td>
+<td>50.0-52.0</td>
+</tr>
+<tr>
+<td>乐观</td>
+<td>48.0-49.0</td>
+<td>50.0-52.0</td>
+<td>52.0-55.0</td>
+</tr>
+</tbody>
+</table>
+<p><strong>基准目标价：48-50元（3-6个月），上涨空间约4-8%</strong></p>
+<p><strong>止损风险：若铜价大跌或业绩不及预期，可能回撤至42-44元，跌幅约5-9%</strong></p>
+<hr />
+<h2>五、经验教训与改进</h2>
+<h3>从本次辩论学到的</h3>
+<ol>
+<li><strong>&quot;机构信号&quot;不等于&quot;短期买入信号&quot;</strong> — 激进分析师混淆了资金性质与持仓周期</li>
+<li><strong>&quot;数据缺失&quot;不是&quot;可以忽略&quot;的同义词</strong> — 在缺失核心变量时，应提高风险缓冲而非寻找安慰性论据</li>
+<li><strong>止损不是越宽越安全</strong> — 44元止损意味着承认4月8日涨幅全部失败，此时趋势已逆转</li>
+<li><strong>&quot;股息率&quot;在短期交易中价值有限</strong> — 需要完整持有一年才能兑现</li>
+</ol>
+<h3>避免的决策错误</h3>
+<ul>
+<li>~~追高至47元以上~~ → 等待回调确认</li>
+<li>~~止损设在44元~~ → 优化至45元</li>
+<li>~~忽视铜价变量~~ → 铜价是核心驱动</li>
+<li>~~忽视债券条款不确定性~~ → 等待披露后再加仓</li>
+</ul>
+<hr />
+<h2>六、最终声明</h2>
+<p>委员会裁决：<strong>持有（HOLD）</strong></p>
+<p><strong>理由摘要：</strong></p>
+<blockquote>
+<p>&quot;真正的风险，是在信息不完整的情况下贸然下重注。&quot;（保守分析师）</p>
+</blockquote>
+<blockquote>
+<p>&quot;活得久比赚得快重要。&quot;（中性分析师）</p>
+</blockquote>
+<p>激进分析师的论点具有部分正确性，但两大致命缺陷使其结论不可接受：<strong>混淆资金性质</strong>（长期配置≠短期信号）和<strong>低估数据缺失风险</strong>。</p>
+<p><strong>执行纪律：</strong></p>
+<ul>
+<li>空仓者：等待45.0-45.5元区间入场</li>
+<li>持仓者：持有，止损上移至45.0元</li>
+<li>禁止：追高至47元以上重仓</li>
+</ul>
+<p>委员会将在铜价数据补全或可交换债券条款披露后，重新评估持仓决策。</p>
+<hr />
+<p><em>风险管理委员会主席裁决</em><br />
+<em>决策日期：2025年4月</em></p>
+</div></details><details><summary>最终决策</summary><div class='markdown-body'><h1>江西铜业（600362）风险管理委员会最终裁决</h1>
+<h2>委员会立场声明</h2>
+<p>作为风险管理委员会主席，我已完整审视三位分析师的辩论。基于辩论中的直接论据和反驳，结合委员会的风控原则，现作出以下裁决。</p>
+<hr />
+<h2>一、辩论焦点评估</h2>
+<h3>激进分析师的核心贡献</h3>
+<ol>
+<li><strong>&quot;社保基金建仓是战略配置信号&quot;</strong> — 这是无法忽视的事实。国家队资金不会随意建仓，其尽调程序严格性远超散户跟踪消息。</li>
+<li><strong>&quot;等待回调者承担机会成本&quot;</strong> — 逻辑成立，但被过度放大。4月8日后四个交易日未回补涨幅，确实显示市场承接力度强。</li>
+<li><strong>&quot;5.8%股息率是持股信心来源&quot;</strong> — 部分正确，但论述有瑕疵。中性分析师已指出：股息需持有一年才能兑现，短期交易中其&quot;进攻属性&quot;被高估。</li>
+</ol>
+<h3>保守分析师的核心贡献</h3>
+<ol>
+<li><strong>&quot;用长期资金决策为短期交易背书是偷换概念&quot;</strong> — <strong>这是本场辩论最有力的反驳</strong>，直接击中激进分析师的逻辑漏洞。</li>
+<li><strong>&quot;数据不完整意味着不知道的风险才是最大风险&quot;</strong> — 完全正确。PE、PB、铜价数据缺失是不可回避的硬约束。</li>
+<li><strong>&quot;44元止损太宽，跌破后4月8日所有买入资金被套&quot;</strong> — 技术分析层面成立，止损设置确实需要优化。</li>
+<li><strong>&quot;可交换债券条款不透明是重大隐患&quot;</strong> — 信息缺失下，任何假设都有确认偏误风险。</li>
+</ol>
+<h3>中性分析师的核心贡献</h3>
+<ol>
+<li><strong>&quot;45-45.5是成交密集区，止损设于此处更合理&quot;</strong> — 这是三位分析师中技术分析最精准的论点。</li>
+<li><strong>&quot;分两批入场，40-50%仓位是平衡方案&quot;</strong> — 务实可操作，避免非多即空的极端。</li>
+<li><strong>&quot;铜价是核心变量，必须每日监控&quot;</strong> — 两位对手都忽视了这一点，委员会认同此为最关键风控要素。</li>
+</ol>
+<hr />
+<h2>二、委员会裁决</h2>
+<h3><strong>明确建议：持有（HOLD）</strong></h3>
+<p><strong>决策依据：</strong></p>
+<table>
+<thead>
+<tr>
+<th>因素</th>
+<th>评估</th>
+<th>权重</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>机构信号（社保基金）</td>
+<td>正面，但为长期资金</td>
+<td>20%</td>
+</tr>
+<tr>
+<td>技术形态（突破前高）</td>
+<td>正面，但成交量数据缺失</td>
+<td>15%</td>
+</tr>
+<tr>
+<td>情绪面（9条正面新闻）</td>
+<td>正面，短期叙事支撑</td>
+<td>10%</td>
+</tr>
+<tr>
+<td>基本面（净利润增速2.41%）</td>
+<td>中性偏弱，成本压力不明</td>
+<td>15%</td>
+</tr>
+<tr>
+<td>数据完整性</td>
+<td>缺失PE/PB/铜价/债券条款</td>
+<td>25%</td>
+</tr>
+<tr>
+<td>估值风险</td>
+<td>无法量化内在价值</td>
+<td>15%</td>
+</tr>
+</tbody>
+</table>
+<p><strong>核心逻辑：</strong></p>
+<blockquote>
+<p>&quot;数据不完整意味着不知道的风险才是最大风险&quot;（保守分析师）</p>
+</blockquote>
+<blockquote>
+<p>&quot;用长期资金决策为短期交易背书是偷换概念&quot;（保守分析师）</p>
+</blockquote>
+<blockquote>
+<p>&quot;45-45.5是成交密集区，跌破此处技术面才真正转弱&quot;（中性分析师）</p>
+</blockquote>
+<p>委员会接受保守分析师对激进策略的两大核心反驳，同时采纳中性分析师的仓位管理和止损设置方案。<strong>激进分析师的论点建立在&quot;信号会持续&quot;的未证实假设上</strong>，这不符合风险管理原则。</p>
+<hr />
+<h2>三、具体交易指引</h2>
+<h3>建仓策略</h3>
+<table>
+<thead>
+<tr>
+<th>情形</th>
+<th>价格区间</th>
+<th>仓位</th>
+<th>止损位</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>当前无持仓</td>
+<td>不建议追高买入</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>回调至45.5-46.0</td>
+<td>观望是否企稳</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>回调至45.0-45.5</td>
+<td>强支撑区域，可分批建仓</td>
+<td>30-40%</td>
+<td>44.5元</td>
+</tr>
+<tr>
+<td>回调至44.0-44.5</td>
+<td>若基本面无恶化</td>
+<td>+20%</td>
+<td>43.5元</td>
+</tr>
+<tr>
+<td>直接突破47元并站稳</td>
+<td>趋势确认，追入</td>
+<td>≤20%</td>
+<td>45.5元</td>
+</tr>
+</tbody>
+</table>
+<h3>持仓管理</h3>
+<table>
+<thead>
+<tr>
+<th>价格区间</th>
+<th>行动</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>46.5-47.0元</td>
+<td>第一压力位，若放量滞涨减持1/3</td>
+</tr>
+<tr>
+<td>47.0-48.0元</td>
+<td>持有，观察成交量是否配合</td>
+</tr>
+<tr>
+<td>48.0-50.0元</td>
+<td>分批了结，锁定利润</td>
+</tr>
+<tr>
+<td>&lt;45.0元</td>
+<td>有效跌破则离场，不抱幻想</td>
+</tr>
+</tbody>
+</table>
+<h3>关键监控指标（按优先级）</h3>
+<ol>
+<li><strong>铜价走势</strong>（权重50%）— 每日跟踪LME铜价，连续下跌超5%立即重新评估</li>
+<li><strong>成交量数据</strong>（权重20%）— 若补全数据确认4月8日放量，支撑技术分析</li>
+<li><strong>可交换债券条款</strong>（权重20%）— 换股价格、规模、期限披露后重新评估</li>
+<li><strong>公司公告</strong>（权重10%）— 2025年度业绩说明会及分红实施情况</li>
+</ol>
+<hr />
+<h2>四、目标价格与风险收益</h2>
+<table>
+<thead>
+<tr>
+<th>情景</th>
+<th>1个月</th>
+<th>3个月</th>
+<th>6个月</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>保守</td>
+<td>44.5-45.0</td>
+<td>44.0-45.5</td>
+<td>43.0-45.0</td>
+</tr>
+<tr>
+<td>基准</td>
+<td>46.5-47.5</td>
+<td>48.0-50.0</td>
+<td>50.0-52.0</td>
+</tr>
+<tr>
+<td>乐观</td>
+<td>48.0-49.0</td>
+<td>50.0-52.0</td>
+<td>52.0-55.0</td>
+</tr>
+</tbody>
+</table>
+<p><strong>基准目标价：48-50元（3-6个月），上涨空间约4-8%</strong></p>
+<p><strong>止损风险：若铜价大跌或业绩不及预期，可能回撤至42-44元，跌幅约5-9%</strong></p>
+<hr />
+<h2>五、经验教训与改进</h2>
+<h3>从本次辩论学到的</h3>
+<ol>
+<li><strong>&quot;机构信号&quot;不等于&quot;短期买入信号&quot;</strong> — 激进分析师混淆了资金性质与持仓周期</li>
+<li><strong>&quot;数据缺失&quot;不是&quot;可以忽略&quot;的同义词</strong> — 在缺失核心变量时，应提高风险缓冲而非寻找安慰性论据</li>
+<li><strong>止损不是越宽越安全</strong> — 44元止损意味着承认4月8日涨幅全部失败，此时趋势已逆转</li>
+<li><strong>&quot;股息率&quot;在短期交易中价值有限</strong> — 需要完整持有一年才能兑现</li>
+</ol>
+<h3>避免的决策错误</h3>
+<ul>
+<li>~~追高至47元以上~~ → 等待回调确认</li>
+<li>~~止损设在44元~~ → 优化至45元</li>
+<li>~~忽视铜价变量~~ → 铜价是核心驱动</li>
+<li>~~忽视债券条款不确定性~~ → 等待披露后再加仓</li>
+</ul>
+<hr />
+<h2>六、最终声明</h2>
+<p>委员会裁决：<strong>持有（HOLD）</strong></p>
+<p><strong>理由摘要：</strong></p>
+<blockquote>
+<p>&quot;真正的风险，是在信息不完整的情况下贸然下重注。&quot;（保守分析师）</p>
+</blockquote>
+<blockquote>
+<p>&quot;活得久比赚得快重要。&quot;（中性分析师）</p>
+</blockquote>
+<p>激进分析师的论点具有部分正确性，但两大致命缺陷使其结论不可接受：<strong>混淆资金性质</strong>（长期配置≠短期信号）和<strong>低估数据缺失风险</strong>。</p>
+<p><strong>执行纪律：</strong></p>
+<ul>
+<li>空仓者：等待45.0-45.5元区间入场</li>
+<li>持仓者：持有，止损上移至45.0元</li>
+<li>禁止：追高至47元以上重仓</li>
+</ul>
+<p>委员会将在铜价数据补全或可交换债券条款披露后，重新评估持仓决策。</p>
+<hr />
+<p><em>风险管理委员会主席裁决</em><br />
+<em>决策日期：2025年4月</em></p>
+</div></details>
+      </div>
+      <div class="panel stack">
+        <h2>结构化结果</h2>
+        <details open><summary>策略计划</summary><div class='markdown-body'><h1>策略计划</h1>
+<ul>
+<li>交易日: 2026-04-14</li>
+<li>标的: 江西铜业 (600362.SS)</li>
+<li>执行约束: A股 T+1，今日新买入仓位需到下一个交易日后方可卖出</li>
+<li>当前判断: hold / 置信度 0.65</li>
+<li>盘单契约状态: structured / 来源: processed_decision</li>
+<li>建议仓位/建仓计划: 维持/观察，目标仓位 11.50%</li>
+<li>触发买入价: 待补充</li>
+<li>触发买入比例: 11.50%</li>
+<li>触发卖出价: 47元</li>
+<li>触发卖出比例: 11.50%</li>
+<li>止损: 45元</li>
+<li>止盈: 48元</li>
+<li>盘单有效期: 待补充</li>
+<li>契约备注: size_hint_unused_target_rebalance</li>
+<li>备注: # 江西铜业（600362）风险管理委员会最终裁决</li>
+</ul>
+<h2>委员会立场声明</h2>
+<p>作为风险管理委员会主席，我已完整审视三位分析师的辩论。基于辩论中的直接论据和反驳，结合委员会的风控原则，现作出以下裁决。</p>
+<hr />
+<h2>一、辩论焦点评估</h2>
+<h3>激进分析师的核心贡献</h3>
+<ol>
+<li><strong>&quot;社保基金建仓是战略配置信号&quot;</strong> — 这是无法忽视的事实。国家队资金不会随意建仓，其尽调程序严格性远超散户跟踪消息。</li>
+<li><strong>&quot;等待回调者承担机会成本&quot;</strong> — 逻辑成立，但被过度放大。4月8日后四个交易日未回补涨幅，确实显示市场承接力度强。</li>
+<li><strong>&quot;5.8%股息率是持股信心来源&quot;</strong> — 部分正确，但论述有瑕疵。中性分析师已指出：股息需持有一年才能兑现，短期交易中其&quot;进攻属性&quot;被高估。</li>
+</ol>
+<h3>保守分析师的核心贡献</h3>
+<ol>
+<li><strong>&quot;用长期资金决策为短期交易背书是偷换概念&quot;</strong> — <strong>这是本场辩论最有力的反驳</strong>，直接击中激进分析师的逻辑漏洞。</li>
+<li><strong>&quot;数据不完整意味着不知道的风险才是最大风险&quot;</strong> — 完全正确。PE、PB、铜价数据缺失是不可回避的硬约束。</li>
+<li><strong>&quot;44元止损太宽，跌破后4月8日所有买入资金被套&quot;</strong> — 技术分析层面成立，止损设置确实需要优化。</li>
+<li><strong>&quot;可交换债券条款不透明是重大隐患&quot;</strong> — 信息缺失下，任何假设都有确认偏误风险。</li>
+</ol>
+<h3>中性分析师的核心贡献</h3>
+<ol>
+<li><strong>&quot;45-45.5是成交密集区，止损设于此处更合理&quot;</strong> — 这是三位分析师中技术分析最精准的论点。</li>
+<li><strong>&quot;分两批入场，40-50%仓位是平衡方案&quot;</strong> — 务实可操作，避免非多即空的极端。</li>
+<li><strong>&quot;铜价是核心变量，必须每日监控&quot;</strong> — 两位对手都忽视了这一点，委员会认同此为最关键风控要素。</li>
+</ol>
+<hr />
+<h2>二、委员会裁决</h2>
+<h3><strong>明确建议：持有（HOLD）</strong></h3>
+<p><strong>决策依据：</strong></p>
+<table>
+<thead>
+<tr>
+<th>因素</th>
+<th>评估</th>
+<th>权重</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>机构信号（社保基金）</td>
+<td>正面，但为长期资金</td>
+<td>20%</td>
+</tr>
+<tr>
+<td>技术形态（突破前高）</td>
+<td>正面，但成交量数据缺失</td>
+<td>15%</td>
+</tr>
+<tr>
+<td>情绪面（9条正面新闻）</td>
+<td>正面，短期叙事支撑</td>
+<td>10%</td>
+</tr>
+<tr>
+<td>基本面（净利润增速2.41%）</td>
+<td>中性偏弱，成本压力不明</td>
+<td>15%</td>
+</tr>
+<tr>
+<td>数据完整性</td>
+<td>缺失PE/PB/铜价/债券条款</td>
+<td>25%</td>
+</tr>
+<tr>
+<td>估值风险</td>
+<td>无法量化内在价值</td>
+<td>15%</td>
+</tr>
+</tbody>
+</table>
+<p><strong>核心逻辑：</strong></p>
+<blockquote>
+<p>&quot;数据不完整意味着不知道的风险才是最大风险&quot;（保守分析师）</p>
+</blockquote>
+<blockquote>
+<p>&quot;用长期资金决策为短期交易背书是偷换概念&quot;（保守分析师）</p>
+</blockquote>
+<blockquote>
+<p>&quot;45-45.5是成交密集区，跌破此处技术面才真正转弱&quot;（中性分析师）</p>
+</blockquote>
+<p>委员会接受保守分析师对激进策略的两大核心反驳，同时采纳中性分析师的仓位管理和止损设置方案。<strong>激进分析师的论点建立在&quot;信号会持续&quot;的未证实假设上</strong>，这不符合风险管理原则。</p>
+<hr />
+<h2>三、具体交易指引</h2>
+<h3>建仓策略</h3>
+<table>
+<thead>
+<tr>
+<th>情形</th>
+<th>价格区间</th>
+<th>仓位</th>
+<th>止损位</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>当前无持仓</td>
+<td>不建议追高买入</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>回调至45.5-46.0</td>
+<td>观望是否企稳</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>回调至45.0-45.5</td>
+<td>强支撑区域，可分批建仓</td>
+<td>30-40%</td>
+<td>44.5元</td>
+</tr>
+<tr>
+<td>回调至44.0-44.5</td>
+<td>若基本面无恶化</td>
+<td>+20%</td>
+<td>43.5元</td>
+</tr>
+<tr>
+<td>直接突破47元并站稳</td>
+<td>趋势确认，追入</td>
+<td>≤20%</td>
+<td>45.5元</td>
+</tr>
+</tbody>
+</table>
+<h3>持仓管理</h3>
+<table>
+<thead>
+<tr>
+<th>价格区间</th>
+<th>行动</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>46.5-47.0元</td>
+<td>第一压力位，若放量滞涨减持1/3</td>
+</tr>
+<tr>
+<td>47.0-48.0元</td>
+<td>持有，观察成交量是否配合</td>
+</tr>
+<tr>
+<td>48.0-50.0元</td>
+<td>分批了结，锁定利润</td>
+</tr>
+<tr>
+<td>&lt;45.0元</td>
+<td>有效跌破则离场，不抱幻想</td>
+</tr>
+</tbody>
+</table>
+<h3>关键监控指标（按优先级）</h3>
+<ol>
+<li><strong>铜价走势</strong>（权重50%）— 每日跟踪LME铜价，连续下跌超5%立即重新评估</li>
+<li><strong>成交量数据</strong>（权重20%）— 若补全数据确认4月8日放量，支撑技术分析</li>
+<li><strong>可交换债券条款</strong>（权重20%）— 换股价格、规模、期限披露后重新评估</li>
+<li><strong>公司公告</strong>（权重10%）— 2025年度业绩说明会及分红实施情况</li>
+</ol>
+<hr />
+<h2>四、目标价格与风险收益</h2>
+<table>
+<thead>
+<tr>
+<th>情景</th>
+<th>1个月</th>
+<th>3个月</th>
+<th>6个月</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>保守</td>
+<td>44.5-45.0</td>
+<td>44.0-45.5</td>
+<td>43.0-45.0</td>
+</tr>
+<tr>
+<td>基准</td>
+<td>46.5-47.5</td>
+<td>48.0-50.0</td>
+<td>50.0-52.0</td>
+</tr>
+<tr>
+<td>乐观</td>
+<td>48.0-49.0</td>
+<td>50.0-52.0</td>
+<td>52.0-55.0</td>
+</tr>
+</tbody>
+</table>
+<p><strong>基准目标价：48-50元（3-6个月），上涨空间约4-8%</strong></p>
+<p><strong>止损风险：若铜价大跌或业绩不及预期，可能回撤至42-44元，跌幅约5-9%</strong></p>
+<hr />
+<h2>五、经验教训与改进</h2>
+<h3>从本次辩论学到的</h3>
+<ol>
+<li><strong>&quot;机构信号&quot;不等于&quot;短期买入信号&quot;</strong> — 激进分析师混淆了资金性质与持仓周期</li>
+<li><strong>&quot;数据缺失&quot;不是&quot;可以忽略&quot;的同义词</strong> — 在缺失核心变量时，应提高风险缓冲而非寻找安慰性论据</li>
+<li><strong>止损不是越宽越安全</strong> — 44元止损意味着承认4月8日涨幅全部失败，此时趋势已逆转</li>
+<li><strong>&quot;股息率&quot;在短期交易中价值有限</strong> — 需要完整持有一年才能兑现</li>
+</ol>
+<h3>避免的决策错误</h3>
+<ul>
+<li>~~追高至47元以上~~ → 等待回调确认</li>
+<li>~~止损设在44元~~ → 优化至45元</li>
+<li>~~忽视铜价变量~~ → 铜价是核心驱动</li>
+<li>~~忽视债券条款不确定性~~ → 等待披露后再加仓</li>
+</ul>
+<hr />
+<h2>六、最终声明</h2>
+<p>委员会裁决：<strong>持有（HOLD）</strong></p>
+<p><strong>理由摘要：</strong></p>
+<blockquote>
+<p>&quot;真正的风险，是在信息不完整的情况下贸然下重注。&quot;（保守分析师）</p>
+</blockquote>
+<blockquote>
+<p>&quot;活得久比赚得快重要。&quot;（中性分析师）</p>
+</blockquote>
+<p>激进分析师的论点具有部分正确性，但两大致命缺陷使其结论不可接受：<strong>混淆资金性质</strong>（长期配置≠短期信号）和<strong>低估数据缺失风险</strong>。</p>
+<p><strong>执行纪律：</strong></p>
+<ul>
+<li>空仓者：等待45.0-45.5元区间入场</li>
+<li>持仓者：持有，止损上移至45.0元</li>
+<li>禁止：追高至47元以上重仓</li>
+</ul>
+<p>委员会将在铜价数据补全或可交换债券条款披露后，重新评估持仓决策。</p>
+<hr />
+<p><em>风险管理委员会主席裁决</em><br />
+<em>决策日期：2025年4月</em></p>
+<h2>原始决策</h2>
+<h1>江西铜业（600362）风险管理委员会最终裁决</h1>
+<h2>委员会立场声明</h2>
+<p>作为风险管理委员会主席，我已完整审视三位分析师的辩论。基于辩论中的直接论据和反驳，结合委员会的风控原则，现作出以下裁决。</p>
+<hr />
+<h2>一、辩论焦点评估</h2>
+<h3>激进分析师的核心贡献</h3>
+<ol>
+<li><strong>&quot;社保基金建仓是战略配置信号&quot;</strong> — 这是无法忽视的事实。国家队资金不会随意建仓，其尽调程序严格性远超散户跟踪消息。</li>
+<li><strong>&quot;等待回调者承担机会成本&quot;</strong> — 逻辑成立，但被过度放大。4月8日后四个交易日未回补涨幅，确实显示市场承接力度强。</li>
+<li><strong>&quot;5.8%股息率是持股信心来源&quot;</strong> — 部分正确，但论述有瑕疵。中性分析师已指出：股息需持有一年才能兑现，短期交易中其&quot;进攻属性&quot;被高估。</li>
+</ol>
+<h3>保守分析师的核心贡献</h3>
+<ol>
+<li><strong>&quot;用长期资金决策为短期交易背书是偷换概念&quot;</strong> — <strong>这是本场辩论最有力的反驳</strong>，直接击中激进分析师的逻辑漏洞。</li>
+<li><strong>&quot;数据不完整意味着不知道的风险才是最大风险&quot;</strong> — 完全正确。PE、PB、铜价数据缺失是不可回避的硬约束。</li>
+<li><strong>&quot;44元止损太宽，跌破后4月8日所有买入资金被套&quot;</strong> — 技术分析层面成立，止损设置确实需要优化。</li>
+<li><strong>&quot;可交换债券条款不透明是重大隐患&quot;</strong> — 信息缺失下，任何假设都有确认偏误风险。</li>
+</ol>
+<h3>中性分析师的核心贡献</h3>
+<ol>
+<li><strong>&quot;45-45.5是成交密集区，止损设于此处更合理&quot;</strong> — 这是三位分析师中技术分析最精准的论点。</li>
+<li><strong>&quot;分两批入场，40-50%仓位是平衡方案&quot;</strong> — 务实可操作，避免非多即空的极端。</li>
+<li><strong>&quot;铜价是核心变量，必须每日监控&quot;</strong> — 两位对手都忽视了这一点，委员会认同此为最关键风控要素。</li>
+</ol>
+<hr />
+<h2>二、委员会裁决</h2>
+<h3><strong>明确建议：持有（HOLD）</strong></h3>
+<p><strong>决策依据：</strong></p>
+<table>
+<thead>
+<tr>
+<th>因素</th>
+<th>评估</th>
+<th>权重</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>机构信号（社保基金）</td>
+<td>正面，但为长期资金</td>
+<td>20%</td>
+</tr>
+<tr>
+<td>技术形态（突破前高）</td>
+<td>正面，但成交量数据缺失</td>
+<td>15%</td>
+</tr>
+<tr>
+<td>情绪面（9条正面新闻）</td>
+<td>正面，短期叙事支撑</td>
+<td>10%</td>
+</tr>
+<tr>
+<td>基本面（净利润增速2.41%）</td>
+<td>中性偏弱，成本压力不明</td>
+<td>15%</td>
+</tr>
+<tr>
+<td>数据完整性</td>
+<td>缺失PE/PB/铜价/债券条款</td>
+<td>25%</td>
+</tr>
+<tr>
+<td>估值风险</td>
+<td>无法量化内在价值</td>
+<td>15%</td>
+</tr>
+</tbody>
+</table>
+<p><strong>核心逻辑：</strong></p>
+<blockquote>
+<p>&quot;数据不完整意味着不知道的风险才是最大风险&quot;（保守分析师）</p>
+</blockquote>
+<blockquote>
+<p>&quot;用长期资金决策为短期交易背书是偷换概念&quot;（保守分析师）</p>
+</blockquote>
+<blockquote>
+<p>&quot;45-45.5是成交密集区，跌破此处技术面才真正转弱&quot;（中性分析师）</p>
+</blockquote>
+<p>委员会接受保守分析师对激进策略的两大核心反驳，同时采纳中性分析师的仓位管理和止损设置方案。<strong>激进分析师的论点建立在&quot;信号会持续&quot;的未证实假设上</strong>，这不符合风险管理原则。</p>
+<hr />
+<h2>三、具体交易指引</h2>
+<h3>建仓策略</h3>
+<table>
+<thead>
+<tr>
+<th>情形</th>
+<th>价格区间</th>
+<th>仓位</th>
+<th>止损位</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>当前无持仓</td>
+<td>不建议追高买入</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>回调至45.5-46.0</td>
+<td>观望是否企稳</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>回调至45.0-45.5</td>
+<td>强支撑区域，可分批建仓</td>
+<td>30-40%</td>
+<td>44.5元</td>
+</tr>
+<tr>
+<td>回调至44.0-44.5</td>
+<td>若基本面无恶化</td>
+<td>+20%</td>
+<td>43.5元</td>
+</tr>
+<tr>
+<td>直接突破47元并站稳</td>
+<td>趋势确认，追入</td>
+<td>≤20%</td>
+<td>45.5元</td>
+</tr>
+</tbody>
+</table>
+<h3>持仓管理</h3>
+<table>
+<thead>
+<tr>
+<th>价格区间</th>
+<th>行动</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>46.5-47.0元</td>
+<td>第一压力位，若放量滞涨减持1/3</td>
+</tr>
+<tr>
+<td>47.0-48.0元</td>
+<td>持有，观察成交量是否配合</td>
+</tr>
+<tr>
+<td>48.0-50.0元</td>
+<td>分批了结，锁定利润</td>
+</tr>
+<tr>
+<td>&lt;45.0元</td>
+<td>有效跌破则离场，不抱幻想</td>
+</tr>
+</tbody>
+</table>
+<h3>关键监控指标（按优先级）</h3>
+<ol>
+<li><strong>铜价走势</strong>（权重50%）— 每日跟踪LME铜价，连续下跌超5%立即重新评估</li>
+<li><strong>成交量数据</strong>（权重20%）— 若补全数据确认4月8日放量，支撑技术分析</li>
+<li><strong>可交换债券条款</strong>（权重20%）— 换股价格、规模、期限披露后重新评估</li>
+<li><strong>公司公告</strong>（权重10%）— 2025年度业绩说明会及分红实施情况</li>
+</ol>
+<hr />
+<h2>四、目标价格与风险收益</h2>
+<table>
+<thead>
+<tr>
+<th>情景</th>
+<th>1个月</th>
+<th>3个月</th>
+<th>6个月</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>保守</td>
+<td>44.5-45.0</td>
+<td>44.0-45.5</td>
+<td>43.0-45.0</td>
+</tr>
+<tr>
+<td>基准</td>
+<td>46.5-47.5</td>
+<td>48.0-50.0</td>
+<td>50.0-52.0</td>
+</tr>
+<tr>
+<td>乐观</td>
+<td>48.0-49.0</td>
+<td>50.0-52.0</td>
+<td>52.0-55.0</td>
+</tr>
+</tbody>
+</table>
+<p><strong>基准目标价：48-50元（3-6个月），上涨空间约4-8%</strong></p>
+<p><strong>止损风险：若铜价大跌或业绩不及预期，可能回撤至42-44元，跌幅约5-9%</strong></p>
+<hr />
+<h2>五、经验教训与改进</h2>
+<h3>从本次辩论学到的</h3>
+<ol>
+<li><strong>&quot;机构信号&quot;不等于&quot;短期买入信号&quot;</strong> — 激进分析师混淆了资金性质与持仓周期</li>
+<li><strong>&quot;数据缺失&quot;不是&quot;可以忽略&quot;的同义词</strong> — 在缺失核心变量时，应提高风险缓冲而非寻找安慰性论据</li>
+<li><strong>止损不是越宽越安全</strong> — 44元止损意味着承认4月8日涨幅全部失败，此时趋势已逆转</li>
+<li><strong>&quot;股息率&quot;在短期交易中价值有限</strong> — 需要完整持有一年才能兑现</li>
+</ol>
+<h3>避免的决策错误</h3>
+<ul>
+<li>~~追高至47元以上~~ → 等待回调确认</li>
+<li>~~止损设在44元~~ → 优化至45元</li>
+<li>~~忽视铜价变量~~ → 铜价是核心驱动</li>
+<li>~~忽视债券条款不确定性~~ → 等待披露后再加仓</li>
+</ul>
+<hr />
+<h2>六、最终声明</h2>
+<p>委员会裁决：<strong>持有（HOLD）</strong></p>
+<p><strong>理由摘要：</strong></p>
+<blockquote>
+<p>&quot;真正的风险，是在信息不完整的情况下贸然下重注。&quot;（保守分析师）</p>
+</blockquote>
+<blockquote>
+<p>&quot;活得久比赚得快重要。&quot;（中性分析师）</p>
+</blockquote>
+<p>激进分析师的论点具有部分正确性，但两大致命缺陷使其结论不可接受：<strong>混淆资金性质</strong>（长期配置≠短期信号）和<strong>低估数据缺失风险</strong>。</p>
+<p><strong>执行纪律：</strong></p>
+<ul>
+<li>空仓者：等待45.0-45.5元区间入场</li>
+<li>持仓者：持有，止损上移至45.0元</li>
+<li>禁止：追高至47元以上重仓</li>
+</ul>
+<p>委员会将在铜价数据补全或可交换债券条款披露后，重新评估持仓决策。</p>
+<hr />
+<p><em>风险管理委员会主席裁决</em><br />
+<em>决策日期：2025年4月</em></p>
+</div></details>
+        <details open><summary>最终策略原文</summary><div class='markdown-body'><h1>江西铜业（600362）风险管理委员会最终裁决</h1>
+<h2>委员会立场声明</h2>
+<p>作为风险管理委员会主席，我已完整审视三位分析师的辩论。基于辩论中的直接论据和反驳，结合委员会的风控原则，现作出以下裁决。</p>
+<hr />
+<h2>一、辩论焦点评估</h2>
+<h3>激进分析师的核心贡献</h3>
+<ol>
+<li><strong>&quot;社保基金建仓是战略配置信号&quot;</strong> — 这是无法忽视的事实。国家队资金不会随意建仓，其尽调程序严格性远超散户跟踪消息。</li>
+<li><strong>&quot;等待回调者承担机会成本&quot;</strong> — 逻辑成立，但被过度放大。4月8日后四个交易日未回补涨幅，确实显示市场承接力度强。</li>
+<li><strong>&quot;5.8%股息率是持股信心来源&quot;</strong> — 部分正确，但论述有瑕疵。中性分析师已指出：股息需持有一年才能兑现，短期交易中其&quot;进攻属性&quot;被高估。</li>
+</ol>
+<h3>保守分析师的核心贡献</h3>
+<ol>
+<li><strong>&quot;用长期资金决策为短期交易背书是偷换概念&quot;</strong> — <strong>这是本场辩论最有力的反驳</strong>，直接击中激进分析师的逻辑漏洞。</li>
+<li><strong>&quot;数据不完整意味着不知道的风险才是最大风险&quot;</strong> — 完全正确。PE、PB、铜价数据缺失是不可回避的硬约束。</li>
+<li><strong>&quot;44元止损太宽，跌破后4月8日所有买入资金被套&quot;</strong> — 技术分析层面成立，止损设置确实需要优化。</li>
+<li><strong>&quot;可交换债券条款不透明是重大隐患&quot;</strong> — 信息缺失下，任何假设都有确认偏误风险。</li>
+</ol>
+<h3>中性分析师的核心贡献</h3>
+<ol>
+<li><strong>&quot;45-45.5是成交密集区，止损设于此处更合理&quot;</strong> — 这是三位分析师中技术分析最精准的论点。</li>
+<li><strong>&quot;分两批入场，40-50%仓位是平衡方案&quot;</strong> — 务实可操作，避免非多即空的极端。</li>
+<li><strong>&quot;铜价是核心变量，必须每日监控&quot;</strong> — 两位对手都忽视了这一点，委员会认同此为最关键风控要素。</li>
+</ol>
+<hr />
+<h2>二、委员会裁决</h2>
+<h3><strong>明确建议：持有（HOLD）</strong></h3>
+<p><strong>决策依据：</strong></p>
+<table>
+<thead>
+<tr>
+<th>因素</th>
+<th>评估</th>
+<th>权重</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>机构信号（社保基金）</td>
+<td>正面，但为长期资金</td>
+<td>20%</td>
+</tr>
+<tr>
+<td>技术形态（突破前高）</td>
+<td>正面，但成交量数据缺失</td>
+<td>15%</td>
+</tr>
+<tr>
+<td>情绪面（9条正面新闻）</td>
+<td>正面，短期叙事支撑</td>
+<td>10%</td>
+</tr>
+<tr>
+<td>基本面（净利润增速2.41%）</td>
+<td>中性偏弱，成本压力不明</td>
+<td>15%</td>
+</tr>
+<tr>
+<td>数据完整性</td>
+<td>缺失PE/PB/铜价/债券条款</td>
+<td>25%</td>
+</tr>
+<tr>
+<td>估值风险</td>
+<td>无法量化内在价值</td>
+<td>15%</td>
+</tr>
+</tbody>
+</table>
+<p><strong>核心逻辑：</strong></p>
+<blockquote>
+<p>&quot;数据不完整意味着不知道的风险才是最大风险&quot;（保守分析师）</p>
+</blockquote>
+<blockquote>
+<p>&quot;用长期资金决策为短期交易背书是偷换概念&quot;（保守分析师）</p>
+</blockquote>
+<blockquote>
+<p>&quot;45-45.5是成交密集区，跌破此处技术面才真正转弱&quot;（中性分析师）</p>
+</blockquote>
+<p>委员会接受保守分析师对激进策略的两大核心反驳，同时采纳中性分析师的仓位管理和止损设置方案。<strong>激进分析师的论点建立在&quot;信号会持续&quot;的未证实假设上</strong>，这不符合风险管理原则。</p>
+<hr />
+<h2>三、具体交易指引</h2>
+<h3>建仓策略</h3>
+<table>
+<thead>
+<tr>
+<th>情形</th>
+<th>价格区间</th>
+<th>仓位</th>
+<th>止损位</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>当前无持仓</td>
+<td>不建议追高买入</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>回调至45.5-46.0</td>
+<td>观望是否企稳</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>回调至45.0-45.5</td>
+<td>强支撑区域，可分批建仓</td>
+<td>30-40%</td>
+<td>44.5元</td>
+</tr>
+<tr>
+<td>回调至44.0-44.5</td>
+<td>若基本面无恶化</td>
+<td>+20%</td>
+<td>43.5元</td>
+</tr>
+<tr>
+<td>直接突破47元并站稳</td>
+<td>趋势确认，追入</td>
+<td>≤20%</td>
+<td>45.5元</td>
+</tr>
+</tbody>
+</table>
+<h3>持仓管理</h3>
+<table>
+<thead>
+<tr>
+<th>价格区间</th>
+<th>行动</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>46.5-47.0元</td>
+<td>第一压力位，若放量滞涨减持1/3</td>
+</tr>
+<tr>
+<td>47.0-48.0元</td>
+<td>持有，观察成交量是否配合</td>
+</tr>
+<tr>
+<td>48.0-50.0元</td>
+<td>分批了结，锁定利润</td>
+</tr>
+<tr>
+<td>&lt;45.0元</td>
+<td>有效跌破则离场，不抱幻想</td>
+</tr>
+</tbody>
+</table>
+<h3>关键监控指标（按优先级）</h3>
+<ol>
+<li><strong>铜价走势</strong>（权重50%）— 每日跟踪LME铜价，连续下跌超5%立即重新评估</li>
+<li><strong>成交量数据</strong>（权重20%）— 若补全数据确认4月8日放量，支撑技术分析</li>
+<li><strong>可交换债券条款</strong>（权重20%）— 换股价格、规模、期限披露后重新评估</li>
+<li><strong>公司公告</strong>（权重10%）— 2025年度业绩说明会及分红实施情况</li>
+</ol>
+<hr />
+<h2>四、目标价格与风险收益</h2>
+<table>
+<thead>
+<tr>
+<th>情景</th>
+<th>1个月</th>
+<th>3个月</th>
+<th>6个月</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>保守</td>
+<td>44.5-45.0</td>
+<td>44.0-45.5</td>
+<td>43.0-45.0</td>
+</tr>
+<tr>
+<td>基准</td>
+<td>46.5-47.5</td>
+<td>48.0-50.0</td>
+<td>50.0-52.0</td>
+</tr>
+<tr>
+<td>乐观</td>
+<td>48.0-49.0</td>
+<td>50.0-52.0</td>
+<td>52.0-55.0</td>
+</tr>
+</tbody>
+</table>
+<p><strong>基准目标价：48-50元（3-6个月），上涨空间约4-8%</strong></p>
+<p><strong>止损风险：若铜价大跌或业绩不及预期，可能回撤至42-44元，跌幅约5-9%</strong></p>
+<hr />
+<h2>五、经验教训与改进</h2>
+<h3>从本次辩论学到的</h3>
+<ol>
+<li><strong>&quot;机构信号&quot;不等于&quot;短期买入信号&quot;</strong> — 激进分析师混淆了资金性质与持仓周期</li>
+<li><strong>&quot;数据缺失&quot;不是&quot;可以忽略&quot;的同义词</strong> — 在缺失核心变量时，应提高风险缓冲而非寻找安慰性论据</li>
+<li><strong>止损不是越宽越安全</strong> — 44元止损意味着承认4月8日涨幅全部失败，此时趋势已逆转</li>
+<li><strong>&quot;股息率&quot;在短期交易中价值有限</strong> — 需要完整持有一年才能兑现</li>
+</ol>
+<h3>避免的决策错误</h3>
+<ul>
+<li>~~追高至47元以上~~ → 等待回调确认</li>
+<li>~~止损设在44元~~ → 优化至45元</li>
+<li>~~忽视铜价变量~~ → 铜价是核心驱动</li>
+<li>~~忽视债券条款不确定性~~ → 等待披露后再加仓</li>
+</ul>
+<hr />
+<h2>六、最终声明</h2>
+<p>委员会裁决：<strong>持有（HOLD）</strong></p>
+<p><strong>理由摘要：</strong></p>
+<blockquote>
+<p>&quot;真正的风险，是在信息不完整的情况下贸然下重注。&quot;（保守分析师）</p>
+</blockquote>
+<blockquote>
+<p>&quot;活得久比赚得快重要。&quot;（中性分析师）</p>
+</blockquote>
+<p>激进分析师的论点具有部分正确性，但两大致命缺陷使其结论不可接受：<strong>混淆资金性质</strong>（长期配置≠短期信号）和<strong>低估数据缺失风险</strong>。</p>
+<p><strong>执行纪律：</strong></p>
+<ul>
+<li>空仓者：等待45.0-45.5元区间入场</li>
+<li>持仓者：持有，止损上移至45.0元</li>
+<li>禁止：追高至47元以上重仓</li>
+</ul>
+<p>委员会将在铜价数据补全或可交换债券条款披露后，重新评估持仓决策。</p>
+<hr />
+<p><em>风险管理委员会主席裁决</em><br />
+<em>决策日期：2025年4月</em></p>
+</div></details>
+        
+        <details open><summary>完整性门禁</summary><pre>{
+  &quot;ok&quot;: true,
+  &quot;checks&quot;: {
+    &quot;final_trade_decision&quot;: {
+      &quot;length&quot;: 2813,
+      &quot;min_length&quot;: 100,
+      &quot;length_ok&quot;: true,
+      &quot;identity_ok&quot;: true,
+      &quot;data_quality_ok&quot;: true,
+      &quot;expected_company_name&quot;: &quot;江西铜业&quot;,
+      &quot;ok&quot;: true
+    },
+    &quot;market_report&quot;: {
+      &quot;length&quot;: 2473,
+      &quot;min_length&quot;: 200,
+      &quot;length_ok&quot;: true,
+      &quot;identity_ok&quot;: true,
+      &quot;data_quality_ok&quot;: true,
+      &quot;expected_company_name&quot;: &quot;江西铜业&quot;,
+      &quot;ok&quot;: true
+    },
+    &quot;sentiment_report&quot;: {
+      &quot;length&quot;: 2743,
+      &quot;min_length&quot;: 200,
+      &quot;length_ok&quot;: true,
+      &quot;identity_ok&quot;: true,
+      &quot;data_quality_ok&quot;: true,
+      &quot;expected_company_name&quot;: &quot;江西铜业&quot;,
+      &quot;ok&quot;: true
+    },
+    &quot;news_report&quot;: {
+      &quot;length&quot;: 1780,
+      &quot;min_length&quot;: 300,
+      &quot;length_ok&quot;: true,
+      &quot;identity_ok&quot;: true,
+      &quot;data_quality_ok&quot;: true,
+      &quot;expected_company_name&quot;: &quot;江西铜业&quot;,
+      &quot;ok&quot;: true
+    },
+    &quot;fundamentals_report&quot;: {
+      &quot;length&quot;: 3612,
+      &quot;min_length&quot;: 200,
+      &quot;length_ok&quot;: true,
+      &quot;identity_ok&quot;: true,
+      &quot;data_quality_ok&quot;: true,
+      &quot;expected_company_name&quot;: &quot;江西铜业&quot;,
+      &quot;ok&quot;: true
+    }
+  },
+  &quot;selected_analysts&quot;: [
+    &quot;market&quot;,
+    &quot;social&quot;,
+    &quot;news&quot;,
+    &quot;fundamentals&quot;
+  ]
+}</pre></details>
+        <details open><summary>时间边界与数据诊断</summary><pre>{
+  &quot;symbol&quot;: &quot;600362.SS&quot;,
+  &quot;graph_symbol&quot;: &quot;600362&quot;,
+  &quot;trade_date&quot;: &quot;2026-04-14&quot;,
+  &quot;research_cutoff_time&quot;: &quot;14:45&quot;,
+  &quot;company_name&quot;: &quot;江西铜业&quot;,
+  &quot;minute_points_visible&quot;: 1,
+  &quot;news_lookback_days&quot;: 30,
+  &quot;news&quot;: {
+    &quot;provider&quot;: &quot;AKShare东方财富历史新闻&quot;,
+    &quot;payload_cached&quot;: true,
+    &quot;payload_length&quot;: 2482,
+    &quot;news_count&quot;: 9,
+    &quot;report_length&quot;: 1780,
+    &quot;strict_non_empty&quot;: true
+  },
+  &quot;sentiment&quot;: {
+    &quot;mode&quot;: &quot;historical_finance_news_proxy&quot;,
+    &quot;proxy_provider&quot;: &quot;AKShare东方财富历史新闻&quot;,
+    &quot;report_length&quot;: 2743,
+    &quot;identity_ok&quot;: true,
+    &quot;raw_social_api_available&quot;: false
+  },
+  &quot;fundamentals&quot;: {
+    &quot;provider&quot;: &quot;AKShare巨潮资讯历史公告&quot;,
+    &quot;payload_cached&quot;: true,
+    &quot;payload_length&quot;: 2472,
+    &quot;report_length&quot;: 3612,
+    &quot;data_quality_ok&quot;: true
+  }
+}</pre></details>
+        <details open><summary>执行核对</summary><pre>{
+  &quot;strategy_excerpt&quot;: &quot;# 江西铜业（600362）风险管理委员会最终裁决 ## 委员会立场声明 作为风险管理委员会主席，我已完整审视三位分析师的辩论。基于辩论中的直接论据和反驳，结合委员会的风控原则，现作出以下裁决。 --- ## 一、辩论焦点评估 ### 激进分析师的核心贡献 1. **\&quot;社保基金建仓是战略配置信号\&quot;** — 这是无法忽视的事实。国家队资金不会随意建仓，其尽调…&quot;,
+  &quot;signal_action&quot;: &quot;hold&quot;,
+  &quot;signal_size_hint&quot;: 0.0,
+  &quot;signal_target_position_pct&quot;: 0.115,
+  &quot;expected_trade_direction&quot;: &quot;sell&quot;,
+  &quot;actual_trade_direction&quot;: &quot;sell&quot;,
+  &quot;filled_quantity&quot;: 154,
+  &quot;trade_count&quot;: 1,
+  &quot;starting_quantity&quot;: 89934,
+  &quot;ending_quantity&quot;: 89780,
+  &quot;execution_blockers&quot;: [],
+  &quot;status&quot;: &quot;consistent&quot;,
+  &quot;reason&quot;: &quot;signal and actual fill direction match&quot;
+}</pre></details>
+        <details open><summary>标准化信号</summary><pre>{
+  &quot;action&quot;: &quot;hold&quot;,
+  &quot;symbol&quot;: &quot;600362.SS&quot;,
+  &quot;symbol_name&quot;: &quot;江西铜业&quot;,
+  &quot;confidence&quot;: 0.65,
+  &quot;size_hint&quot;: 0.0,
+  &quot;reason_summary&quot;: &quot;持仓处于盈利状态（46.34 vs 成本43.80），技术面已突破前高45.58元，短期趋势向好。但当前价格已触及即时压力位46.5-47元区间，且技术面存在超买风险，建议持有但做好减仓准备。止损位45.0-45.5元是核心风控线。研究结论明确&#x27;HOLD&#x27;，在数据不完整情况下不宜激进加仓。&quot;,
+  &quot;source_artifact_id&quot;: &quot;replay-600362.SS-2026-04-14&quot;,
+  &quot;target_position_pct&quot;: 0.115,
+  &quot;order_plan&quot;: {
+    &quot;schema_version&quot;: &quot;v1&quot;,
+    &quot;contract_status&quot;: &quot;structured&quot;,
+    &quot;contract_source&quot;: &quot;processed_decision&quot;,
+    &quot;action&quot;: &quot;hold&quot;,
+    &quot;confidence&quot;: 0.65,
+    &quot;risk_score&quot;: 0.4,
+    &quot;reasoning&quot;: &quot;持仓处于盈利状态（46.34 vs 成本43.80），技术面已突破前高45.58元，短期趋势向好。但当前价格已触及即时压力位46.5-47元区间，且技术面存在超买风险，建议持有但做好减仓准备。止损位45.0-45.5元是核心风控线。研究结论明确&#x27;HOLD&#x27;，在数据不完整情况下不宜激进加仓。&quot;,
+    &quot;size_hint&quot;: null,
+    &quot;target_position_pct&quot;: 0.115,
+    &quot;target_price&quot;: null,
+    &quot;buy_below_price&quot;: null,
+    &quot;sell_above_price&quot;: 47.0,
+    &quot;stop_loss_price&quot;: 45.0,
+    &quot;take_profit_price&quot;: 48.0,
+    &quot;valid_until&quot;: &quot;&quot;,
+    &quot;notes&quot;: [
+      &quot;size_hint_unused_target_rebalance&quot;
+    ]
+  }
+}</pre></details>
+        <details><summary>账户快照</summary><pre>{
+  &quot;trade_date&quot;: &quot;2026-04-14&quot;,
+  &quot;cash&quot;: 5226907.27000001,
+  &quot;positions&quot;: {
+    &quot;603986.SS&quot;: {
+      &quot;symbol&quot;: &quot;603986.SS&quot;,
+      &quot;quantity&quot;: 14700,
+      &quot;average_cost&quot;: 258.0,
+      &quot;last_price&quot;: 280.1,
+      &quot;name&quot;: &quot;兆易创新&quot;,
+      &quot;lots&quot;: [
+        {
+          &quot;acquired_trade_date&quot;: &quot;&quot;,
+          &quot;quantity&quot;: 14700,
+          &quot;average_cost&quot;: 258.0
+        }
+      ]
+    },
+    &quot;002906.SZ&quot;: {
+      &quot;symbol&quot;: &quot;002906.SZ&quot;,
+      &quot;quantity&quot;: 63100,
+      &quot;average_cost&quot;: 32.0,
+      &quot;last_price&quot;: 31.37,
+      &quot;name&quot;: &quot;华阳装备（暂映射华阳集团）&quot;,
+      &quot;lots&quot;: [
+        {
+          &quot;acquired_trade_date&quot;: &quot;&quot;,
+          &quot;quantity&quot;: 63100,
+          &quot;average_cost&quot;: 32.0
+        }
+      ]
+    },
+    &quot;688525.SS&quot;: {
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;quantity&quot;: 47658,
+      &quot;average_cost&quot;: 236.68179069629372,
+      &quot;last_price&quot;: 288.46,
+      &quot;name&quot;: &quot;佰维存储&quot;,
+      &quot;lots&quot;: [
+        {
+          &quot;acquired_trade_date&quot;: &quot;2026-04-08&quot;,
+          &quot;quantity&quot;: 15496,
+          &quot;average_cost&quot;: 229.55
+        },
+        {
+          &quot;acquired_trade_date&quot;: &quot;2026-04-10&quot;,
+          &quot;quantity&quot;: 32162,
+          &quot;average_cost&quot;: 241.71
+        }
+      ]
+    },
+    &quot;300442.SZ&quot;: {
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;quantity&quot;: 76187,
+      &quot;average_cost&quot;: 79.88998132899648,
+      &quot;last_price&quot;: 91.17,
+      &quot;name&quot;: &quot;润泽科技&quot;,
+      &quot;lots&quot;: [
+        {
+          &quot;acquired_trade_date&quot;: &quot;2026-04-07&quot;,
+          &quot;quantity&quot;: 76113,
+          &quot;average_cost&quot;: 79.51
+        },
+        {
+          &quot;acquired_trade_date&quot;: &quot;2026-04-08&quot;,
+          &quot;quantity&quot;: 14,
+          &quot;average_cost&quot;: 86.87
+        },
+        {
+          &quot;acquired_trade_date&quot;: &quot;2026-04-14&quot;,
+          &quot;quantity&quot;: 60,
+          &quot;average_cost&quot;: 91.17
+        }
+      ]
+    },
+    &quot;600362.SS&quot;: {
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;quantity&quot;: 89780,
+      &quot;average_cost&quot;: 43.801513604939004,
+      &quot;last_price&quot;: 46.34,
+      &quot;name&quot;: &quot;江西铜业&quot;,
+      &quot;lots&quot;: [
+        {
+          &quot;acquired_trade_date&quot;: &quot;2026-04-10&quot;,
+          &quot;quantity&quot;: 89780,
+          &quot;average_cost&quot;: 44.9
+        }
+      ]
+    }
+  },
+  &quot;orders&quot;: [
+    {
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-02-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-02&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-02&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 12712,
+      &quot;requested_price&quot;: 98.7,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-02-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-02&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-02&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 12417,
+      &quot;requested_price&quot;: 160.5,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-02-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-02&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-02&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 12663,
+      &quot;requested_price&quot;: 59.61,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-02-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-02&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-02&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 460621,
+      &quot;requested_price&quot;: 13.71,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-03-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-03&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-03&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 15447,
+      &quot;requested_price&quot;: 96.49,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-03-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-03&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-03&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 8827,
+      &quot;requested_price&quot;: 146.66,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-03-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-03&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-03&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 109451,
+      &quot;requested_price&quot;: 55.82,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-03-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-03&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-03&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 345899,
+      &quot;requested_price&quot;: 14.13,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-04-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-04&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-04&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 48625,
+      &quot;requested_price&quot;: 94.6,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-04-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-04&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-04&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 33875,
+      &quot;requested_price&quot;: 175.99,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-04-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-04&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-04&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 24368,
+      &quot;requested_price&quot;: 54.86,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-04-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-04&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-04&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 93428,
+      &quot;requested_price&quot;: 14.31,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-05-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-05&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-05&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 6769,
+      &quot;requested_price&quot;: 94.7,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-05-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-05&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-05&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 19794,
+      &quot;requested_price&quot;: 191.5,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-05-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-05&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-05&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 80457,
+      &quot;requested_price&quot;: 55.08,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-05-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-05&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-05&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 87933,
+      &quot;requested_price&quot;: 14.2,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-06-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-06&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-06&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 13403,
+      &quot;requested_price&quot;: 93.16,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-06-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-06&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-06&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 12301,
+      &quot;requested_price&quot;: 209.33,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-06-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-06&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-06&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 102874,
+      &quot;requested_price&quot;: 53.59,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-06-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-06&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-06&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 185278,
+      &quot;requested_price&quot;: 15.62,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-09-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-09&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-09&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 20813,
+      &quot;requested_price&quot;: 96.35,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-09-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-09&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-09&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 4645,
+      &quot;requested_price&quot;: 216.65,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-09-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-09&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-09&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 98032,
+      &quot;requested_price&quot;: 51.77,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-09-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-09&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-09&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 217128,
+      &quot;requested_price&quot;: 17.18,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-10-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-10&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-10&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 26213,
+      &quot;requested_price&quot;: 95.51,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-10-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-10&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-10&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 4378,
+      &quot;requested_price&quot;: 213.75,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-10-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-10&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-10&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 62197,
+      &quot;requested_price&quot;: 52.44,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-10-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-10&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-10&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 61425,
+      &quot;requested_price&quot;: 18.12,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-11-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-11&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-11&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 18968,
+      &quot;requested_price&quot;: 91.12,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-11-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-11&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-11&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 3047,
+      &quot;requested_price&quot;: 214.04,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-11-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-11&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-11&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 692,
+      &quot;requested_price&quot;: 52.08,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-11-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-11&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-11&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 42084,
+      &quot;requested_price&quot;: 19.42,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-12-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-12&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-12&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 20937,
+      &quot;requested_price&quot;: 88.69,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-12-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-12&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-12&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 67,
+      &quot;requested_price&quot;: 51.55,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-12-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-12&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-12&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 41919,
+      &quot;requested_price&quot;: 21.36,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-13-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-13&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-13&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 21905,
+      &quot;requested_price&quot;: 83.54,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-13-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-13&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-13&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 90408,
+      &quot;requested_price&quot;: 209.7,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-13-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-13&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-13&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 1,
+      &quot;requested_price&quot;: 50.74,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-13-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-13&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-13&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 20138,
+      &quot;requested_price&quot;: 22.28,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-16-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-16&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-16&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 5385,
+      &quot;requested_price&quot;: 83.32,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-16-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-16&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-16&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 16886,
+      &quot;requested_price&quot;: 237.7,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-16-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-16&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-16&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 92,
+      &quot;requested_price&quot;: 49.25,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-16-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-16&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-16&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 188126,
+      &quot;requested_price&quot;: 21.36,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-17-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-17&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-17&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 23,
+      &quot;requested_price&quot;: 81.15,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-17-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-17&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-17&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 41549,
+      &quot;requested_price&quot;: 235.78,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-17-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-17&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-17&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 97,
+      &quot;requested_price&quot;: 48.52,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-17-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-17&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-17&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 209827,
+      &quot;requested_price&quot;: 20.03,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-18-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-18&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-18&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 161045,
+      &quot;requested_price&quot;: 86.91,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-18-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-18&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-18&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 63018,
+      &quot;requested_price&quot;: 48.26,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-18-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-18&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-18&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 86385,
+      &quot;requested_price&quot;: 20.37,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-19-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-19&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-19&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 88738,
+      &quot;requested_price&quot;: 89.75,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-19-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-19&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-19&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 10474,
+      &quot;requested_price&quot;: 243.18,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-19-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-19&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-19&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 23827,
+      &quot;requested_price&quot;: 45.67,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-19-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-19&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-19&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 59,
+      &quot;requested_price&quot;: 20.16,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-20-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-20&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-20&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 37826,
+      &quot;requested_price&quot;: 85.97,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-20-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-20&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-20&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 9,
+      &quot;requested_price&quot;: 238.88,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-20-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-20&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-20&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 342433,
+      &quot;requested_price&quot;: 45.0,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-20-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-20&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-20&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 45275,
+      &quot;requested_price&quot;: 20.8,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-23-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-23&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-23&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 28396,
+      &quot;requested_price&quot;: 85.31,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-23-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-23&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-23&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 11381,
+      &quot;requested_price&quot;: 225.0,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-23-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-23&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-23&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 188893,
+      &quot;requested_price&quot;: 42.45,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-23-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-23&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-23&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 41169,
+      &quot;requested_price&quot;: 19.0,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-24-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-24&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-24&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 8034,
+      &quot;requested_price&quot;: 84.4,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-24-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-24&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-24&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 11181,
+      &quot;requested_price&quot;: 231.5,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-24-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-24&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-24&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 63857,
+      &quot;requested_price&quot;: 43.73,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-24-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-24&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-24&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 498263,
+      &quot;requested_price&quot;: 19.8,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-25-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-25&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-25&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 18996,
+      &quot;requested_price&quot;: 87.65,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-25-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-25&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-25&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 14653,
+      &quot;requested_price&quot;: 253.35,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-25-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-25&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-25&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 14769,
+      &quot;requested_price&quot;: 44.74,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-25-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-25&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-25&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 195035,
+      &quot;requested_price&quot;: 20.02,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-26-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-26&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-26&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 7388,
+      &quot;requested_price&quot;: 84.28,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-26-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-26&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-26&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 13902,
+      &quot;requested_price&quot;: 238.98,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-26-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-26&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-26&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 23,
+      &quot;requested_price&quot;: 44.21,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-26-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-26&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-26&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 4046,
+      &quot;requested_price&quot;: 18.61,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-27-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-27&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-27&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 32,
+      &quot;requested_price&quot;: 83.45,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-27-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-27&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-27&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 38163,
+      &quot;requested_price&quot;: 238.4,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-27-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-27&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-27&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 57689,
+      &quot;requested_price&quot;: 43.89,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-27-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-27&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-27&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 7316,
+      &quot;requested_price&quot;: 17.76,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-30-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-30&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-30&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 11949,
+      &quot;requested_price&quot;: 82.8,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-30-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-30&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-30&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 38261,
+      &quot;requested_price&quot;: 231.99,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-30-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-30&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-30&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 22113,
+      &quot;requested_price&quot;: 43.78,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-30-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-30&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-30&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 102612,
+      &quot;requested_price&quot;: 16.72,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-31-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-31&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-31&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 95145,
+      &quot;requested_price&quot;: 80.8,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-31-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-31&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-31&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 7395,
+      &quot;requested_price&quot;: 211.99,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-31-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-31&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-31&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 145660,
+      &quot;requested_price&quot;: 43.0,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-31-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-31&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-31&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 92730,
+      &quot;requested_price&quot;: 15.94,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-04-01-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-04-01&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-01&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 57540,
+      &quot;requested_price&quot;: 84.54,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-04-01-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-04-01&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-01&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 42534,
+      &quot;requested_price&quot;: 215.6,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-04-01-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-04-01&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-01&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 71285,
+      &quot;requested_price&quot;: 44.55,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-04-01-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-04-01&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-01&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 15,
+      &quot;requested_price&quot;: 17.25,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-04-02-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-04-02&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-02&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 17993,
+      &quot;requested_price&quot;: 80.27,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-04-02-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-04-02&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-02&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 33484,
+      &quot;requested_price&quot;: 210.82,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-04-02-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-04-02&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-02&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 147,
+      &quot;requested_price&quot;: 43.26,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-04-02-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-04-02&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-02&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 174,
+      &quot;requested_price&quot;: 16.39,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-04-03-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-04-03&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-03&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 19576,
+      &quot;requested_price&quot;: 81.0,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-04-03-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-04-03&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-03&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 8,
+      &quot;requested_price&quot;: 210.29,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-04-03-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-04-03&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-03&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 107769,
+      &quot;requested_price&quot;: 42.46,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-04-03-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-04-03&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-03&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 992,
+      &quot;requested_price&quot;: 16.2,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-04-07-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-04-07&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-07&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 98718,
+      &quot;requested_price&quot;: 79.51,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-04-07-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-04-07&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-07&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 7754,
+      &quot;requested_price&quot;: 217.42,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-04-07-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-04-07&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-07&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 145832,
+      &quot;requested_price&quot;: 42.84,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-04-07-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-04-07&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-07&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 50711,
+      &quot;requested_price&quot;: 17.35,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-04-08-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-04-08&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-08&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 14,
+      &quot;requested_price&quot;: 86.87,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-04-08-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-04-08&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-08&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 27504,
+      &quot;requested_price&quot;: 229.55,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-04-08-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-04-08&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-08&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 37650,
+      &quot;requested_price&quot;: 45.58,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-04-08-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-04-08&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-08&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 95721,
+      &quot;requested_price&quot;: 17.93,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-04-09-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-04-09&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-09&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 26061,
+      &quot;requested_price&quot;: 227.8,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-04-09-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-04-09&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-09&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 983,
+      &quot;requested_price&quot;: 44.99,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-04-09-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-04-09&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-09&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 140731,
+      &quot;requested_price&quot;: 17.42,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-04-10-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-04-10&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-10&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 41749,
+      &quot;requested_price&quot;: 87.04,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-04-10-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-04-10&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-10&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 32162,
+      &quot;requested_price&quot;: 241.71,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-04-10-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-04-10&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-10&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 93629,
+      &quot;requested_price&quot;: 44.9,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-04-10-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-04-10&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-10&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 1,
+      &quot;requested_price&quot;: 17.36,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-04-13-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-04-13&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-13&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 24,
+      &quot;requested_price&quot;: 256.02,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-04-13-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-04-13&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-13&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 112860,
+      &quot;requested_price&quot;: 45.5,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-04-13-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-04-13&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-13&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 1,
+      &quot;requested_price&quot;: 17.5,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-04-14-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-04-14&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-14&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 60,
+      &quot;requested_price&quot;: 91.17,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-04-14-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-04-14&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-14&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 291,
+      &quot;requested_price&quot;: 288.46,
+      &quot;status&quot;: &quot;filled&quot;
+    },
+    {
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-04-14-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-04-14&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-14&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 154,
+      &quot;requested_price&quot;: 46.34,
+      &quot;status&quot;: &quot;filled&quot;
+    }
+  ],
+  &quot;trades&quot;: [
+    {
+      &quot;trade_id&quot;: &quot;replay-300442.SZ-2026-03-02-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-02-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-02&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-02&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 12712,
+      &quot;price&quot;: 98.7,
+      &quot;gross_value&quot;: 1254674.4000000001
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-688525.SS-2026-03-02-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-02-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-02&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-02&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 12417,
+      &quot;price&quot;: 160.5,
+      &quot;gross_value&quot;: 1992928.5
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-600362.SS-2026-03-02-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-02-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-02&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-02&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 12663,
+      &quot;price&quot;: 59.61,
+      &quot;gross_value&quot;: 754841.4299999999
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-002015.SZ-2026-03-02-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-02-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-02&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-02&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 460621,
+      &quot;price&quot;: 13.71,
+      &quot;gross_value&quot;: 6315113.91
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-300442.SZ-2026-03-03-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-03-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-03&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-03&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 15447,
+      &quot;price&quot;: 96.49,
+      &quot;gross_value&quot;: 1490481.03
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-688525.SS-2026-03-03-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-03-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-03&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-03&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 8827,
+      &quot;price&quot;: 146.66,
+      &quot;gross_value&quot;: 1294567.82
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-600362.SS-2026-03-03-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-03-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-03&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-03&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 109451,
+      &quot;price&quot;: 55.82,
+      &quot;gross_value&quot;: 6109554.82
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-002015.SZ-2026-03-03-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-03-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-03&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-03&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 345899,
+      &quot;price&quot;: 14.13,
+      &quot;gross_value&quot;: 4887552.87
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-300442.SZ-2026-03-04-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-04-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-04&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-04&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 48625,
+      &quot;price&quot;: 94.6,
+      &quot;gross_value&quot;: 4599925.0
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-688525.SS-2026-03-04-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-04-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-04&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-04&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 33875,
+      &quot;price&quot;: 175.99,
+      &quot;gross_value&quot;: 5961661.25
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-600362.SS-2026-03-04-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-04-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-04&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-04&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 24368,
+      &quot;price&quot;: 54.86,
+      &quot;gross_value&quot;: 1336828.48
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-002015.SZ-2026-03-04-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-04-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-04&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-04&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 93428,
+      &quot;price&quot;: 14.31,
+      &quot;gross_value&quot;: 1336954.68
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-300442.SZ-2026-03-05-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-05-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-05&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-05&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 6769,
+      &quot;price&quot;: 94.7,
+      &quot;gross_value&quot;: 641024.3
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-688525.SS-2026-03-05-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-05-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-05&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-05&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 19794,
+      &quot;price&quot;: 191.5,
+      &quot;gross_value&quot;: 3790551.0
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-600362.SS-2026-03-05-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-05-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-05&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-05&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 80457,
+      &quot;price&quot;: 55.08,
+      &quot;gross_value&quot;: 4431571.56
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-002015.SZ-2026-03-05-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-05-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-05&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-05&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 87933,
+      &quot;price&quot;: 14.2,
+      &quot;gross_value&quot;: 1248648.5999999999
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-300442.SZ-2026-03-06-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-06-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-06&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-06&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 13403,
+      &quot;price&quot;: 93.16,
+      &quot;gross_value&quot;: 1248623.48
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-688525.SS-2026-03-06-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-06-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-06&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-06&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 12301,
+      &quot;price&quot;: 209.33,
+      &quot;gross_value&quot;: 2574968.33
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-600362.SS-2026-03-06-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-06-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-06&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-06&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 102874,
+      &quot;price&quot;: 53.59,
+      &quot;gross_value&quot;: 5513017.66
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-002015.SZ-2026-03-06-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-06-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-06&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-06&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 185278,
+      &quot;price&quot;: 15.62,
+      &quot;gross_value&quot;: 2894042.36
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-300442.SZ-2026-03-09-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-09-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-09&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-09&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 20813,
+      &quot;price&quot;: 96.35,
+      &quot;gross_value&quot;: 2005332.5499999998
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-688525.SS-2026-03-09-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-09-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-09&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-09&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 4645,
+      &quot;price&quot;: 216.65,
+      &quot;gross_value&quot;: 1006339.25
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-600362.SS-2026-03-09-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-09-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-09&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-09&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 98032,
+      &quot;price&quot;: 51.77,
+      &quot;gross_value&quot;: 5075116.640000001
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-002015.SZ-2026-03-09-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-09-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-09&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-09&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 217128,
+      &quot;price&quot;: 17.18,
+      &quot;gross_value&quot;: 3730259.04
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-300442.SZ-2026-03-10-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-10-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-10&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-10&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 26213,
+      &quot;price&quot;: 95.51,
+      &quot;gross_value&quot;: 2503603.6300000004
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-688525.SS-2026-03-10-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-10-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-10&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-10&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 4378,
+      &quot;price&quot;: 213.75,
+      &quot;gross_value&quot;: 935797.5
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-600362.SS-2026-03-10-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-10-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-10&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-10&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 62197,
+      &quot;price&quot;: 52.44,
+      &quot;gross_value&quot;: 3261610.6799999997
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-002015.SZ-2026-03-10-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-10-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-10&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-10&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 61425,
+      &quot;price&quot;: 18.12,
+      &quot;gross_value&quot;: 1113021.0
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-300442.SZ-2026-03-11-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-11-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-11&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-11&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 18968,
+      &quot;price&quot;: 91.12,
+      &quot;gross_value&quot;: 1728364.1600000001
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-688525.SS-2026-03-11-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-11-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-11&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-11&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 3047,
+      &quot;price&quot;: 214.04,
+      &quot;gross_value&quot;: 652179.88
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-600362.SS-2026-03-11-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-11-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-11&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-11&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 692,
+      &quot;price&quot;: 52.08,
+      &quot;gross_value&quot;: 36039.36
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-002015.SZ-2026-03-11-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-11-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-11&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-11&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 42084,
+      &quot;price&quot;: 19.42,
+      &quot;gross_value&quot;: 817271.28
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-300442.SZ-2026-03-12-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-12-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-12&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-12&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 20937,
+      &quot;price&quot;: 88.69,
+      &quot;gross_value&quot;: 1856902.53
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-600362.SS-2026-03-12-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-12-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-12&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-12&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 67,
+      &quot;price&quot;: 51.55,
+      &quot;gross_value&quot;: 3453.85
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-002015.SZ-2026-03-12-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-12-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-12&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-12&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 41919,
+      &quot;price&quot;: 21.36,
+      &quot;gross_value&quot;: 895389.84
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-300442.SZ-2026-03-13-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-13-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-13&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-13&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 21905,
+      &quot;price&quot;: 83.54,
+      &quot;gross_value&quot;: 1829943.7000000002
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-688525.SS-2026-03-13-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-13-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-13&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-13&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 90408,
+      &quot;price&quot;: 209.7,
+      &quot;gross_value&quot;: 18958557.599999998
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-600362.SS-2026-03-13-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-13-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-13&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-13&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 1,
+      &quot;price&quot;: 50.74,
+      &quot;gross_value&quot;: 50.74
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-002015.SZ-2026-03-13-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-13-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-13&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-13&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 20138,
+      &quot;price&quot;: 22.28,
+      &quot;gross_value&quot;: 448674.64
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-300442.SZ-2026-03-16-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-16-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-16&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-16&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 5385,
+      &quot;price&quot;: 83.32,
+      &quot;gross_value&quot;: 448678.19999999995
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-688525.SS-2026-03-16-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-16-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-16&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-16&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 16886,
+      &quot;price&quot;: 237.7,
+      &quot;gross_value&quot;: 4013802.1999999997
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-600362.SS-2026-03-16-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-16-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-16&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-16&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 92,
+      &quot;price&quot;: 49.25,
+      &quot;gross_value&quot;: 4531.0
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-002015.SZ-2026-03-16-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-16-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-16&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-16&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 188126,
+      &quot;price&quot;: 21.36,
+      &quot;gross_value&quot;: 4018371.36
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-300442.SZ-2026-03-17-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-17-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-17&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-17&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 23,
+      &quot;price&quot;: 81.15,
+      &quot;gross_value&quot;: 1866.45
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-688525.SS-2026-03-17-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-17-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-17&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-17&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 41549,
+      &quot;price&quot;: 235.78,
+      &quot;gross_value&quot;: 9796423.22
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-600362.SS-2026-03-17-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-17-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-17&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-17&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 97,
+      &quot;price&quot;: 48.52,
+      &quot;gross_value&quot;: 4706.4400000000005
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-002015.SZ-2026-03-17-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-17-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-17&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-17&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 209827,
+      &quot;price&quot;: 20.03,
+      &quot;gross_value&quot;: 4202834.8100000005
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-300442.SZ-2026-03-18-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-18-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-18&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-18&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 161045,
+      &quot;price&quot;: 86.91,
+      &quot;gross_value&quot;: 13996420.95
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-600362.SS-2026-03-18-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-18-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-18&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-18&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 63018,
+      &quot;price&quot;: 48.26,
+      &quot;gross_value&quot;: 3041248.6799999997
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-002015.SZ-2026-03-18-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-18-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-18&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-18&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 86385,
+      &quot;price&quot;: 20.37,
+      &quot;gross_value&quot;: 1759662.4500000002
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-300442.SZ-2026-03-19-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-19-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-19&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-19&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 88738,
+      &quot;price&quot;: 89.75,
+      &quot;gross_value&quot;: 7964235.5
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-688525.SS-2026-03-19-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-19-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-19&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-19&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 10474,
+      &quot;price&quot;: 243.18,
+      &quot;gross_value&quot;: 2547067.3200000003
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-600362.SS-2026-03-19-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-19-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-19&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-19&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 23827,
+      &quot;price&quot;: 45.67,
+      &quot;gross_value&quot;: 1088179.09
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-002015.SZ-2026-03-19-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-19-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-19&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-19&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 59,
+      &quot;price&quot;: 20.16,
+      &quot;gross_value&quot;: 1189.44
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-300442.SZ-2026-03-20-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-20-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-20&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-20&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 37826,
+      &quot;price&quot;: 85.97,
+      &quot;gross_value&quot;: 3251901.2199999997
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-688525.SS-2026-03-20-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-20-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-20&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-20&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 9,
+      &quot;price&quot;: 238.88,
+      &quot;gross_value&quot;: 2149.92
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-600362.SS-2026-03-20-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-20-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-20&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-20&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 342433,
+      &quot;price&quot;: 45.0,
+      &quot;gross_value&quot;: 15409485.0
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-002015.SZ-2026-03-20-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-20-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-20&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-20&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 45275,
+      &quot;price&quot;: 20.8,
+      &quot;gross_value&quot;: 941720.0
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-300442.SZ-2026-03-23-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-23-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-23&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-23&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 28396,
+      &quot;price&quot;: 85.31,
+      &quot;gross_value&quot;: 2422462.7600000002
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-688525.SS-2026-03-23-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-23-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-23&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-23&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 11381,
+      &quot;price&quot;: 225.0,
+      &quot;gross_value&quot;: 2560725.0
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-600362.SS-2026-03-23-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-23-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-23&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-23&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 188893,
+      &quot;price&quot;: 42.45,
+      &quot;gross_value&quot;: 8018507.850000001
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-002015.SZ-2026-03-23-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-23-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-23&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-23&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 41169,
+      &quot;price&quot;: 19.0,
+      &quot;gross_value&quot;: 782211.0
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-300442.SZ-2026-03-24-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-24-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-24&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-24&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 8034,
+      &quot;price&quot;: 84.4,
+      &quot;gross_value&quot;: 678069.6000000001
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-688525.SS-2026-03-24-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-24-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-24&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-24&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 11181,
+      &quot;price&quot;: 231.5,
+      &quot;gross_value&quot;: 2588401.5
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-600362.SS-2026-03-24-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-24-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-24&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-24&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 63857,
+      &quot;price&quot;: 43.73,
+      &quot;gross_value&quot;: 2792466.61
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-002015.SZ-2026-03-24-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-24-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-24&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-24&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 498263,
+      &quot;price&quot;: 19.8,
+      &quot;gross_value&quot;: 9865607.4
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-300442.SZ-2026-03-25-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-25-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-25&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-25&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 18996,
+      &quot;price&quot;: 87.65,
+      &quot;gross_value&quot;: 1664999.4000000001
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-688525.SS-2026-03-25-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-25-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-25&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-25&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 14653,
+      &quot;price&quot;: 253.35,
+      &quot;gross_value&quot;: 3712337.55
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-600362.SS-2026-03-25-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-25-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-25&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-25&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 14769,
+      &quot;price&quot;: 44.74,
+      &quot;gross_value&quot;: 660765.06
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-002015.SZ-2026-03-25-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-25-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-25&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-25&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 195035,
+      &quot;price&quot;: 20.02,
+      &quot;gross_value&quot;: 3904600.6999999997
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-300442.SZ-2026-03-26-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-26-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-26&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-26&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 7388,
+      &quot;price&quot;: 84.28,
+      &quot;gross_value&quot;: 622660.64
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-688525.SS-2026-03-26-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-26-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-26&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-26&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 13902,
+      &quot;price&quot;: 238.98,
+      &quot;gross_value&quot;: 3322299.96
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-600362.SS-2026-03-26-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-26-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-26&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-26&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 23,
+      &quot;price&quot;: 44.21,
+      &quot;gross_value&quot;: 1016.83
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-002015.SZ-2026-03-26-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-26-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-26&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-26&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 4046,
+      &quot;price&quot;: 18.61,
+      &quot;gross_value&quot;: 75296.06
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-300442.SZ-2026-03-27-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-27-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-27&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-27&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 32,
+      &quot;price&quot;: 83.45,
+      &quot;gross_value&quot;: 2670.4
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-688525.SS-2026-03-27-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-27-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-27&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-27&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 38163,
+      &quot;price&quot;: 238.4,
+      &quot;gross_value&quot;: 9098059.200000001
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-600362.SS-2026-03-27-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-27-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-27&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-27&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 57689,
+      &quot;price&quot;: 43.89,
+      &quot;gross_value&quot;: 2531970.21
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-002015.SZ-2026-03-27-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-27-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-27&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-27&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 7316,
+      &quot;price&quot;: 17.76,
+      &quot;gross_value&quot;: 129932.16000000002
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-300442.SZ-2026-03-30-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-30-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-30&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-30&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 11949,
+      &quot;price&quot;: 82.8,
+      &quot;gross_value&quot;: 989377.2
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-688525.SS-2026-03-30-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-30-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-30&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-30&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 38261,
+      &quot;price&quot;: 231.99,
+      &quot;gross_value&quot;: 8876169.39
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-600362.SS-2026-03-30-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-30-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-30&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-30&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 22113,
+      &quot;price&quot;: 43.78,
+      &quot;gross_value&quot;: 968107.14
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-002015.SZ-2026-03-30-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-30-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-30&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-30&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 102612,
+      &quot;price&quot;: 16.72,
+      &quot;gross_value&quot;: 1715672.64
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-300442.SZ-2026-03-31-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-03-31-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-03-31&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-31&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 95145,
+      &quot;price&quot;: 80.8,
+      &quot;gross_value&quot;: 7687716.0
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-688525.SS-2026-03-31-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-03-31-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-03-31&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-31&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 7395,
+      &quot;price&quot;: 211.99,
+      &quot;gross_value&quot;: 1567666.05
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-600362.SS-2026-03-31-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-03-31-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-03-31&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-31&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 145660,
+      &quot;price&quot;: 43.0,
+      &quot;gross_value&quot;: 6263380.0
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-002015.SZ-2026-03-31-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-03-31-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-03-31&quot;,
+      &quot;trade_date&quot;: &quot;2026-03-31&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 92730,
+      &quot;price&quot;: 15.94,
+      &quot;gross_value&quot;: 1478116.2
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-300442.SZ-2026-04-01-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-04-01-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-04-01&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-01&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 57540,
+      &quot;price&quot;: 84.54,
+      &quot;gross_value&quot;: 4864431.600000001
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-688525.SS-2026-04-01-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-04-01-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-04-01&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-01&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 42534,
+      &quot;price&quot;: 215.6,
+      &quot;gross_value&quot;: 9170330.4
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-600362.SS-2026-04-01-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-04-01-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-04-01&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-01&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 71285,
+      &quot;price&quot;: 44.55,
+      &quot;gross_value&quot;: 3175746.75
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-002015.SZ-2026-04-01-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-04-01-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-04-01&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-01&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 15,
+      &quot;price&quot;: 17.25,
+      &quot;gross_value&quot;: 258.75
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-300442.SZ-2026-04-02-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-04-02-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-04-02&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-02&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 17993,
+      &quot;price&quot;: 80.27,
+      &quot;gross_value&quot;: 1444298.1099999999
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-688525.SS-2026-04-02-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-04-02-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-04-02&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-02&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 33484,
+      &quot;price&quot;: 210.82,
+      &quot;gross_value&quot;: 7059096.88
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-600362.SS-2026-04-02-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-04-02-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-04-02&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-02&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 147,
+      &quot;price&quot;: 43.26,
+      &quot;gross_value&quot;: 6359.219999999999
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-002015.SZ-2026-04-02-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-04-02-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-04-02&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-02&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 174,
+      &quot;price&quot;: 16.39,
+      &quot;gross_value&quot;: 2851.86
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-300442.SZ-2026-04-03-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-04-03-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-04-03&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-03&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 19576,
+      &quot;price&quot;: 81.0,
+      &quot;gross_value&quot;: 1585656.0
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-688525.SS-2026-04-03-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-04-03-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-04-03&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-03&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 8,
+      &quot;price&quot;: 210.29,
+      &quot;gross_value&quot;: 1682.32
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-600362.SS-2026-04-03-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-04-03-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-04-03&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-03&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 107769,
+      &quot;price&quot;: 42.46,
+      &quot;gross_value&quot;: 4575871.74
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-002015.SZ-2026-04-03-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-04-03-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-04-03&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-03&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 992,
+      &quot;price&quot;: 16.2,
+      &quot;gross_value&quot;: 16070.4
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-300442.SZ-2026-04-07-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-04-07-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-04-07&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-07&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 98718,
+      &quot;price&quot;: 79.51,
+      &quot;gross_value&quot;: 7849068.180000001
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-688525.SS-2026-04-07-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-04-07-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-04-07&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-07&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 7754,
+      &quot;price&quot;: 217.42,
+      &quot;gross_value&quot;: 1685874.68
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-600362.SS-2026-04-07-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-04-07-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-04-07&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-07&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 145832,
+      &quot;price&quot;: 42.84,
+      &quot;gross_value&quot;: 6247442.880000001
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-002015.SZ-2026-04-07-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-04-07-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-04-07&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-07&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 50711,
+      &quot;price&quot;: 17.35,
+      &quot;gross_value&quot;: 879835.8500000001
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-300442.SZ-2026-04-08-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-04-08-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-04-08&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-08&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 14,
+      &quot;price&quot;: 86.87,
+      &quot;gross_value&quot;: 1216.18
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-688525.SS-2026-04-08-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-04-08-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-04-08&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-08&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 27504,
+      &quot;price&quot;: 229.55,
+      &quot;gross_value&quot;: 6313543.2
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-600362.SS-2026-04-08-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-04-08-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-04-08&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-08&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 37650,
+      &quot;price&quot;: 45.58,
+      &quot;gross_value&quot;: 1716087.0
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-002015.SZ-2026-04-08-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-04-08-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-04-08&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-08&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 95721,
+      &quot;price&quot;: 17.93,
+      &quot;gross_value&quot;: 1716277.53
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-688525.SS-2026-04-09-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-04-09-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-04-09&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-09&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 26061,
+      &quot;price&quot;: 227.8,
+      &quot;gross_value&quot;: 5936695.800000001
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-600362.SS-2026-04-09-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-04-09-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-04-09&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-09&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 983,
+      &quot;price&quot;: 44.99,
+      &quot;gross_value&quot;: 44225.170000000006
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-002015.SZ-2026-04-09-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-04-09-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-04-09&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-09&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 140731,
+      &quot;price&quot;: 17.42,
+      &quot;gross_value&quot;: 2451534.02
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-300442.SZ-2026-04-10-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-04-10-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-04-10&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-10&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 41749,
+      &quot;price&quot;: 87.04,
+      &quot;gross_value&quot;: 3633832.9600000004
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-688525.SS-2026-04-10-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-04-10-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-04-10&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-10&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 32162,
+      &quot;price&quot;: 241.71,
+      &quot;gross_value&quot;: 7773877.0200000005
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-600362.SS-2026-04-10-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-04-10-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-04-10&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-10&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 93629,
+      &quot;price&quot;: 44.9,
+      &quot;gross_value&quot;: 4203942.1
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-002015.SZ-2026-04-10-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-04-10-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-04-10&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-10&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 1,
+      &quot;price&quot;: 17.36,
+      &quot;gross_value&quot;: 17.36
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-688525.SS-2026-04-13-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-04-13-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-04-13&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-13&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 24,
+      &quot;price&quot;: 256.02,
+      &quot;gross_value&quot;: 6144.48
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-600362.SS-2026-04-13-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-04-13-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-04-13&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-13&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 112860,
+      &quot;price&quot;: 45.5,
+      &quot;gross_value&quot;: 5135130.0
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-002015.SZ-2026-04-13-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-002015.SZ-2026-04-13-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-002015.SZ-2026-04-13&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-13&quot;,
+      &quot;symbol&quot;: &quot;002015.SZ&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 1,
+      &quot;price&quot;: 17.5,
+      &quot;gross_value&quot;: 17.5
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-300442.SZ-2026-04-14-BUY-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-300442.SZ-2026-04-14-BUY&quot;,
+      &quot;analysis_id&quot;: &quot;replay-300442.SZ-2026-04-14&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-14&quot;,
+      &quot;symbol&quot;: &quot;300442.SZ&quot;,
+      &quot;action&quot;: &quot;buy&quot;,
+      &quot;quantity&quot;: 60,
+      &quot;price&quot;: 91.17,
+      &quot;gross_value&quot;: 5470.2
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-688525.SS-2026-04-14-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-688525.SS-2026-04-14-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-688525.SS-2026-04-14&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-14&quot;,
+      &quot;symbol&quot;: &quot;688525.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 291,
+      &quot;price&quot;: 288.46,
+      &quot;gross_value&quot;: 83941.86
+    },
+    {
+      &quot;trade_id&quot;: &quot;replay-600362.SS-2026-04-14-SELL-TRADE&quot;,
+      &quot;order_id&quot;: &quot;replay-600362.SS-2026-04-14-SELL&quot;,
+      &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-04-14&quot;,
+      &quot;trade_date&quot;: &quot;2026-04-14&quot;,
+      &quot;symbol&quot;: &quot;600362.SS&quot;,
+      &quot;action&quot;: &quot;sell&quot;,
+      &quot;quantity&quot;: 154,
+      &quot;price&quot;: 46.34,
+      &quot;gross_value&quot;: 7136.360000000001
+    }
+  ],
+  &quot;nav&quot;: 36177624.94000001
+}</pre></details>
+        <details><summary>订单</summary><pre>[
+  {
+    &quot;order_id&quot;: &quot;replay-600362.SS-2026-04-14-SELL&quot;,
+    &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-04-14&quot;,
+    &quot;trade_date&quot;: &quot;2026-04-14&quot;,
+    &quot;symbol&quot;: &quot;600362.SS&quot;,
+    &quot;action&quot;: &quot;sell&quot;,
+    &quot;quantity&quot;: 154,
+    &quot;requested_price&quot;: 46.34,
+    &quot;status&quot;: &quot;filled&quot;
+  }
+]</pre></details>
+        <details><summary>成交</summary><pre>[
+  {
+    &quot;trade_id&quot;: &quot;replay-600362.SS-2026-04-14-SELL-TRADE&quot;,
+    &quot;order_id&quot;: &quot;replay-600362.SS-2026-04-14-SELL&quot;,
+    &quot;analysis_id&quot;: &quot;replay-600362.SS-2026-04-14&quot;,
+    &quot;trade_date&quot;: &quot;2026-04-14&quot;,
+    &quot;symbol&quot;: &quot;600362.SS&quot;,
+    &quot;action&quot;: &quot;sell&quot;,
+    &quot;quantity&quot;: 154,
+    &quot;price&quot;: 46.34,
+    &quot;gross_value&quot;: 7136.360000000001
+  }
+]</pre></details>
+      </div>
+    </div>
+    <div class="panel stack">
+      <h2>指标说明</h2>
+      <div class='formula-list'><div class='formula-item'>股价曲线 = 当天用于回放估值/执行的价格口径；当前日级回放默认使用 14:55 附近的可见价格或当日可用标记价格。</div><div class='formula-item'>持仓金额曲线 = 日末持股数 × 当天股价。</div><div class='formula-item'>真实总账户净值 = 真实账户现金 + 全部真实持仓市值。这是执行层真正发生买卖和记账的总账户口径。</div><div class='formula-item'>真实总账户收益率 = 真实总账户净值 / 实验起始总账户净值 - 1，用来回答整个真实股票账户从实验开始到现在到底赚了还是亏了多少。它是累计收益率，不是相对前一天的日涨跌幅，所以即使某一天净值比前一天回落，只要仍高于实验起点，累计收益率依然可以是正数。</div><div class='formula-item'>真实总账户现金曲线 = 真实账户里当前可用现金；真实总账户持仓市值曲线 = 真实总账户净值 - 真实总账户现金。</div><div class='formula-item'>累计分配资金 = 首日持仓起点 + 后续从原始闲置现金拨给该股票的新增资金。这里只统计新增拨入，不把卖出回笼现金重复计入。</div><div class='formula-item'>策略覆盖资产 = 策略覆盖现金 + 策略覆盖股票持仓市值。这里的“策略覆盖现金”只是展示层为了拆解这只股票策略效果而做的记账口径，不是执行层真的新开了一个现金账户。</div><div class='formula-item'>策略拆分盈亏 = 策略覆盖资产 - 累计分配资金。</div><div class='formula-item'>策略拆分收益率 = 策略拆分盈亏 / 累计分配资金。</div><div class='formula-item'>已实现盈亏 = 已卖出部分的卖出收入 - 该部分对应成本。</div><div class='formula-item'>未实现盈亏 = 当前剩余持仓市值 - 当前剩余持仓成本。</div><div class='formula-item'>历史总盈亏 = 已实现盈亏 + 未实现盈亏，用来反映历史持仓成本视角，不是本轮实验的主收益口径。</div><div class='formula-item'>图表金额统一按万显示，价格统一按元显示；B=买入，S=卖出，K=跳过。</div></div>
+    </div>
+  </div>
+</body>
+</html>
